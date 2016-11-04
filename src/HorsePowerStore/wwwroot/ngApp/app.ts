@@ -13,12 +13,6 @@ namespace HorsePowerStore {
                 controller: HorsePowerStore.Controllers.HomeController,
                 controllerAs: 'controller'
             })
-            .state('secret', {
-                url: '/secret',
-                templateUrl: '/ngApp/views/secret.html',
-                controller: HorsePowerStore.Controllers.SecretController,
-                controllerAs: 'controller'
-            })
             .state('login', {
                 url: '/login',
                 templateUrl: '/ngApp/views/login.html',
