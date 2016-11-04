@@ -1,7 +1,7 @@
 namespace HorsePowerStore.Controllers {
 
     export class HomeController {
-        public message = 'Hello from the home page!';
+        public message = 'jack and jill went down the hill, then they died.';
     }
 
 
