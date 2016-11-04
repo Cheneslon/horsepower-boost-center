@@ -10,6 +10,7 @@ namespace HorsePowerStore.Models
     {
         public int Id { get; set; }
 
+        // Numbers correspond to stars
         [Range(1, 5)]
         public int Value { get; set; }
     }
