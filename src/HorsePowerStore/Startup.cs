@@ -56,12 +56,13 @@ namespace HorsePowerStore
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
             
-                        // Add app services
-                        services.AddScoped<MovieService>();
-                        services.AddScoped<GenreService>();
-                        services.AddScoped<GuestbookService>();
-                        services.AddScoped<CarService>();
 
+            
+                        // add security policies
+                        services.AddAuthorization(options =>
+                        {
+                            options.AddPolicy("AdminOnly", policy => policy.RequireClaim("IsAdmin"));
+                        });
             
         }
 
@@ -102,6 +103,9 @@ namespace HorsePowerStore
                     defaults: new { controller = "Home", action = "Index" }
                 );
             });
+
+           // initialize sample data
+           SampleData.Initialize(app.ApplicationServices).Wait();
 
         }
     }

@@ -1,0 +1,14 @@
+﻿Structure
+	Fields go at top
+	Constructors go after fields
+	When reasonable, break up long lines
+	Write method summaries at top for all methods
+	Always use default indentation (use CTRL+K, CTRL+D when you're done editing)
+
+
+Naming Conventions
+	JavaScript: Fields, Parameters, Methods are camelCased; classes are PascalCased
+	C#: All Pascal, All The Time
+		- except for parameters and variables
+	Every function should be a verb
+	Don't use parent class names when naming methods

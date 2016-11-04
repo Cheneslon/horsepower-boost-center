@@ -3,28 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using HorsePowerStore.Models;
-using HorsePowerStore.Services;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace HorsePowerStore.API
 {
     [Route("api/[controller]")]
-    public class MakesController : Controller
+    public class SecretsController : Controller
     {
-        private CarService _carService;
-
-        public MakesController(CarService carService)
-        {
-            _carService = carService;
-        }
-
         // GET: api/values
         [HttpGet]
-        public IEnumerable<CarMake> Get()
+        [Authorize(Policy = "AdminOnly")]
+        public IEnumerable<string> Get()
         {
-            return _carService.ListMakes();
+            var user = this.User;
+            return new string[] { "The Cake is a Lie!", "Darth Vader is Luke's Father." };
         }
 
 

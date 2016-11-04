@@ -13,6 +13,30 @@ namespace HorsePowerStore {
                 controller: HorsePowerStore.Controllers.HomeController,
                 controllerAs: 'controller'
             })
+            .state('secret', {
+                url: '/secret',
+                templateUrl: '/ngApp/views/secret.html',
+                controller: HorsePowerStore.Controllers.SecretController,
+                controllerAs: 'controller'
+            })
+            .state('login', {
+                url: '/login',
+                templateUrl: '/ngApp/views/login.html',
+                controller: HorsePowerStore.Controllers.LoginController,
+                controllerAs: 'controller'
+            })
+            .state('register', {
+                url: '/register',
+                templateUrl: '/ngApp/views/register.html',
+                controller: HorsePowerStore.Controllers.RegisterController,
+                controllerAs: 'controller'
+            })
+            .state('externalRegister', {
+                url: '/externalRegister',
+                templateUrl: '/ngApp/views/externalRegister.html',
+                controller: HorsePowerStore.Controllers.ExternalRegisterController,
+                controllerAs: 'controller'
+            }) 
             .state('about', {
                 url: '/about',
                 templateUrl: '/ngApp/views/about.html',
@@ -29,6 +53,31 @@ namespace HorsePowerStore {
 
         // Enable HTML5 navigation
         $locationProvider.html5Mode(true);
+    });
+
+    
+    angular.module('HorsePowerStore').factory('authInterceptor', (
+        $q: ng.IQService,
+        $window: ng.IWindowService,
+        $location: ng.ILocationService
+    ) =>
+        ({
+            request: function (config) {
+                config.headers = config.headers || {};
+                config.headers['X-Requested-With'] = 'XMLHttpRequest';
+                return config;
+            },
+            responseError: function (rejection) {
+                if (rejection.status === 401 || rejection.status === 403) {
+                    $location.path('/login');
+                }
+                return $q.reject(rejection);
+            }
+        })
+    );
+
+    angular.module('HorsePowerStore').config(function ($httpProvider) {
+        $httpProvider.interceptors.push('authInterceptor');
     });
 
     
