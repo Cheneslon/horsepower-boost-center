@@ -10,6 +10,9 @@ namespace HorsePowerStore.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Rating> ratings;
+        public DbSet<ApplicationUser> users; 
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
