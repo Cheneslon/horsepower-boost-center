@@ -7,7 +7,7 @@ namespace HorsePowerStore.Controllers {
 // removed SecretController --DG//
 
     export class AboutController {
-        public message = 'Hello from the about page!';
+        public message = 'ITS A TRAP!';
     }
 
 }
