@@ -13,5 +13,8 @@ namespace HorsePowerStore.Models
         // Numbers correspond to stars
         [Range(1, 5)]
         public int Value { get; set; }
+
+        // Creation date
+        public DateTime Date { get; set; }
     }
 }

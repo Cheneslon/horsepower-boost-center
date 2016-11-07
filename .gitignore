@@ -4,6 +4,9 @@
 # References
 _references.js
 
+# Migrations and snapshots
+Migrations/
+
 # User-specific files
 *.suo
 *.user
