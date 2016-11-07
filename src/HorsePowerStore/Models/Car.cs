@@ -29,15 +29,17 @@ namespace HorsePowerStore.Models
     {
         public int Id { get; set; }
         public string Make { get; set; }
-
-        [Range(1, 5)]
-        public int Doors { get; set; }
+        public string Model { get; set; }
 
         [Range(1900, 2100)]
         public int Year { get; set; }
 
+        [Range(1, 5)]
+        public int Doors { get; set; }
+
         public Drive Drive { get; set; }
         public Transmission Transmission { get; set; }
         public Fuel Fuel { get; set; }
+        public List<Engine> CompatibleEngines { get; set; }
     }
 }
