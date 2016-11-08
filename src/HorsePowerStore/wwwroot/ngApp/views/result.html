@@ -1,0 +1,19 @@
+﻿<h1>Upgrades!</h1>
+
+<p>Here are the parts that work with your car: <br/>
+    sort
+    <select ng-model="controller.select">
+        <option value="-cost">
+            Highest
+        </option>
+        <option value="cost">
+            Lowest
+        </option>
+    </select>  
+</p>
+<dl ng-repeat="item in controller.products | orderBy: controller.select">
+    <div ng-show="controller.budget(item.price)">
+        <dt>{{item.name}}</dt>
+        <dd>{{item.price}}</dd>
+    </div>
+</dl>

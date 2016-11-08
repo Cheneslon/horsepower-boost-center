@@ -14,6 +14,7 @@ namespace HorsePowerStore.Controllers {
         public isLoggedIn() {
             return this.accountService.isLoggedIn();
         }
+        
 
         public logout() {
             this.accountService.logout();
