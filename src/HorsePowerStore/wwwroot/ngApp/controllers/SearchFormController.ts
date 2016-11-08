@@ -1,7 +1,7 @@
 ﻿namespace HorsePowerStore.Controllers {
 
     export class SearchFormController {
-        public makes = [{ "name": "Honda" }, { "name": "Acura" }];
+        public makes;
         public make;
         public models;
         public model;
@@ -13,9 +13,9 @@
             public searchFormService: HorsePowerStore.Services.SearchFormService,
             public $location: ng.ILocationService) {
 
-            //searchFormService.getMakes().$promise.then((makes) => {
-            //    this.makes = makes;
-            //})
+            searchFormService.getMakes().$promise.then((makes) => {
+                this.makes = makes;
+            })
         }
         //you need to use dependency injection to get the ILocationService
         //in your controller
