@@ -110,7 +110,7 @@ namespace HorsePowerStore
 
            // initialize sample data
            SampleData.Initialize(app.ApplicationServices).Wait();
-
+           
         }
     }
 }
