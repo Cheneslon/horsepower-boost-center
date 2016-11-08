@@ -99,8 +99,8 @@ namespace HorsePowerStore
             // Add external authentication middleware below. To configure them please see http://go.microsoft.com/fwlink/?LinkID=532715
             app.UseFacebookAuthentication(new FacebookOptions()// added for Facebook login (DG)
             {
-                AppId = "324272387957410",
-                AppSecret = "b77c9411ea9b48597fee2ad942f76642"
+                AppId = "522598474600542",
+                AppSecret = "ba947e6b0e6b0007d3eaf7772b81ca3f"
             });
 
 

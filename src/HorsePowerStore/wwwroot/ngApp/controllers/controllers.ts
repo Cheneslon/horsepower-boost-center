@@ -4,13 +4,19 @@ namespace HorsePowerStore.Controllers {
 
         public login() {
             this.$uibModal.open({
-                templateUrl: '/ngApp/dialog.html',
-                controller: LoginController,
+                templateUrl: '/ngApp/views/login.html',
+                controller: HorsePowerStore.Controllers.LoginController,
                 controllerAs: 'controller',
                 size: 'sm'
             });
         }
-        constructor(private $uibModal: angular.ui.bootstrap.IModalService) { }
+        //public Ok() {
+        //    this.$uibModalInstance.close();
+        //}
+        //constructor(private $uibModalInstance: angular.ui.bootstrap.IModalServiceInstance) { }
+
+
+          constructor(private $uibModal: angular.ui.bootstrap.IModalService) { }
     }
 
     angular.module('HorsePowerStore').controller('HomeController', HomeController);
@@ -24,7 +30,7 @@ namespace HorsePowerStore.Controllers {
 
     }
     angular.module('HorsePowerStore').controller('DialogController', DialogController);
-
+    
 
 
 
