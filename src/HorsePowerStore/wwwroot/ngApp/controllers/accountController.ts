@@ -45,8 +45,11 @@ namespace HorsePowerStore.Controllers {
                 this.validationMessages = results;
             });
         }
+        public Ok() {
+            //this.$uibModalInstance.close();
+        }
 
-        constructor(private accountService: HorsePowerStore.Services.AccountService, private $location: ng.ILocationService) { }
+        constructor(private accountService: HorsePowerStore.Services.AccountService, private $location: ng.ILocationService, private $uibModalInstance: angular.ui.bootstrap.IModalServiceInstance) { }
     }
 
 
@@ -82,7 +85,7 @@ namespace HorsePowerStore.Controllers {
                 });
         }
 
-        constructor(private accountService: HorsePowerStore.Services.AccountService, private $location: ng.ILocationService) {}
+        constructor(private accountService: HorsePowerStore.Services.AccountService, private $location: ng.ILocationService) { }
 
     }
 

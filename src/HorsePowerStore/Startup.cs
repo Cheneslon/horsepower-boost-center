@@ -14,7 +14,7 @@ using System.IO;
 using HorsePowerStore.Data;
 using HorsePowerStore.Models;
 using HorsePowerStore.Services;
-
+using Microsoft.AspNetCore.Mvc;
 
 namespace HorsePowerStore
 {
@@ -50,7 +50,10 @@ namespace HorsePowerStore
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-            services.AddMvc();
+            services.AddMvc(options => // added for external login provider (DG)
+            {
+                options.Filters.Add(new RequireHttpsAttribute());
+            });
 
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
@@ -94,6 +97,12 @@ namespace HorsePowerStore
             app.UseIdentity();
 
             // Add external authentication middleware below. To configure them please see http://go.microsoft.com/fwlink/?LinkID=532715
+            app.UseFacebookAuthentication(new FacebookOptions()// added for Facebook login (DG)
+            {
+                AppId = "324272387957410",
+                AppSecret = "b77c9411ea9b48597fee2ad942f76642"
+            });
+
 
             app.UseMvc(routes =>
             {
