@@ -9,6 +9,8 @@ namespace HorsePowerStore.Models
     {
         public int Id { get; set; }
         public Car Car { get; set; }
+        public Engine Engine { get; set; }
+        public Product Product { get; set; }
         public decimal HorsePower { get; set; }
     }
 }
