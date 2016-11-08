@@ -15,6 +15,5 @@ namespace HorsePowerStore.Models
         public string PurchaseURL { get; set; }
 
         public List<Rating> Ratings { get; set; }
-        public List<CarMod> CarMods { get; set; }
     }
 }
