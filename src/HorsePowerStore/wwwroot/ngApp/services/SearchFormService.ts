@@ -1,5 +1,5 @@
 ﻿namespace HorsePowerStore.Services {
-    export class SearhFormService {
+    export class SearchFormService {
         constructor($resource: ng.resource.IResourceService) {
             this.searchFormResource = $resource("/api/cars/makes", {}, {
                 getModels: {
@@ -47,6 +47,6 @@
             window.sessionStorage.setItem('car', carId + ',' + budget); // saves id
         }
     }
-    angular.module("HorsePowerStore").service("searhFormService", SearhFormService);
+    angular.module("HorsePowerStore").service("searchFormService", SearchFormService);
     
 }

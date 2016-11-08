@@ -37,6 +37,12 @@ namespace HorsePowerStore {
                 controller: HorsePowerStore.Controllers.AboutController,
                 controllerAs: 'controller'
             })
+            .state('searchForm', {
+                url: '/searchForm',
+                templateUrl: '/ngApp/views/SearchForm.html',
+                controller: HorsePowerStore.Controllers.SearchFormController,
+                controllerAs: 'controller'
+            })
             .state('notFound', {
                 url: '/notFound',
                 templateUrl: '/ngApp/views/notFound.html'
