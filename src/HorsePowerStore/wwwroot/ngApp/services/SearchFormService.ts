@@ -1,7 +1,7 @@
 ﻿namespace HorsePowerStore.Services {
     export class SearchFormService {
         constructor($resource: ng.resource.IResourceService) {
-            this.searchFormResource = $resource("/api/cars/makes", {}, {
+            this.searchFormResource = $resource("/api/cars", {}, {
                 getModels: {
                     method: 'GET',
                     url: '/api/cars/:make',

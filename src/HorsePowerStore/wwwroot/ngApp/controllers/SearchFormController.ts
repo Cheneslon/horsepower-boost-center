@@ -15,6 +15,7 @@
 
             searchFormService.getMakes().$promise.then((makes) => {
                 this.makes = makes;
+                
             })
         }
         //you need to use dependency injection to get the ILocationService
@@ -43,6 +44,7 @@
         public getCars() {
             this.searchFormService.getCars(this.make, this.model, this.year).$promise.then((cars) => {
                 this.cars = cars;
+                console.log(this.cars);
             });
         }
     }
