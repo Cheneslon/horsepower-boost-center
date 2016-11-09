@@ -43,7 +43,7 @@
                 year: year
             })
         }
-        public save(carId, budget, engineId) {
+        public save(carId, budget:number, engineId) {
             window.sessionStorage.setItem('car', carId + ',' + budget + ',' + engineId); // saves id
         }
     }
