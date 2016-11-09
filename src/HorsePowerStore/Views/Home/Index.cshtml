@@ -8,18 +8,29 @@
 <body ng-controller="AccountController as account">
     <div class="container">
         <h1>HorsePowerStore</h1>
-        <div>
-          <a href="/">Home</a> /
-           <a href="/about">About</a> /
-            <a href="/searchForm">SearchForm</a>
+        <a href="/">Home</a> /
+        <a href="/about">About</a> /
 
-           / <a href="/secret">Secret</a> /
-           <a href="/login" ng-show="!account.isLoggedIn()">Login</a>
-           <a href="#" ng-click="account.logout()" ng-show="account.isLoggedIn()">Logout</a>
-           <div ng-show="account.isLoggedIn()">
-               [{{account.getUserName()}}]
-           </div> 
-        </div>
+        <a ng-controller="LoginController as login" 
+           href="#" 
+           ng-click="login.openLoginDialog()" 
+           ng-show="!account.isLoggedIn()">
+            Login
+        </a>
+
+        <p style="display:inline" ng-show="!account.isLoggedIn()"> / </p>
+
+        <a ng-controller="RegisterController as register"
+           href="#" 
+           ng-click="register.openRegisterDialog()" 
+           ng-show="!account.isLoggedIn()">
+            Register
+        </a>
+
+        <a href="#" ng-click="account.logout()" ng-show="account.isLoggedIn()">Logout</a>
+        <div ng-show="account.isLoggedIn()">
+            [{{account.getUserName()}}]
+        </div> 
         <hr />
 
         <ui-view></ui-view>
@@ -32,6 +43,8 @@
     <script src="/bower_components/angular-touch/angular-touch.js"></script>
     <script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="~/bower_components/jquery/dist/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <!-- App Files-->
     <script src="/ngapp/app.js"></script>
