@@ -9,6 +9,9 @@
         public year;
         public car;
         public cars;
+        public budget;
+        public engine;
+        public engineArray = []; 
         constructor(
             public searchFormService: HorsePowerStore.Services.SearchFormService,
             public $location: ng.ILocationService) {
@@ -24,8 +27,8 @@
 
         //then in the onSubmit() method that gets activated
         //when you finish the form you need:
-        public submit(carId,budget) {
-            this.searchFormService.save(carId,budget); // calls service
+        public submit() {
+            this.searchFormService.save(this.car.id, this.budget, this.engine.id); // calls service
             this.$location.path('/result'); // bumps them to resultpage
         }
 
@@ -44,7 +47,18 @@
         public getCars() {
             this.searchFormService.getCars(this.make, this.model, this.year).$promise.then((cars) => {
                 this.cars = cars;
-                console.log(this.cars);
+                //let carArray = [];
+                //for (let car of this.cars) {
+                //    let carString =
+                //        car.doors + " doors, " +
+                //        car.drive + " drive, " +
+                //        car.fuel + " fuel, " +
+                //        car.transmission + " transmission";
+                //    this.engineArray.push(car.compatibleEngines);
+                //    console.log(car);
+                //    carArray.push(carString);
+                //}
+                //this.cars = carArray;
             });
         }
     }
