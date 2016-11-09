@@ -1,11 +1,23 @@
 namespace HorsePowerStore.Controllers {
 
-    export class HomeController {
-        public message = 'jack and jill went down the hill, then they died.';
-        //of natural causes
+    export class HomeController {//added showModal++ for login (DG)
+        
     }
 
-// removed SecretController --DG//
+    export class DialogController {//added DialogController to go with modal login (DG)
+
+        public Ok() {
+            this.$modalInstance.close();
+        }
+        constructor(private $modalInstance: angular.ui.bootstrap.IModalServiceInstance) { }
+
+    }
+    angular.module('HorsePowerStore').controller('DialogController', DialogController);
+    
+
+
+
+    // removed SecretController 11/4/16--DG//
 
     export class AboutController {
         public message = 'ITS A TRAP!';
