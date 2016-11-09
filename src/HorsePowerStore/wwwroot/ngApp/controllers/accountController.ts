@@ -122,8 +122,9 @@ namespace HorsePowerStore.Controllers {
                 });
         }
 
-        constructor(private accountService: HorsePowerStore.Services.AccountService, private $location: ng.ILocationService) { }
-
+        constructor(
+            private accountService: HorsePowerStore.Services.AccountService,
+            private $location: ng.ILocationService) { }
     }
 
     export class ConfirmEmailController {

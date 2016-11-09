@@ -7,6 +7,12 @@ namespace HorsePowerStore {
     ) => {
         // Define routes
         $stateProvider
+            .state('homeLong', {
+                url: '/home',
+                onEnter: ($state) => {
+                    $state.go('home');
+                }
+            })
             .state('home', {
                 url: '/',
                 templateUrl: '/ngApp/views/home.html',
@@ -23,6 +29,12 @@ namespace HorsePowerStore {
                 url: '/searchForm',
                 templateUrl: '/ngApp/views/SearchForm.html',
                 controller: HorsePowerStore.Controllers.SearchFormController,
+                controllerAs: 'controller'
+            })
+            .state('externalRegister', {
+                url: '/externalRegister',
+                templateUrl: '/ngApp/views/externalRegister.html',
+                controller: HorsePowerStore.Controllers.ExternalRegisterController,
                 controllerAs: 'controller'
             })
             .state('notFound', {
