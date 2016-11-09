@@ -39,7 +39,7 @@ namespace HorsePowerStore.Controllers
         }
 
         [HttpGet("{make}/{model}/{year}")]
-        public IEnumerable<Car> ListFilteredCars(string make, string model, int year)
+        public IEnumerable<_Car> ListFilteredCars(string make, string model, int year)
         {
             return carsService.ListFiltered(make, model, year);
         }
