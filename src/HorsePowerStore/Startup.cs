@@ -55,6 +55,10 @@ namespace HorsePowerStore
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
+
+            services.AddScoped<CarsService>();
+            services.AddScoped<CarModsService>();
+            services.AddScoped<ProductsService>();
             
 
             
@@ -106,7 +110,7 @@ namespace HorsePowerStore
 
            // initialize sample data
            SampleData.Initialize(app.ApplicationServices).Wait();
-
+           
         }
     }
 }
