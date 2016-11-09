@@ -44,7 +44,8 @@
       "type": "build"
     },
     "Microsoft.AspNetCore.Authentication.Facebook": "1.0.0",
-    "angularjs": "1.5.5"
+    "angularjs": "1.5.5",
+    "Microsoft.AspNetCore.Authentication.Twitter": "1.0.0"
   },
 
   "tools": {

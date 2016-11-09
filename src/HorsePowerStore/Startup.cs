@@ -103,6 +103,14 @@ namespace HorsePowerStore
                 AppSecret = "ba947e6b0e6b0007d3eaf7772b81ca3f"
             });
 
+            /*  TODO: Set up Twitter authentication
+             *  
+                app.UseTwitterAuthentication(new TwitterOptions()
+                {
+                    AppId = "",
+                    AppSecret = ""
+                });
+            */
 
             app.UseMvc(routes =>
             {
