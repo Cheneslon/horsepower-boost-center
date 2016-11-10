@@ -31,6 +31,12 @@ namespace HorsePowerStore {
                 controller: HorsePowerStore.Controllers.SearchFormController,
                 controllerAs: 'controller'
             })
+            .state('result', {
+                url: '/result',
+                templateUrl: '/ngApp/views/result.html',
+                controller: HorsePowerStore.Controllers.ResultController,
+                controllerAs: 'controller'
+            })
             .state('externalRegister', {
                 url: '/externalRegister',
                 templateUrl: '/ngApp/views/externalRegister.html',

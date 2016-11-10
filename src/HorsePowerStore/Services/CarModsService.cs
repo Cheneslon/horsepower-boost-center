@@ -23,7 +23,7 @@ namespace HorsePowerStore.Services
                 from e in db.Engines
                 where e.Id == engineId
                 select e).FirstOrDefault();
-
+            Console.WriteLine(engine);
             return (
                 from cm in db.CarMods
                 where cm.Engine == engine
