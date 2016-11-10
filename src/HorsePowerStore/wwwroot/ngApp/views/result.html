@@ -1,19 +1,27 @@
-﻿<h1>Upgrades!</h1>
-
-<p>Here are the parts that work with your car: <br/>
-    sort
-    <select ng-model="controller.select">
-        <option value="-cost">
-            Highest
-        </option>
-        <option value="cost">
-            Lowest
-        </option>
-    </select>  
-</p>
-<dl ng-repeat="item in controller.products | orderBy: controller.select">
-    <div ng-show="controller.budget(item.price)">
-        <dt>{{item.name}}</dt>
-        <dd>{{item.price}}</dd>
+﻿<div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <p>
+                <center><b><u>Compatible Parts</u></b></center> <br />
+                sort
+                <select ng-model="controller.select">
+                    <option value="-cost">
+                        Highest
+                    </option>
+                    <option value="cost">
+                        Lowest
+                    </option>
+                </select>
+            </p>
+            <dl ng-repeat="item in controller.products">
+                        <dt>{{item.product.name}} <sup>${{item.product.price}}</sup></dt>
+                        <dd>
+                            {{item.product.description}}
+                            <img src="{{item.product.imageSource}}" />
+                        </dd>
+            </dl>
+        </div>
+        <div class="col-md-3"></div>
     </div>
-</dl>
+</div>

@@ -3,26 +3,7 @@ namespace HorsePowerStore.Controllers {
     export class HomeController {
         public message = 'jack and jill went down the hill, then they died.';
         //of natural causes
-        public showModal(animalName: string) {
-            this.$uibModal.open({
-                templateUrl: '/ngApp/views/modal.html',
-                controller: HorsePowerStore.Controllers.DialogController,
-                controllerAs: 'modal',
-                resolve: {
-                    animalName: () => animalName
-                },
-                size: 'sm'
-            });
-        }
-        constructor(private $uibModal: angular.ui.bootstrap.IModalService) { }
-    }
-    export class DialogController {
-
-        public ok() {
-            this.$uibModalInstance.close();
-        }
-
-        constructor(public animalName: string, private $uibModalInstance: angular.ui.bootstrap.IModalServiceInstance) { }
+        constructor() { }
     }
 
 // removed SecretController --DG//
@@ -35,21 +16,20 @@ namespace HorsePowerStore.Controllers {
         public car; // array : [carId, budget]
         public products; // list of products for car
         public select; // sort <select> element
+       
 
         constructor(resultService: HorsePowerStore.Services.ResultService) {
             this.car = resultService.get().split(',');
-            this.products = resultService.productResource;
+            resultService.getProducts().then((result) => {
+                this.products = result; console.log(this.products);
+            });;
+
         }
 
-        public budget(price) {
-            if (price < this.car[1]) {
-                return true
-            }
-            return false;
+        public budget(price) { // returns true if the item is in budget or false if it is over.
+            return price <= this.car[1];
         }
-        // budget function
-
-    }
+    }//end of result controller
 
 
 }

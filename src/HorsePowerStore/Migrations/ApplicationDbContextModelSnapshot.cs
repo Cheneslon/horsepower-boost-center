@@ -13,7 +13,7 @@ namespace HorsePowerStore.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
             modelBuilder
-                .HasAnnotation("ProductVersion", "1.0.0-rtm-21431")
+                .HasAnnotation("ProductVersion", "1.0.1")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("HorsePowerStore.Models.ApplicationUser", b =>
@@ -120,6 +120,8 @@ namespace HorsePowerStore.Migrations
 
                     b.Property<int?>("CarId");
 
+                    b.Property<int?>("EngineId");
+
                     b.Property<decimal>("HorsePower");
 
                     b.Property<int?>("ProductId");
@@ -127,6 +129,8 @@ namespace HorsePowerStore.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CarId");
+
+                    b.HasIndex("EngineId");
 
                     b.HasIndex("ProductId");
 
@@ -329,8 +333,12 @@ namespace HorsePowerStore.Migrations
                         .WithMany()
                         .HasForeignKey("CarId");
 
-                    b.HasOne("HorsePowerStore.Models.Product")
-                        .WithMany("CarMods")
+                    b.HasOne("HorsePowerStore.Models.Engine", "Engine")
+                        .WithMany()
+                        .HasForeignKey("EngineId");
+
+                    b.HasOne("HorsePowerStore.Models.Product", "Product")
+                        .WithMany()
                         .HasForeignKey("ProductId");
                 });
 
