@@ -6,19 +6,19 @@
                 <center><b><u>Compatible Parts</u></b></center> <br />
                 sort
                 <select ng-model="controller.select">
-                    <option value="-cost">
+                    <option value="-product.price">
                         Highest
                     </option>
-                    <option value="cost">
+                    <option value="product.price">
                         Lowest
                     </option>
                 </select>
             </p>
-            <dl ng-repeat="item in controller.products">
+            <dl ng-repeat="item in controller.products | orderBy: controller.select" ng-show="controller.budget(item.product.price)">
                         <dt>{{item.product.name}} <sup>${{item.product.price}}</sup></dt>
                         <dd>
-                            {{item.product.description}}
-                            <img src="{{item.product.imageSource}}" />
+                            {{item.product.description}}<br/>
+                            <img src="../../images/shrek.jpg" />
                         </dd>
             </dl>
         </div>

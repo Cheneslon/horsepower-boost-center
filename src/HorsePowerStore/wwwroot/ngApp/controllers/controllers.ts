@@ -27,7 +27,10 @@ namespace HorsePowerStore.Controllers {
         }
 
         public budget(price) { // returns true if the item is in budget or false if it is over.
-            return price <= this.car[1];
+            if (price <= this.car[1]) {
+                return true
+            }
+            return false
         }
     }//end of result controller
 
