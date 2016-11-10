@@ -5,7 +5,7 @@
             <p>
                 <center><b><u>Compatible Parts</u></b></center> <br />
                 sort
-                <select ng-model="controller.select">
+                <select class="form-control" style="width:200px" ng-model="controller.select">
                     <option value="-product.price">
                         Highest
                     </option>
@@ -18,7 +18,7 @@
                         <dt>{{item.product.name}} <sup>${{item.product.price}}</sup></dt>
                         <dd>
                             {{item.product.description}}<br/>
-                            <img src="../../images/shrek.jpg" />
+                            <img src="../../images/shrek.jpg" class="img-responsive" />
                         </dd>
             </dl>
         </div>
