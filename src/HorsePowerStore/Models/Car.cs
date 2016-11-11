@@ -8,14 +8,17 @@ namespace HorsePowerStore.Models
 {
     public enum Drive
     {
-        TwoWheel,
-        FourWheel
+        FrontWD,
+        RearWD,
+        AllWD,
+        FourWD
     }
 
     public enum Transmission
     {
         Manual,
-        Automatic
+        Automatic,
+        Tiptronic
     }
 
     public enum Fuel
