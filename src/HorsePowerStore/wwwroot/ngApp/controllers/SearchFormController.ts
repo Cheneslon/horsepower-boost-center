@@ -18,7 +18,6 @@
 
             searchFormService.getMakes().$promise.then((makes) => {
                 this.makes = makes;
-                
             })
         }
         //you need to use dependency injection to get the ILocationService
@@ -35,33 +34,24 @@
         public getModels() {
             this.searchFormService.getModels(this.make).$promise.then((models) => {
                 this.models = models;
+                this.model = null;
+                this.year = null;
+                this.car = null;
             });
         }
 
         public getYears() {
             this.searchFormService.getYears(this.make, this.model).$promise.then((years) => {
                 this.years = years;
+                this.year = null;
+                this.car = null;
             });
         }
 
         public getCars() {
             this.searchFormService.getCars(this.make, this.model, this.year).$promise.then((cars) => {
                 this.cars = cars;
-                //let carArray = [];
-                //for (let car of this.cars) {
-                //    let carString =
-                //        car.doors + " doors, " +
-                //        car.drive + " drive, " +
-                //        car.fuel + " fuel, " +
-                //        car.transmission + " transmission";
-                //    this.engineArray.push(car.compatibleEngines);
-                //    console.log(car);
-                //    carArray.push(carString);
-                //}
-                //this.cars = carArray;
             });
         }
     }
-
-    // angular.module('HorsePowerStore').controller('searchFormController', SearchFormController);
 }
