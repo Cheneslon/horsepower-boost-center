@@ -26,7 +26,7 @@ namespace HorsePowerStore.Controllers {
     export class ResultController {
         public car; // array : [carId, budget]
         public products; // list of products for car
-        public select; // sort <select> element
+        public select = "product.price"; // sort <select> element
        
 
         constructor(resultService: HorsePowerStore.Services.ResultService) {
