@@ -24,19 +24,87 @@ namespace HorsePowerStore.Data
                     new Engine
                     {
                         //Id = 1,
-                        Cylinders = 4,
-                        Volume = 100,
-                        Intake = 100,
-                        HorsePower = 100
+                        Cylinders = 6,
+                        Volume = 235,
+                        HorsePower = 150
                     },
+                     new Engine
+                     {
+                         //Id = 1,
+                         Cylinders = 8,
+                         Volume = 265,
+                         HorsePower = 180
+                     },
+                      new Engine
+                      {
+                          //Id = 1,
+                          Cylinders = 8,
+                          Volume = 283,
+                          HorsePower = 255
+                      },
+                       new Engine
+                       {
+                           //Id = 1,
+                           Cylinders = 8,
+                           Volume = 302,
+                           HorsePower = 290
+                       },
+                       new Engine
+                       {
+                           //Id = 1,
+                           Cylinders = 8,
+                           Volume = 305,
+                           HorsePower = 190
+                       },
+                        new Engine
+                        {
+                            //Id = 1,
+                            Cylinders = 8,
+                            Volume = 327,
+                            HorsePower = 305
+                        },
+                    new Engine
+                    {
+                        //Id = 1,
+                        Cylinders = 8,
+                        Volume = 396,
+                        HorsePower = 355
+                    },
+
                     new Engine
                     {
                         //Id = 2,
-                        Cylinders = 4,
-                        Volume = 200,
-                        Intake = 200,
-                        HorsePower = 200
-                    }
+                        Cylinders = 8,
+                        Volume = 427,
+                        HorsePower = 390
+                    },
+                     new Engine
+                     {
+                         //Id = 1,
+                         Cylinders = 8,
+                         Volume = 454,
+                         HorsePower = 390
+                     },
+                      new Engine
+                      {
+                          //Id = 1,
+                          Cylinders = 8,
+                          Volume = 366,
+                          HorsePower = 380
+                      },
+                       new Engine
+                       {
+                           //Id = 1,
+                           Cylinders = 8,
+                           Volume = 383,
+                           HorsePower = 420
+                       },
+                        new Engine
+                        {
+                            //Id = 1,
+                            Cylinders = 8,
+                            Volume = 427,
+                            HorsePower = 505
                     );
                 context.SaveChanges();
 
@@ -1535,90 +1603,7 @@ namespace HorsePowerStore.Data
                          Fuel = Fuel.Gasoline,
                          CompatibleEngines = context.Engines.ToList()
                      },
-                     new Car
-                     {
-                         //Id = 1,
-                         Make = "Chevy",
-                         Model = "Camaro",
-                         Year = 2003,
-                         Doors = 2,
-                         Drive = Drive.RearWD,
-                         Transmission = Transmission.Manual,
-                         Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
-                     },
-                     new Car
-                     {
-                         //Id = 1,
-                         Make = "Chevy",
-                         Model = "Camaro",
-                         Year = 2004,
-                         Doors = 2,
-                         Drive = Drive.RearWD,
-                         Transmission = Transmission.Manual,
-                         Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
-                     },
-                     new Car
-                     {
-                         //Id = 1,
-                         Make = "Chevy",
-                         Model = "Camaro",
-                         Year = 2005,
-                         Doors = 2,
-                         Drive = Drive.RearWD,
-                         Transmission = Transmission.Manual,
-                         Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
-                     },
-                     new Car
-                     {
-                         //Id = 1,
-                         Make = "Chevy",
-                         Model = "Camaro",
-                         Year = 2006,
-                         Doors = 2,
-                         Drive = Drive.RearWD,
-                         Transmission = Transmission.Manual,
-                         Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
-                     },
-                     new Car
-                     {
-                         //Id = 1,
-                         Make = "Chevy",
-                         Model = "Camaro",
-                         Year = 2007,
-                         Doors = 2,
-                         Drive = Drive.RearWD,
-                         Transmission = Transmission.Manual,
-                         Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
-                     },
-                     new Car
-                     {
-                         //Id = 1,
-                         Make = "Chevy",
-                         Model = "Camaro",
-                         Year = 2008,
-                         Doors = 2,
-                         Drive = Drive.RearWD,
-                         Transmission = Transmission.Manual,
-                         Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
-                     },
-                     new Car
-                     {
-                         //Id = 1,
-                         Make = "Chevy",
-                         Model = "Camaro",
-                         Year = 2009,
-                         Doors = 2,
-                         Drive = Drive.RearWD,
-                         Transmission = Transmission.Manual,
-                         Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
-                     },
+                    
                      new Car
                      {
                          //Id = 1,
