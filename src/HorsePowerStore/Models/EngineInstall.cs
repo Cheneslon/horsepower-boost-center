@@ -7,6 +7,7 @@ namespace HorsePowerStore.Models
 {
     public class EngineInstall
     {
+        public int Id { get; set; }
         public Car Car { get; set; }
         public Engine Engine { get; set; }
     }
