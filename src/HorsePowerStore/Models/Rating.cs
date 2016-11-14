@@ -16,5 +16,7 @@ namespace HorsePowerStore.Models
 
         // Creation date
         public DateTime Date { get; set; }
+
+        public string Message { get; set; }
     }
 }
