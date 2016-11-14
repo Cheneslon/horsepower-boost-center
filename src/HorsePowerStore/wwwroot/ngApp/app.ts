@@ -7,30 +7,18 @@ namespace HorsePowerStore {
     ) => {
         // Define routes
         $stateProvider
+            .state('homeLong', {
+                url: '/home',
+                onEnter: ($state) => {
+                    $state.go('home');
+                }
+            })
             .state('home', {
                 url: '/',
                 templateUrl: '/ngApp/views/home.html',
                 controller: HorsePowerStore.Controllers.HomeController,
                 controllerAs: 'controller'
             })
-            .state('login', {
-                url: '/login',
-                templateUrl: '/ngApp/views/login.html',
-                controller: HorsePowerStore.Controllers.LoginController,
-                controllerAs: 'controller'
-            })
-            .state('register', {
-                url: '/register',
-                templateUrl: '/ngApp/views/register.html',
-                controller: HorsePowerStore.Controllers.RegisterController,
-                controllerAs: 'controller'
-            })
-            .state('externalRegister', {
-                url: '/externalRegister',
-                templateUrl: '/ngApp/views/externalRegister.html',
-                controller: HorsePowerStore.Controllers.ExternalRegisterController,
-                controllerAs: 'controller'
-            }) 
             .state('about', {
                 url: '/about',
                 templateUrl: '/ngApp/views/about.html',
@@ -41,6 +29,18 @@ namespace HorsePowerStore {
                 url: '/searchForm',
                 templateUrl: '/ngApp/views/SearchForm.html',
                 controller: HorsePowerStore.Controllers.SearchFormController,
+                controllerAs: 'controller'
+            })
+            .state('result', {
+                url: '/result',
+                templateUrl: '/ngApp/views/result.html',
+                controller: HorsePowerStore.Controllers.ResultController,
+                controllerAs: 'controller'
+            })
+            .state('externalRegister', {
+                url: '/externalRegister',
+                templateUrl: '/ngApp/views/externalRegister.html',
+                controller: HorsePowerStore.Controllers.ExternalRegisterController,
                 controllerAs: 'controller'
             })
             .state('notFound', {
