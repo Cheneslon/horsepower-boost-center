@@ -43,6 +43,6 @@ namespace HorsePowerStore.Models
         public Drive Drive { get; set; }
         public Transmission Transmission { get; set; }
         public Fuel Fuel { get; set; }
-        public List<Engine> CompatibleEngines { get; set; }
+        public List<EngineInstall> CompatibleEngines { get; set; }
     }
 }
