@@ -11,6 +11,6 @@ namespace HorsePowerStore.Models
         public string Name { get; set; }
         public Car Car { get; set; }
         public Engine Engine { get; set; }
-        public List<Product> Products { get; set; }
+        public List<ProductSelection> SelectedProducts { get; set; }
     }
 }
