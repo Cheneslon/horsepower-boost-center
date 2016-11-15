@@ -43,8 +43,8 @@
                 year: year
             })
         }
-        public save(engineId, budget:number) {
-            window.sessionStorage.setItem('car', engineId + ',' + budget); // saves id
+        public save(engineId, budget:number, name: string) {
+            window.sessionStorage.setItem('car', engineId + ',' + budget + ',' + name); // saves id
         }
     }
     angular.module("HorsePowerStore").service("searchFormService", SearchFormService);

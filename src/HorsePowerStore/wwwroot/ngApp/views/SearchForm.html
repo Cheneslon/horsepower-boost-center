@@ -32,10 +32,10 @@
     </div>
 
     <div ng-show="controller.year" >
-        <br />Car
+        <br />Car 
         <select class="form-control"
                 ng-model="controller.car" 
-                ng-options="car as car.doors for car in controller.cars">
+                ng-options="car as (car.doors + '-door ' + car.transmission + ' ' + car.year + ' ' + car.make + ' ' + car.model) for car in controller.cars">
         </select>
     </div>
 
@@ -43,7 +43,7 @@
         <br />Engine
         <select class="form-control"
                 ng-model="controller.engine"
-                ng-options="engine as engine.volume for engine in controller.car.compatibleEngines">
+                ng-options="engine as engine.cylinders + ' Cylinder ' + engine.horsePower + ' HP' for engine in controller.car.compatibleEngines">
 
         </select>
     </div>

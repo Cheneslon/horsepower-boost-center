@@ -17,7 +17,7 @@ namespace HorsePowerStore.Services {
             // car is the session storage key to the information on the users selected car
         }
         public getProducts() {
-            console.log(this.productResource)
+            console.log(this.productResource);
             return this.productResource.query().$promise
         }
     }
