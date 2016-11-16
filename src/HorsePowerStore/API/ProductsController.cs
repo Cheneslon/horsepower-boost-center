@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using HorsePowerStore.Services;
 using HorsePowerStore.Models;
 using HorsePowerStore.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -33,6 +34,20 @@ namespace HorsePowerStore.Controllers
         public ProductViewModel GetProductWithRatings(int id, int page)
         {
             return productsService.GetProductWithRatings(id, page * pageLength, pageLength);
+        }
+
+        [Authorize]
+        [HttpPost("{id}/addRating")]
+        public void AddRating (int id, [FromBody] Rating rating)
+        {
+            productsService.AddRating(id, rating);
+        }
+
+        [Authorize]
+        [HttpPost("/removeRating")]
+        public void RemoveRating([FromBody] int ratingId)
+        {
+            productsService.RemoveRating(ratingId, User.Identity.Name);
         }
     }
 }
