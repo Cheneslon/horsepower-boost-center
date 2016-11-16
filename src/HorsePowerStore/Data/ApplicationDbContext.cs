@@ -17,6 +17,7 @@ namespace HorsePowerStore.Data
         public DbSet<Rating> Ratings { get; set; }
         public DbSet<CarInstance> CarInstances { get; set; }
         public DbSet<CarMod> CarMods { get; set; }
+        public DbSet<EngineInstall> EngineInstalls { get; set; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
