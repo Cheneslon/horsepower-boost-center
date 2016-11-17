@@ -4,7 +4,7 @@
         </div>
         <div class="col-md-6">
             <p>
-                <center><h3 id="resultPageHeader">Compatible Parts</h3></center> <br />
+                <h3 class="center" id="resultPageHeader">Compatible Parts</h3> <br />
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-3" id="sortSelect">
@@ -24,43 +24,55 @@
                     </div>
                 </div>
             </p>
-                <dl ng-repeat="item in controller.products | orderBy: controller.select" ng-show="controller.budget(item.product.price)">
-                    <div class="panel panel-default">
-                        <dt class="productHeader">{{item.product.name}} <sup>${{item.product.price}}</sup><a href="{{item.product.purchaseURL}}"><i class="fa fa-external-link"></a></i></dt>
-                        <dd class="productBody">
-                            <div class="stars">
-                                <form action="" ng-click="controller.loginCheck()">
-                                    <input class="star star-5" id="star-5" type="radio" name="star{{item.product.id}}" value="5" ng-model="controller.stars" ng-change="controller.showModal(5)" ng-disabled="controller.isLoggedIn()" />
-                                    <label class="star star-5" for="star-5"></label>
-                                    <input class="star star-4" id="star-4" type="radio" name="star{{item.product.id}}" value="4" ng-model="controller.stars" ng-change="controller.showModal(4)" ng-disabled="controller.isLoggedIn()" />
-                                    <label class="star star-4" for="star-4"></label>
-                                    <input class="star star-3" id="star-3" type="radio" name="star{{item.product.id}}" value="3" ng-model="controller.stars" ng-change="controller.showModal(3)" ng-disabled="controller.isLoggedIn()" />
-                                    <label class="star star-3" for="star-3"></label>
-                                    <input class="star star-2" id="star-2" type="radio" name="star{{item.product.id}}" value="2" ng-model="controller.stars" ng-change="controller.showModal(2)" ng-disabled="controller.isLoggedIn()" />
-                                    <label class="star star-2" for="star-2"></label>
-                                    <input class="star star-1" id="star-1" type="radio" name="star{{item.product.id}}" value="1" ng-model="controller.stars" ng-change="controller.showModal(1)" ng-disabled="controller.isLoggedIn()" />
-                                    <label class="star star-1" for="star-1"></label>
-                                </form>
-                            </div><br />
-                            {{item.product.description}}<br />
-                            <center><img src="../../images/shrek.jpg" class="img-responsive" width="550" /></center>
-                        </dd>
-                    </div> 
-                </dl>
+            <div ng-repeat="item in controller.products | orderBy: controller.select" ng-show="controller.budget(item.product.price)">
+                <dl class="panel panel-default">
+                    <dt class="productHeader">
+                        {{item.product.name}} 
+                        <sup>${{item.product.price}}</sup>
+                        <a href="{{item.product.purchaseURL}}">
+                            <i class="fa fa-external-link"></i>
+                        </a>
+                    </dt>
+                    <dd class="productBody">
+                        <form ng-click="controller.loginCheck()">
+                            <input  
+                                ng-repeat-start="n in [5, 4, 3, 2, 1]"
+                                ng-disabled="!controller.isLoggedIn()"
+                                class="star" 
+                                id="star-{{n}}-{{item.product.id}}" 
+                                type="radio" 
+                                name="star-{{item.product.id}}" 
+                                value="{{n}}"  />
+                            <label
+                                ng-repeat-end
+                                ng-click="controller.showModal(item.product.id, n)"
+                                class="star star-{{n}}" 
+                                for="star-{{n}}-{{item.product.id}}">
+                            </label>
+                        </form>
+                        <br />
+                        {{item.product.description}}<br />
+                        <img class="center img-responsive" src="{{item.product.imageSource}}" width="550" />
+                    </dd>
+                </dl> 
+            </div>
         </div>
         <div class="col-md-3">
         <div class="panel panel-default myCar">
             <p>
                 Your Car: <br />
-                {{controller.car[2]}}<br/>
+                {{controller.info["car"]}}<br/>
                 <button class="btn btn-default saveCarButton" ng-click="controller.saveButton()">save</button>
            </p>
         </div>
         </div>
     </div>
 </div>
-<style>
 
+<style>
+    .center {
+        text-align: center;
+    }
 
     div.stars {
         width: auto;

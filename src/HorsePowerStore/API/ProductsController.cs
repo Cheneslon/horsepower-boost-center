@@ -37,10 +37,16 @@ namespace HorsePowerStore.Controllers
         }
 
         [Authorize]
-        [HttpPost("{id}/addRating")]
-        public void AddRating (int id, [FromBody] Rating rating)
+        [HttpPost("addRating")]
+        public void AddRating ([FromBody] RatingViewModel ratingViewModel)
         {
-            productsService.AddRating(id, rating);
+            var rating = new Rating()
+            {
+                Value = ratingViewModel.Value,
+                Message = ratingViewModel.Message,
+                Date = DateTime.Now
+            };
+            productsService.AddRating(ratingViewModel.ProductId, rating, User.Identity.Name);
         }
 
         [Authorize]

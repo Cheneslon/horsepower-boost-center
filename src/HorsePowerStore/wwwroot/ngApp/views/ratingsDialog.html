@@ -1,12 +1,12 @@
 ﻿<div class="modal-header">
-    <h4 class="modal-title">You rated this item {{modal.userRating}} {{modal.beerstring}}!
+    <h4 class="modal-title">You rated this item {{modal.ratingValue}} {{modal.beerstring}}!
         <button class="btn btn-default closeButton" ng-click="modal.ok()">X</button></h4>
 </div>
 <div class="modal-body">
     <p>Leave a short review:</p>
     <center>
-        <textarea id="ratingsTextarea" maxlength="200" ng-model="modal.userMessage"></textarea><br />
+        <textarea id="ratingsTextarea" maxlength="200" ng-model="modal.message"></textarea><br />
         
     </center>
-    <button class="btn btn-default rateButton" ng-click="modal.ok()">OK</button></br>
+    <button class="btn btn-default rateButton" ng-click="modal.ok()">OK</button><br />
 </div>

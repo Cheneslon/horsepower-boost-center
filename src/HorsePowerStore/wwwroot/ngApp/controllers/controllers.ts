@@ -24,93 +24,100 @@ namespace HorsePowerStore.Controllers {
     }
 
     export class ResultController {
-        public car; // array : [carId, budget]
+        public info = {}; 
         public products; // list of products for car
         public select = "product.price"; // sort <select> element
-        public productId;
         public stars;
-        public startingBudget;
+        public startingBudget: number;
 
-        constructor(resultService: HorsePowerStore.Services.ResultService,
+        constructor(
+            private resultService: HorsePowerStore.Services.ResultService,
             private $uibModal: angular.ui.bootstrap.IModalService,
             private accountService: HorsePowerStore.Services.AccountService) {
-            this.car = resultService.get().split(',');
-            this.startingBudget = parseInt(resultService.get().split(',')[1]);
-            resultService.getProducts().then((result) => {
+
+            let items = resultService.get().split(',');
+            this.info['id'] = items[0];
+            this.info['budget'] = parseInt(items[1]);
+            this.info['car'] = items[2];
+
+            this.startingBudget = this.info['budget'];
+            if (isNaN(this.startingBudget)) this.startingBudget = 0;
+
+            resultService.getProducts(this.info['id'], 0).then((result) => {
                 this.products = result;
                 console.log(result);
-            });;
+            });
         }
 
         public budget(price) { // returns true if the item is in budget or false if it is over.
-            if (this.startingBudget == "0") {
-                return true
-            }
-            if (price <= this.startingBudget) {
-                return true
-            }
-            return false
-        }
-        public isLoggedIn(productId) {
-            this.productId = productId;
-            if (this.accountService.isLoggedIn()) {
-                return false;
-            };
-            return true;
-        }
-        public loginCheck() {
-            if (!this.accountService.isLoggedIn()) {
-                this.$uibModal.open({
-                    templateUrl: '/ngApp/views/pleaseLoginDialog.html',
-                    controller: 'PleaseDialogController',
-                    controllerAs: 'modal',
-                    resolve: {
-                    },
-                    size: 'sm'
-                });
-            };
+            return this.startingBudget == 0 || price <= this.startingBudget;
         }
 
-        public showModal(rating: string) {
-            if (this.accountService.isLoggedIn()) {
+        public isLoggedIn(productId) {
+            return this.accountService.isLoggedIn();
+        }
+
+        public loginCheck() {
+            if (this.accountService.isLoggedIn()) return; 
+            this.$uibModal.open({
+                templateUrl: '/ngApp/views/pleaseLoginDialog.html',
+                controller: 'PleaseDialogController',
+                controllerAs: 'modal',
+                resolve: {
+                },
+                size: 'sm'
+            });
+        }
+
+        public showModal(productId: number, ratingValue: number) {
+            if (!this.accountService.isLoggedIn()) return;
             this.$uibModal.open({
                 templateUrl: '/ngApp/views/ratingsDialog.html',
                 controller: 'RatingsDialogController',
                 controllerAs: 'modal',
                 resolve: {
-                    rating: () => rating,
+                    productId: () => productId,
+                    ratingValue: () => ratingValue
                 },
                 size: 'sm'
             });
-            }
         }
+
         public saveButton() {
-            console.log(this.productId);
+            // Save car instance
         }
-    }//end of result controller
+    }
 
     class RatingsDialogController {
         public userName;
-        public userMessage;
-        public userRating;
-        public productId;
+        public message;
         public beerstring = "beers";
 
-        constructor(public rating,
+        constructor (
+            public ratingValue,
+            public productId,
             private $uibModalInstance: angular.ui.bootstrap.IModalServiceInstance,
-            private accountService: HorsePowerStore.Services.AccountService) {
-            this.userRating = rating;
+            private accountService: HorsePowerStore.Services.AccountService,
+            private productsService: HorsePowerStore.Services.ProductsService) {
+            
             this.userName = accountService.getUserName();
-            console.log(this.userName);
-            if (parseInt(this.userRating) == 1) {
+
+            if (parseInt(this.ratingValue) == 1) {
                 this.beerstring = "beer"
             }
         }
+
         public ok() {
+            this.save();
             this.$uibModalInstance.close();
         }
-        public save() {
 
+        public save() {
+            this.productsService.addRating({
+                value: this.ratingValue,
+                message: this.message,
+                productId: this.productId
+            });
         }
     }
 
