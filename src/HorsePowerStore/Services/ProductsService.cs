@@ -54,5 +54,39 @@ namespace HorsePowerStore.Services
                 })
                 .FirstOrDefault();
         }
+
+        public void AddRating (int id, Rating rating)
+        {
+            var product = (
+                from p in db.Products
+                where p.Id == id
+                select p)
+                .FirstOrDefault();
+
+            if (product == null) return;
+            product.Ratings.Add(rating);
+            db.SaveChanges();
+        }
+
+        public void RemoveRating(int ratingId, string userName)
+        {
+            var rating = (
+                from r in db.Ratings
+                where r.Id == ratingId
+                select r)
+                .FirstOrDefault();
+
+            var user = (
+                from u in db.AppUsers
+                where u.UserName == userName
+                select u)
+                .FirstOrDefault();
+
+            if (rating == null || 
+                !user.Ratings.Contains(rating)) return;
+
+            db.Ratings.Remove(rating);
+            db.SaveChanges();
+        }
     }
 }
