@@ -6,8 +6,8 @@
     <div>
         <br />Make
         <select class="form-control" ng-model="controller.make"
-                ng-change="controller.getModels()"
-                ng-options="make for make in controller.makes">
+                
+                ng-options="make as make.name for make in controller.makes">
             <option>Select</option>
         </select>
     </div>
@@ -15,8 +15,8 @@
     <div ng-show="controller.make">
         <br />Model
         <select class="form-control"  ng-model="controller.model"
-                ng-change="controller.getYears()"
-                ng-options="model for model in controller.models">
+              
+                ng-options="model as model.name for model in controller.make.models">
             <option>Select</option>
         </select>
     </div>
@@ -24,36 +24,19 @@
     <div ng-show="controller.model">
         <br />Year
         <select class="form-control"  ng-model="controller.year"
-                ng-change="controller.getCars()"
-                ng-options="year for year in controller.years">
+                ng-change="controller.getEdmundsTrims()"
+                ng-options="year as year.year for year in controller.model.years">
             <option>Select</option>
 
         </select>
     </div>
-
-    <div ng-show="controller.year" >
+    <div ng-show="controller.year">
         <br />Car
         <select class="form-control"
-                ng-model="controller.car" 
-                ng-options="car as 
-                    car.doors + '-door ' +
-                    car.drive + ' Drive ' +
-                    car.year  + ' '      +
-                    car.make  + ' '      + 
-                    car.model 
-                    for car in controller.cars">
-        </select>
-    </div>
-
-    <div ng-show="controller.car">
-        <br />Engine
-        <select class="form-control"
-                ng-model="controller.engine"
-                ng-options="engine as 
-                    engine.cylinders + '-cylinder ' + 
-                    engine.horsePower + ' HP'
-                    for engine in controller.car.compatibleEngines">
-        </select>
+                ng-model="controller.car"
+                ng-options="car as
+                    car.name 
+                    for car in controller.cars"></select>
     </div>
     <br />
     (Optional) Budget
@@ -61,7 +44,7 @@
     <input class="form-control" ng-model="controller.budget" type="number" min ="0" />
 
     <br />
-    <input type="submit" class="btn btn-danger" ng-show="controller.engine" value="Submit" />
+    <input type="submit" class="btn btn-danger" ng-show="controller.car && controller.year" value="Submit" />
 
 
 </form>
