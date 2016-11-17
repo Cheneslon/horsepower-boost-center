@@ -27,6 +27,7 @@ namespace HorsePowerStore.Controllers {
         public car; // array : [carId, budget]
         public products; // list of products for car
         public select = "product.price"; // sort <select> element
+        public productId;
         public stars;
         public startingBudget;
 
@@ -37,6 +38,7 @@ namespace HorsePowerStore.Controllers {
             this.startingBudget = parseInt(resultService.get().split(',')[1]);
             resultService.getProducts().then((result) => {
                 this.products = result;
+                console.log(result);
             });;
         }
 
@@ -49,7 +51,8 @@ namespace HorsePowerStore.Controllers {
             }
             return false
         }
-        public isLoggedIn() {
+        public isLoggedIn(productId) {
+            this.productId = productId;
             if (this.accountService.isLoggedIn()) {
                 return false;
             };
@@ -75,27 +78,39 @@ namespace HorsePowerStore.Controllers {
                 controller: 'RatingsDialogController',
                 controllerAs: 'modal',
                 resolve: {
-                    rating: () => rating
+                    rating: () => rating,
                 },
                 size: 'sm'
             });
             }
         }
+        public saveButton() {
+            console.log(this.productId);
+        }
     }//end of result controller
 
     class RatingsDialogController {
-
-        public ok() {
-            this.$uibModalInstance.close();
-        }
+        public userName;
+        public userMessage;
         public userRating;
+        public productId;
         public beerstring = "beers";
 
-        constructor(public rating: string, private $uibModalInstance: angular.ui.bootstrap.IModalServiceInstance) {
+        constructor(public rating,
+            private $uibModalInstance: angular.ui.bootstrap.IModalServiceInstance,
+            private accountService: HorsePowerStore.Services.AccountService) {
             this.userRating = rating;
+            this.userName = accountService.getUserName();
+            console.log(this.userName);
             if (parseInt(this.userRating) == 1) {
                 this.beerstring = "beer"
             }
+        }
+        public ok() {
+            this.$uibModalInstance.close();
+        }
+        public save() {
+
         }
     }
 

@@ -5,7 +5,7 @@
 <div class="modal-body">
     <p>Leave a short review:</p>
     <center>
-        <textarea id="ratingsTextarea" maxlength="200"></textarea><br />
+        <textarea id="ratingsTextarea" maxlength="200" ng-model="modal.userMessage"></textarea><br />
         
     </center>
     <button class="btn btn-default rateButton" ng-click="modal.ok()">OK</button></br>

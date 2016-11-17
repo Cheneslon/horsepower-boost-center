@@ -30,15 +30,15 @@
                         <dd class="productBody">
                             <div class="stars">
                                 <form action="" ng-click="controller.loginCheck()">
-                                    <input class="star star-5" id="star-5" type="radio" name="star" value="5" ng-model="controller.stars" ng-change="controller.showModal(5)" ng-disabled="controller.isLoggedIn()" />
+                                    <input class="star star-5" id="star-5" type="radio" name="star{{item.product.id}}" value="5" ng-model="controller.stars" ng-change="controller.showModal(5)" ng-disabled="controller.isLoggedIn()" />
                                     <label class="star star-5" for="star-5"></label>
-                                    <input class="star star-4" id="star-4" type="radio" name="star" value="4" ng-model="controller.stars" ng-change="controller.showModal(4)" ng-disabled="controller.isLoggedIn()" />
+                                    <input class="star star-4" id="star-4" type="radio" name="star{{item.product.id}}" value="4" ng-model="controller.stars" ng-change="controller.showModal(4)" ng-disabled="controller.isLoggedIn()" />
                                     <label class="star star-4" for="star-4"></label>
-                                    <input class="star star-3" id="star-3" type="radio" name="star" value="3" ng-model="controller.stars" ng-change="controller.showModal(3)" ng-disabled="controller.isLoggedIn()" />
+                                    <input class="star star-3" id="star-3" type="radio" name="star{{item.product.id}}" value="3" ng-model="controller.stars" ng-change="controller.showModal(3)" ng-disabled="controller.isLoggedIn()" />
                                     <label class="star star-3" for="star-3"></label>
-                                    <input class="star star-2" id="star-2" type="radio" name="star" value="2" ng-model="controller.stars" ng-change="controller.showModal(2)" ng-disabled="controller.isLoggedIn()" />
+                                    <input class="star star-2" id="star-2" type="radio" name="star{{item.product.id}}" value="2" ng-model="controller.stars" ng-change="controller.showModal(2)" ng-disabled="controller.isLoggedIn()" />
                                     <label class="star star-2" for="star-2"></label>
-                                    <input class="star star-1" id="star-1" type="radio" name="star" value="1" ng-model="controller.stars" ng-change="controller.showModal(1)" ng-disabled="controller.isLoggedIn()" />
+                                    <input class="star star-1" id="star-1" type="radio" name="star{{item.product.id}}" value="1" ng-model="controller.stars" ng-change="controller.showModal(1)" ng-disabled="controller.isLoggedIn()" />
                                     <label class="star star-1" for="star-1"></label>
                                 </form>
                             </div><br />
@@ -53,7 +53,7 @@
             <p>
                 Your Car: <br />
                 {{controller.car[2]}}<br/>
-                <button class="btn btn-default saveCarButton">save</button>
+                <button class="btn btn-default saveCarButton" ng-click="controller.saveButton()">save</button>
            </p>
         </div>
         </div>

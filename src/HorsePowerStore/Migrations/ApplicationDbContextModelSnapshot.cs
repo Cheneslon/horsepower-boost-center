@@ -13,7 +13,7 @@ namespace HorsePowerStore.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
             modelBuilder
-                .HasAnnotation("ProductVersion", "1.0.1")
+                .HasAnnotation("ProductVersion", "1.0.0-rtm-21431")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("HorsePowerStore.Models.ApplicationUser", b =>
@@ -142,29 +142,41 @@ namespace HorsePowerStore.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int?>("CarId");
-
                     b.Property<int>("Cylinders");
 
                     b.Property<decimal>("HorsePower");
 
-                    b.Property<decimal>("Intake");
+                    b.Property<int>("Intake");
 
                     b.Property<decimal>("Volume");
 
                     b.HasKey("Id");
 
+                    b.ToTable("Engines");
+                });
+
+            modelBuilder.Entity("HorsePowerStore.Models.EngineInstall", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int?>("CarId");
+
+                    b.Property<int?>("EngineId");
+
+                    b.HasKey("Id");
+
                     b.HasIndex("CarId");
 
-                    b.ToTable("Engines");
+                    b.HasIndex("EngineId");
+
+                    b.ToTable("EngineInstalls");
                 });
 
             modelBuilder.Entity("HorsePowerStore.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
-
-                    b.Property<int?>("CarInstanceId");
 
                     b.Property<string>("Description");
 
@@ -178,9 +190,25 @@ namespace HorsePowerStore.Migrations
 
                     b.HasKey("Id");
 
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("HorsePowerStore.Models.ProductSelection", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int?>("CarInstanceId");
+
+                    b.Property<int?>("ProductId");
+
+                    b.HasKey("Id");
+
                     b.HasIndex("CarInstanceId");
 
-                    b.ToTable("Products");
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductSelection");
                 });
 
             modelBuilder.Entity("HorsePowerStore.Models.Rating", b =>
@@ -191,6 +219,8 @@ namespace HorsePowerStore.Migrations
                     b.Property<string>("ApplicationUserId");
 
                     b.Property<DateTime>("Date");
+
+                    b.Property<string>("Message");
 
                     b.Property<int?>("ProductId");
 
@@ -342,18 +372,26 @@ namespace HorsePowerStore.Migrations
                         .HasForeignKey("ProductId");
                 });
 
-            modelBuilder.Entity("HorsePowerStore.Models.Engine", b =>
+            modelBuilder.Entity("HorsePowerStore.Models.EngineInstall", b =>
                 {
-                    b.HasOne("HorsePowerStore.Models.Car")
+                    b.HasOne("HorsePowerStore.Models.Car", "Car")
                         .WithMany("CompatibleEngines")
                         .HasForeignKey("CarId");
+
+                    b.HasOne("HorsePowerStore.Models.Engine", "Engine")
+                        .WithMany()
+                        .HasForeignKey("EngineId");
                 });
 
-            modelBuilder.Entity("HorsePowerStore.Models.Product", b =>
+            modelBuilder.Entity("HorsePowerStore.Models.ProductSelection", b =>
                 {
-                    b.HasOne("HorsePowerStore.Models.CarInstance")
-                        .WithMany("Products")
+                    b.HasOne("HorsePowerStore.Models.CarInstance", "CarInstance")
+                        .WithMany("SelectedProducts")
                         .HasForeignKey("CarInstanceId");
+
+                    b.HasOne("HorsePowerStore.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId");
                 });
 
             modelBuilder.Entity("HorsePowerStore.Models.Rating", b =>
