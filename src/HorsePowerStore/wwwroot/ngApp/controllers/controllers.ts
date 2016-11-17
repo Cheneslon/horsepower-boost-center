@@ -71,7 +71,7 @@ namespace HorsePowerStore.Controllers {
             };
         }
 
-        public showModal(rating: string) {
+        public showModal(productId, rating: string) {
             if (this.accountService.isLoggedIn()) {
             this.$uibModal.open({
                 templateUrl: '/ngApp/views/ratingsDialog.html',
@@ -79,6 +79,7 @@ namespace HorsePowerStore.Controllers {
                 controllerAs: 'modal',
                 resolve: {
                     rating: () => rating,
+                    productId: () => productId
                 },
                 size: 'sm'
             });
@@ -92,17 +93,16 @@ namespace HorsePowerStore.Controllers {
     class RatingsDialogController {
         public userName;
         public userMessage;
-        public userRating;
-        public productId;
+        public rate = {value: '', productId: '', message: '', date: new Date() , applicationUserId: ''};
         public beerstring = "beers";
 
-        constructor(public rating,
+        constructor(public productId,public rating,
             private $uibModalInstance: angular.ui.bootstrap.IModalServiceInstance,
             private accountService: HorsePowerStore.Services.AccountService) {
-            this.userRating = rating;
-            this.userName = accountService.getUserName();
-            console.log(this.userName);
-            if (parseInt(this.userRating) == 1) {
+            this.rate.value = rating;
+            this.rate.productId = productId;
+            this.rate.applicationUserId = accountService.getUserName();
+            if (parseInt(rating) == 1) {
                 this.beerstring = "beer"
             }
         }
@@ -110,7 +110,10 @@ namespace HorsePowerStore.Controllers {
             this.$uibModalInstance.close();
         }
         public save() {
-
+            this.rate.message = this.userMessage;
+            this.rate.date = new Date();
+            console.log(this.rate);
+            this.ok();
         }
     }
 
