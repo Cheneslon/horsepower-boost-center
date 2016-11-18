@@ -41,7 +41,7 @@
         }
 
         public listProducts(page: number) {
-            this.productsResource.removeRating({ page: page });
+            this.productsResource.listProducts({ page: page });
         }
     }
     angular.module('HorsePowerStore').service('productsService', ProductsService);
