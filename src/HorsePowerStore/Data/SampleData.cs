@@ -19,10 +19,438 @@ namespace HorsePowerStore.Data
             // Ensure db
             context.Database.EnsureCreated();
 
+            if (!context.Makes.Any())
+            {
+
+
+
+
+                List<Model> BMWModels = new List<Model>() {
+                    new Model
+                    {
+                        Name = "X1"
+                    }
+                    };
+
+
+                List<Model> FordModels = new List<Model>()
+                {
+
+
+                };
+                List<Model> DodgeModels = new List<Model>()
+                {
+
+
+                };
+                List<Model> PontiacModels = new List<Model>()
+                {
+
+
+                };
+                List<Model> AMCModels = new List<Model>()
+                {
+
+
+                }; List<Model> PlymouthModels = new List<Model>()
+                {
+
+
+                };
+                List<Model> MercuryModels = new List<Model>()
+                {
+
+
+                };
+                List<Model> OldsmobileModels = new List<Model>()
+                {
+
+
+                };
+                context.Makes.AddRange(
+                    new Make
+                    {
+                        Name = "Honda",
+                        Models = new List<Model>()
+                        {
+                            new Model
+                            {
+                                Name = "Accord"
+                            },
+                            new Model
+                            {
+                                Name = "Civic"
+                            }
+                        }
+                    },
+                    new Make
+                    {
+                        Name = "BMW",
+                        Models = BMWModels
+                    },
+                    new Make
+                    {
+                        Name = "Chevrolet",
+                        Models = new List<Model>()
+                        {
+                            new Model
+                            {
+                                Name = "Monte Carlo",
+                                Years = new List<Year>()
+                                {
+                                    new Year
+                                    {
+                                        Years = 1970
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1971
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1972
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1973
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1974
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1975
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1976
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1977
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1978
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1979
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1980
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1981
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1982
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1983
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1984
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1985
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1986
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1987
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1988
+                                    }
+                                }
+                            },
+                            new Model
+                            {
+                                Name = "Corvette",
+                                Years = new List<Year>()
+                                {
+                                     new Year
+                                    {
+                                        Years = 1953,
+                                        Styles = new List<Style>(){
+                                        new Style {
+                                         Name = "2dr Covertible"
+                                     }
+                                         }
+                                    }, new Year
+                                    {
+                                        Years = 1954,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Covertible"
+                                            }
+                                        }
+                                    }, new Year
+                                    {
+                                        Years = 1955,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Covertible (235ci 6cyl)"
+                                            },
+                                            new Style
+                                            {
+                                                Name ="2dr Covertible (265ci 8cyl)"
+                                            }
+                                        }
+                                    }, new Year
+                                    {
+                                        Years = 1956,
+                                          Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Covertible (235ci 6cyl)"
+                                            },
+                                            new Style
+                                            {
+                                                Name ="2dr Covertible (265ci 8cyl)"
+                                            }
+                                        }
+                                    }, new Year
+                                    {
+                                        Years = 1957,
+                                          Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Covertible (283ci 8cyl 4M)"
+                                            },
+                                            new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 3M)"
+                                            }
+                                        }
+                                    }, new Year
+                                    {
+                                        Years = 1958,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Covertible (283ci 8cyl 4M)"
+                                            },
+                                            new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 3M)"
+                                            }
+                                        }
+                                    }, new Year
+                                    {
+                                        Years = 1959,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Covertible (283ci 8cyl 4M)"
+                                            },
+                                            new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 3M)"
+                                            }
+                                        }
+                                    }, new Year
+                                    {
+                                        Years = 1960,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Covertible (283ci 8cyl 4M)"
+                                            },
+                                            new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 3M)"
+                                            }
+                                        }
+                                    }, new Year
+                                    {
+                                        Years = 1961,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Covertible (283ci 8cyl 4M)"
+                                            },
+                                            new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 3M)"
+                                            }
+                                        }
+                                    }, new Year
+                                    {
+                                        Years = 1962
+                                    }, new Year
+                                    {
+                                        Years = 1963
+                                    }, new Year
+                                    {
+                                        Years = 1964
+                                    }, new Year
+                                    {
+                                        Years = 1965
+                                    }, new Year
+                                    {
+                                        Years = 1966
+                                    },
+                                      new Year
+                                    {
+                                        Years = 1967
+                                    }, new Year
+                                    {
+                                        Years = 1968
+                                    }, new Year
+                                    {
+                                        Years = 1969
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1970
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1971
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1972
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1973
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1974
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1975
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1976
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1977
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1978
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1979
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1980
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1981
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1982
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1983
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1984
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1985
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1986
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1987
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1988
+                                    },
+                                    new Year
+                                    {
+                                        Years = 1989
+                                    }
+
+                                }
+
+                            }
+                        }
+                    },
+                    new Make
+                    {
+                        Name = "Ford",
+                        Models = FordModels
+                    },
+                    new Make
+                    {
+                        Name = "Dodge",
+                        Models = DodgeModels
+                    },
+                    new Make
+                    {
+                        Name = "Pontiac",
+                        Models = PontiacModels
+                    },
+                    new Make
+                    {
+                        Name = "AMC",
+                        Models = AMCModels
+                    },
+                    new Make
+                    {
+                        Name = "Plymouth",
+                        Models = PlymouthModels
+                    },
+                    new Make
+                    {
+                        Name = "Mercury",
+                        Models = MercuryModels
+                    },
+                    new Make
+                    {
+                        Name = "Oldsmobile",
+                        Models = OldsmobileModels
+                    }
+                    );
+            }
+
             if (!context.Engines.Any())
             {
                 context.Engines.AddRange(
-                   //var ChevyEngines
+                    //var ChevyEngines
                     new Engine
                     {
                         //Id = 1,//Chevy
@@ -174,7 +602,7 @@ namespace HorsePowerStore.Data
                            Cylinders = 8,
                            Volume = 383,
                            HorsePower = 420,
-                            Induction = Induction.EFI,
+                           Induction = Induction.EFI,
                            Intake = Intake.NaturallyAspirated
                        },
                         new Engine
@@ -1795,7 +2223,7 @@ namespace HorsePowerStore.Data
                          Fuel = Fuel.Gasoline,
                          CompatibleEngines = context.EngineInstalls.ToList()
                      },
-                    
+
                      new Car
                      {
                          //Id = 1,
@@ -4447,7 +4875,7 @@ namespace HorsePowerStore.Data
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
                         CompatibleEngines = context.EngineInstalls.ToList()
-                    }, 
+                    },
                     new Car
                     {
                         //Id = 1,
@@ -4459,7 +4887,7 @@ namespace HorsePowerStore.Data
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
                         CompatibleEngines = context.EngineInstalls.ToList()
-                    }, 
+                    },
                     new Car
                     {
                         //Id = 1,
@@ -4471,7 +4899,7 @@ namespace HorsePowerStore.Data
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
                         CompatibleEngines = context.EngineInstalls.ToList()
-                    }, 
+                    },
                     new Car
                     {
                         //Id = 1,
@@ -4483,7 +4911,7 @@ namespace HorsePowerStore.Data
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
                         CompatibleEngines = context.EngineInstalls.ToList()
-                    }, 
+                    },
                     new Car
                     {
                         //Id = 1,
@@ -4495,7 +4923,7 @@ namespace HorsePowerStore.Data
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
                         CompatibleEngines = context.EngineInstalls.ToList()
-                    }, 
+                    },
                     new Car
                     {
                         //Id = 1,
@@ -4507,7 +4935,7 @@ namespace HorsePowerStore.Data
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
                         CompatibleEngines = context.EngineInstalls.ToList()
-                    }, 
+                    },
                     new Car
                     {
                         //Id = 1,
@@ -4519,7 +4947,7 @@ namespace HorsePowerStore.Data
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
                         CompatibleEngines = context.EngineInstalls.ToList()
-                    }, 
+                    },
                     new Car
                     {
                         //Id = 1,
@@ -4531,7 +4959,7 @@ namespace HorsePowerStore.Data
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
                         CompatibleEngines = context.EngineInstalls.ToList()
-                    }, 
+                    },
                     new Car
                     {
                         //Id = 1,
@@ -4543,7 +4971,7 @@ namespace HorsePowerStore.Data
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
                         CompatibleEngines = context.EngineInstalls.ToList()
-                    }, 
+                    },
                     new Car
                     {
                         //Id = 1,
@@ -4555,7 +4983,7 @@ namespace HorsePowerStore.Data
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
                         CompatibleEngines = context.EngineInstalls.ToList()
-                    }, 
+                    },
                     new Car
                     {
                         //Id = 1,

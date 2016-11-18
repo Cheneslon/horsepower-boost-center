@@ -18,7 +18,10 @@ namespace HorsePowerStore.Data
         public DbSet<CarInstance> CarInstances { get; set; }
         public DbSet<CarMod> CarMods { get; set; }
         public DbSet<EngineInstall> EngineInstalls { get; set; }
-
+        public DbSet<Year> Years { get; set; }
+        public DbSet<Make> Makes { get; set; }
+        public DbSet<Model> Models { get; set; }
+        public DbSet<Style> Styles { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
