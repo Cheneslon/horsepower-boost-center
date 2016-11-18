@@ -1,14 +1,11 @@
-﻿namespace HorsePowerStore.Services {
-    export class CarInstanceService {
-        private carInstanceResource
+﻿namespace HorsePowerStore.Controllers {
+    export class CarInstanceController {
+        public carInstances;
 
-        constructor($resource: ng.resource.IResourceService) {
-            this.carInstanceResource = $resource('/api/carInstances/');
-        }
-
-        public listCarInstances() {
-            return this.carInstanceResource.query();
+        constructor(private carInstanceService: HorsePowerStore.Services.CarInstanceService) {
+            carInstanceService.listCarInstances().$promise.then((carInstances) => {
+                this.carInstances = carInstances;
+            })
         }
     }
-    angular.module('HorsePowerStore').service('carInstanceService', CarInstanceService);
 }

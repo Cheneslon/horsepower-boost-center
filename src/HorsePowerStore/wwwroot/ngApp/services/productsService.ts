@@ -2,10 +2,13 @@
     export class ProductsService {
         private productsResource;
         public ratings;
+        public productId;
 
         constructor(
             $resource: ng.resource.IResourceService,
             $stateParams: ng.ui.IStateParamsService) {
+
+            this.productId = $stateParams['id']
 
             this.productsResource = $resource("/api/products", {}, {
                 getProductWithRatings: {
@@ -29,7 +32,7 @@
         }
 
         public getProduct(productId: number) {
-            return this.productsResource.getProductWithRatings({ id: productId });
+            return this.productsResource.getProductWithRatings({ id: productId, page:0 });
         }
 
         public addRating(rating) {

@@ -29,10 +29,13 @@ namespace HorsePowerStore.Controllers {
         public select = "product.price"; // sort <select> element
         public stars;
         public startingBudget: number;
+        public totalPrice: number;
+        public carInstance;
 
         constructor(
-            private resultService: HorsePowerStore.Services.ResultService,
             private $uibModal: angular.ui.bootstrap.IModalService,
+            private resultService: HorsePowerStore.Services.ResultService,
+            private carInstanceService: HorsePowerStore.Services.CarInstanceService,
             private accountService: HorsePowerStore.Services.AccountService) {
 
             let items = resultService.get().split(',');
@@ -49,8 +52,8 @@ namespace HorsePowerStore.Controllers {
             });
         }
 
-        public budget(price) { // returns true if the item is in budget or false if it is over.
-            return this.startingBudget == 0 || price <= this.startingBudget;
+        public canBuy(price) { // returns true if the item is in budget or false if it is over.
+            return this.startingBudget == 0 || price <= this.startingBudget - this.totalPrice;
         }
 
         public isLoggedIn(productId) {
@@ -84,7 +87,7 @@ namespace HorsePowerStore.Controllers {
         }
 
         public saveButton() {
-            // Save car instance
+            this.carInstanceService.saveCarInstance(this.carInstance);
         }
     }
 

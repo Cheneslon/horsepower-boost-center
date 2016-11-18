@@ -72,6 +72,8 @@ namespace HorsePowerStore.Services
                 .Include(u => u.Ratings)
                 .FirstOrDefault();
 
+            if (user.Ratings.Intersect(product.Ratings).Count() > 0) return;
+
             product.Ratings.Add(rating);
             user.Ratings.Add(rating);
             db.SaveChanges();

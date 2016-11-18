@@ -7,9 +7,11 @@
             productsService: HorsePowerStore.Services.ProductsService) {
 
             this.productsService = productsService;
-            this.productsService.getProduct().$promise.then((product) => {
-                this.product = product;
-            })
+            this.productsService
+                .getProduct(this.productsService.productId)
+                .$promise.then((product) => {
+                    this.product = product;
+                })
         }
     }
 }
