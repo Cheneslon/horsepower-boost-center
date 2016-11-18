@@ -25,6 +25,7 @@ namespace HorsePowerStore.Controllers
         [HttpGet("{id}/{page}")]
         public List<CarMod> Get(int id, int page)
         {
+            Console.WriteLine(id + page);
             return carModsService.ListCarModsByEngine(id, pageLength * page, pageLength);
         }
     }

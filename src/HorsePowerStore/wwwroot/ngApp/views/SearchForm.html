@@ -1,29 +1,50 @@
-﻿<h1>Pick your car</h1>
+﻿<h1>Pick your car!</h1>
 
 {{controller.message}}
-<form ng-submit="controller.submit">
+<form ng-submit="controller.submit()">
 
-    <select class="form-control" ng-model="controller.make"
-            ng-change="controller.getModels()"
-            ng-options="o.name as o.name for o in controller.makes">
-        <option>Select</option>
-    </select>
+    <div>
+        <br />Make
+        <select class="form-control" ng-model="controller.make"
+                
+                ng-options="make as make.name for make in controller.makes">
+            <option>Select</option>
+        </select>
+    </div>
 
-    <select class="form-control" ng-model="controller.model"
-            ng-change="controller.getYears()"
-            ng-options="o.model as o.model for o in controller.models">
-        <option>Select</option>
-    </select>
+    <div ng-show="controller.make">
+        <br />Model
+        <select class="form-control"  ng-model="controller.model"
+              
+                ng-options="model as model.name for model in controller.make.models">
+            <option>Select</option>
+        </select>
+    </div>
 
-    <select class="form-control" ng-model="controller.year"
-            ng-change="controller.getResults()"
-            ng-options="o.year as o.year for o in controller.years">
-        <option>Select</option>
-    </select>
-    
-    <select class="form-control" ng-model="controller.car"
-            ng-options="o.car as o.car for o in controller.cars">
-       <option>Select</option>
-     </select>
-    <input ng-show="controller.car !== null" value="Submit"/>
+    <div ng-show="controller.model">
+        <br />Year
+        <select class="form-control"  ng-model="controller.year"
+                ng-change="controller.getEdmundsTrims()"
+                ng-options="year as year.year for year in controller.model.years">
+            <option>Select</option>
+
+        </select>
+    </div>
+    <div ng-show="controller.year">
+        <br />Car
+        <select class="form-control"
+                ng-model="controller.car"
+                ng-options="car as
+                    car.name 
+                    for car in controller.cars"></select>
+    </div>
+    <br />
+    (Optional) Budget
+    <br />
+    <input class="form-control" ng-model="controller.budget" type="number" min ="0" />
+
+    <br />
+    <input type="submit" class="btn btn-danger" ng-show="controller.car && controller.year" value="Submit" />
+
+
 </form>

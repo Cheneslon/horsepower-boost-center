@@ -1,5 +1,6 @@
 ﻿using HorsePowerStore.Data;
 using HorsePowerStore.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,18 +47,18 @@ namespace HorsePowerStore.Services
         {
             List<_Car> newCars = new List<_Car> { };
 
-            var tempCars =  (
+            var tempCars = (
                 from c in db.Cars
-                where 
-                    c.Make == make && 
-                    c.Model == model && 
+                where
+                    c.Make == make &&
+                    c.Model == model &&
                     c.Year == year
-                select c).ToList();
+                select c).Include(c => c.CompatibleEngines).ToList();
 
             for (var x = 0; x < tempCars.Count; x++)
             {
 
-                var holder = new _Car 
+                var holder = new _Car
                 {
                     Id = tempCars[x].Id,
                     Make = tempCars[x].Make,
@@ -67,7 +68,7 @@ namespace HorsePowerStore.Services
                     Drive = Enum.GetName(typeof(Drive), tempCars[x].Drive),
                     Transmission = Enum.GetName(typeof(Transmission), tempCars[x].Transmission),
                     Fuel = Enum.GetName(typeof(Fuel), tempCars[x].Fuel),
-                    CompatibleEngines = tempCars[x].CompatibleEngines
+                    CompatibleEngines = tempCars[x].CompatibleEngines.Select(ce => ce.Engine).ToList()
                 };
                 newCars.Add(holder);
             }

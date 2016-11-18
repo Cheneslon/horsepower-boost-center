@@ -1,49 +1,33 @@
 ﻿namespace HorsePowerStore.Services {
     export class SearchFormService {
         constructor($resource: ng.resource.IResourceService) {
-            this.searchFormResource = $resource("/api/cars/makes", {}, {
-                getModels: {
+            this.searchFormResource = $resource("/api/cars", {}, {
+                getEdmundsMakes: {
                     method: 'GET',
-                    url: '/api/cars/:make',
-                    isArray: true
+                    url: 'https://api.edmunds.com/api/vehicle/v2/makes?fmt=json&api_key=mawsu5ejs266r89add5gxwqt',
+                    isArray: false
                 },
-                getYears: {
+                getEdmundsTrims: {
                     method: 'GET',
-                    url: '/api/cars/years/:model',
-                    isArray: true
+                    url: 'https://api.edmunds.com/api/vehicle/v2/:make/:model/:year/styles?fmt=json&api_key=mawsu5ejs266r89add5gxwqt',
+                    isArray: false
                 },
-                getCars: {
-                   method: 'GET',
-                   url: '/api/cars/:make/:model/:year',
-                   isArray: true
-               }
             });
 
         }
+        public getEdmundsMakes() {
+            return this.searchFormResource.getEdmundsMakes();
+
+        }
         private searchFormResource
-        public getMakes() {
-            return this.searchFormResource.query();
-        }
-        
-        public getYears(make, model) {
-            var data = {
-                make: make,
-                model: model
-            }
-            return this.searchFormResource.getYears(data);
-        }
-        public getModels(make) {
-            return this.searchFormResource.getModels({ make:make });
-        }
-        
-        public getCars(make, model, year) {
-            return this.searchFormResource.getCars({
+        public getEdmundsTrims(make, model, year) {
+            return this.searchFormResource.getEdmundsTrims({
                 make: make,
                 model: model,
                 year: year
             })
         }
-        public save(carId, budget) {
+        public save(carId, budget:number) {
             window.sessionStorage.setItem('car', carId + ',' + budget); // saves id
         }
     }

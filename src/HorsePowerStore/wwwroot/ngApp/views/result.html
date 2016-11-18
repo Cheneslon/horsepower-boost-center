@@ -1,0 +1,27 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <p>
+                <center><b><u>Compatible Parts</u></b></center> <br />
+                sort
+                <select class="form-control" style="width:200px" ng-model="controller.select">
+                    <option value="-product.price">
+                        Highest
+                    </option>
+                    <option value="product.price">
+                        Lowest
+                    </option>
+                </select>
+            </p>
+            <dl ng-repeat="item in controller.products | orderBy: controller.select" ng-show="controller.budget(item.product.price)">
+                        <dt>{{item.product.name}} <sup>${{item.product.price}}</sup></dt>
+                        <dd>
+                            {{item.product.description}}<br/>
+                            <img src="../../images/shrek.jpg" class="img-responsive" />
+                        </dd>
+            </dl>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
