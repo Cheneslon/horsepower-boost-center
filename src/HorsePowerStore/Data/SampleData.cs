@@ -929,17 +929,86 @@ namespace HorsePowerStore.Data
                     new Product
                     {
                         //Id = 1,
-                        Name = "Holley Ultra HP Carb 600 CFM",
+                        Name = "Holley Ultra XP Carb 600 CFM",
                         Price = 649.00m,
                         Description = "Holley Performance Carburetor Ultra XP 600 CFM PN#0-80801RDX",
                         ImageSource = "",
                         PurchaseURL = "https://holley.com/products/fuel_systems/carburetors/ultra_xp/",
                         // HP+ = 37
                     },
-                    
+                    new Product
+                    {
+                        //Id = 1,
+                        Name = "Holley Ultra XP Carb 650 CFM",
+                        Price = 656.06m,
+                        Description = "Holley Performance Carburetor Ultra XP 650 CFM PN#0-80802RDX",
+                        ImageSource = "",
+                        PurchaseURL = "https://holley.com/products/fuel_systems/carburetors/ultra_xp/",
+                        // HP+ = 37
+                    }, new Product
+                    {
+                        //Id = 1,
+                        Name = "Holley Ultra XP Carb 750 CFM",
+                        Price = 683.06m,
+                        Description = "Holley Performance Carburetor Ultra XP 850 CFM PN#0-80803RDX",
+                        ImageSource = "",
+                        PurchaseURL = "https://holley.com/products/fuel_systems/carburetors/ultra_xp/",
+                        // HP+ = 37
+                    }, new Product
+                    {
+                        //Id = 1,
+                        Name = "Holley Ultra XP Carb 850 CFM",
+                        Price = 710.96m,
+                        Description = "Holley Performance Carburetor Ultra XP 850 CFM PN#0-80804RDX",
+                        ImageSource = "",
+                        PurchaseURL = "https://holley.com/products/fuel_systems/carburetors/ultra_xp/",
+                        // HP+ = 37
+                    }, new Product
+                    {
+                        //Id = 1,
+                        Name = "Holley Ultra XP Carb 950 CFM",
+                        Price = 738.86m,
+                        Description = "Holley Performance Carburetor Ultra XP 950 CFM PN#0-80805RDX",
+                        ImageSource = "",
+                        PurchaseURL = "https://holley.com/products/fuel_systems/carburetors/ultra_xp/",
+                        // HP+ = 37
+                    },
+                    new Product
+                    {
+                        //Id = 1,
+                        Name = "Holley Ultra Avenger Carb 670 CFM",
+                        Price = 489.56m,
+                        Description = "Holley Performance Carburetor Ultra Avenger 670 CFM PN#0-86670BL",
+                        ImageSource = "",
+                        PurchaseURL = "https://holley.com/products/fuel_systems/carburetors/avenger/ultra_street_avenger/",
+                        // HP+ = 17
+                    },
+                    new Product
+                    {
+                        //Id = 1,
+                        Name = "Holley Ultra Avenger Carb 770 CFM",
+                        Price = 489.56m,
+                        Description = "Holley Performance Carburetor Ultra Avenger 770 CFM PN#0-86770BL",
+                        ImageSource = "",
+                        PurchaseURL = "https://holley.com/products/fuel_systems/carburetors/avenger/ultra_street_avenger/",
+                        // HP+ = 17
+                    },
+                    new Product
+                    {
+                        //Id = 1,
+                        Name = "Holley Ultra Avenger Carb 870 CFM",
+                        Price = 489.56m,
+                        Description = "Holley Performance Carburetor Ultra Avenger 870 CFM PN#0-86870BL",
+                        ImageSource = "",
+                        PurchaseURL = "https://holley.com/products/fuel_systems/carburetors/avenger/ultra_street_avenger/",
+                        // HP+ = 17
+                    }
+
+
+
 
                     );
-            },
+            }
 
             if (!context.Cars.Any())
             {
@@ -7704,7 +7773,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -7715,7 +7784,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                      new Car
                      {
@@ -7727,7 +7796,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                     new Car
                     {
@@ -7739,7 +7808,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7751,7 +7820,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7763,7 +7832,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7775,7 +7844,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7787,7 +7856,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7799,7 +7868,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7811,7 +7880,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7823,7 +7892,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7835,7 +7904,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7847,7 +7916,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7859,7 +7928,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7871,7 +7940,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7883,7 +7952,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7895,7 +7964,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7907,7 +7976,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7919,7 +7988,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7931,7 +8000,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7943,7 +8012,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7955,7 +8024,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7967,7 +8036,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7979,7 +8048,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -7991,7 +8060,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8003,7 +8072,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8015,7 +8084,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8027,7 +8096,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8039,7 +8108,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8051,7 +8120,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8063,7 +8132,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8075,7 +8144,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8087,7 +8156,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8099,7 +8168,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8111,7 +8180,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8123,7 +8192,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8135,7 +8204,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8147,7 +8216,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8159,7 +8228,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8171,7 +8240,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8183,7 +8252,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8195,7 +8264,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8207,7 +8276,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8219,7 +8288,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8231,7 +8300,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8243,7 +8312,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8255,7 +8324,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8267,7 +8336,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8279,7 +8348,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8291,7 +8360,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8303,7 +8372,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8315,7 +8384,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8327,7 +8396,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8339,7 +8408,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8351,7 +8420,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8363,7 +8432,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8375,7 +8444,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8387,7 +8456,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8399,7 +8468,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8411,7 +8480,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8423,7 +8492,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8435,7 +8504,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8447,7 +8516,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8459,7 +8528,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8471,7 +8540,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8483,7 +8552,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8495,7 +8564,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8507,7 +8576,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8519,7 +8588,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8531,7 +8600,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8543,7 +8612,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8555,7 +8624,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8567,7 +8636,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8579,7 +8648,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8591,7 +8660,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -8602,7 +8671,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8614,7 +8683,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8626,7 +8695,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8638,7 +8707,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8650,7 +8719,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8662,7 +8731,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8674,7 +8743,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8686,7 +8755,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8698,7 +8767,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8710,7 +8779,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -8722,7 +8791,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                      new Car
                      {
@@ -8734,7 +8803,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8746,7 +8815,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8758,7 +8827,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8770,7 +8839,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8782,7 +8851,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8794,7 +8863,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8806,7 +8875,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8818,7 +8887,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8830,7 +8899,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8842,7 +8911,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8854,7 +8923,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8866,7 +8935,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8878,7 +8947,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8890,7 +8959,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8902,7 +8971,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8914,7 +8983,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8926,7 +8995,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8938,7 +9007,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8950,7 +9019,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8962,7 +9031,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8974,7 +9043,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8986,7 +9055,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -8998,7 +9067,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9010,7 +9079,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9022,7 +9091,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9034,7 +9103,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9046,7 +9115,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9058,7 +9127,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9070,7 +9139,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9082,7 +9151,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9094,7 +9163,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9106,7 +9175,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9118,7 +9187,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9130,7 +9199,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9142,7 +9211,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9154,7 +9223,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9166,7 +9235,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9178,7 +9247,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9190,7 +9259,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9202,7 +9271,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9214,7 +9283,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9226,7 +9295,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9238,7 +9307,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9250,7 +9319,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9262,7 +9331,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9274,7 +9343,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9286,7 +9355,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9298,7 +9367,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9310,7 +9379,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9322,7 +9391,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9334,7 +9403,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9346,7 +9415,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9358,7 +9427,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9370,7 +9439,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9382,7 +9451,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9394,7 +9463,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9406,7 +9475,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9418,7 +9487,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9430,7 +9499,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9442,7 +9511,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9454,7 +9523,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9466,7 +9535,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9478,7 +9547,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9490,7 +9559,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9502,7 +9571,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9514,7 +9583,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9526,7 +9595,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9538,7 +9607,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9550,7 +9619,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9562,7 +9631,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9574,7 +9643,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9586,7 +9655,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9598,7 +9667,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9610,7 +9679,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9622,7 +9691,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9634,7 +9703,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9646,7 +9715,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9658,7 +9727,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9670,7 +9739,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9682,7 +9751,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9694,7 +9763,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9706,7 +9775,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9718,7 +9787,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9730,7 +9799,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9742,7 +9811,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9754,7 +9823,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9766,7 +9835,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9778,7 +9847,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9790,7 +9859,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9802,7 +9871,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9814,7 +9883,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9826,7 +9895,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9838,7 +9907,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9850,7 +9919,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -9862,7 +9931,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                     new Car
                     {
@@ -9874,7 +9943,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -9886,7 +9955,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -9898,7 +9967,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -9910,7 +9979,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -9922,7 +9991,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -9934,7 +10003,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -9946,7 +10015,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -9958,7 +10027,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -9970,7 +10039,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -9982,7 +10051,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -9994,7 +10063,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10006,7 +10075,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10018,7 +10087,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10030,7 +10099,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10042,7 +10111,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10054,7 +10123,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10066,7 +10135,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10078,7 +10147,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10090,7 +10159,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10102,7 +10171,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10114,7 +10183,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10126,7 +10195,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10138,7 +10207,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10150,7 +10219,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10162,7 +10231,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10174,7 +10243,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10186,7 +10255,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10198,7 +10267,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10210,7 +10279,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10222,7 +10291,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10234,7 +10303,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10246,7 +10315,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10258,7 +10327,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10270,7 +10339,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10282,7 +10351,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10294,7 +10363,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10306,7 +10375,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10318,7 +10387,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10330,7 +10399,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10342,7 +10411,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10354,7 +10423,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10366,7 +10435,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10378,7 +10447,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10390,7 +10459,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10402,7 +10471,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10414,7 +10483,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10426,7 +10495,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10438,7 +10507,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10450,7 +10519,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10462,7 +10531,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10474,7 +10543,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10486,7 +10555,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10498,7 +10567,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10510,7 +10579,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10522,7 +10591,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10534,7 +10603,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10546,7 +10615,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10558,7 +10627,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10570,7 +10639,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10582,7 +10651,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10594,7 +10663,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10606,7 +10675,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10618,7 +10687,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10630,7 +10699,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10642,7 +10711,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10654,7 +10723,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10666,7 +10735,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10678,7 +10747,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10690,7 +10759,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10702,7 +10771,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10714,7 +10783,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10726,7 +10795,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10738,7 +10807,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10750,7 +10819,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10762,7 +10831,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10774,7 +10843,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10786,7 +10855,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10798,7 +10867,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10810,7 +10879,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10822,7 +10891,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10834,7 +10903,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10846,7 +10915,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10858,7 +10927,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10870,7 +10939,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10882,7 +10951,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10894,7 +10963,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10906,7 +10975,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10918,7 +10987,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10930,7 +10999,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10942,7 +11011,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10954,7 +11023,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10966,7 +11035,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10978,7 +11047,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -10990,7 +11059,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11002,7 +11071,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11014,7 +11083,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11026,7 +11095,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11038,7 +11107,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11050,7 +11119,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11062,7 +11131,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11074,7 +11143,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11086,7 +11155,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11098,7 +11167,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11110,7 +11179,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11122,7 +11191,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11134,7 +11203,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11146,7 +11215,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11158,7 +11227,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11170,7 +11239,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11182,7 +11251,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11194,7 +11263,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11206,7 +11275,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11218,7 +11287,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11230,7 +11299,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11242,7 +11311,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11254,7 +11323,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11266,7 +11335,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11278,7 +11347,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11290,7 +11359,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11302,7 +11371,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11314,7 +11383,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11326,7 +11395,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11338,7 +11407,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11350,7 +11419,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11362,7 +11431,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11374,7 +11443,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11386,7 +11455,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11398,7 +11467,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11410,7 +11479,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11422,7 +11491,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11434,7 +11503,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11446,7 +11515,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11458,7 +11527,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11470,7 +11539,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11482,7 +11551,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11494,7 +11563,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11506,7 +11575,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11518,7 +11587,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11530,7 +11599,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11542,7 +11611,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11554,7 +11623,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11566,7 +11635,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11578,7 +11647,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11590,7 +11659,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11602,7 +11671,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11614,7 +11683,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11626,7 +11695,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11638,7 +11707,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11650,7 +11719,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11662,7 +11731,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11674,7 +11743,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11686,7 +11755,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11698,7 +11767,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11710,7 +11779,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11722,7 +11791,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11734,7 +11803,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11746,7 +11815,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11758,7 +11827,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11770,7 +11839,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11782,7 +11851,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11794,7 +11863,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11806,7 +11875,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11818,7 +11887,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11830,7 +11899,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11842,7 +11911,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11854,7 +11923,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11866,7 +11935,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11878,7 +11947,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11890,7 +11959,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11902,7 +11971,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11914,7 +11983,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11926,7 +11995,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11938,7 +12007,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11950,7 +12019,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11962,7 +12031,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11974,7 +12043,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11986,7 +12055,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -11998,7 +12067,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12010,7 +12079,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12022,7 +12091,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12034,7 +12103,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12046,7 +12115,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12058,7 +12127,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12070,7 +12139,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12082,7 +12151,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12094,7 +12163,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12106,7 +12175,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12118,7 +12187,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12130,7 +12199,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12142,7 +12211,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12154,7 +12223,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12166,7 +12235,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12178,7 +12247,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12189,7 +12258,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12200,7 +12269,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12211,7 +12280,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12222,7 +12291,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12233,7 +12302,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12244,7 +12313,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12255,7 +12324,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12266,7 +12335,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12277,7 +12346,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12288,7 +12357,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12299,7 +12368,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12310,7 +12379,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12321,7 +12390,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12332,7 +12401,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12343,7 +12412,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12354,7 +12423,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12365,7 +12434,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12376,7 +12445,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12387,7 +12456,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12398,7 +12467,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12409,7 +12478,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12421,7 +12490,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12432,7 +12501,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12443,7 +12512,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12454,7 +12523,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12465,7 +12534,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12476,7 +12545,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12487,7 +12556,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12498,7 +12567,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12509,7 +12578,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12520,7 +12589,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12531,7 +12600,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12542,7 +12611,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12553,7 +12622,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12564,7 +12633,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12575,7 +12644,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12586,7 +12655,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12597,7 +12666,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12608,7 +12677,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12619,7 +12688,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12630,7 +12699,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12641,7 +12710,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12652,7 +12721,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12663,7 +12732,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12674,7 +12743,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12685,7 +12754,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12696,7 +12765,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12707,7 +12776,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12718,7 +12787,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12729,7 +12798,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12740,7 +12809,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12751,7 +12820,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12762,7 +12831,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12773,7 +12842,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12784,7 +12853,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12795,7 +12864,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12806,7 +12875,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12817,7 +12886,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12829,7 +12898,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12841,7 +12910,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12852,7 +12921,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12863,7 +12932,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12874,7 +12943,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12885,7 +12954,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12896,7 +12965,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12907,7 +12976,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12918,7 +12987,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12929,7 +12998,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12940,7 +13009,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12952,7 +13021,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -12964,7 +13033,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12975,7 +13044,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12986,7 +13055,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -12997,7 +13066,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13008,7 +13077,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13019,7 +13088,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13030,7 +13099,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13041,7 +13110,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13052,7 +13121,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13063,7 +13132,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13074,7 +13143,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13085,7 +13154,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13096,7 +13165,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13107,7 +13176,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13118,7 +13187,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13129,7 +13198,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13140,7 +13209,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13151,7 +13220,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13162,7 +13231,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13173,7 +13242,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13184,7 +13253,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13195,7 +13264,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13206,7 +13275,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13217,7 +13286,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13228,7 +13297,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13239,7 +13308,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13250,7 +13319,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13261,7 +13330,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13272,7 +13341,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13283,7 +13352,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13294,7 +13363,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13305,7 +13374,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13316,7 +13385,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -13328,7 +13397,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -13340,7 +13409,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13351,7 +13420,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13362,7 +13431,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13373,7 +13442,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13384,7 +13453,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13395,7 +13464,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13406,7 +13475,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13417,7 +13486,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13428,7 +13497,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13439,7 +13508,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13450,7 +13519,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13461,7 +13530,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -13473,7 +13542,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13484,7 +13553,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13495,7 +13564,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13506,7 +13575,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13517,7 +13586,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13528,7 +13597,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13539,7 +13608,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13550,7 +13619,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13561,7 +13630,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13572,7 +13641,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13583,7 +13652,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -13595,7 +13664,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -13607,7 +13676,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13618,7 +13687,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13629,7 +13698,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13640,7 +13709,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13651,7 +13720,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13662,7 +13731,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13673,7 +13742,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13684,7 +13753,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13695,7 +13764,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13706,7 +13775,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13717,7 +13786,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13728,7 +13797,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -13740,7 +13809,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -13752,7 +13821,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13763,7 +13832,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13774,7 +13843,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13785,7 +13854,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13796,7 +13865,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13807,7 +13876,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -13819,7 +13888,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -13831,7 +13900,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -13843,7 +13912,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13854,7 +13923,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13865,7 +13934,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13876,7 +13945,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13887,7 +13956,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13898,7 +13967,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -13910,7 +13979,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13921,7 +13990,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13932,7 +14001,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13943,7 +14012,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13954,7 +14023,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13965,7 +14034,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13976,7 +14045,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13987,7 +14056,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -13998,7 +14067,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14009,7 +14078,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14020,7 +14089,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14031,7 +14100,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14042,7 +14111,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14053,7 +14122,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14064,7 +14133,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14075,7 +14144,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14086,7 +14155,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14097,7 +14166,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14108,7 +14177,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14119,7 +14188,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14130,7 +14199,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14141,7 +14210,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14153,7 +14222,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14164,7 +14233,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14175,7 +14244,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14186,7 +14255,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14197,7 +14266,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14208,7 +14277,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14219,7 +14288,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14231,7 +14300,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14242,7 +14311,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14253,7 +14322,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14264,7 +14333,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14275,7 +14344,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14286,7 +14355,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14297,7 +14366,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14308,7 +14377,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14319,7 +14388,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14330,7 +14399,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14341,7 +14410,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14353,7 +14422,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14364,7 +14433,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14375,7 +14444,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14386,7 +14455,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14397,7 +14466,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14408,7 +14477,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14419,7 +14488,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14430,7 +14499,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14441,7 +14510,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14452,7 +14521,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14463,7 +14532,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14474,7 +14543,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14485,7 +14554,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -14496,7 +14565,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14508,7 +14577,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14520,7 +14589,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14532,7 +14601,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14544,7 +14613,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14556,7 +14625,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14568,7 +14637,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14580,7 +14649,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14592,7 +14661,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14604,7 +14673,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14616,7 +14685,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14628,7 +14697,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14640,7 +14709,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14652,7 +14721,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14664,7 +14733,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14676,7 +14745,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14688,7 +14757,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14700,7 +14769,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14712,7 +14781,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14724,7 +14793,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14736,7 +14805,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14748,7 +14817,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14760,7 +14829,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14772,7 +14841,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14784,7 +14853,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14796,7 +14865,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14808,7 +14877,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14820,7 +14889,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14832,7 +14901,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14844,7 +14913,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14856,7 +14925,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14868,7 +14937,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14880,7 +14949,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14892,7 +14961,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14904,7 +14973,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14916,7 +14985,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14928,7 +14997,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14940,7 +15009,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14952,7 +15021,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14964,7 +15033,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14976,7 +15045,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -14988,7 +15057,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15000,7 +15069,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15012,7 +15081,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15024,7 +15093,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15036,7 +15105,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15048,7 +15117,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15060,7 +15129,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15072,7 +15141,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15084,7 +15153,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15096,7 +15165,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15108,7 +15177,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15120,7 +15189,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15132,7 +15201,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15144,7 +15213,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15156,7 +15225,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15168,7 +15237,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15180,7 +15249,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15192,7 +15261,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15204,7 +15273,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15216,7 +15285,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15228,7 +15297,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15240,7 +15309,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15252,7 +15321,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15264,7 +15333,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15276,7 +15345,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15288,7 +15357,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15300,7 +15369,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15312,7 +15381,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15324,7 +15393,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15336,7 +15405,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15348,7 +15417,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15360,7 +15429,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15372,7 +15441,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -15383,7 +15452,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15395,7 +15464,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15407,7 +15476,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15419,7 +15488,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15431,7 +15500,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15443,7 +15512,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15455,7 +15524,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15467,7 +15536,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15479,7 +15548,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15491,7 +15560,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -15503,7 +15572,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                      new Car
                      {
@@ -15515,7 +15584,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15527,7 +15596,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15539,7 +15608,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15551,7 +15620,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15563,7 +15632,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15575,7 +15644,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15587,7 +15656,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15599,7 +15668,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15611,7 +15680,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15623,7 +15692,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15635,7 +15704,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15647,7 +15716,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15659,7 +15728,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15671,7 +15740,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15683,7 +15752,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15695,7 +15764,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15707,7 +15776,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15719,7 +15788,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15731,7 +15800,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15743,7 +15812,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15755,7 +15824,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15767,7 +15836,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15779,7 +15848,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15791,7 +15860,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15803,7 +15872,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15815,7 +15884,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15827,7 +15896,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15839,7 +15908,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15851,7 +15920,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15863,7 +15932,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15875,7 +15944,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15887,7 +15956,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15899,7 +15968,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15911,7 +15980,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15923,7 +15992,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15935,7 +16004,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15947,7 +16016,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15959,7 +16028,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15971,7 +16040,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15983,7 +16052,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -15995,7 +16064,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16007,7 +16076,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16019,7 +16088,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16031,7 +16100,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16043,7 +16112,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16055,7 +16124,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16067,7 +16136,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16079,7 +16148,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16091,7 +16160,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16103,7 +16172,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16115,7 +16184,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16127,7 +16196,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16139,7 +16208,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16151,7 +16220,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16163,7 +16232,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16175,7 +16244,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16187,7 +16256,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16199,7 +16268,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16211,7 +16280,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16223,7 +16292,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16235,7 +16304,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16247,7 +16316,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16259,7 +16328,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16271,7 +16340,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16283,7 +16352,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16295,7 +16364,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16307,7 +16376,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16319,7 +16388,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16331,7 +16400,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16343,7 +16412,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16355,7 +16424,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16367,7 +16436,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16379,7 +16448,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16391,7 +16460,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16403,7 +16472,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16415,7 +16484,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16427,7 +16496,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16439,7 +16508,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16451,7 +16520,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16463,7 +16532,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16475,7 +16544,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16487,7 +16556,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16499,7 +16568,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16511,7 +16580,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16523,7 +16592,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16535,7 +16604,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16547,7 +16616,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16559,7 +16628,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16571,7 +16640,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16583,7 +16652,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16595,7 +16664,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16607,7 +16676,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16619,7 +16688,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16631,7 +16700,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -16643,7 +16712,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Manual,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                     new Car
                     {
@@ -16655,7 +16724,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16667,7 +16736,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16679,7 +16748,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16691,7 +16760,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16703,7 +16772,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16715,7 +16784,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16727,7 +16796,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16739,7 +16808,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16751,7 +16820,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16763,7 +16832,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16775,7 +16844,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16787,7 +16856,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16799,7 +16868,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16811,7 +16880,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16823,7 +16892,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16835,7 +16904,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16847,7 +16916,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16859,7 +16928,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16871,7 +16940,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16883,7 +16952,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16895,7 +16964,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16907,7 +16976,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16919,7 +16988,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16931,7 +17000,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16943,7 +17012,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16955,7 +17024,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16967,7 +17036,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16979,7 +17048,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -16991,7 +17060,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17003,7 +17072,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17015,7 +17084,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17027,7 +17096,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17039,7 +17108,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17051,7 +17120,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17063,7 +17132,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17075,7 +17144,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17087,7 +17156,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17099,7 +17168,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17111,7 +17180,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17123,7 +17192,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17135,7 +17204,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17147,7 +17216,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17159,7 +17228,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17171,7 +17240,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17183,7 +17252,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17195,7 +17264,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17207,7 +17276,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17219,7 +17288,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17231,7 +17300,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17243,7 +17312,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17255,7 +17324,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17267,7 +17336,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17279,7 +17348,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17291,7 +17360,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17303,7 +17372,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17315,7 +17384,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17327,7 +17396,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17339,7 +17408,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17351,7 +17420,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17363,7 +17432,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17375,7 +17444,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17387,7 +17456,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17399,7 +17468,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17411,7 +17480,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17423,7 +17492,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17435,7 +17504,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17447,7 +17516,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17459,7 +17528,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17471,7 +17540,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17483,7 +17552,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17495,7 +17564,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17507,7 +17576,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17519,7 +17588,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17531,7 +17600,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17543,7 +17612,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17555,7 +17624,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17567,7 +17636,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17579,7 +17648,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17591,7 +17660,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17603,7 +17672,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17615,7 +17684,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17627,7 +17696,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17639,7 +17708,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17651,7 +17720,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17663,7 +17732,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17675,7 +17744,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17687,7 +17756,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17699,7 +17768,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17711,7 +17780,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17723,7 +17792,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17735,7 +17804,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17747,7 +17816,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17759,7 +17828,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17771,7 +17840,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17783,7 +17852,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17795,7 +17864,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17807,7 +17876,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17819,7 +17888,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17831,7 +17900,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17843,7 +17912,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17855,7 +17924,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17867,7 +17936,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17879,7 +17948,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17891,7 +17960,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17903,7 +17972,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17915,7 +17984,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17927,7 +17996,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17939,7 +18008,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17951,7 +18020,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17963,7 +18032,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17975,7 +18044,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17987,7 +18056,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -17999,7 +18068,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18011,7 +18080,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18023,7 +18092,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18035,7 +18104,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18047,7 +18116,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18059,7 +18128,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18071,7 +18140,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18083,7 +18152,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18095,7 +18164,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18107,7 +18176,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18119,7 +18188,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18131,7 +18200,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18143,7 +18212,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18155,7 +18224,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18167,7 +18236,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18179,7 +18248,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18191,7 +18260,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18203,7 +18272,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18215,7 +18284,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18227,7 +18296,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18239,7 +18308,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18251,7 +18320,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18263,7 +18332,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18275,7 +18344,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18287,7 +18356,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18299,7 +18368,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18311,7 +18380,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18323,7 +18392,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18335,7 +18404,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18347,7 +18416,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18359,7 +18428,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18371,7 +18440,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18383,7 +18452,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18395,7 +18464,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18407,7 +18476,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18419,7 +18488,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18431,7 +18500,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18443,7 +18512,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18455,7 +18524,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18467,7 +18536,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18479,7 +18548,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18491,7 +18560,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18503,7 +18572,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18515,7 +18584,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18527,7 +18596,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18539,7 +18608,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18551,7 +18620,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18563,7 +18632,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18575,7 +18644,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18587,7 +18656,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18599,7 +18668,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18611,7 +18680,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18623,7 +18692,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18635,7 +18704,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18647,7 +18716,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18659,7 +18728,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18671,7 +18740,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18683,7 +18752,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18695,7 +18764,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18707,7 +18776,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18719,7 +18788,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18731,7 +18800,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18743,7 +18812,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18755,7 +18824,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18767,7 +18836,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18779,7 +18848,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18791,7 +18860,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18803,7 +18872,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18815,7 +18884,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18827,7 +18896,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18839,7 +18908,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18851,7 +18920,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18863,7 +18932,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18875,7 +18944,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18887,7 +18956,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18899,7 +18968,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18911,7 +18980,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18923,7 +18992,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18935,7 +19004,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18947,7 +19016,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -18959,7 +19028,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -18970,7 +19039,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -18981,7 +19050,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -18992,7 +19061,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19003,7 +19072,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19014,7 +19083,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19025,7 +19094,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19036,7 +19105,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19047,7 +19116,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19058,7 +19127,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19069,7 +19138,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19080,7 +19149,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19091,7 +19160,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19102,7 +19171,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19113,7 +19182,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19124,7 +19193,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19135,7 +19204,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19146,7 +19215,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19157,7 +19226,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19168,7 +19237,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19179,7 +19248,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19190,7 +19259,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -19202,7 +19271,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19213,7 +19282,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19224,7 +19293,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19235,7 +19304,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19246,7 +19315,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19257,7 +19326,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19268,7 +19337,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19279,7 +19348,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19290,7 +19359,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19301,7 +19370,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19312,7 +19381,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19323,7 +19392,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19334,7 +19403,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19345,7 +19414,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19356,7 +19425,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19367,7 +19436,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19378,7 +19447,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19389,7 +19458,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19400,7 +19469,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19411,7 +19480,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19422,7 +19491,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19433,7 +19502,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19444,7 +19513,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19455,7 +19524,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19466,7 +19535,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19477,7 +19546,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19488,7 +19557,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19499,7 +19568,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19510,7 +19579,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19521,7 +19590,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19532,7 +19601,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19543,7 +19612,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19554,7 +19623,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19565,7 +19634,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19576,7 +19645,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19587,7 +19656,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19598,7 +19667,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -19610,7 +19679,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -19622,7 +19691,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19633,7 +19702,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19644,7 +19713,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19655,7 +19724,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19666,7 +19735,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19677,7 +19746,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19688,7 +19757,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19699,7 +19768,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19710,7 +19779,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19721,7 +19790,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -19733,7 +19802,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -19745,7 +19814,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19756,7 +19825,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19767,7 +19836,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19778,7 +19847,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19789,7 +19858,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19800,7 +19869,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19811,7 +19880,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19822,7 +19891,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19833,7 +19902,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19844,7 +19913,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19855,7 +19924,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19866,7 +19935,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19877,7 +19946,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19888,7 +19957,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19899,7 +19968,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19910,7 +19979,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19921,7 +19990,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19932,7 +20001,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19943,7 +20012,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19954,7 +20023,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19965,7 +20034,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19976,7 +20045,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19987,7 +20056,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -19998,7 +20067,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20009,7 +20078,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20020,7 +20089,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20031,7 +20100,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20042,7 +20111,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20053,7 +20122,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20064,7 +20133,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20075,7 +20144,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20086,7 +20155,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20097,7 +20166,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -20109,7 +20178,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -20121,7 +20190,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20132,7 +20201,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20143,7 +20212,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20154,7 +20223,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20165,7 +20234,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20176,7 +20245,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20187,7 +20256,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20198,7 +20267,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20209,7 +20278,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20220,7 +20289,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20231,7 +20300,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20242,7 +20311,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -20254,7 +20323,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20265,7 +20334,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20276,7 +20345,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20287,7 +20356,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20298,7 +20367,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20309,7 +20378,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20320,7 +20389,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20331,7 +20400,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20342,7 +20411,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20353,7 +20422,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20364,7 +20433,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -20376,7 +20445,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -20388,7 +20457,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20399,7 +20468,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20410,7 +20479,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20421,7 +20490,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20432,7 +20501,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20443,7 +20512,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20454,7 +20523,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20465,7 +20534,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20476,7 +20545,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20487,7 +20556,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20498,7 +20567,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20509,7 +20578,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -20521,7 +20590,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -20533,7 +20602,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20544,7 +20613,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20555,7 +20624,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20566,7 +20635,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20577,7 +20646,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20588,7 +20657,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -20600,7 +20669,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -20612,7 +20681,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -20624,7 +20693,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20635,7 +20704,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20646,7 +20715,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20657,7 +20726,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20668,7 +20737,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20679,7 +20748,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -20691,7 +20760,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20702,7 +20771,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20713,7 +20782,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20724,7 +20793,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20735,7 +20804,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20746,7 +20815,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20757,7 +20826,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20768,7 +20837,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20779,7 +20848,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20790,7 +20859,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20801,7 +20870,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20812,7 +20881,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20823,7 +20892,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20834,7 +20903,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20845,7 +20914,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20856,7 +20925,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20867,7 +20936,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20878,7 +20947,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20889,7 +20958,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20900,7 +20969,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20911,7 +20980,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20922,7 +20991,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -20934,7 +21003,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20945,7 +21014,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20956,7 +21025,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20967,7 +21036,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20978,7 +21047,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -20989,7 +21058,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21000,7 +21069,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21012,7 +21081,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21023,7 +21092,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21034,7 +21103,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21045,7 +21114,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21056,7 +21125,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21067,7 +21136,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21078,7 +21147,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21089,7 +21158,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21100,7 +21169,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21111,7 +21180,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21122,7 +21191,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21134,7 +21203,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21145,7 +21214,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21156,7 +21225,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21167,7 +21236,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21178,7 +21247,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21189,7 +21258,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21200,7 +21269,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21211,7 +21280,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21222,7 +21291,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21233,7 +21302,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21244,7 +21313,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21255,7 +21324,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21266,7 +21335,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -21277,7 +21346,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Manual,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                      new Car
                      {
@@ -21289,7 +21358,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                     new Car
                     {
@@ -21301,7 +21370,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21313,7 +21382,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21325,7 +21394,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21337,7 +21406,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21349,7 +21418,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21361,7 +21430,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21373,7 +21442,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21385,7 +21454,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21397,7 +21466,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21409,7 +21478,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21421,7 +21490,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21433,7 +21502,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21445,7 +21514,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21457,7 +21526,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21469,7 +21538,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21481,7 +21550,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21493,7 +21562,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21505,7 +21574,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21517,7 +21586,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21529,7 +21598,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21541,7 +21610,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21553,7 +21622,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21565,7 +21634,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21577,7 +21646,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21589,7 +21658,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21601,7 +21670,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21613,7 +21682,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21625,7 +21694,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21637,7 +21706,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21649,7 +21718,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21661,7 +21730,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21673,7 +21742,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21685,7 +21754,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21697,7 +21766,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21709,7 +21778,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21721,7 +21790,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21733,7 +21802,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21745,7 +21814,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21757,7 +21826,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21769,7 +21838,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21781,7 +21850,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21793,7 +21862,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21805,7 +21874,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21817,7 +21886,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21829,7 +21898,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21841,7 +21910,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21853,7 +21922,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21865,7 +21934,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21877,7 +21946,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21889,7 +21958,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21901,7 +21970,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21913,7 +21982,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21925,7 +21994,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21937,7 +22006,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21949,7 +22018,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21961,7 +22030,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21973,7 +22042,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21985,7 +22054,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -21997,7 +22066,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22009,7 +22078,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22021,7 +22090,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22033,7 +22102,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22045,7 +22114,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22057,7 +22126,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22069,7 +22138,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22081,7 +22150,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22093,7 +22162,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22105,7 +22174,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22117,7 +22186,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22129,7 +22198,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22141,7 +22210,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22153,7 +22222,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -22164,7 +22233,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22176,7 +22245,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22188,7 +22257,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22200,7 +22269,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22212,7 +22281,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22224,7 +22293,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22236,7 +22305,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22248,7 +22317,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22260,7 +22329,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22272,7 +22341,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -22284,7 +22353,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                      new Car
                      {
@@ -22296,7 +22365,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22308,7 +22377,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22320,7 +22389,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22332,7 +22401,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22344,7 +22413,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22356,7 +22425,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22368,7 +22437,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22380,7 +22449,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22392,7 +22461,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22404,7 +22473,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22416,7 +22485,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22428,7 +22497,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22440,7 +22509,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22452,7 +22521,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22464,7 +22533,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22476,7 +22545,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22488,7 +22557,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22500,7 +22569,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22512,7 +22581,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22524,7 +22593,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22536,7 +22605,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22548,7 +22617,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22560,7 +22629,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22572,7 +22641,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22584,7 +22653,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22596,7 +22665,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22608,7 +22677,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22620,7 +22689,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22632,7 +22701,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22644,7 +22713,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22656,7 +22725,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22668,7 +22737,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22680,7 +22749,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22692,7 +22761,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22704,7 +22773,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22716,7 +22785,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22728,7 +22797,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22740,7 +22809,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22752,7 +22821,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22764,7 +22833,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22776,7 +22845,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22788,7 +22857,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22800,7 +22869,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22812,7 +22881,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22824,7 +22893,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22836,7 +22905,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22848,7 +22917,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22860,7 +22929,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22872,7 +22941,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22884,7 +22953,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22896,7 +22965,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22908,7 +22977,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22920,7 +22989,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22932,7 +23001,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22944,7 +23013,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22956,7 +23025,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22968,7 +23037,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22980,7 +23049,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -22992,7 +23061,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23004,7 +23073,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23016,7 +23085,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23028,7 +23097,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23040,7 +23109,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23052,7 +23121,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23064,7 +23133,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23076,7 +23145,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23088,7 +23157,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23100,7 +23169,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23112,7 +23181,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23124,7 +23193,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23136,7 +23205,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23148,7 +23217,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23160,7 +23229,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23172,7 +23241,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23184,7 +23253,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23196,7 +23265,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23208,7 +23277,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23220,7 +23289,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23232,7 +23301,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23244,7 +23313,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23256,7 +23325,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23268,7 +23337,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23280,7 +23349,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23292,7 +23361,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23304,7 +23373,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23316,7 +23385,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23328,7 +23397,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23340,7 +23409,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23352,7 +23421,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23364,7 +23433,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23376,7 +23445,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23388,7 +23457,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23400,7 +23469,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23412,7 +23481,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                      new Car
                      {
@@ -23424,7 +23493,7 @@ namespace HorsePowerStore.Data
                          Drive = Drive.RearWD,
                          Transmission = Transmission.Automatic,
                          Fuel = Fuel.Gasoline,
-                         CompatibleEngines = context.Engines.ToList()
+                         CompatibleEngines = context.EngineInstalls.ToList()
                      },
                     new Car
                     {
@@ -23436,7 +23505,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23448,7 +23517,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23460,7 +23529,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23472,7 +23541,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23484,7 +23553,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23496,7 +23565,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23508,7 +23577,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23520,7 +23589,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23532,7 +23601,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23544,7 +23613,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23556,7 +23625,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23568,7 +23637,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23580,7 +23649,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23592,7 +23661,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23604,7 +23673,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23616,7 +23685,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23628,7 +23697,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23640,7 +23709,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23652,7 +23721,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23664,7 +23733,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23676,7 +23745,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23688,7 +23757,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23700,7 +23769,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23712,7 +23781,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23724,7 +23793,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23736,7 +23805,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23748,7 +23817,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23760,7 +23829,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23772,7 +23841,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23784,7 +23853,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23796,7 +23865,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23808,7 +23877,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23820,7 +23889,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23832,7 +23901,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23844,7 +23913,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23856,7 +23925,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23868,7 +23937,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23880,7 +23949,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23892,7 +23961,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23904,7 +23973,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23916,7 +23985,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23928,7 +23997,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23940,7 +24009,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23952,7 +24021,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23964,7 +24033,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23976,7 +24045,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -23988,7 +24057,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24000,7 +24069,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24012,7 +24081,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24024,7 +24093,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24036,7 +24105,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24048,7 +24117,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24060,7 +24129,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24072,7 +24141,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24084,7 +24153,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24096,7 +24165,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24108,7 +24177,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24120,7 +24189,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24132,7 +24201,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24144,7 +24213,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24156,7 +24225,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24168,7 +24237,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24180,7 +24249,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24192,7 +24261,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24204,7 +24273,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24216,7 +24285,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24228,7 +24297,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24240,7 +24309,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24252,7 +24321,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24264,7 +24333,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24276,7 +24345,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24288,7 +24357,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24300,7 +24369,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24312,7 +24381,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24324,7 +24393,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24336,7 +24405,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24348,7 +24417,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24360,7 +24429,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24372,7 +24441,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24384,7 +24453,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24396,7 +24465,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24408,7 +24477,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24420,7 +24489,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24432,7 +24501,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24444,7 +24513,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24456,7 +24525,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24468,7 +24537,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24480,7 +24549,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24492,7 +24561,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24504,7 +24573,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24516,7 +24585,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24528,7 +24597,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24540,7 +24609,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24552,7 +24621,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24564,7 +24633,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24576,7 +24645,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24588,7 +24657,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24600,7 +24669,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24612,7 +24681,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24624,7 +24693,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24636,7 +24705,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24648,7 +24717,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24660,7 +24729,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24672,7 +24741,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24684,7 +24753,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24696,7 +24765,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24708,7 +24777,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24720,7 +24789,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24732,7 +24801,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24744,7 +24813,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24756,7 +24825,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24768,7 +24837,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24780,7 +24849,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24792,7 +24861,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24804,7 +24873,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24816,7 +24885,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24828,7 +24897,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24840,7 +24909,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24852,7 +24921,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24864,7 +24933,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24876,7 +24945,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24888,7 +24957,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24900,7 +24969,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24912,7 +24981,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24924,7 +24993,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24936,7 +25005,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24948,7 +25017,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24960,7 +25029,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24972,7 +25041,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24984,7 +25053,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -24996,7 +25065,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25008,7 +25077,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25020,7 +25089,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25032,7 +25101,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25044,7 +25113,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25056,7 +25125,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25068,7 +25137,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25080,7 +25149,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25092,7 +25161,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25104,7 +25173,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25116,7 +25185,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25128,7 +25197,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25140,7 +25209,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25152,7 +25221,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25164,7 +25233,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25176,7 +25245,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25188,7 +25257,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25200,7 +25269,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25212,7 +25281,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25224,7 +25293,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25236,7 +25305,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25248,7 +25317,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25260,7 +25329,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25272,7 +25341,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25284,7 +25353,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25296,7 +25365,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25308,7 +25377,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25320,7 +25389,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25332,7 +25401,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25344,7 +25413,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25356,7 +25425,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25368,7 +25437,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25380,7 +25449,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25392,7 +25461,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25404,7 +25473,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25416,7 +25485,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25428,7 +25497,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25440,7 +25509,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25452,7 +25521,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25464,7 +25533,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25476,7 +25545,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25488,7 +25557,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25500,7 +25569,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25512,7 +25581,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25524,7 +25593,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25536,7 +25605,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25548,7 +25617,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25560,7 +25629,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25572,7 +25641,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25584,7 +25653,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25596,7 +25665,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25608,7 +25677,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25620,7 +25689,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25632,7 +25701,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25644,7 +25713,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25656,7 +25725,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25668,7 +25737,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25680,7 +25749,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25692,7 +25761,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25704,7 +25773,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25716,7 +25785,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25728,7 +25797,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25740,7 +25809,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25751,7 +25820,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25762,7 +25831,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25773,7 +25842,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25784,7 +25853,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25795,7 +25864,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25806,7 +25875,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25817,7 +25886,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25828,7 +25897,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25839,7 +25908,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25850,7 +25919,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25861,7 +25930,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25872,7 +25941,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25883,7 +25952,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25894,7 +25963,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25905,7 +25974,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25916,7 +25985,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25927,7 +25996,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25938,7 +26007,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25949,7 +26018,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25960,7 +26029,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25971,7 +26040,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -25983,7 +26052,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -25994,7 +26063,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26005,7 +26074,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26016,7 +26085,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26027,7 +26096,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26038,7 +26107,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26049,7 +26118,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26060,7 +26129,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26071,7 +26140,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26082,7 +26151,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26093,7 +26162,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26104,7 +26173,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26115,7 +26184,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26126,7 +26195,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26137,7 +26206,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26148,7 +26217,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26159,7 +26228,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26170,7 +26239,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26181,7 +26250,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26192,7 +26261,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26203,7 +26272,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26214,7 +26283,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26225,7 +26294,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26236,7 +26305,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26247,7 +26316,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26258,7 +26327,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26269,7 +26338,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26280,7 +26349,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26291,7 +26360,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26302,7 +26371,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26313,7 +26382,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26324,7 +26393,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26335,7 +26404,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26346,7 +26415,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26357,7 +26426,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26368,7 +26437,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26379,7 +26448,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -26391,7 +26460,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -26403,7 +26472,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26414,7 +26483,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26425,7 +26494,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26436,7 +26505,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26447,7 +26516,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26458,7 +26527,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26469,7 +26538,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26480,7 +26549,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26491,7 +26560,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26502,7 +26571,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -26514,7 +26583,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -26526,7 +26595,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26537,7 +26606,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26548,7 +26617,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26559,7 +26628,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26570,7 +26639,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26581,7 +26650,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26592,7 +26661,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26603,7 +26672,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26614,7 +26683,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26625,7 +26694,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26636,7 +26705,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26647,7 +26716,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26658,7 +26727,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26669,7 +26738,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26680,7 +26749,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26691,7 +26760,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26702,7 +26771,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26713,7 +26782,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26724,7 +26793,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26735,7 +26804,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26746,7 +26815,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26757,7 +26826,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26768,7 +26837,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26779,7 +26848,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26790,7 +26859,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26801,7 +26870,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26812,7 +26881,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26823,7 +26892,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26834,7 +26903,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26845,7 +26914,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26856,7 +26925,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26867,7 +26936,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26878,7 +26947,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -26890,7 +26959,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -26902,7 +26971,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26913,7 +26982,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26924,7 +26993,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26935,7 +27004,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26946,7 +27015,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26957,7 +27026,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26968,7 +27037,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26979,7 +27048,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -26990,7 +27059,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27001,7 +27070,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27012,7 +27081,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27023,7 +27092,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -27035,7 +27104,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27046,7 +27115,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27057,7 +27126,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27068,7 +27137,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27079,7 +27148,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27090,7 +27159,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27101,7 +27170,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27112,7 +27181,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27123,7 +27192,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27134,7 +27203,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27145,7 +27214,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -27157,7 +27226,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -27169,7 +27238,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27180,7 +27249,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27191,7 +27260,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27202,7 +27271,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27213,7 +27282,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27224,7 +27293,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27235,7 +27304,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27246,7 +27315,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27257,7 +27326,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27268,7 +27337,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27279,7 +27348,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27290,7 +27359,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -27302,7 +27371,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -27314,7 +27383,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27325,7 +27394,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27336,7 +27405,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27347,7 +27416,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27358,7 +27427,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27369,7 +27438,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -27381,7 +27450,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -27393,7 +27462,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -27405,7 +27474,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27416,7 +27485,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27427,7 +27496,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27438,7 +27507,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27449,7 +27518,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27460,7 +27529,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -27472,7 +27541,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27483,7 +27552,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27494,7 +27563,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27505,7 +27574,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27516,7 +27585,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27527,7 +27596,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27538,7 +27607,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27549,7 +27618,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27560,7 +27629,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27571,7 +27640,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27582,7 +27651,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27593,7 +27662,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27604,7 +27673,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27615,7 +27684,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27626,7 +27695,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27637,7 +27706,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27648,7 +27717,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27659,7 +27728,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27670,7 +27739,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27681,7 +27750,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27692,7 +27761,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27703,7 +27772,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -27715,7 +27784,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27726,7 +27795,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27737,7 +27806,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27748,7 +27817,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27759,7 +27828,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27770,7 +27839,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27781,7 +27850,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -27793,7 +27862,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27804,7 +27873,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27815,7 +27884,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27826,7 +27895,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27837,7 +27906,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27848,7 +27917,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27859,7 +27928,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27870,7 +27939,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27881,7 +27950,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27892,7 +27961,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27903,7 +27972,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     },
                     new Car
                     {
@@ -27915,7 +27984,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27926,7 +27995,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27937,7 +28006,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27948,7 +28017,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27959,7 +28028,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27970,7 +28039,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27981,7 +28050,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -27992,7 +28061,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -28003,7 +28072,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -28014,7 +28083,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -28025,7 +28094,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -28036,7 +28105,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -28047,7 +28116,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }, new Car
                     {
                         //Id = 1,
@@ -28058,7 +28127,7 @@ namespace HorsePowerStore.Data
                         Drive = Drive.RearWD,
                         Transmission = Transmission.Automatic,
                         Fuel = Fuel.Gasoline,
-                        CompatibleEngines = context.Engines.ToList()
+                        CompatibleEngines = context.EngineInstalls.ToList()
                     }
                 );
                 context.SaveChanges();
