@@ -33,7 +33,7 @@ namespace HorsePowerStore.Controllers
         [HttpGet("{id}/ratings/{page}")]
         public ProductViewModel GetProductWithRatings(int id, int page)
         {
-            return productsService.GetProductWithRatings(id, page * pageLength, pageLength);
+            return productsService.GetProductWithRatings(id, page * pageLength, pageLength, User.Identity.Name);
         }
 
         [Authorize]
