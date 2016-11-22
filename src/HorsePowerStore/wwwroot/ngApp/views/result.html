@@ -52,6 +52,7 @@
                         </form>
                         <br />
                         {{item.product.description}}<br />
+                        <label class="addCheckbox"><input type="checkbox" class="checkbox" value="{{item.product.id}}" title="Add product">Add</label><br />
                         <img class="center img-responsive" src="{{item.product.imageSource}}" width="550" />
                     </dd>
                 </dl> 
@@ -62,7 +63,7 @@
             <p>
                 Your Car: <br />
                 {{controller.info["car"]}}<br/>
-                <button class="btn btn-default saveCarButton" ng-click="controller.saveButton()">save</button>
+                <button class="btn btn-default saveCarButton" ng-click="controller.addProducts()">save</button>
            </p>
         </div>
         </div>

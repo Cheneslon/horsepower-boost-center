@@ -1,7 +1,7 @@
 namespace HorsePowerStore.Controllers {
 
     export class HomeController {//added showModal++ for login (DG)
-        
+
     }
 
     export class DialogController {//added DialogController to go with modal login (DG)
@@ -13,7 +13,7 @@ namespace HorsePowerStore.Controllers {
 
     }
     angular.module('HorsePowerStore').controller('DialogController', DialogController);
-    
+
 
 
 
@@ -24,7 +24,7 @@ namespace HorsePowerStore.Controllers {
     }
 
     export class ResultController {
-        public info = {}; 
+        public info = {};
         public products; // list of products for car
         public select = "product.price"; // sort <select> element
         public stars;
@@ -53,7 +53,7 @@ namespace HorsePowerStore.Controllers {
         }
 
         public canBuy(price) { // returns true if the item is in budget or false if it is over.
-            return this.startingBudget == 0 || price <= this.startingBudget - this.totalPrice;
+            return true;//this.startingBudget == 0 || price <= this.startingBudget - this.totalPrice;
         }
 
         public isLoggedIn(productId) {
@@ -61,7 +61,7 @@ namespace HorsePowerStore.Controllers {
         }
 
         public loginCheck() {
-            if (this.accountService.isLoggedIn()) return; 
+            if (this.accountService.isLoggedIn()) return;
             this.$uibModal.open({
                 templateUrl: '/ngApp/views/pleaseLoginDialog.html',
                 controller: 'PleaseDialogController',
@@ -86,9 +86,19 @@ namespace HorsePowerStore.Controllers {
             });
         }
 
+        public addProducts() {
+            var checkedValues = [];
+            var inputElements = document.querySelectorAll('.checkbox:checked');
+            for (var i = 0; inputElements[i]; i++) {
+                checkedValues.push(parseInt(inputElements[i].attributes.getNamedItem('value').nodeValue));
+            }
+            console.log(checkedValues);
+        }
+
         public saveButton() {
             this.carInstanceService.saveCarInstance(this.carInstance);
         }
+
     }
 
     class RatingsDialogController {
@@ -96,13 +106,13 @@ namespace HorsePowerStore.Controllers {
         public message;
         public beerstring = "beers";
 
-        constructor (
+        constructor(
             public ratingValue,
             public productId,
             private $uibModalInstance: angular.ui.bootstrap.IModalServiceInstance,
             private accountService: HorsePowerStore.Services.AccountService,
             private productsService: HorsePowerStore.Services.ProductsService) {
-            
+
             this.userName = accountService.getUserName();
 
             if (parseInt(this.ratingValue) == 1) {
