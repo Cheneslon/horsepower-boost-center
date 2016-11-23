@@ -16,7 +16,8 @@
         <br />Model
         <select class="form-control"  ng-model="controller.model"
               
-                ng-options="model as model.name for model in controller.make.models">
+                ng-options="model as model.name for model in controller.make.models"
+                ng-change="controller.getYears()">
             <option>Select</option>
         </select>
     </div>

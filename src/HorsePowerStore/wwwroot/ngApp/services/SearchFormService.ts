@@ -12,21 +12,47 @@
                     url: 'https://api.edmunds.com/api/vehicle/v2/:make/:model/:year/styles?fmt=json&api_key=mawsu5ejs266r89add5gxwqt',
                     isArray: false
                 },
+                getYears: {
+                    method: 'GET',
+                    url: '/api/cars/years/:model',
+                    isArray: true
+                },
+                getCars: {
+                    method: 'GET',
+                    url: '/api/cars/:make/:model/:year',
+                    isArray: true
+                }
             });
-
         }
+
         public getEdmundsMakes() {
             return this.searchFormResource.getEdmundsMakes();
-
         }
+
         private searchFormResource
-        public getEdmundsTrims(make, model, year) {
-            return this.searchFormResource.getEdmundsTrims({
+        public getEdmundsTrims(make, model, year, submodel) {
+
+            if (year >= 1990) return this.searchFormResource.getEdmundsTrims({
                 make: make,
                 model: model,
-                year: year
-            })
+                year: year,
+                submodel: submodel // added submodel
+            });
+
+            return this.searchFormResource.getCars({
+                make: make,
+                model: model,
+                year: year,
+                submodel: submodel // added submodel
+            });
         }
+
+        public getYears(model) {
+            return this.searchFormResource.getYears({
+                model: model
+            });
+        }
+
         public save(carId, budget:number) {
             window.sessionStorage.setItem('car', carId + ',' + budget); // saves id
         }

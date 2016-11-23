@@ -30,6 +30,24 @@
             this.searchFormService.save(this.car.id, this.budget ); // calls service
             this.$location.path('/result'); // bumps them to resultpage
         }
+
+        public getYears() {
+            this.searchFormService.getYears(this.model.name).$promise.then((years) => {
+                var currentYears = this.model.years.map((year) => year.year)
+                years = years
+                    .filter((year) => currentYears.indexOf(year) == -1)
+                    .map((year) => { return { id: null, year: year } })
+                
+                this.model.years = this.model.years.concat(years)
+
+                this.model.years.sort((a, b) => {
+                    if (a.year > b.year) return 1
+                    if (a.year < b.year) return -1
+                    return 0
+                })
+            });
+        }
+
         public getEdmundsTrims() {
             this.searchFormService.getEdmundsTrims(
                 this.make.name,
@@ -38,7 +56,7 @@
                 .$promise.then((cars) => {
                     this.cars = cars.styles;
                     this.car = null;
-            });
+                });
         }
     }
 }

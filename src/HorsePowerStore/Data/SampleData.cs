@@ -186,7 +186,8 @@ namespace HorsePowerStore.Data
                                         Years = 1953,
                                         Styles = new List<Style>(){
                                         new Style {
-                                         Name = "2dr Covertible"
+                                         Name = "2dr Covertible(235ci 6cyl 2A)",
+                                         Horsepower = 150
                                      }
                                          }
                                     }, new Year
@@ -196,21 +197,25 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name = "2dr Covertible"
+                                                Name = "2dr Covertible(235ci 2A)",
+                                                 Horsepower = 150
                                             }
                                         }
-                                    }, new Year
+                                    },
+                                    new Year
                                     {
                                         Years = 1955,
                                         Styles = new List<Style>()
                                         {
                                             new Style
                                             {
-                                                Name = "2dr Covertible (235ci 6cyl)"
+                                                Name = "2dr Convertible (235ci 6cyl 2A)",
+                                                Horsepower = 155
                                             },
                                             new Style
                                             {
-                                                Name ="2dr Covertible (265ci 8cyl)"
+                                                Name ="2dr Convertible (265ci 8cyl 3M)",
+                                                 Horsepower = 195
                                             }
                                         }
                                     }, new Year
@@ -220,11 +225,18 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name = "2dr Covertible (235ci 6cyl)"
+                                                Name = "2dr Convertible (265ci 8cyl)",
+                                                 Horsepower = 210
                                             },
                                             new Style
                                             {
-                                                Name ="2dr Covertible (265ci 8cyl)"
+                                                Name ="2dr Convertible (265ci 8cyl)",
+                                                 Horsepower = 225
+                                            },
+                                            new Style
+                                            {
+                                                Name ="2dr Covertible (265ci 8cyl)",
+                                                 Horsepower = 240
                                             }
                                         }
                                     }, new Year
@@ -234,11 +246,28 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name = "2dr Covertible (283ci 8cyl 4M)"
+                                                Name = "2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 245
                                             },
                                             new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 3M)"
+                                                Name ="2dr Covertible (283ci 8cyl 3M)",
+                                                Horsepower = 220
+                                            },
+                                             new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 250
+                                            },
+                                              new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 270
+                                            },
+                                               new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 283
                                             }
                                         }
                                     }, new Year
@@ -248,11 +277,28 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name = "2dr Covertible (283ci 8cyl 4M)"
+                                                Name ="2dr Covertible (283ci 8cyl 3M)",
+                                                Horsepower = 230
                                             },
-                                            new Style
+                                             new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 3M)"
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 245
+                                            },
+                                              new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 250
+                                            },
+                                               new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 270
+                                            },
+                                               new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 290
                                             }
                                         }
                                     }, new Year
@@ -262,11 +308,28 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name = "2dr Covertible (283ci 8cyl 4M)"
+                                                Name ="2dr Covertible (283ci 8cyl 3M)",
+                                                Horsepower = 230
                                             },
-                                            new Style
+                                             new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 3M)"
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 245
+                                            },
+                                              new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 250
+                                            },
+                                               new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 270
+                                            },
+                                               new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 290
                                             }
                                         }
                                     }, new Year
@@ -276,11 +339,28 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name = "2dr Covertible (283ci 8cyl 4M)"
+                                                Name ="2dr Covertible (283ci 8cyl 3M)",
+                                                Horsepower = 230
                                             },
-                                            new Style
+                                             new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 3M)"
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 245
+                                            },
+                                              new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 250
+                                            },
+                                               new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 270
+                                            },
+                                               new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 290
                                             }
                                         }
                                     }, new Year
@@ -290,16 +370,60 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name = "2dr Covertible (283ci 8cyl 4M)"
+                                                Name ="2dr Covertible (283ci 8cyl 3M)",
+                                                Horsepower = 230
                                             },
-                                            new Style
+                                             new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 3M)"
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 245
+                                            },
+                                              new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 270
+                                            },
+                                               new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 275
+                                            },
+                                               new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 315
                                             }
                                         }
                                     }, new Year
                                     {
-                                        Years = 1962
+                                        Years = 1962,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name ="2dr Covertible (327ci 8cyl 3M)",
+                                                Horsepower = 250
+                                            },
+                                             new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 245
+                                            },
+                                              new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 270
+                                            },
+                                               new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 275
+                                            },
+                                               new Style
+                                            {
+                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Horsepower = 315
+                                            }
                                     }, new Year
                                     {
                                         Years = 1963
@@ -416,13 +540,12 @@ namespace HorsePowerStore.Data
                     },
                     new Make
                     {
-                        Name = "Dodge",
-                        Models = DodgeModels
-                    },
-                    new Make
-                    {
                         Name = "Pontiac",
                         Models = PontiacModels
+                    },new Make
+                    {
+                        Name = "Dodge",
+                        Models = DodgeModels
                     },
                     new Make
                     {
@@ -450,10 +573,10 @@ namespace HorsePowerStore.Data
             if (!context.Engines.Any())
             {
                 context.Engines.AddRange(
-                    //var ChevyEngines
+                    //var ChevroletEngines
                     new Engine
                     {
-                        //Id = 1,//Chevy
+                        //Id = 1,//Chevrolet
                         Cylinders = 6,
                         Volume = 235,
                         HorsePower = 150,
@@ -606,7 +729,7 @@ namespace HorsePowerStore.Data
                            Intake = Intake.NaturallyAspirated
                        },
                         new Engine
-                        {//Chevy
+                        {//Chevrolet
                             //Id = 1,
                             Cylinders = 8,
                             Volume = 383,
@@ -699,7 +822,7 @@ namespace HorsePowerStore.Data
                     new Product
                     {
                         //Id = 1,
-                        Name = "Edelbrock 2701 Chevy S/B",
+                        Name = "Edelbrock 2701 Chevrolet S/B",
                         Price = 144.20m,
                         Description = "Performance Intake Manifold",
                         ImageSource = "",
@@ -709,7 +832,7 @@ namespace HorsePowerStore.Data
                     new Product
                     {
                         //Id = 1,
-                        Name = "Edelbrock Pro-Flo XT Chevy S/B",
+                        Name = "Edelbrock Pro-Flo XT Chevrolet S/B",
                         Price = 376.00m,
                         Description = "High Performance Intake Manifold",
                         ImageSource = "",
@@ -729,7 +852,7 @@ namespace HorsePowerStore.Data
                     new Product
                     {
                         //Id = 1,
-                        Name = "Edelbrock Pro-Flo XT for Chevy L/B",
+                        Name = "Edelbrock Pro-Flo XT for Chevrolet L/B",
                         Price = 592.84m,
                         Description = "High Performance Intake Manifold",
                         ImageSource = "",
@@ -739,7 +862,7 @@ namespace HorsePowerStore.Data
                     new Product
                     {
                         //Id = 1,
-                        Name = "Edelbrock 2161 Chevy L/B",
+                        Name = "Edelbrock 2161 Chevrolet L/B",
                         Price = 262.72m,
                         Description = "Performance Intake Manifold",
                         ImageSource = "",
@@ -751,7 +874,7 @@ namespace HorsePowerStore.Data
                         //Id = 1,
                         Name = "K&N Air Intake",
                         Price = 478.99m,
-                        Description = "Air Intake for Chevy Corvette 6.2 PN# 63-3073",
+                        Description = "Air Intake for Chevrolet Corvette 6.2 PN# 63-3073",
                         ImageSource = "",
                         PurchaseURL = "http://www.knfilters.com/search/product.aspx?prod=63-3073",
                         // HP+ = 17.2
@@ -761,7 +884,7 @@ namespace HorsePowerStore.Data
                         //Id = 1,
                         Name = "K&N Air Intake",
                         Price = 302.99m,
-                        Description = "Air Intake for Chevy Camaro 6.2 PN# 63-3074",
+                        Description = "Air Intake for Chevrolet Camaro 6.2 PN# 63-3074",
                         ImageSource = "",
                         PurchaseURL = "http://www.knfilters.com/search/product.aspx?prod=63-3074",
                         // HP+ = 18.62
@@ -771,7 +894,7 @@ namespace HorsePowerStore.Data
                         //Id = 1,
                         Name = "K&N Air Intake",
                         Price = 302.99m,
-                        Description = "Air Intake for Chevy Camaro 3.6 PN# 63-4523TP",
+                        Description = "Air Intake for Chevrolet Camaro 3.6 PN# 63-4523TP",
                         ImageSource = "",
                         PurchaseURL = "http://www.knfilters.com/search/product.aspx?prod=69-4523TP",
                         // HP+ = 15.63
@@ -781,7 +904,7 @@ namespace HorsePowerStore.Data
                         //Id = 1,
                         Name = "K&N Air Intake",
                         Price = 272.99m,
-                        Description = "Air Intake for Chevy Impala 3.6 PN# 69-4526TS",
+                        Description = "Air Intake for Chevrolet Impala 3.6 PN# 69-4526TS",
                         ImageSource = "",
                         PurchaseURL = "http://www.knfilters.com/search/product.aspx?prod=69-4526TS",
                         // HP+ = 11.73
@@ -791,7 +914,7 @@ namespace HorsePowerStore.Data
                         //Id = 1,
                         Name = "K&N Air Intake",
                         Price = 272.99m,
-                        Description = "Air Intake for Chevy Impala 3.6 PN# 69-4526TS",
+                        Description = "Air Intake for Chevrolet Impala 3.6 PN# 69-4526TS",
                         ImageSource = "",
                         PurchaseURL = "http://www.knfilters.com/search/product.aspx?prod=69-4526TS",
                         // HP+ = 11.73
@@ -801,7 +924,7 @@ namespace HorsePowerStore.Data
                     //Id = 1,
                     Name = "K&N Air Intake",
                     Price = 199.99m,
-                    Description = "Air Intake for Chevy Malibu 2.0 PN# 63-3091",
+                    Description = "Air Intake for Chevrolet Malibu 2.0 PN# 63-3091",
                     ImageSource = "",
                     PurchaseURL = "http://www.knfilters.com/search/product.aspx?prod=63-3091",
                     // HP+ = 14.21
@@ -811,7 +934,7 @@ namespace HorsePowerStore.Data
                     //Id = 1,
                     Name = "K&N Air Intake",
                     Price = 302.99m,
-                    Description = "Air Intake for Chevy Malibu 2.5 PN# 69-4529TS",
+                    Description = "Air Intake for Chevrolet Malibu 2.5 PN# 69-4529TS",
                     ImageSource = "",
                     PurchaseURL = "http://www.knfilters.com/search/product.aspx?prod=69-4529TS",
                     // HP+ = 8.24
@@ -891,7 +1014,7 @@ namespace HorsePowerStore.Data
                         //Id = 1,
                         Name = "Flowmaster Exhaust Headers",
                         Price = 649.00m,
-                        Description = "Exhaust Header for Chevy 350 small block V8 PN#814110",
+                        Description = "Exhaust Header for Chevrolet 350 small block V8 PN#814110",
                         ImageSource = "",
                         PurchaseURL = "http://www.flowmastermufflers.com/keywords-search-results/?keywords=814110",
                         // HP+ = 15
@@ -901,7 +1024,7 @@ namespace HorsePowerStore.Data
                         //Id = 1,
                         Name = "Flowmaster Exhaust Headers",
                         Price = 649.00m,
-                        Description = "Exhaust Header for Chevy long block V8 PN#814111",
+                        Description = "Exhaust Header for Chevrolet long block V8 PN#814111",
                         ImageSource = "",
                         PurchaseURL = "http://www.flowmastermufflers.com/keywords-search-results/?keywords=814111",
                         // HP+ = 15
@@ -911,7 +1034,7 @@ namespace HorsePowerStore.Data
                         //Id = 1,
                         Name = "Flowmaster Exhaust Headers",
                         Price = 315.00m,
-                        Description = "Exhaust Header for Chevy 3.6 V6 PN#814122",
+                        Description = "Exhaust Header for Chevrolet 3.6 V6 PN#814122",
                         ImageSource = "",
                         PurchaseURL = "http://www.flowmastermufflers.com/keywords-search-results/?keywords=814122",
                         // HP+ = 5
@@ -1017,7 +1140,7 @@ namespace HorsePowerStore.Data
                 {
                     new Car
                     {
-                        Make = "Honda",
+                        Make = new Make (),
                         Model = "Accord",
                         Year = 2016,
                         Doors = 4,
@@ -1091,7 +1214,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1970,
                         Doors = 2,
@@ -1103,7 +1226,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1971,
                         Doors = 2,
@@ -1115,7 +1238,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1972,
                         Doors = 2,
@@ -1127,7 +1250,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1973,
                         Doors = 2,
@@ -1139,7 +1262,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1974,
                         Doors = 2,
@@ -1151,7 +1274,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1975,
                         Doors = 2,
@@ -1163,7 +1286,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1976,
                         Doors = 2,
@@ -1175,7 +1298,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1977,
                         Doors = 2,
@@ -1187,7 +1310,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1978,
                         Doors = 2,
@@ -1199,7 +1322,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1979,
                         Doors = 2,
@@ -1211,7 +1334,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1980,
                         Doors = 2,
@@ -1223,7 +1346,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1981,
                         Doors = 2,
@@ -1235,7 +1358,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1982,
                         Doors = 2,
@@ -1247,7 +1370,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1983,
                         Doors = 2,
@@ -1259,7 +1382,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1984,
                         Doors = 2,
@@ -1271,7 +1394,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1985,
                         Doors = 2,
@@ -1283,7 +1406,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1986,
                         Doors = 2,
@@ -1295,7 +1418,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1987,
                         Doors = 2,
@@ -1307,7 +1430,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1988,
                         Doors = 2,
@@ -1319,7 +1442,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1953,
                         Doors = 2,
@@ -1331,7 +1454,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1954,
                         Doors = 2,
@@ -1343,7 +1466,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1955,
                         Doors = 2,
@@ -1355,7 +1478,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1956,
                         Doors = 2,
@@ -1367,7 +1490,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1957,
                         Doors = 2,
@@ -1379,7 +1502,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1958,
                         Doors = 2,
@@ -1391,7 +1514,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1959,
                         Doors = 2,
@@ -1403,7 +1526,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1960,
                         Doors = 2,
@@ -1415,7 +1538,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1961,
                         Doors = 2,
@@ -1427,7 +1550,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1962,
                         Doors = 2,
@@ -1439,7 +1562,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1963,
                         Doors = 2,
@@ -1451,7 +1574,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1964,
                         Doors = 2,
@@ -1463,7 +1586,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1965,
                         Doors = 2,
@@ -1475,7 +1598,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1966,
                         Doors = 2,
@@ -1487,7 +1610,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1967,
                         Doors = 2,
@@ -1499,7 +1622,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1968,
                         Doors = 2,
@@ -1511,7 +1634,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1969,
                         Doors = 2,
@@ -1523,7 +1646,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1970,
                         Doors = 2,
@@ -1535,7 +1658,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1971,
                         Doors = 2,
@@ -1547,7 +1670,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1972,
                         Doors = 2,
@@ -1559,7 +1682,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1973,
                         Doors = 2,
@@ -1571,7 +1694,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1974,
                         Doors = 2,
@@ -1583,7 +1706,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1975,
                         Doors = 2,
@@ -1595,7 +1718,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1976,
                         Doors = 2,
@@ -1607,7 +1730,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1977,
                         Doors = 2,
@@ -1619,7 +1742,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1978,
                         Doors = 2,
@@ -1631,7 +1754,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1979,
                         Doors = 2,
@@ -1643,7 +1766,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1980,
                         Doors = 2,
@@ -1655,7 +1778,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1981,
                         Doors = 2,
@@ -1667,7 +1790,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1982,
                         Doors = 2,
@@ -1679,7 +1802,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1983,
                         Doors = 2,
@@ -1691,7 +1814,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1984,
                         Doors = 2,
@@ -1703,7 +1826,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1985,
                         Doors = 2,
@@ -1715,7 +1838,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1986,
                         Doors = 2,
@@ -1727,7 +1850,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1987,
                         Doors = 2,
@@ -1739,7 +1862,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1988,
                         Doors = 2,
@@ -1751,7 +1874,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1989,
                         Doors = 2,
@@ -1763,7 +1886,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1990,
                         Doors = 2,
@@ -1775,7 +1898,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1991,
                         Doors = 2,
@@ -1787,7 +1910,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1992,
                         Doors = 2,
@@ -1799,7 +1922,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1993,
                         Doors = 2,
@@ -1811,7 +1934,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1994,
                         Doors = 2,
@@ -1823,7 +1946,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1995,
                         Doors = 2,
@@ -1835,7 +1958,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1996,
                         Doors = 2,
@@ -1847,7 +1970,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1997,
                         Doors = 2,
@@ -1859,7 +1982,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1998,
                         Doors = 2,
@@ -1871,7 +1994,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1999,
                         Doors = 2,
@@ -1883,7 +2006,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2000,
                         Doors = 2,
@@ -1895,7 +2018,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2001,
                         Doors = 2,
@@ -1907,7 +2030,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2002,
                         Doors = 2,
@@ -1919,7 +2042,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2003,
                         Doors = 2,
@@ -1931,7 +2054,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2004,
                         Doors = 2,
@@ -1943,7 +2066,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2005,
                         Doors = 2,
@@ -1955,7 +2078,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2006,
                         Doors = 2,
@@ -1966,7 +2089,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2007,
                         Doors = 2,
@@ -1978,7 +2101,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2008,
                         Doors = 2,
@@ -1990,7 +2113,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2009,
                         Doors = 2,
@@ -2002,7 +2125,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2010,
                         Doors = 2,
@@ -2014,7 +2137,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2011,
                         Doors = 2,
@@ -2026,7 +2149,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2012,
                         Doors = 2,
@@ -2038,7 +2161,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2013,
                         Doors = 2,
@@ -2050,7 +2173,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2014,
                         Doors = 2,
@@ -2062,7 +2185,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2015,
                         Doors = 2,
@@ -2074,7 +2197,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2016,
                         Doors = 2,
@@ -2086,7 +2209,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2017,
                         Doors = 2,
@@ -2098,7 +2221,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1966,
                          Doors = 2,
@@ -2110,7 +2233,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1967,
                          Doors = 2,
@@ -2122,7 +2245,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1968,
                          Doors = 2,
@@ -2134,7 +2257,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1969,
                          Doors = 2,
@@ -2146,7 +2269,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1970,
                          Doors = 2,
@@ -2158,7 +2281,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1971,
                          Doors = 2,
@@ -2170,7 +2293,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1972,
                          Doors = 2,
@@ -2182,7 +2305,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1973,
                          Doors = 2,
@@ -2194,7 +2317,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1974,
                          Doors = 2,
@@ -2206,7 +2329,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1975,
                          Doors = 2,
@@ -2218,7 +2341,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1976,
                          Doors = 2,
@@ -2230,7 +2353,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1977,
                          Doors = 2,
@@ -2242,7 +2365,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1978,
                          Doors = 2,
@@ -2254,7 +2377,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1979,
                          Doors = 2,
@@ -2266,7 +2389,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1980,
                          Doors = 2,
@@ -2278,7 +2401,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1981,
                          Doors = 2,
@@ -2290,7 +2413,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1982,
                          Doors = 2,
@@ -2302,7 +2425,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1983,
                          Doors = 2,
@@ -2314,7 +2437,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1984,
                          Doors = 2,
@@ -2326,7 +2449,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1985,
                          Doors = 2,
@@ -2338,7 +2461,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1986,
                          Doors = 2,
@@ -2350,7 +2473,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1987,
                          Doors = 2,
@@ -2362,7 +2485,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1988,
                          Doors = 2,
@@ -2374,7 +2497,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1989,
                          Doors = 2,
@@ -2386,7 +2509,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1990,
                          Doors = 2,
@@ -2398,7 +2521,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1991,
                          Doors = 2,
@@ -2410,7 +2533,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1992,
                          Doors = 2,
@@ -2422,7 +2545,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1993,
                          Doors = 2,
@@ -2434,7 +2557,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1994,
                          Doors = 2,
@@ -2446,7 +2569,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1995,
                          Doors = 2,
@@ -2458,7 +2581,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1996,
                          Doors = 2,
@@ -2470,7 +2593,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1997,
                          Doors = 2,
@@ -2482,7 +2605,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1998,
                          Doors = 2,
@@ -2494,7 +2617,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1999,
                          Doors = 2,
@@ -2506,7 +2629,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2000,
                          Doors = 2,
@@ -2518,7 +2641,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2001,
                          Doors = 2,
@@ -2530,7 +2653,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2002,
                          Doors = 2,
@@ -2543,7 +2666,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2010,
                          Doors = 2,
@@ -2555,7 +2678,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2011,
                          Doors = 2,
@@ -2567,7 +2690,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2012,
                          Doors = 2,
@@ -2579,7 +2702,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2013,
                          Doors = 2,
@@ -2591,7 +2714,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2014,
                          Doors = 2,
@@ -2603,7 +2726,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2015,
                          Doors = 2,
@@ -2615,7 +2738,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2016,
                          Doors = 2,
@@ -2627,7 +2750,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2017,
                          Doors = 2,
@@ -2639,7 +2762,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1965,
                          Doors = 2,
@@ -2651,7 +2774,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1966,
                          Doors = 2,
@@ -2663,7 +2786,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1967,
                          Doors = 2,
@@ -2675,7 +2798,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1968,
                          Doors = 2,
@@ -2687,7 +2810,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1969,
                          Doors = 2,
@@ -2699,7 +2822,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1970,
                          Doors = 2,
@@ -2711,7 +2834,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1971,
                          Doors = 2,
@@ -2723,7 +2846,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1972,
                          Doors = 2,
@@ -2735,7 +2858,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1973,
                          Doors = 2,
@@ -2747,7 +2870,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1974,
                          Doors = 2,
@@ -2759,7 +2882,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1975,
                          Doors = 2,
@@ -2771,7 +2894,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1976,
                          Doors = 2,
@@ -2783,7 +2906,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1977,
                          Doors = 2,
@@ -2795,7 +2918,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1978,
                          Doors = 2,
@@ -2807,7 +2930,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1979,
                          Doors = 2,
@@ -2819,7 +2942,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1980,
                          Doors = 2,
@@ -2831,7 +2954,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1981,
                          Doors = 2,
@@ -2843,7 +2966,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1982,
                          Doors = 2,
@@ -2855,7 +2978,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1983,
                          Doors = 2,
@@ -2867,7 +2990,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1984,
                          Doors = 2,
@@ -2879,7 +3002,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1985,
                          Doors = 2,
@@ -2891,7 +3014,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1986,
                          Doors = 2,
@@ -2903,7 +3026,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1987,
                          Doors = 2,
@@ -2915,7 +3038,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1988,
                          Doors = 2,
@@ -2927,7 +3050,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1989,
                          Doors = 2,
@@ -2939,7 +3062,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1990,
                          Doors = 2,
@@ -2951,7 +3074,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1991,
                          Doors = 2,
@@ -2963,7 +3086,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1992,
                          Doors = 2,
@@ -2975,7 +3098,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1993,
                          Doors = 2,
@@ -2987,7 +3110,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1994,
                          Doors = 2,
@@ -2999,7 +3122,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1995,
                          Doors = 2,
@@ -3011,7 +3134,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1996,
                          Doors = 2,
@@ -3023,7 +3146,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1997,
                          Doors = 2,
@@ -3035,7 +3158,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1998,
                          Doors = 2,
@@ -3047,7 +3170,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1999,
                          Doors = 2,
@@ -3059,7 +3182,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2000,
                          Doors = 2,
@@ -3071,7 +3194,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2001,
                          Doors = 2,
@@ -3083,7 +3206,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2002,
                          Doors = 2,
@@ -3095,7 +3218,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2003,
                          Doors = 2,
@@ -3107,7 +3230,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2004,
                          Doors = 2,
@@ -3119,7 +3242,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2005,
                          Doors = 2,
@@ -3131,7 +3254,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2006,
                          Doors = 2,
@@ -3143,7 +3266,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Malibu",
                          Year = 1964,
                          Doors = 2,
@@ -3155,7 +3278,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1965,
                         Doors = 2,
@@ -3167,7 +3290,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1966,
                         Doors = 2,
@@ -3179,7 +3302,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1967,
                         Doors = 2,
@@ -3191,7 +3314,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1968,
                         Doors = 2,
@@ -3203,7 +3326,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1969,
                         Doors = 2,
@@ -3215,7 +3338,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1970,
                         Doors = 2,
@@ -3227,7 +3350,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1971,
                         Doors = 2,
@@ -3239,7 +3362,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1972,
                         Doors = 2,
@@ -3251,7 +3374,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1973,
                         Doors = 2,
@@ -3263,7 +3386,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1974,
                         Doors = 2,
@@ -3275,7 +3398,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1975,
                         Doors = 2,
@@ -3287,7 +3410,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1976,
                         Doors = 2,
@@ -3299,7 +3422,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1977,
                         Doors = 2,
@@ -3311,7 +3434,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1978,
                         Doors = 2,
@@ -3323,7 +3446,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1979,
                         Doors = 2,
@@ -3335,7 +3458,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1980,
                         Doors = 2,
@@ -3347,7 +3470,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1981,
                         Doors = 2,
@@ -3359,7 +3482,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1982,
                         Doors = 2,
@@ -3371,7 +3494,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1983,
                         Doors = 2,
@@ -3383,7 +3506,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1984,
                         Doors = 2,
@@ -3395,7 +3518,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1985,
                         Doors = 2,
@@ -3407,7 +3530,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1986,
                         Doors = 2,
@@ -3419,7 +3542,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1987,
                         Doors = 2,
@@ -3431,7 +3554,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1988,
                         Doors = 2,
@@ -3443,7 +3566,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1989,
                         Doors = 2,
@@ -3455,7 +3578,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1990,
                         Doors = 2,
@@ -3467,7 +3590,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1991,
                         Doors = 2,
@@ -3479,7 +3602,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1992,
                         Doors = 2,
@@ -3491,7 +3614,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1993,
                         Doors = 2,
@@ -3503,7 +3626,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1994,
                         Doors = 2,
@@ -3515,7 +3638,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1995,
                         Doors = 2,
@@ -3527,7 +3650,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1996,
                         Doors = 2,
@@ -3539,7 +3662,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1997,
                         Doors = 2,
@@ -3551,7 +3674,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1998,
                         Doors = 2,
@@ -3563,7 +3686,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1999,
                         Doors = 2,
@@ -3575,7 +3698,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2000,
                         Doors = 2,
@@ -3587,7 +3710,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2001,
                         Doors = 2,
@@ -3599,7 +3722,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2002,
                         Doors = 2,
@@ -3611,7 +3734,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2003,
                         Doors = 2,
@@ -3623,7 +3746,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2004,
                         Doors = 2,
@@ -3635,7 +3758,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2005,
                         Doors = 2,
@@ -3647,7 +3770,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2006,
                         Doors = 2,
@@ -3659,7 +3782,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2007,
                         Doors = 2,
@@ -3671,7 +3794,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2008,
                         Doors = 2,
@@ -3683,7 +3806,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2009,
                         Doors = 2,
@@ -3695,7 +3818,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2010,
                         Doors = 2,
@@ -3707,7 +3830,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2011,
                         Doors = 2,
@@ -3719,7 +3842,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2012,
                         Doors = 2,
@@ -3731,7 +3854,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2013,
                         Doors = 2,
@@ -3743,7 +3866,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2014,
                         Doors = 2,
@@ -3755,7 +3878,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2015,
                         Doors = 2,
@@ -3767,7 +3890,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2016,
                         Doors = 2,
@@ -3779,7 +3902,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2017,
                         Doors = 2,
@@ -3791,7 +3914,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1957,
                         Doors = 2,
@@ -3803,7 +3926,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1958,
                         Doors = 2,
@@ -3815,7 +3938,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1959,
                         Doors = 2,
@@ -3827,7 +3950,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1960,
                         Doors = 2,
@@ -3839,7 +3962,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1961,
                         Doors = 2,
@@ -3851,7 +3974,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1962,
                         Doors = 2,
@@ -3863,7 +3986,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1963,
                         Doors = 2,
@@ -3875,7 +3998,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1964,
                         Doors = 2,
@@ -3887,7 +4010,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1965,
                         Doors = 2,
@@ -3899,7 +4022,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1966,
                         Doors = 2,
@@ -3911,7 +4034,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1967,
                         Doors = 2,
@@ -3923,7 +4046,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1968,
                         Doors = 2,
@@ -3935,7 +4058,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1969,
                         Doors = 2,
@@ -3947,7 +4070,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1970,
                         Doors = 2,
@@ -3959,7 +4082,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1971,
                         Doors = 2,
@@ -3971,7 +4094,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1972,
                         Doors = 2,
@@ -3983,7 +4106,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1973,
                         Doors = 2,
@@ -3995,7 +4118,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1974,
                         Doors = 2,
@@ -4007,7 +4130,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1975,
                         Doors = 2,
@@ -4019,7 +4142,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1976,
                         Doors = 2,
@@ -4031,7 +4154,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1977,
                         Doors = 2,
@@ -4043,7 +4166,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1978,
                         Doors = 2,
@@ -4055,7 +4178,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1979,
                         Doors = 2,
@@ -4067,7 +4190,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1980,
                         Doors = 2,
@@ -4079,7 +4202,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1981,
                         Doors = 2,
@@ -4091,7 +4214,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1982,
                         Doors = 2,
@@ -4103,7 +4226,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1983,
                         Doors = 2,
@@ -4115,7 +4238,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1984,
                         Doors = 2,
@@ -4127,7 +4250,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1985,
                         Doors = 2,
@@ -4139,7 +4262,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1986,
                         Doors = 2,
@@ -4151,7 +4274,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1987,
                         Doors = 2,
@@ -4163,7 +4286,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1988,
                         Doors = 2,
@@ -4175,7 +4298,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1989,
                         Doors = 2,
@@ -4187,7 +4310,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1990,
                         Doors = 2,
@@ -4199,7 +4322,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1991,
                         Doors = 2,
@@ -4211,7 +4334,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1992,
                         Doors = 2,
@@ -4223,7 +4346,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1993,
                         Doors = 2,
@@ -4235,7 +4358,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1994,
                         Doors = 2,
@@ -4247,7 +4370,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1995,
                         Doors = 2,
@@ -4259,7 +4382,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1996,
                         Doors = 2,
@@ -4271,7 +4394,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1997,
                         Doors = 2,
@@ -4283,7 +4406,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1998,
                         Doors = 2,
@@ -4295,7 +4418,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1999,
                         Doors = 2,
@@ -4307,7 +4430,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2000,
                         Doors = 2,
@@ -4319,7 +4442,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2001,
                         Doors = 2,
@@ -4331,7 +4454,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2002,
                         Doors = 2,
@@ -4343,7 +4466,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2003,
                         Doors = 2,
@@ -4355,7 +4478,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2004,
                         Doors = 2,
@@ -4367,7 +4490,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2005,
                         Doors = 2,
@@ -4379,7 +4502,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2006,
                         Doors = 2,
@@ -4391,7 +4514,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2007,
                         Doors = 2,
@@ -4403,7 +4526,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2008,
                         Doors = 2,
@@ -4415,7 +4538,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2009,
                         Doors = 2,
@@ -4427,7 +4550,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2010,
                         Doors = 2,
@@ -4439,7 +4562,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2011,
                         Doors = 2,
@@ -4451,7 +4574,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2012,
                         Doors = 2,
@@ -4463,7 +4586,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2013,
                         Doors = 2,
@@ -4475,7 +4598,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2014,
                         Doors = 2,
@@ -4487,7 +4610,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2015,
                         Doors = 2,
@@ -4499,7 +4622,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2016,
                         Doors = 2,
@@ -4511,7 +4634,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2017,
                         Doors = 2,
@@ -7512,7 +7635,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1969,
                         Doors = 2,
@@ -7523,7 +7646,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1970,
                         Doors = 2,
@@ -7534,7 +7657,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1971,
                         Doors = 2,
@@ -7545,7 +7668,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1972,
                         Doors = 2,
@@ -7556,7 +7679,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1973,
                         Doors = 2,
@@ -7567,7 +7690,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1974,
                         Doors = 2,
@@ -7578,7 +7701,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1975,
                         Doors = 2,
@@ -7589,7 +7712,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1976,
                         Doors = 2,
@@ -7600,7 +7723,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1977,
                         Doors = 2,
@@ -7611,7 +7734,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1978,
                         Doors = 2,
@@ -7622,7 +7745,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1979,
                         Doors = 2,
@@ -7634,7 +7757,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1964,
                         Doors = 2,
@@ -7645,7 +7768,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1965,
                         Doors = 2,
@@ -7656,7 +7779,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1966,
                         Doors = 2,
@@ -7667,7 +7790,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1967,
                         Doors = 2,
@@ -7678,7 +7801,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1968,
                         Doors = 2,
@@ -7689,7 +7812,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1969,
                         Doors = 2,
@@ -7700,7 +7823,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1970,
                         Doors = 2,
@@ -7711,7 +7834,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1971,
                         Doors = 2,
@@ -7722,7 +7845,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1972,
                         Doors = 2,
@@ -7733,7 +7856,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1973,
                         Doors = 2,
@@ -7744,7 +7867,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1974,
                         Doors = 2,
@@ -7755,7 +7878,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1975,
                         Doors = 2,
@@ -7766,7 +7889,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1976,
                         Doors = 2,
@@ -7777,7 +7900,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1977,
                         Doors = 2,
@@ -7789,7 +7912,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Monte Carlo",
                          Year = 1970,
                          Doors = 2,
@@ -7801,7 +7924,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1971,
                         Doors = 2,
@@ -7813,7 +7936,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1972,
                         Doors = 2,
@@ -7825,7 +7948,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1973,
                         Doors = 2,
@@ -7837,7 +7960,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1974,
                         Doors = 2,
@@ -7849,7 +7972,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1975,
                         Doors = 2,
@@ -7861,7 +7984,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1976,
                         Doors = 2,
@@ -7873,7 +7996,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1977,
                         Doors = 2,
@@ -7885,7 +8008,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1978,
                         Doors = 2,
@@ -7897,7 +8020,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1979,
                         Doors = 2,
@@ -7909,7 +8032,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1980,
                         Doors = 2,
@@ -7921,7 +8044,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1981,
                         Doors = 2,
@@ -7933,7 +8056,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1982,
                         Doors = 2,
@@ -7945,7 +8068,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1983,
                         Doors = 2,
@@ -7957,7 +8080,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1984,
                         Doors = 2,
@@ -7969,7 +8092,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1985,
                         Doors = 2,
@@ -7981,7 +8104,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1986,
                         Doors = 2,
@@ -7993,7 +8116,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1987,
                         Doors = 2,
@@ -8005,7 +8128,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1988,
                         Doors = 2,
@@ -8017,7 +8140,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1953,
                         Doors = 2,
@@ -8029,7 +8152,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1954,
                         Doors = 2,
@@ -8041,7 +8164,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1955,
                         Doors = 2,
@@ -8053,7 +8176,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1956,
                         Doors = 2,
@@ -8065,7 +8188,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1957,
                         Doors = 2,
@@ -8077,7 +8200,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1958,
                         Doors = 2,
@@ -8089,7 +8212,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1959,
                         Doors = 2,
@@ -8101,7 +8224,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1960,
                         Doors = 2,
@@ -8113,7 +8236,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1961,
                         Doors = 2,
@@ -8125,7 +8248,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1962,
                         Doors = 2,
@@ -8137,7 +8260,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1963,
                         Doors = 2,
@@ -8149,7 +8272,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1964,
                         Doors = 2,
@@ -8161,7 +8284,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1965,
                         Doors = 2,
@@ -8173,7 +8296,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1966,
                         Doors = 2,
@@ -8185,7 +8308,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1967,
                         Doors = 2,
@@ -8197,7 +8320,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1968,
                         Doors = 2,
@@ -8209,7 +8332,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1969,
                         Doors = 2,
@@ -8221,7 +8344,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1970,
                         Doors = 2,
@@ -8233,7 +8356,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1971,
                         Doors = 2,
@@ -8245,7 +8368,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1972,
                         Doors = 2,
@@ -8257,7 +8380,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1973,
                         Doors = 2,
@@ -8269,7 +8392,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1974,
                         Doors = 2,
@@ -8281,7 +8404,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1975,
                         Doors = 2,
@@ -8293,7 +8416,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1976,
                         Doors = 2,
@@ -8305,7 +8428,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1977,
                         Doors = 2,
@@ -8317,7 +8440,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1978,
                         Doors = 2,
@@ -8329,7 +8452,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1979,
                         Doors = 2,
@@ -8341,7 +8464,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1980,
                         Doors = 2,
@@ -8353,7 +8476,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1981,
                         Doors = 2,
@@ -8365,7 +8488,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1982,
                         Doors = 2,
@@ -8377,7 +8500,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1983,
                         Doors = 2,
@@ -8389,7 +8512,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1984,
                         Doors = 2,
@@ -8401,7 +8524,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1985,
                         Doors = 2,
@@ -8413,7 +8536,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1986,
                         Doors = 2,
@@ -8425,7 +8548,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1987,
                         Doors = 2,
@@ -8437,7 +8560,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1988,
                         Doors = 2,
@@ -8449,7 +8572,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1989,
                         Doors = 2,
@@ -8461,7 +8584,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1990,
                         Doors = 2,
@@ -8473,7 +8596,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1991,
                         Doors = 2,
@@ -8485,7 +8608,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1992,
                         Doors = 2,
@@ -8497,7 +8620,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1993,
                         Doors = 2,
@@ -8509,7 +8632,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1994,
                         Doors = 2,
@@ -8521,7 +8644,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1995,
                         Doors = 2,
@@ -8533,7 +8656,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1996,
                         Doors = 2,
@@ -8545,7 +8668,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1997,
                         Doors = 2,
@@ -8557,7 +8680,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1998,
                         Doors = 2,
@@ -8569,7 +8692,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1999,
                         Doors = 2,
@@ -8581,7 +8704,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2000,
                         Doors = 2,
@@ -8593,7 +8716,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2001,
                         Doors = 2,
@@ -8605,7 +8728,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2002,
                         Doors = 2,
@@ -8617,7 +8740,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2003,
                         Doors = 2,
@@ -8629,7 +8752,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2004,
                         Doors = 2,
@@ -8641,7 +8764,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2005,
                         Doors = 2,
@@ -8653,7 +8776,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2006,
                         Doors = 2,
@@ -8664,7 +8787,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2007,
                         Doors = 2,
@@ -8676,7 +8799,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2008,
                         Doors = 2,
@@ -8688,7 +8811,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2009,
                         Doors = 2,
@@ -8700,7 +8823,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2010,
                         Doors = 2,
@@ -8712,7 +8835,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2011,
                         Doors = 2,
@@ -8724,7 +8847,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2012,
                         Doors = 2,
@@ -8736,7 +8859,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2013,
                         Doors = 2,
@@ -8748,7 +8871,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2014,
                         Doors = 2,
@@ -8760,7 +8883,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2015,
                         Doors = 2,
@@ -8772,7 +8895,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2016,
                         Doors = 2,
@@ -8784,7 +8907,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2017,
                         Doors = 2,
@@ -8796,7 +8919,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1966,
                          Doors = 2,
@@ -8808,7 +8931,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1967,
                          Doors = 2,
@@ -8820,7 +8943,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1968,
                          Doors = 2,
@@ -8832,7 +8955,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1969,
                          Doors = 2,
@@ -8844,7 +8967,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1970,
                          Doors = 2,
@@ -8856,7 +8979,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1971,
                          Doors = 2,
@@ -8868,7 +8991,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1972,
                          Doors = 2,
@@ -8880,7 +9003,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1973,
                          Doors = 2,
@@ -8892,7 +9015,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1974,
                          Doors = 2,
@@ -8904,7 +9027,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1975,
                          Doors = 2,
@@ -8916,7 +9039,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1976,
                          Doors = 2,
@@ -8928,7 +9051,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1977,
                          Doors = 2,
@@ -8940,7 +9063,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1978,
                          Doors = 2,
@@ -8952,7 +9075,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1979,
                          Doors = 2,
@@ -8964,7 +9087,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1980,
                          Doors = 2,
@@ -8976,7 +9099,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1981,
                          Doors = 2,
@@ -8988,7 +9111,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1982,
                          Doors = 2,
@@ -9000,7 +9123,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1983,
                          Doors = 2,
@@ -9012,7 +9135,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1984,
                          Doors = 2,
@@ -9024,7 +9147,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1985,
                          Doors = 2,
@@ -9036,7 +9159,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1986,
                          Doors = 2,
@@ -9048,7 +9171,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1987,
                          Doors = 2,
@@ -9060,7 +9183,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1988,
                          Doors = 2,
@@ -9072,7 +9195,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1989,
                          Doors = 2,
@@ -9084,7 +9207,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1990,
                          Doors = 2,
@@ -9096,7 +9219,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1991,
                          Doors = 2,
@@ -9108,7 +9231,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1992,
                          Doors = 2,
@@ -9120,7 +9243,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1993,
                          Doors = 2,
@@ -9132,7 +9255,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1994,
                          Doors = 2,
@@ -9144,7 +9267,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1995,
                          Doors = 2,
@@ -9156,7 +9279,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1996,
                          Doors = 2,
@@ -9168,7 +9291,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1997,
                          Doors = 2,
@@ -9180,7 +9303,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1998,
                          Doors = 2,
@@ -9192,7 +9315,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1999,
                          Doors = 2,
@@ -9204,7 +9327,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2000,
                          Doors = 2,
@@ -9216,7 +9339,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2001,
                          Doors = 2,
@@ -9228,7 +9351,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2002,
                          Doors = 2,
@@ -9240,7 +9363,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2003,
                          Doors = 2,
@@ -9252,7 +9375,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2004,
                          Doors = 2,
@@ -9264,7 +9387,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2005,
                          Doors = 2,
@@ -9276,7 +9399,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2006,
                          Doors = 2,
@@ -9288,7 +9411,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2007,
                          Doors = 2,
@@ -9300,7 +9423,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2008,
                          Doors = 2,
@@ -9312,7 +9435,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2009,
                          Doors = 2,
@@ -9324,7 +9447,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2010,
                          Doors = 2,
@@ -9336,7 +9459,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2011,
                          Doors = 2,
@@ -9348,7 +9471,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2012,
                          Doors = 2,
@@ -9360,7 +9483,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2013,
                          Doors = 2,
@@ -9372,7 +9495,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2014,
                          Doors = 2,
@@ -9384,7 +9507,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2015,
                          Doors = 2,
@@ -9396,7 +9519,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2016,
                          Doors = 2,
@@ -9408,7 +9531,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2017,
                          Doors = 2,
@@ -9420,7 +9543,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1965,
                          Doors = 2,
@@ -9432,7 +9555,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1966,
                          Doors = 2,
@@ -9444,7 +9567,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1967,
                          Doors = 2,
@@ -9456,7 +9579,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1968,
                          Doors = 2,
@@ -9468,7 +9591,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1969,
                          Doors = 2,
@@ -9480,7 +9603,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1970,
                          Doors = 2,
@@ -9492,7 +9615,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1971,
                          Doors = 2,
@@ -9504,7 +9627,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1972,
                          Doors = 2,
@@ -9516,7 +9639,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1973,
                          Doors = 2,
@@ -9528,7 +9651,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1974,
                          Doors = 2,
@@ -9540,7 +9663,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1975,
                          Doors = 2,
@@ -9552,7 +9675,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1976,
                          Doors = 2,
@@ -9564,7 +9687,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1977,
                          Doors = 2,
@@ -9576,7 +9699,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1978,
                          Doors = 2,
@@ -9588,7 +9711,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1979,
                          Doors = 2,
@@ -9600,7 +9723,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1980,
                          Doors = 2,
@@ -9612,7 +9735,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1981,
                          Doors = 2,
@@ -9624,7 +9747,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1982,
                          Doors = 2,
@@ -9636,7 +9759,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1983,
                          Doors = 2,
@@ -9648,7 +9771,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1984,
                          Doors = 2,
@@ -9660,7 +9783,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1985,
                          Doors = 2,
@@ -9672,7 +9795,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1986,
                          Doors = 2,
@@ -9684,7 +9807,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1987,
                          Doors = 2,
@@ -9696,7 +9819,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1988,
                          Doors = 2,
@@ -9708,7 +9831,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1989,
                          Doors = 2,
@@ -9720,7 +9843,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1990,
                          Doors = 2,
@@ -9732,7 +9855,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1991,
                          Doors = 2,
@@ -9744,7 +9867,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1992,
                          Doors = 2,
@@ -9756,7 +9879,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1993,
                          Doors = 2,
@@ -9768,7 +9891,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1994,
                          Doors = 2,
@@ -9780,7 +9903,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1995,
                          Doors = 2,
@@ -9792,7 +9915,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1996,
                          Doors = 2,
@@ -9804,7 +9927,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1997,
                          Doors = 2,
@@ -9816,7 +9939,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1998,
                          Doors = 2,
@@ -9828,7 +9951,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1999,
                          Doors = 2,
@@ -9840,7 +9963,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2000,
                          Doors = 2,
@@ -9852,7 +9975,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2001,
                          Doors = 2,
@@ -9864,7 +9987,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2002,
                          Doors = 2,
@@ -9876,7 +9999,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2003,
                          Doors = 2,
@@ -9888,7 +10011,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2004,
                          Doors = 2,
@@ -9900,7 +10023,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2005,
                          Doors = 2,
@@ -9912,7 +10035,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2006,
                          Doors = 2,
@@ -9924,7 +10047,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Malibu",
                          Year = 1964,
                          Doors = 2,
@@ -9936,7 +10059,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1965,
                         Doors = 2,
@@ -9948,7 +10071,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1966,
                         Doors = 2,
@@ -9960,7 +10083,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1967,
                         Doors = 2,
@@ -9972,7 +10095,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1968,
                         Doors = 2,
@@ -9984,7 +10107,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1969,
                         Doors = 2,
@@ -9996,7 +10119,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1970,
                         Doors = 2,
@@ -10008,7 +10131,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1971,
                         Doors = 2,
@@ -10020,7 +10143,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1972,
                         Doors = 2,
@@ -10032,7 +10155,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1973,
                         Doors = 2,
@@ -10044,7 +10167,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1974,
                         Doors = 2,
@@ -10056,7 +10179,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1975,
                         Doors = 2,
@@ -10068,7 +10191,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1976,
                         Doors = 2,
@@ -10080,7 +10203,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1977,
                         Doors = 2,
@@ -10092,7 +10215,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1978,
                         Doors = 2,
@@ -10104,7 +10227,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1979,
                         Doors = 2,
@@ -10116,7 +10239,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1980,
                         Doors = 2,
@@ -10128,7 +10251,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1981,
                         Doors = 2,
@@ -10140,7 +10263,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1982,
                         Doors = 2,
@@ -10152,7 +10275,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1983,
                         Doors = 2,
@@ -10164,7 +10287,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1984,
                         Doors = 2,
@@ -10176,7 +10299,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1985,
                         Doors = 2,
@@ -10188,7 +10311,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1986,
                         Doors = 2,
@@ -10200,7 +10323,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1987,
                         Doors = 2,
@@ -10212,7 +10335,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1988,
                         Doors = 2,
@@ -10224,7 +10347,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1989,
                         Doors = 2,
@@ -10236,7 +10359,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1990,
                         Doors = 2,
@@ -10248,7 +10371,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1991,
                         Doors = 2,
@@ -10260,7 +10383,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1992,
                         Doors = 2,
@@ -10272,7 +10395,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1993,
                         Doors = 2,
@@ -10284,7 +10407,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1994,
                         Doors = 2,
@@ -10296,7 +10419,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1995,
                         Doors = 2,
@@ -10308,7 +10431,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1996,
                         Doors = 2,
@@ -10320,7 +10443,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1997,
                         Doors = 2,
@@ -10332,7 +10455,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1998,
                         Doors = 2,
@@ -10344,7 +10467,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1999,
                         Doors = 2,
@@ -10356,7 +10479,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2000,
                         Doors = 2,
@@ -10368,7 +10491,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2001,
                         Doors = 2,
@@ -10380,7 +10503,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2002,
                         Doors = 2,
@@ -10392,7 +10515,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2003,
                         Doors = 2,
@@ -10404,7 +10527,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2004,
                         Doors = 2,
@@ -10416,7 +10539,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2005,
                         Doors = 2,
@@ -10428,7 +10551,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2006,
                         Doors = 2,
@@ -10440,7 +10563,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2007,
                         Doors = 2,
@@ -10452,7 +10575,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2008,
                         Doors = 2,
@@ -10464,7 +10587,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2009,
                         Doors = 2,
@@ -10476,7 +10599,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2010,
                         Doors = 2,
@@ -10488,7 +10611,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2011,
                         Doors = 2,
@@ -10500,7 +10623,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2012,
                         Doors = 2,
@@ -10512,7 +10635,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2013,
                         Doors = 2,
@@ -10524,7 +10647,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2014,
                         Doors = 2,
@@ -10536,7 +10659,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2015,
                         Doors = 2,
@@ -10548,7 +10671,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2016,
                         Doors = 2,
@@ -10560,7 +10683,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2017,
                         Doors = 2,
@@ -10572,7 +10695,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1957,
                         Doors = 2,
@@ -10584,7 +10707,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1958,
                         Doors = 2,
@@ -10596,7 +10719,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1959,
                         Doors = 2,
@@ -10608,7 +10731,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1960,
                         Doors = 2,
@@ -10620,7 +10743,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1961,
                         Doors = 2,
@@ -10632,7 +10755,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1962,
                         Doors = 2,
@@ -10644,7 +10767,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1963,
                         Doors = 2,
@@ -10656,7 +10779,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1964,
                         Doors = 2,
@@ -10668,7 +10791,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1965,
                         Doors = 2,
@@ -10680,7 +10803,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1966,
                         Doors = 2,
@@ -10692,7 +10815,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1967,
                         Doors = 2,
@@ -10704,7 +10827,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1968,
                         Doors = 2,
@@ -10716,7 +10839,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1969,
                         Doors = 2,
@@ -10728,7 +10851,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1970,
                         Doors = 2,
@@ -10740,7 +10863,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1971,
                         Doors = 2,
@@ -10752,7 +10875,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1972,
                         Doors = 2,
@@ -10764,7 +10887,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1973,
                         Doors = 2,
@@ -10776,7 +10899,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1974,
                         Doors = 2,
@@ -10788,7 +10911,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1975,
                         Doors = 2,
@@ -10800,7 +10923,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1976,
                         Doors = 2,
@@ -10812,7 +10935,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1977,
                         Doors = 2,
@@ -10824,7 +10947,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1978,
                         Doors = 2,
@@ -10836,7 +10959,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1979,
                         Doors = 2,
@@ -10848,7 +10971,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1980,
                         Doors = 2,
@@ -10860,7 +10983,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1981,
                         Doors = 2,
@@ -10872,7 +10995,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1982,
                         Doors = 2,
@@ -10884,7 +11007,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1983,
                         Doors = 2,
@@ -10896,7 +11019,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1984,
                         Doors = 2,
@@ -10908,7 +11031,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1985,
                         Doors = 2,
@@ -10920,7 +11043,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1986,
                         Doors = 2,
@@ -10932,7 +11055,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1987,
                         Doors = 2,
@@ -10944,7 +11067,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1988,
                         Doors = 2,
@@ -10956,7 +11079,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1989,
                         Doors = 2,
@@ -10968,7 +11091,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1990,
                         Doors = 2,
@@ -10980,7 +11103,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1991,
                         Doors = 2,
@@ -10992,7 +11115,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1992,
                         Doors = 2,
@@ -11004,7 +11127,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1993,
                         Doors = 2,
@@ -11016,7 +11139,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1994,
                         Doors = 2,
@@ -11028,7 +11151,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1995,
                         Doors = 2,
@@ -11040,7 +11163,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1996,
                         Doors = 2,
@@ -11052,7 +11175,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1997,
                         Doors = 2,
@@ -11064,7 +11187,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1998,
                         Doors = 2,
@@ -11076,7 +11199,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1999,
                         Doors = 2,
@@ -11088,7 +11211,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2000,
                         Doors = 2,
@@ -11100,7 +11223,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2001,
                         Doors = 2,
@@ -11112,7 +11235,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2002,
                         Doors = 2,
@@ -11124,7 +11247,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2003,
                         Doors = 2,
@@ -11136,7 +11259,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2004,
                         Doors = 2,
@@ -11148,7 +11271,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2005,
                         Doors = 2,
@@ -11160,7 +11283,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2006,
                         Doors = 2,
@@ -11172,7 +11295,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2007,
                         Doors = 2,
@@ -11184,7 +11307,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2008,
                         Doors = 2,
@@ -11196,7 +11319,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2009,
                         Doors = 2,
@@ -11208,7 +11331,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2010,
                         Doors = 2,
@@ -11220,7 +11343,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2011,
                         Doors = 2,
@@ -11232,7 +11355,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2012,
                         Doors = 2,
@@ -11244,7 +11367,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2013,
                         Doors = 2,
@@ -11256,7 +11379,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2014,
                         Doors = 2,
@@ -11268,7 +11391,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2015,
                         Doors = 2,
@@ -11280,7 +11403,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2016,
                         Doors = 2,
@@ -11292,7 +11415,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2017,
                         Doors = 2,
@@ -14293,7 +14416,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1969,
                         Doors = 2,
@@ -14304,7 +14427,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1970,
                         Doors = 2,
@@ -14315,7 +14438,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1971,
                         Doors = 2,
@@ -14326,7 +14449,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1972,
                         Doors = 2,
@@ -14337,7 +14460,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1973,
                         Doors = 2,
@@ -14348,7 +14471,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1974,
                         Doors = 2,
@@ -14359,7 +14482,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1975,
                         Doors = 2,
@@ -14370,7 +14493,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1976,
                         Doors = 2,
@@ -14381,7 +14504,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1977,
                         Doors = 2,
@@ -14392,7 +14515,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1978,
                         Doors = 2,
@@ -14403,7 +14526,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1979,
                         Doors = 2,
@@ -14415,7 +14538,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1964,
                         Doors = 2,
@@ -14426,7 +14549,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1965,
                         Doors = 2,
@@ -14437,7 +14560,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1966,
                         Doors = 2,
@@ -14448,7 +14571,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1967,
                         Doors = 2,
@@ -14459,7 +14582,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1968,
                         Doors = 2,
@@ -14470,7 +14593,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1969,
                         Doors = 2,
@@ -14481,7 +14604,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1970,
                         Doors = 2,
@@ -14492,7 +14615,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1971,
                         Doors = 2,
@@ -14503,7 +14626,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1972,
                         Doors = 2,
@@ -14514,7 +14637,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1973,
                         Doors = 2,
@@ -14525,7 +14648,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1974,
                         Doors = 2,
@@ -14536,7 +14659,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1975,
                         Doors = 2,
@@ -14547,7 +14670,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1976,
                         Doors = 2,
@@ -14558,7 +14681,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1977,
                         Doors = 2,
@@ -14570,7 +14693,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1970,
                         Doors = 4,
@@ -14582,7 +14705,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1971,
                         Doors = 4,
@@ -14594,7 +14717,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1972,
                         Doors = 4,
@@ -14606,7 +14729,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1973,
                         Doors = 4,
@@ -14618,7 +14741,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1974,
                         Doors = 4,
@@ -14630,7 +14753,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1975,
                         Doors = 4,
@@ -14642,7 +14765,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1976,
                         Doors = 4,
@@ -14654,7 +14777,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1977,
                         Doors = 4,
@@ -14666,7 +14789,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1978,
                         Doors = 4,
@@ -14678,7 +14801,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1979,
                         Doors = 4,
@@ -14690,7 +14813,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1980,
                         Doors = 4,
@@ -14702,7 +14825,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1981,
                         Doors = 4,
@@ -14714,7 +14837,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1982,
                         Doors = 4,
@@ -14726,7 +14849,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1983,
                         Doors = 4,
@@ -14738,7 +14861,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1984,
                         Doors = 4,
@@ -14750,7 +14873,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1985,
                         Doors = 4,
@@ -14762,7 +14885,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1986,
                         Doors = 4,
@@ -14774,7 +14897,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1987,
                         Doors = 4,
@@ -14786,7 +14909,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1988,
                         Doors = 4,
@@ -14798,7 +14921,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1953,
                         Doors = 4,
@@ -14810,7 +14933,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1954,
                         Doors = 4,
@@ -14822,7 +14945,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1955,
                         Doors = 4,
@@ -14834,7 +14957,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1956,
                         Doors = 4,
@@ -14846,7 +14969,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1957,
                         Doors = 4,
@@ -14858,7 +14981,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1958,
                         Doors = 4,
@@ -14870,7 +14993,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1959,
                         Doors = 4,
@@ -14882,7 +15005,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1960,
                         Doors = 4,
@@ -14894,7 +15017,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1961,
                         Doors = 4,
@@ -14906,7 +15029,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1962,
                         Doors = 4,
@@ -14918,7 +15041,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1963,
                         Doors = 4,
@@ -14930,7 +15053,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1964,
                         Doors = 4,
@@ -14942,7 +15065,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1965,
                         Doors = 4,
@@ -14954,7 +15077,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1966,
                         Doors = 4,
@@ -14966,7 +15089,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1967,
                         Doors = 4,
@@ -14978,7 +15101,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1968,
                         Doors = 4,
@@ -14990,7 +15113,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1969,
                         Doors = 4,
@@ -15002,7 +15125,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1970,
                         Doors = 4,
@@ -15014,7 +15137,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1971,
                         Doors = 4,
@@ -15026,7 +15149,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1972,
                         Doors = 4,
@@ -15038,7 +15161,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1973,
                         Doors = 4,
@@ -15050,7 +15173,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1974,
                         Doors = 4,
@@ -15062,7 +15185,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1975,
                         Doors = 4,
@@ -15074,7 +15197,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1976,
                         Doors = 4,
@@ -15086,7 +15209,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1977,
                         Doors = 4,
@@ -15098,7 +15221,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1978,
                         Doors = 4,
@@ -15110,7 +15233,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1979,
                         Doors = 4,
@@ -15122,7 +15245,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1980,
                         Doors = 4,
@@ -15134,7 +15257,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1981,
                         Doors = 4,
@@ -15146,7 +15269,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1982,
                         Doors = 4,
@@ -15158,7 +15281,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1983,
                         Doors = 4,
@@ -15170,7 +15293,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1984,
                         Doors = 4,
@@ -15182,7 +15305,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1985,
                         Doors = 4,
@@ -15194,7 +15317,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1986,
                         Doors = 4,
@@ -15206,7 +15329,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1987,
                         Doors = 4,
@@ -15218,7 +15341,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1988,
                         Doors = 4,
@@ -15230,7 +15353,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1989,
                         Doors = 4,
@@ -15242,7 +15365,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1990,
                         Doors = 4,
@@ -15254,7 +15377,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1991,
                         Doors = 4,
@@ -15266,7 +15389,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1992,
                         Doors = 4,
@@ -15278,7 +15401,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1993,
                         Doors = 4,
@@ -15290,7 +15413,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1994,
                         Doors = 4,
@@ -15302,7 +15425,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1995,
                         Doors = 4,
@@ -15314,7 +15437,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1996,
                         Doors = 4,
@@ -15326,7 +15449,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1997,
                         Doors = 4,
@@ -15338,7 +15461,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1998,
                         Doors = 4,
@@ -15350,7 +15473,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1999,
                         Doors = 4,
@@ -15362,7 +15485,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2000,
                         Doors = 4,
@@ -15374,7 +15497,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2001,
                         Doors = 4,
@@ -15386,7 +15509,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2002,
                         Doors = 4,
@@ -15398,7 +15521,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2003,
                         Doors = 4,
@@ -15410,7 +15533,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2004,
                         Doors = 4,
@@ -15422,7 +15545,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2005,
                         Doors = 4,
@@ -15434,7 +15557,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2006,
                         Doors = 4,
@@ -15445,7 +15568,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2007,
                         Doors = 4,
@@ -15457,7 +15580,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2008,
                         Doors = 4,
@@ -15469,7 +15592,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2009,
                         Doors = 4,
@@ -15481,7 +15604,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2010,
                         Doors = 4,
@@ -15493,7 +15616,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2011,
                         Doors = 4,
@@ -15505,7 +15628,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2012,
                         Doors = 4,
@@ -15517,7 +15640,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2013,
                         Doors = 4,
@@ -15529,7 +15652,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2014,
                         Doors = 4,
@@ -15541,7 +15664,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2015,
                         Doors = 4,
@@ -15553,7 +15676,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2016,
                         Doors = 4,
@@ -15565,7 +15688,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2017,
                         Doors = 4,
@@ -15577,7 +15700,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1966,
                          Doors = 4,
@@ -15589,7 +15712,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1967,
                          Doors = 4,
@@ -15601,7 +15724,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1968,
                          Doors = 4,
@@ -15613,7 +15736,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1969,
                          Doors = 4,
@@ -15625,7 +15748,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1970,
                          Doors = 4,
@@ -15637,7 +15760,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1971,
                          Doors = 4,
@@ -15649,7 +15772,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1972,
                          Doors = 4,
@@ -15661,7 +15784,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1973,
                          Doors = 4,
@@ -15673,7 +15796,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1974,
                          Doors = 4,
@@ -15685,7 +15808,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1975,
                          Doors = 4,
@@ -15697,7 +15820,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1976,
                          Doors = 4,
@@ -15709,7 +15832,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1977,
                          Doors = 4,
@@ -15721,7 +15844,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1978,
                          Doors = 4,
@@ -15733,7 +15856,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1979,
                          Doors = 4,
@@ -15745,7 +15868,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1980,
                          Doors = 4,
@@ -15757,7 +15880,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1981,
                          Doors = 4,
@@ -15769,7 +15892,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1982,
                          Doors = 4,
@@ -15781,7 +15904,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1983,
                          Doors = 4,
@@ -15793,7 +15916,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1984,
                          Doors = 4,
@@ -15805,7 +15928,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1985,
                          Doors = 4,
@@ -15817,7 +15940,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1986,
                          Doors = 4,
@@ -15829,7 +15952,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1987,
                          Doors = 4,
@@ -15841,7 +15964,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1988,
                          Doors = 4,
@@ -15853,7 +15976,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1989,
                          Doors = 4,
@@ -15865,7 +15988,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1990,
                          Doors = 4,
@@ -15877,7 +16000,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1991,
                          Doors = 4,
@@ -15889,7 +16012,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1992,
                          Doors = 4,
@@ -15901,7 +16024,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1993,
                          Doors = 4,
@@ -15913,7 +16036,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1994,
                          Doors = 4,
@@ -15925,7 +16048,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1995,
                          Doors = 4,
@@ -15937,7 +16060,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1996,
                          Doors = 4,
@@ -15949,7 +16072,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1997,
                          Doors = 4,
@@ -15961,7 +16084,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1998,
                          Doors = 4,
@@ -15973,7 +16096,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1999,
                          Doors = 4,
@@ -15985,7 +16108,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2000,
                          Doors = 4,
@@ -15997,7 +16120,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2001,
                          Doors = 4,
@@ -16009,7 +16132,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2002,
                          Doors = 4,
@@ -16021,7 +16144,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2003,
                          Doors = 4,
@@ -16033,7 +16156,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2004,
                          Doors = 4,
@@ -16045,7 +16168,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2005,
                          Doors = 4,
@@ -16057,7 +16180,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2006,
                          Doors = 4,
@@ -16069,7 +16192,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2007,
                          Doors = 4,
@@ -16081,7 +16204,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2008,
                          Doors = 4,
@@ -16093,7 +16216,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2009,
                          Doors = 4,
@@ -16105,7 +16228,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2010,
                          Doors = 4,
@@ -16117,7 +16240,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2011,
                          Doors = 4,
@@ -16129,7 +16252,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2012,
                          Doors = 4,
@@ -16141,7 +16264,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2013,
                          Doors = 4,
@@ -16153,7 +16276,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2014,
                          Doors = 4,
@@ -16165,7 +16288,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2015,
                          Doors = 4,
@@ -16177,7 +16300,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2016,
                          Doors = 4,
@@ -16189,7 +16312,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2017,
                          Doors = 4,
@@ -16201,7 +16324,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1965,
                          Doors = 4,
@@ -16213,7 +16336,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1966,
                          Doors = 4,
@@ -16225,7 +16348,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1967,
                          Doors = 4,
@@ -16237,7 +16360,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1968,
                          Doors = 4,
@@ -16249,7 +16372,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1969,
                          Doors = 4,
@@ -16261,7 +16384,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1970,
                          Doors = 4,
@@ -16273,7 +16396,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1971,
                          Doors = 4,
@@ -16285,7 +16408,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1972,
                          Doors = 4,
@@ -16297,7 +16420,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1973,
                          Doors = 4,
@@ -16309,7 +16432,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1974,
                          Doors = 4,
@@ -16321,7 +16444,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1975,
                          Doors = 4,
@@ -16333,7 +16456,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1976,
                          Doors = 4,
@@ -16345,7 +16468,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1977,
                          Doors = 4,
@@ -16357,7 +16480,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1978,
                          Doors = 4,
@@ -16369,7 +16492,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1979,
                          Doors = 4,
@@ -16381,7 +16504,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1980,
                          Doors = 4,
@@ -16393,7 +16516,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1981,
                          Doors = 4,
@@ -16405,7 +16528,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1982,
                          Doors = 4,
@@ -16417,7 +16540,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1983,
                          Doors = 4,
@@ -16429,7 +16552,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1984,
                          Doors = 4,
@@ -16441,7 +16564,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1985,
                          Doors = 4,
@@ -16453,7 +16576,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1986,
                          Doors = 4,
@@ -16465,7 +16588,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1987,
                          Doors = 4,
@@ -16477,7 +16600,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1988,
                          Doors = 4,
@@ -16489,7 +16612,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1989,
                          Doors = 4,
@@ -16501,7 +16624,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1990,
                          Doors = 4,
@@ -16513,7 +16636,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1991,
                          Doors = 4,
@@ -16525,7 +16648,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1992,
                          Doors = 4,
@@ -16537,7 +16660,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1993,
                          Doors = 4,
@@ -16549,7 +16672,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1994,
                          Doors = 4,
@@ -16561,7 +16684,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1995,
                          Doors = 4,
@@ -16573,7 +16696,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1996,
                          Doors = 4,
@@ -16585,7 +16708,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1997,
                          Doors = 4,
@@ -16597,7 +16720,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1998,
                          Doors = 4,
@@ -16609,7 +16732,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1999,
                          Doors = 4,
@@ -16621,7 +16744,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2000,
                          Doors = 4,
@@ -16633,7 +16756,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2001,
                          Doors = 4,
@@ -16645,7 +16768,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2002,
                          Doors = 4,
@@ -16657,7 +16780,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2003,
                          Doors = 4,
@@ -16669,7 +16792,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2004,
                          Doors = 4,
@@ -16681,7 +16804,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2005,
                          Doors = 4,
@@ -16693,7 +16816,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2006,
                          Doors = 4,
@@ -16705,7 +16828,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Malibu",
                          Year = 1964,
                          Doors = 4,
@@ -16717,7 +16840,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1965,
                         Doors = 4,
@@ -16729,7 +16852,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1966,
                         Doors = 4,
@@ -16741,7 +16864,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1967,
                         Doors = 4,
@@ -16753,7 +16876,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1968,
                         Doors = 4,
@@ -16765,7 +16888,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1969,
                         Doors = 4,
@@ -16777,7 +16900,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1970,
                         Doors = 4,
@@ -16789,7 +16912,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1971,
                         Doors = 4,
@@ -16801,7 +16924,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1972,
                         Doors = 4,
@@ -16813,7 +16936,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1973,
                         Doors = 4,
@@ -16825,7 +16948,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1974,
                         Doors = 4,
@@ -16837,7 +16960,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1975,
                         Doors = 4,
@@ -16849,7 +16972,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1976,
                         Doors = 4,
@@ -16861,7 +16984,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1977,
                         Doors = 4,
@@ -16873,7 +16996,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1978,
                         Doors = 4,
@@ -16885,7 +17008,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1979,
                         Doors = 4,
@@ -16897,7 +17020,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1980,
                         Doors = 4,
@@ -16909,7 +17032,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1981,
                         Doors = 4,
@@ -16921,7 +17044,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1982,
                         Doors = 4,
@@ -16933,7 +17056,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1983,
                         Doors = 4,
@@ -16945,7 +17068,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1984,
                         Doors = 4,
@@ -16957,7 +17080,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1985,
                         Doors = 4,
@@ -16969,7 +17092,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1986,
                         Doors = 4,
@@ -16981,7 +17104,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1987,
                         Doors = 4,
@@ -16993,7 +17116,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1988,
                         Doors = 4,
@@ -17005,7 +17128,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1989,
                         Doors = 4,
@@ -17017,7 +17140,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1990,
                         Doors = 4,
@@ -17029,7 +17152,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1991,
                         Doors = 4,
@@ -17041,7 +17164,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1992,
                         Doors = 4,
@@ -17053,7 +17176,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1993,
                         Doors = 4,
@@ -17065,7 +17188,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1994,
                         Doors = 4,
@@ -17077,7 +17200,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1995,
                         Doors = 4,
@@ -17089,7 +17212,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1996,
                         Doors = 4,
@@ -17101,7 +17224,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1997,
                         Doors = 4,
@@ -17113,7 +17236,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1998,
                         Doors = 4,
@@ -17125,7 +17248,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1999,
                         Doors = 4,
@@ -17137,7 +17260,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2000,
                         Doors = 4,
@@ -17149,7 +17272,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2001,
                         Doors = 4,
@@ -17161,7 +17284,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2002,
                         Doors = 4,
@@ -17173,7 +17296,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2003,
                         Doors = 4,
@@ -17185,7 +17308,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2004,
                         Doors = 4,
@@ -17197,7 +17320,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2005,
                         Doors = 4,
@@ -17209,7 +17332,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2006,
                         Doors = 4,
@@ -17221,7 +17344,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2007,
                         Doors = 4,
@@ -17233,7 +17356,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2008,
                         Doors = 4,
@@ -17245,7 +17368,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2009,
                         Doors = 4,
@@ -17257,7 +17380,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2010,
                         Doors = 4,
@@ -17269,7 +17392,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2011,
                         Doors = 4,
@@ -17281,7 +17404,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2012,
                         Doors = 4,
@@ -17293,7 +17416,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2013,
                         Doors = 4,
@@ -17305,7 +17428,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2014,
                         Doors = 4,
@@ -17317,7 +17440,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2015,
                         Doors = 4,
@@ -17329,7 +17452,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2016,
                         Doors = 4,
@@ -17341,7 +17464,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2017,
                         Doors = 4,
@@ -17353,7 +17476,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1957,
                         Doors = 4,
@@ -17365,7 +17488,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1958,
                         Doors = 4,
@@ -17377,7 +17500,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1959,
                         Doors = 4,
@@ -17389,7 +17512,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1960,
                         Doors = 4,
@@ -17401,7 +17524,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1961,
                         Doors = 4,
@@ -17413,7 +17536,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1962,
                         Doors = 4,
@@ -17425,7 +17548,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1963,
                         Doors = 4,
@@ -17437,7 +17560,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1964,
                         Doors = 4,
@@ -17449,7 +17572,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1965,
                         Doors = 4,
@@ -17461,7 +17584,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1966,
                         Doors = 4,
@@ -17473,7 +17596,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1967,
                         Doors = 4,
@@ -17485,7 +17608,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1968,
                         Doors = 4,
@@ -17497,7 +17620,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1969,
                         Doors = 4,
@@ -17509,7 +17632,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1970,
                         Doors = 4,
@@ -17521,7 +17644,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1971,
                         Doors = 4,
@@ -17533,7 +17656,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1972,
                         Doors = 4,
@@ -17545,7 +17668,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1973,
                         Doors = 4,
@@ -17557,7 +17680,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1974,
                         Doors = 4,
@@ -17569,7 +17692,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1975,
                         Doors = 4,
@@ -17581,7 +17704,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1976,
                         Doors = 4,
@@ -17593,7 +17716,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1977,
                         Doors = 4,
@@ -17605,7 +17728,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1978,
                         Doors = 4,
@@ -17617,7 +17740,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1979,
                         Doors = 4,
@@ -17629,7 +17752,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1980,
                         Doors = 4,
@@ -17641,7 +17764,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1981,
                         Doors = 4,
@@ -17653,7 +17776,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1982,
                         Doors = 4,
@@ -17665,7 +17788,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1983,
                         Doors = 4,
@@ -17677,7 +17800,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1984,
                         Doors = 4,
@@ -17689,7 +17812,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1985,
                         Doors = 4,
@@ -17701,7 +17824,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1986,
                         Doors = 4,
@@ -17713,7 +17836,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1987,
                         Doors = 4,
@@ -17725,7 +17848,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1988,
                         Doors = 4,
@@ -17737,7 +17860,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1989,
                         Doors = 4,
@@ -17749,7 +17872,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1990,
                         Doors = 4,
@@ -17761,7 +17884,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1991,
                         Doors = 4,
@@ -17773,7 +17896,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1992,
                         Doors = 4,
@@ -17785,7 +17908,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1993,
                         Doors = 4,
@@ -17797,7 +17920,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1994,
                         Doors = 4,
@@ -17809,7 +17932,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1995,
                         Doors = 4,
@@ -17821,7 +17944,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1996,
                         Doors = 4,
@@ -17833,7 +17956,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1997,
                         Doors = 4,
@@ -17845,7 +17968,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1998,
                         Doors = 4,
@@ -17857,7 +17980,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1999,
                         Doors = 4,
@@ -17869,7 +17992,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2000,
                         Doors = 4,
@@ -17881,7 +18004,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2001,
                         Doors = 4,
@@ -17893,7 +18016,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2002,
                         Doors = 4,
@@ -17905,7 +18028,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2003,
                         Doors = 4,
@@ -17917,7 +18040,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2004,
                         Doors = 4,
@@ -17929,7 +18052,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2005,
                         Doors = 4,
@@ -17941,7 +18064,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2006,
                         Doors = 4,
@@ -17953,7 +18076,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2007,
                         Doors = 4,
@@ -17965,7 +18088,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2008,
                         Doors = 4,
@@ -17977,7 +18100,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2009,
                         Doors = 4,
@@ -17989,7 +18112,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2010,
                         Doors = 4,
@@ -18001,7 +18124,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2011,
                         Doors = 4,
@@ -18013,7 +18136,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2012,
                         Doors = 4,
@@ -18025,7 +18148,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2013,
                         Doors = 4,
@@ -18037,7 +18160,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2014,
                         Doors = 4,
@@ -18049,7 +18172,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2015,
                         Doors = 4,
@@ -18061,7 +18184,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2016,
                         Doors = 4,
@@ -18073,7 +18196,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2017,
                         Doors = 4,
@@ -21074,7 +21197,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1969,
                         Doors = 4,
@@ -21085,7 +21208,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1970,
                         Doors = 4,
@@ -21096,7 +21219,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1971,
                         Doors = 4,
@@ -21107,7 +21230,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1972,
                         Doors = 4,
@@ -21118,7 +21241,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1973,
                         Doors = 4,
@@ -21129,7 +21252,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1974,
                         Doors = 4,
@@ -21140,7 +21263,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1975,
                         Doors = 4,
@@ -21151,7 +21274,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1976,
                         Doors = 4,
@@ -21162,7 +21285,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1977,
                         Doors = 4,
@@ -21173,7 +21296,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1978,
                         Doors = 4,
@@ -21184,7 +21307,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1979,
                         Doors = 4,
@@ -21196,7 +21319,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1964,
                         Doors = 4,
@@ -21207,7 +21330,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1965,
                         Doors = 4,
@@ -21218,7 +21341,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1966,
                         Doors = 4,
@@ -21229,7 +21352,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1967,
                         Doors = 4,
@@ -21240,7 +21363,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1968,
                         Doors = 4,
@@ -21251,7 +21374,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1969,
                         Doors = 4,
@@ -21262,7 +21385,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1970,
                         Doors = 4,
@@ -21273,7 +21396,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1971,
                         Doors = 4,
@@ -21284,7 +21407,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1972,
                         Doors = 4,
@@ -21295,7 +21418,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1973,
                         Doors = 4,
@@ -21306,7 +21429,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1974,
                         Doors = 4,
@@ -21317,7 +21440,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1975,
                         Doors = 4,
@@ -21328,7 +21451,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1976,
                         Doors = 4,
@@ -21339,7 +21462,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1977,
                         Doors = 4,
@@ -21351,7 +21474,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Monte Carlo",
                          Year = 1970,
                          Doors = 4,
@@ -21363,7 +21486,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1971,
                         Doors = 4,
@@ -21375,7 +21498,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1972,
                         Doors = 4,
@@ -21387,7 +21510,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1973,
                         Doors = 4,
@@ -21399,7 +21522,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1974,
                         Doors = 4,
@@ -21411,7 +21534,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1975,
                         Doors = 4,
@@ -21423,7 +21546,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1976,
                         Doors = 4,
@@ -21435,7 +21558,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1977,
                         Doors = 4,
@@ -21447,7 +21570,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1978,
                         Doors = 4,
@@ -21459,7 +21582,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1979,
                         Doors = 4,
@@ -21471,7 +21594,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1980,
                         Doors = 4,
@@ -21483,7 +21606,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1981,
                         Doors = 4,
@@ -21495,7 +21618,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1982,
                         Doors = 4,
@@ -21507,7 +21630,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1983,
                         Doors = 4,
@@ -21519,7 +21642,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1984,
                         Doors = 4,
@@ -21531,7 +21654,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1985,
                         Doors = 4,
@@ -21543,7 +21666,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1986,
                         Doors = 4,
@@ -21555,7 +21678,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1987,
                         Doors = 4,
@@ -21567,7 +21690,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Monte Carlo",
                         Year = 1988,
                         Doors = 4,
@@ -21579,7 +21702,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1953,
                         Doors = 4,
@@ -21591,7 +21714,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1954,
                         Doors = 4,
@@ -21603,7 +21726,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1955,
                         Doors = 4,
@@ -21615,7 +21738,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1956,
                         Doors = 4,
@@ -21627,7 +21750,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1957,
                         Doors = 4,
@@ -21639,7 +21762,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1958,
                         Doors = 4,
@@ -21651,7 +21774,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1959,
                         Doors = 4,
@@ -21663,7 +21786,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1960,
                         Doors = 4,
@@ -21675,7 +21798,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1961,
                         Doors = 4,
@@ -21687,7 +21810,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1962,
                         Doors = 4,
@@ -21699,7 +21822,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1963,
                         Doors = 4,
@@ -21711,7 +21834,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1964,
                         Doors = 4,
@@ -21723,7 +21846,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1965,
                         Doors = 4,
@@ -21735,7 +21858,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1966,
                         Doors = 4,
@@ -21747,7 +21870,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1967,
                         Doors = 4,
@@ -21759,7 +21882,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1968,
                         Doors = 4,
@@ -21771,7 +21894,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1969,
                         Doors = 4,
@@ -21783,7 +21906,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1970,
                         Doors = 4,
@@ -21795,7 +21918,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1971,
                         Doors = 4,
@@ -21807,7 +21930,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1972,
                         Doors = 4,
@@ -21819,7 +21942,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1973,
                         Doors = 4,
@@ -21831,7 +21954,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1974,
                         Doors = 4,
@@ -21843,7 +21966,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1975,
                         Doors = 4,
@@ -21855,7 +21978,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1976,
                         Doors = 4,
@@ -21867,7 +21990,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1977,
                         Doors = 4,
@@ -21879,7 +22002,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1978,
                         Doors = 4,
@@ -21891,7 +22014,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1979,
                         Doors = 4,
@@ -21903,7 +22026,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1980,
                         Doors = 4,
@@ -21915,7 +22038,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1981,
                         Doors = 4,
@@ -21927,7 +22050,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1982,
                         Doors = 4,
@@ -21939,7 +22062,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1983,
                         Doors = 4,
@@ -21951,7 +22074,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1984,
                         Doors = 4,
@@ -21963,7 +22086,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1985,
                         Doors = 4,
@@ -21975,7 +22098,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1986,
                         Doors = 4,
@@ -21987,7 +22110,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1987,
                         Doors = 4,
@@ -21999,7 +22122,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1988,
                         Doors = 4,
@@ -22011,7 +22134,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1989,
                         Doors = 4,
@@ -22023,7 +22146,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1990,
                         Doors = 4,
@@ -22035,7 +22158,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1991,
                         Doors = 4,
@@ -22047,7 +22170,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1992,
                         Doors = 4,
@@ -22059,7 +22182,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1993,
                         Doors = 4,
@@ -22071,7 +22194,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1994,
                         Doors = 4,
@@ -22083,7 +22206,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1995,
                         Doors = 4,
@@ -22095,7 +22218,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1996,
                         Doors = 4,
@@ -22107,7 +22230,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1997,
                         Doors = 4,
@@ -22119,7 +22242,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1998,
                         Doors = 4,
@@ -22131,7 +22254,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 1999,
                         Doors = 4,
@@ -22143,7 +22266,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2000,
                         Doors = 4,
@@ -22155,7 +22278,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2001,
                         Doors = 4,
@@ -22167,7 +22290,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2002,
                         Doors = 4,
@@ -22179,7 +22302,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2003,
                         Doors = 4,
@@ -22191,7 +22314,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2004,
                         Doors = 4,
@@ -22203,7 +22326,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2005,
                         Doors = 4,
@@ -22215,7 +22338,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2006,
                         Doors = 4,
@@ -22226,7 +22349,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2007,
                         Doors = 4,
@@ -22238,7 +22361,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2008,
                         Doors = 4,
@@ -22250,7 +22373,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2009,
                         Doors = 4,
@@ -22262,7 +22385,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2010,
                         Doors = 4,
@@ -22274,7 +22397,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2011,
                         Doors = 4,
@@ -22286,7 +22409,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2012,
                         Doors = 4,
@@ -22298,7 +22421,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2013,
                         Doors = 4,
@@ -22310,7 +22433,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2014,
                         Doors = 4,
@@ -22322,7 +22445,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2015,
                         Doors = 4,
@@ -22334,7 +22457,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2016,
                         Doors = 4,
@@ -22346,7 +22469,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Corvette",
                         Year = 2017,
                         Doors = 4,
@@ -22358,7 +22481,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1966,
                          Doors = 4,
@@ -22370,7 +22493,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1967,
                          Doors = 4,
@@ -22382,7 +22505,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1968,
                          Doors = 4,
@@ -22394,7 +22517,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1969,
                          Doors = 4,
@@ -22406,7 +22529,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1970,
                          Doors = 4,
@@ -22418,7 +22541,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1971,
                          Doors = 4,
@@ -22430,7 +22553,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1972,
                          Doors = 4,
@@ -22442,7 +22565,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1973,
                          Doors = 4,
@@ -22454,7 +22577,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1974,
                          Doors = 4,
@@ -22466,7 +22589,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1975,
                          Doors = 4,
@@ -22478,7 +22601,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1976,
                          Doors = 4,
@@ -22490,7 +22613,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1977,
                          Doors = 4,
@@ -22502,7 +22625,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1978,
                          Doors = 4,
@@ -22514,7 +22637,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1979,
                          Doors = 4,
@@ -22526,7 +22649,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1980,
                          Doors = 4,
@@ -22538,7 +22661,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1981,
                          Doors = 4,
@@ -22550,7 +22673,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1982,
                          Doors = 4,
@@ -22562,7 +22685,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1983,
                          Doors = 4,
@@ -22574,7 +22697,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1984,
                          Doors = 4,
@@ -22586,7 +22709,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1985,
                          Doors = 4,
@@ -22598,7 +22721,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1986,
                          Doors = 4,
@@ -22610,7 +22733,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1987,
                          Doors = 4,
@@ -22622,7 +22745,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1988,
                          Doors = 4,
@@ -22634,7 +22757,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1989,
                          Doors = 4,
@@ -22646,7 +22769,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1990,
                          Doors = 4,
@@ -22658,7 +22781,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1991,
                          Doors = 4,
@@ -22670,7 +22793,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1992,
                          Doors = 4,
@@ -22682,7 +22805,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1993,
                          Doors = 4,
@@ -22694,7 +22817,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1994,
                          Doors = 4,
@@ -22706,7 +22829,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1995,
                          Doors = 4,
@@ -22718,7 +22841,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1996,
                          Doors = 4,
@@ -22730,7 +22853,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1997,
                          Doors = 4,
@@ -22742,7 +22865,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1998,
                          Doors = 4,
@@ -22754,7 +22877,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 1999,
                          Doors = 4,
@@ -22766,7 +22889,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2000,
                          Doors = 4,
@@ -22778,7 +22901,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2001,
                          Doors = 4,
@@ -22790,7 +22913,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2002,
                          Doors = 4,
@@ -22802,7 +22925,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2003,
                          Doors = 4,
@@ -22814,7 +22937,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2004,
                          Doors = 4,
@@ -22826,7 +22949,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2005,
                          Doors = 4,
@@ -22838,7 +22961,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2006,
                          Doors = 4,
@@ -22850,7 +22973,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2007,
                          Doors = 4,
@@ -22862,7 +22985,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2008,
                          Doors = 4,
@@ -22874,7 +22997,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2009,
                          Doors = 4,
@@ -22886,7 +23009,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2010,
                          Doors = 4,
@@ -22898,7 +23021,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2011,
                          Doors = 4,
@@ -22910,7 +23033,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2012,
                          Doors = 4,
@@ -22922,7 +23045,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2013,
                          Doors = 4,
@@ -22934,7 +23057,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2014,
                          Doors = 4,
@@ -22946,7 +23069,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2015,
                          Doors = 4,
@@ -22958,7 +23081,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2016,
                          Doors = 4,
@@ -22970,7 +23093,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Camaro",
                          Year = 2017,
                          Doors = 4,
@@ -22982,7 +23105,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1965,
                          Doors = 4,
@@ -22994,7 +23117,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1966,
                          Doors = 4,
@@ -23006,7 +23129,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1967,
                          Doors = 4,
@@ -23018,7 +23141,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1968,
                          Doors = 4,
@@ -23030,7 +23153,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1969,
                          Doors = 4,
@@ -23042,7 +23165,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1970,
                          Doors = 4,
@@ -23054,7 +23177,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1971,
                          Doors = 4,
@@ -23066,7 +23189,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1972,
                          Doors = 4,
@@ -23078,7 +23201,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1973,
                          Doors = 4,
@@ -23090,7 +23213,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1974,
                          Doors = 4,
@@ -23102,7 +23225,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1975,
                          Doors = 4,
@@ -23114,7 +23237,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1976,
                          Doors = 4,
@@ -23126,7 +23249,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1977,
                          Doors = 4,
@@ -23138,7 +23261,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1978,
                          Doors = 4,
@@ -23150,7 +23273,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1979,
                          Doors = 4,
@@ -23162,7 +23285,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1980,
                          Doors = 4,
@@ -23174,7 +23297,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1981,
                          Doors = 4,
@@ -23186,7 +23309,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1982,
                          Doors = 4,
@@ -23198,7 +23321,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1983,
                          Doors = 4,
@@ -23210,7 +23333,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1984,
                          Doors = 4,
@@ -23222,7 +23345,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1985,
                          Doors = 4,
@@ -23234,7 +23357,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1986,
                          Doors = 4,
@@ -23246,7 +23369,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1987,
                          Doors = 4,
@@ -23258,7 +23381,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1988,
                          Doors = 4,
@@ -23270,7 +23393,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1989,
                          Doors = 4,
@@ -23282,7 +23405,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1990,
                          Doors = 4,
@@ -23294,7 +23417,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1991,
                          Doors = 4,
@@ -23306,7 +23429,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1992,
                          Doors = 4,
@@ -23318,7 +23441,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1993,
                          Doors = 4,
@@ -23330,7 +23453,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1994,
                          Doors = 4,
@@ -23342,7 +23465,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1995,
                          Doors = 4,
@@ -23354,7 +23477,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1996,
                          Doors = 4,
@@ -23366,7 +23489,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1997,
                          Doors = 4,
@@ -23378,7 +23501,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1998,
                          Doors = 4,
@@ -23390,7 +23513,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 1999,
                          Doors = 4,
@@ -23402,7 +23525,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2000,
                          Doors = 4,
@@ -23414,7 +23537,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2001,
                          Doors = 4,
@@ -23426,7 +23549,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2002,
                          Doors = 4,
@@ -23438,7 +23561,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2003,
                          Doors = 4,
@@ -23450,7 +23573,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2004,
                          Doors = 4,
@@ -23462,7 +23585,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2005,
                          Doors = 4,
@@ -23474,7 +23597,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Caprice",
                          Year = 2006,
                          Doors = 4,
@@ -23486,7 +23609,7 @@ namespace HorsePowerStore.Data
                      new Car
                      {
                          //Id = 1,
-                         Make = "Chevy",
+                         Make = "Chevrolet",
                          Model = "Malibu",
                          Year = 1964,
                          Doors = 4,
@@ -23498,7 +23621,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1965,
                         Doors = 4,
@@ -23510,7 +23633,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1966,
                         Doors = 4,
@@ -23522,7 +23645,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1967,
                         Doors = 4,
@@ -23534,7 +23657,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1968,
                         Doors = 4,
@@ -23546,7 +23669,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1969,
                         Doors = 4,
@@ -23558,7 +23681,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1970,
                         Doors = 4,
@@ -23570,7 +23693,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1971,
                         Doors = 4,
@@ -23582,7 +23705,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1972,
                         Doors = 4,
@@ -23594,7 +23717,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1973,
                         Doors = 4,
@@ -23606,7 +23729,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1974,
                         Doors = 4,
@@ -23618,7 +23741,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1975,
                         Doors = 4,
@@ -23630,7 +23753,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1976,
                         Doors = 4,
@@ -23642,7 +23765,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1977,
                         Doors = 4,
@@ -23654,7 +23777,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1978,
                         Doors = 4,
@@ -23666,7 +23789,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1979,
                         Doors = 4,
@@ -23678,7 +23801,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1980,
                         Doors = 4,
@@ -23690,7 +23813,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1981,
                         Doors = 4,
@@ -23702,7 +23825,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1982,
                         Doors = 4,
@@ -23714,7 +23837,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1983,
                         Doors = 4,
@@ -23726,7 +23849,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1984,
                         Doors = 4,
@@ -23738,7 +23861,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1985,
                         Doors = 4,
@@ -23750,7 +23873,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1986,
                         Doors = 4,
@@ -23762,7 +23885,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1987,
                         Doors = 4,
@@ -23774,7 +23897,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1988,
                         Doors = 4,
@@ -23786,7 +23909,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1989,
                         Doors = 4,
@@ -23798,7 +23921,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1990,
                         Doors = 4,
@@ -23810,7 +23933,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1991,
                         Doors = 4,
@@ -23822,7 +23945,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1992,
                         Doors = 4,
@@ -23834,7 +23957,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1993,
                         Doors = 4,
@@ -23846,7 +23969,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1994,
                         Doors = 4,
@@ -23858,7 +23981,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1995,
                         Doors = 4,
@@ -23870,7 +23993,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1996,
                         Doors = 4,
@@ -23882,7 +24005,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1997,
                         Doors = 4,
@@ -23894,7 +24017,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1998,
                         Doors = 4,
@@ -23906,7 +24029,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 1999,
                         Doors = 4,
@@ -23918,7 +24041,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2000,
                         Doors = 4,
@@ -23930,7 +24053,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2001,
                         Doors = 4,
@@ -23942,7 +24065,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2002,
                         Doors = 4,
@@ -23954,7 +24077,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2003,
                         Doors = 4,
@@ -23966,7 +24089,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2004,
                         Doors = 4,
@@ -23978,7 +24101,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2005,
                         Doors = 4,
@@ -23990,7 +24113,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2006,
                         Doors = 4,
@@ -24002,7 +24125,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2007,
                         Doors = 4,
@@ -24014,7 +24137,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2008,
                         Doors = 4,
@@ -24026,7 +24149,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2009,
                         Doors = 4,
@@ -24038,7 +24161,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2010,
                         Doors = 4,
@@ -24050,7 +24173,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2011,
                         Doors = 4,
@@ -24062,7 +24185,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2012,
                         Doors = 4,
@@ -24074,7 +24197,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2013,
                         Doors = 4,
@@ -24086,7 +24209,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2014,
                         Doors = 4,
@@ -24098,7 +24221,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2015,
                         Doors = 4,
@@ -24110,7 +24233,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2016,
                         Doors = 4,
@@ -24122,7 +24245,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Malibu",
                         Year = 2017,
                         Doors = 4,
@@ -24134,7 +24257,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1957,
                         Doors = 4,
@@ -24146,7 +24269,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1958,
                         Doors = 4,
@@ -24158,7 +24281,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1959,
                         Doors = 4,
@@ -24170,7 +24293,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1960,
                         Doors = 4,
@@ -24182,7 +24305,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1961,
                         Doors = 4,
@@ -24194,7 +24317,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1962,
                         Doors = 4,
@@ -24206,7 +24329,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1963,
                         Doors = 4,
@@ -24218,7 +24341,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1964,
                         Doors = 4,
@@ -24230,7 +24353,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1965,
                         Doors = 4,
@@ -24242,7 +24365,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1966,
                         Doors = 4,
@@ -24254,7 +24377,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1967,
                         Doors = 4,
@@ -24266,7 +24389,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1968,
                         Doors = 4,
@@ -24278,7 +24401,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1969,
                         Doors = 4,
@@ -24290,7 +24413,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1970,
                         Doors = 4,
@@ -24302,7 +24425,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1971,
                         Doors = 4,
@@ -24314,7 +24437,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1972,
                         Doors = 4,
@@ -24326,7 +24449,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1973,
                         Doors = 4,
@@ -24338,7 +24461,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1974,
                         Doors = 4,
@@ -24350,7 +24473,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1975,
                         Doors = 4,
@@ -24362,7 +24485,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1976,
                         Doors = 4,
@@ -24374,7 +24497,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1977,
                         Doors = 4,
@@ -24386,7 +24509,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1978,
                         Doors = 4,
@@ -24398,7 +24521,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1979,
                         Doors = 4,
@@ -24410,7 +24533,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1980,
                         Doors = 4,
@@ -24422,7 +24545,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1981,
                         Doors = 4,
@@ -24434,7 +24557,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1982,
                         Doors = 4,
@@ -24446,7 +24569,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1983,
                         Doors = 4,
@@ -24458,7 +24581,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1984,
                         Doors = 4,
@@ -24470,7 +24593,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1985,
                         Doors = 4,
@@ -24482,7 +24605,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1986,
                         Doors = 4,
@@ -24494,7 +24617,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1987,
                         Doors = 4,
@@ -24506,7 +24629,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1988,
                         Doors = 4,
@@ -24518,7 +24641,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1989,
                         Doors = 4,
@@ -24530,7 +24653,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1990,
                         Doors = 4,
@@ -24542,7 +24665,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1991,
                         Doors = 4,
@@ -24554,7 +24677,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1992,
                         Doors = 4,
@@ -24566,7 +24689,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1993,
                         Doors = 4,
@@ -24578,7 +24701,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1994,
                         Doors = 4,
@@ -24590,7 +24713,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1995,
                         Doors = 4,
@@ -24602,7 +24725,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1996,
                         Doors = 4,
@@ -24614,7 +24737,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1997,
                         Doors = 4,
@@ -24626,7 +24749,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1998,
                         Doors = 4,
@@ -24638,7 +24761,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 1999,
                         Doors = 4,
@@ -24650,7 +24773,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2000,
                         Doors = 4,
@@ -24662,7 +24785,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2001,
                         Doors = 4,
@@ -24674,7 +24797,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2002,
                         Doors = 4,
@@ -24686,7 +24809,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2003,
                         Doors = 4,
@@ -24698,7 +24821,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2004,
                         Doors = 4,
@@ -24710,7 +24833,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2005,
                         Doors = 4,
@@ -24722,7 +24845,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2006,
                         Doors = 4,
@@ -24734,7 +24857,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2007,
                         Doors = 4,
@@ -24746,7 +24869,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2008,
                         Doors = 4,
@@ -24758,7 +24881,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2009,
                         Doors = 4,
@@ -24770,7 +24893,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2010,
                         Doors = 4,
@@ -24782,7 +24905,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2011,
                         Doors = 4,
@@ -24794,7 +24917,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2012,
                         Doors = 4,
@@ -24806,7 +24929,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2013,
                         Doors = 4,
@@ -24818,7 +24941,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2014,
                         Doors = 4,
@@ -24830,7 +24953,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2015,
                         Doors = 4,
@@ -24842,7 +24965,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2016,
                         Doors = 4,
@@ -24854,7 +24977,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Impala",
                         Year = 2017,
                         Doors = 4,
@@ -27855,7 +27978,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1969,
                         Doors = 4,
@@ -27866,7 +27989,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1970,
                         Doors = 4,
@@ -27877,7 +28000,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1971,
                         Doors = 4,
@@ -27888,7 +28011,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1972,
                         Doors = 4,
@@ -27899,7 +28022,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1973,
                         Doors = 4,
@@ -27910,7 +28033,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1974,
                         Doors = 4,
@@ -27921,7 +28044,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1975,
                         Doors = 4,
@@ -27932,7 +28055,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1976,
                         Doors = 4,
@@ -27943,7 +28066,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1977,
                         Doors = 4,
@@ -27954,7 +28077,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1978,
                         Doors = 4,
@@ -27965,7 +28088,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Nova",
                         Year = 1979,
                         Doors = 4,
@@ -27977,7 +28100,7 @@ namespace HorsePowerStore.Data
                     new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1964,
                         Doors = 4,
@@ -27988,7 +28111,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1965,
                         Doors = 4,
@@ -27999,7 +28122,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1966,
                         Doors = 4,
@@ -28010,7 +28133,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1967,
                         Doors = 4,
@@ -28021,7 +28144,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1968,
                         Doors = 4,
@@ -28032,7 +28155,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1969,
                         Doors = 4,
@@ -28043,7 +28166,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1970,
                         Doors = 4,
@@ -28054,7 +28177,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1971,
                         Doors = 4,
@@ -28065,7 +28188,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1972,
                         Doors = 4,
@@ -28076,7 +28199,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1973,
                         Doors = 4,
@@ -28087,7 +28210,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1974,
                         Doors = 4,
@@ -28098,7 +28221,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1975,
                         Doors = 4,
@@ -28109,7 +28232,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1976,
                         Doors = 4,
@@ -28120,7 +28243,7 @@ namespace HorsePowerStore.Data
                     }, new Car
                     {
                         //Id = 1,
-                        Make = "Chevy",
+                        Make = "Chevrolet",
                         Model = "Chevelle",
                         Year = 1977,
                         Doors = 4,

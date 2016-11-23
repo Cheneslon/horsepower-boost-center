@@ -11,7 +11,6 @@ namespace HorsePowerStore.Data
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<ApplicationUser> AppUsers { get; set; }
-        public DbSet<Car> Cars { get; set; }
         public DbSet<Engine> Engines { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Rating> Ratings { get; set; }
