@@ -27,13 +27,15 @@ namespace HorsePowerStore.Controllers {
         public info = {}; 
         public products; // list of products for car
         public select = "product.price"; // sort <select> element
-        public stars;
+        public stars: number;
         public startingBudget: number;
-        public totalPrice: number;
-        public carInstance;
+        public totalPrice: number = 0;
+        public selectedProducts = {};
+        public saveName: string = 'Save';
 
         constructor(
             private $uibModal: angular.ui.bootstrap.IModalService,
+            private $state: angular.ui.IStateService,
             private resultService: HorsePowerStore.Services.ResultService,
             private carInstanceService: HorsePowerStore.Services.CarInstanceService,
             private accountService: HorsePowerStore.Services.AccountService) {
@@ -52,8 +54,23 @@ namespace HorsePowerStore.Controllers {
             });
         }
 
-        public canBuy(price) { // returns true if the item is in budget or false if it is over.
+        public inStartingBudget (price: number) { 
+            return this.startingBudget == 0 || price <= this.startingBudget;
+        }
+
+        public inAdjustedBudget(price: number) {
             return this.startingBudget == 0 || price <= this.startingBudget - this.totalPrice;
+        }
+
+        public toggleProduct(product) {
+            if (this.selectedProducts[product.id]) {
+                delete this.selectedProducts[product.id];
+                this.totalPrice -= product.price;
+            }
+            else {
+                this.selectedProducts[product.id] = product;
+                this.totalPrice += product.price;
+            }
         }
 
         public isLoggedIn(productId) {
@@ -86,8 +103,21 @@ namespace HorsePowerStore.Controllers {
             });
         }
 
-        public saveButton() {
-            this.carInstanceService.saveCarInstance(this.carInstance);
+        public save() {
+            var carInstance = {
+                name: this.saveName,
+                selectedProducts: []
+            };
+
+            for (var key in this.selectedProducts) {
+                carInstance.selectedProducts.push({
+                    product: this.selectedProducts[key]
+                })
+            }
+
+            this.carInstanceService.saveCarInstance(carInstance).then(() => {
+                this.$state.go('carInstances');
+            });
         }
     }
 

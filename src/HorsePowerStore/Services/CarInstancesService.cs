@@ -30,6 +30,9 @@ namespace HorsePowerStore.Services
         public void Save (CarInstance instance, string userName)
         {
             GetUser(userName).CarInstances.Add(instance);
+            appDbContext.Products.AttachRange(
+                instance.SelectedProducts
+                .Select(sp => sp.Product));
             appDbContext.SaveChanges();
         }
 

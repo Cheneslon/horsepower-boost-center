@@ -15,6 +15,7 @@ namespace HorsePowerStore.Data
         public DbSet<Rating> Ratings { get; set; }
         public DbSet<CarInstance> CarInstances { get; set; }
         public DbSet<CarMod> CarMods { get; set; }
+        public DbSet<ProductSelection> ProductSelections { get; set; }
         public DbSet<Year> Years { get; set; }
         public DbSet<Make> Makes { get; set; }
         public DbSet<Model> Models { get; set; }
