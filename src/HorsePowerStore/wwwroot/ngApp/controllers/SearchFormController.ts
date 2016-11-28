@@ -27,7 +27,7 @@
         //then in the onSubmit() method that gets activated
         //when you finish the form you need:
         public submit() {
-            this.searchFormService.save(this.engine.id, this.budget, this.year + ' ' + this.make + ' ' + this.model); // calls service
+            this.searchFormService.save(this.car.id, this.budget, this.make.name + ' ' + this.model.name + ' ' + this.car.name); // calls service
             this.$location.path('/result'); // bumps them to resultpage
         }
 

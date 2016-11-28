@@ -24,12 +24,12 @@
                     </div>
                 </div>
             </p>
-            <div ng-repeat="item in controller.products | orderBy: controller.select" ng-show="controller.canBuy(item.product.price)">
+            <div ng-repeat="product in controller.products | orderBy: controller.select" ng-show="controller.canBuy(item.product.price)">
                 <dl class="panel panel-default">
                     <dt class="productHeader">
-                        {{item.product.name}} 
-                        <sup>${{item.product.price}}</sup>
-                        <a href="{{item.product.purchaseURL}}">
+                        {{product.name}} 
+                        <sup>${{product.price}}</sup>
+                        <a href="{{product.purchaseURL}}">
                             <i class="fa fa-external-link"></i>
                         </a>
                     </dt>
@@ -39,20 +39,20 @@
                                 ng-repeat-start="n in [5, 4, 3, 2, 1]"
                                 ng-disabled="!controller.isLoggedIn()"
                                 class="star" 
-                                id="star-{{n}}-{{item.product.id}}" 
+                                id="star-{{n}}-{{product.id}}" 
                                 type="radio" 
-                                name="star-{{item.product.id}}" 
+                                name="star-{{product.id}}" 
                                 value="{{n}}"  />
                             <label
                                 ng-repeat-end
-                                ng-click="controller.showModal(item.product.id, n)"
+                                ng-click="controller.showModal(product.id, n)"
                                 class="star star-{{n}}" 
-                                for="star-{{n}}-{{item.product.id}}">
+                                for="star-{{n}}-{{product.id}}">
                             </label>
                         </form>
                         <br />
-                        {{item.product.description}}<br />
-                        <img class="center img-responsive" src="{{item.product.imageSource}}" width="550" />
+                        {{product.description}}<br />
+                        <img class="center img-responsive" src="{{product.imageSource}}" width="550" />
                     </dd>
                 </dl> 
             </div>
