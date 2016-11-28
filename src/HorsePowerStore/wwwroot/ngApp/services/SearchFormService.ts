@@ -37,7 +37,7 @@
                 year: year
             });
 
-            return this.searchFormResource.getCars({
+            return this.searchFormResource.getLocalTrims({
                 make: make,
                 model: model,
                 year: year
