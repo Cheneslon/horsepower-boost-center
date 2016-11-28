@@ -3,7 +3,9 @@
     <title>HorsePowerStore</title>
     <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/slate/bootstrap.min.css">
+    <link href="~/css/site.css" rel="stylesheet" />
     <base href="/" />
 </head>
 <body ng-controller="AccountController as account">
@@ -47,13 +49,20 @@
     <script src="~/bower_components/jquery/dist/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-    <!-- App Files-->
+    <!-- App Main -->
     <script src="/ngapp/app.js"></script>
-    <script src="/ngapp/controllers/controllers.js"></script>
+
+    <!-- App Services -->
     <script src="/ngapp/services/services.js"></script>
     <script src="~/ngApp/services/SearchFormService.js"></script>
-    <script src="~/ngApp/controllers/SearchFormController.js"></script>
+    <script src="~/ngApp/services/carInstanceService.js"></script>
+    <script src="~/ngApp/services/productsService.js"></script>
 
+    <!-- App Controllers -->
+    <script src="/ngapp/controllers/controllers.js"></script>
+    <script src="~/ngApp/controllers/SearchFormController.js"></script>
+    <script src="~/ngApp/controllers/carInstanceController.js"></script>
+    <script src="~/ngApp/controllers/productController.js"></script>
 
     <!-- Security -->
     <script src="/ngapp/controllers/accountcontroller.js"></script>

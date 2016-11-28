@@ -146,8 +146,6 @@ namespace HorsePowerStore.Migrations
 
                     b.Property<decimal>("HorsePower");
 
-                    b.Property<int>("Induction");
-
                     b.Property<int>("Intake");
 
                     b.Property<decimal>("Volume");
@@ -173,34 +171,6 @@ namespace HorsePowerStore.Migrations
                     b.HasIndex("EngineId");
 
                     b.ToTable("EngineInstalls");
-                });
-
-            modelBuilder.Entity("HorsePowerStore.Models.Make", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("Name");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Makes");
-                });
-
-            modelBuilder.Entity("HorsePowerStore.Models.Model", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<int?>("MakeId");
-
-                    b.Property<string>("Name");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("MakeId");
-
-                    b.ToTable("Models");
                 });
 
             modelBuilder.Entity("HorsePowerStore.Models.Product", b =>
@@ -263,38 +233,6 @@ namespace HorsePowerStore.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("Ratings");
-                });
-
-            modelBuilder.Entity("HorsePowerStore.Models.Style", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("Name");
-
-                    b.Property<int?>("YearId");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("YearId");
-
-                    b.ToTable("Styles");
-                });
-
-            modelBuilder.Entity("HorsePowerStore.Models.Year", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<int?>("ModelId");
-
-                    b.Property<int>("Years");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ModelId");
-
-                    b.ToTable("Years");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole", b =>
@@ -445,13 +383,6 @@ namespace HorsePowerStore.Migrations
                         .HasForeignKey("EngineId");
                 });
 
-            modelBuilder.Entity("HorsePowerStore.Models.Model", b =>
-                {
-                    b.HasOne("HorsePowerStore.Models.Make")
-                        .WithMany("Models")
-                        .HasForeignKey("MakeId");
-                });
-
             modelBuilder.Entity("HorsePowerStore.Models.ProductSelection", b =>
                 {
                     b.HasOne("HorsePowerStore.Models.CarInstance", "CarInstance")
@@ -472,20 +403,6 @@ namespace HorsePowerStore.Migrations
                     b.HasOne("HorsePowerStore.Models.Product")
                         .WithMany("Ratings")
                         .HasForeignKey("ProductId");
-                });
-
-            modelBuilder.Entity("HorsePowerStore.Models.Style", b =>
-                {
-                    b.HasOne("HorsePowerStore.Models.Year")
-                        .WithMany("Styles")
-                        .HasForeignKey("YearId");
-                });
-
-            modelBuilder.Entity("HorsePowerStore.Models.Year", b =>
-                {
-                    b.HasOne("HorsePowerStore.Models.Model")
-                        .WithMany("Years")
-                        .HasForeignKey("ModelId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<string>", b =>
