@@ -32,10 +32,10 @@
         }
 
         public getYears() {
-            this.searchFormService.getYears(this.model.name).$promise.then((years) => {
-                var currentYears = this.model.years.map((year) => year.year)
+            this.searchFormService.getLocalYears(this.model.name).$promise.then((years) => {
+                var edmundsYears = this.model.years.map((year) => year.year)
                 years = years
-                    .filter((year) => currentYears.indexOf(year) == -1)
+                    .filter((year) => edmundsYears.indexOf(year) == -1)
                     .map((year) => { return { id: null, year: year } })
                 
                 this.model.years = this.model.years.concat(years)
@@ -48,8 +48,8 @@
             });
         }
 
-        public getEdmundsTrims() {
-            this.searchFormService.getEdmundsTrims(
+        public getTrims() {
+            this.searchFormService.getTrims(
                 this.make.name,
                 this.model.name,
                 this.year.year)
