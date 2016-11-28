@@ -11,12 +11,10 @@ namespace HorsePowerStore.Data
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<ApplicationUser> AppUsers { get; set; }
-        public DbSet<Engine> Engines { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Rating> Ratings { get; set; }
         public DbSet<CarInstance> CarInstances { get; set; }
         public DbSet<CarMod> CarMods { get; set; }
-        public DbSet<EngineInstall> EngineInstalls { get; set; }
         public DbSet<Year> Years { get; set; }
         public DbSet<Make> Makes { get; set; }
         public DbSet<Model> Models { get; set; }

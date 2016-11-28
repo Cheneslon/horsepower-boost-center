@@ -17,17 +17,18 @@ namespace HorsePowerStore.Services
             this.db = db;
         }
 
-        public List<CarMod> ListCarModsByEngine(int engineId, int start, int amount)
+        public List<Product> ListProductsByStyle(int styleId, int start, int amount)
         {
-            var engine = (
-                from e in db.Engines
-                where e.Id == engineId
-                select e).FirstOrDefault();
-            Console.WriteLine(engine);
+            var style = (
+                from s in db.Styles
+                where s.Id == styleId
+                select s)
+                .FirstOrDefault();
+
             return (
                 from cm in db.CarMods
-                where cm.Engine == engine
-                select cm).Include(cm => cm.Product)
+                where cm.Style == style
+                select cm.Product)
                 .Skip(start).Take(amount).ToList();
         }
     }

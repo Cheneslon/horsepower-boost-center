@@ -19,8 +19,7 @@
                 },
                 getCars: {
                     method: 'GET',
-                    url: '/api/cars/:make/:model/:year',
-                    isArray: true
+                    url: '/api/cars/:make/:model/:year'
                 }
             });
         }
@@ -30,20 +29,18 @@
         }
 
         private searchFormResource
-        public getEdmundsTrims(make, model, year, submodel) {
+        public getEdmundsTrims(make, model, year) {
 
             if (year >= 1990) return this.searchFormResource.getEdmundsTrims({
                 make: make,
                 model: model,
-                year: year,
-                submodel: submodel // added submodel
+                year: year
             });
 
             return this.searchFormResource.getCars({
                 make: make,
                 model: model,
-                year: year,
-                submodel: submodel // added submodel
+                year: year
             });
         }
 

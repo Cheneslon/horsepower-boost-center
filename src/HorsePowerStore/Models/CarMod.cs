@@ -8,8 +8,7 @@ namespace HorsePowerStore.Models
     public class CarMod
     {
         public int Id { get; set; }
-        public Car Car { get; set; }
-        public Engine Engine { get; set; }
+        public Style Style { get; set; }
         public Product Product { get; set; }
         public decimal HorsePower { get; set; }
     }

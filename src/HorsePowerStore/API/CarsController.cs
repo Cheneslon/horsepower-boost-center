@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using HorsePowerStore.Services;
 using HorsePowerStore.Models;
+using HorsePowerStore.ViewModels;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -39,9 +40,9 @@ namespace HorsePowerStore.Controllers
         }
 
         [HttpGet("{make}/{model}/{year}")]
-        public IEnumerable<_Car> ListFilteredCars(string make, string model, int year)
+        public StylesViewModel GetStyles(string make, string model, int year)
         {
-            return carsService.ListFiltered(make, model, year);
+            return carsService.GetStyles(make, model, year);
         }
     }
 }
