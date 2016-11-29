@@ -62,14 +62,15 @@ namespace HorsePowerStore
             services.AddScoped<CarsService>();
             services.AddScoped<CarModsService>();
             services.AddScoped<ProductsService>();
-            
+            services.AddScoped<CarInstancesService>();
 
-            
-                        // add security policies
-                        services.AddAuthorization(options =>
-                        {
-                            options.AddPolicy("AdminOnly", policy => policy.RequireClaim("IsAdmin"));
-                        });
+
+
+            // add security policies
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AdminOnly", policy => policy.RequireClaim("IsAdmin"));
+            });
             
         }
 

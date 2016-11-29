@@ -9,8 +9,7 @@ namespace HorsePowerStore.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public Car Car { get; set; }
-        public Engine Engine { get; set; }
+        public Style Style { get; set; }
         public List<ProductSelection> SelectedProducts { get; set; }
     }
 }

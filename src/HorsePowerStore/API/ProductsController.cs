@@ -33,7 +33,27 @@ namespace HorsePowerStore.Controllers
         [HttpGet("{id}/ratings/{page}")]
         public ProductViewModel GetProductWithRatings(int id, int page)
         {
-            return productsService.GetProductWithRatings(id, page * pageLength, pageLength);
+            return productsService.GetProductWithRatings(id, page * pageLength, pageLength, User.Identity.Name);
+        }
+
+        [Authorize]
+        [HttpPost("addRating")]
+        public void AddRating ([FromBody] RatingViewModel ratingViewModel)
+        {
+            var rating = new Rating()
+            {
+                Value = ratingViewModel.Value,
+                Message = ratingViewModel.Message,
+                Date = DateTime.Now
+            };
+            productsService.AddRating(ratingViewModel.ProductId, rating, User.Identity.Name);
+        }
+
+        [Authorize]
+        [HttpPost("/removeRating")]
+        public void RemoveRating([FromBody] int ratingId)
+        {
+            productsService.RemoveRating(ratingId, User.Identity.Name);
         }
 
         [Authorize]

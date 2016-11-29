@@ -16,7 +16,8 @@
         <br />Model
         <select class="form-control"  ng-model="controller.model"
               
-                ng-options="model as model.name for model in controller.make.models">
+                ng-options="model as model.name for model in controller.make.models"
+                ng-change="controller.getYears()">
             <option>Select</option>
         </select>
     </div>
@@ -24,7 +25,7 @@
     <div ng-show="controller.model">
         <br />Year
         <select class="form-control"  ng-model="controller.year"
-                ng-change="controller.getEdmundsTrims()"
+                ng-change="controller.getTrims()"
                 ng-options="year as year.year for year in controller.model.years">
             <option>Select</option>
 

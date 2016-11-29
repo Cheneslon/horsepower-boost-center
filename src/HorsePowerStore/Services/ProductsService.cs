@@ -35,12 +35,26 @@ namespace HorsePowerStore.Services
                 }).ToList();
         }
 
-        public ProductViewModel GetProductWithRatings (int id, int start, int amount)
+        public ProductViewModel GetProductWithRatings (int id, int start, int amount, string userName=null)
         {
+            var user = (
+                from u in db.AppUsers
+                where u.UserName == userName
+                select u)
+                .Include(u => u.Ratings)
+                .FirstOrDefault();
+
+            if (user == null) user = new ApplicationUser()
+            {
+                UserName = "",
+                Ratings = new List<Rating>()
+            };
+
             return (
                 from p in db.Products
                 where p.Id == id
                 select p)
+                .Include(p => p.Ratings)
                 .Select(p => new ProductViewModel()
                 {
                     Id = p.Id,
@@ -48,7 +62,21 @@ namespace HorsePowerStore.Services
                     Price = p.Price,
                     Description = p.Description,
                     AverageRating = p.Ratings.Select(r => r.Value).DefaultIfEmpty().Average(),
-                    Ratings = p.Ratings.Skip(start).Take(amount).ToList(),
+                    UserRating = p.Ratings
+                        .Where(r => user.Ratings.Contains(r))
+                        .Select(r => r.Value)
+                        .FirstOrDefault(),
+                    Ratings = p.Ratings.Select(r => new RatingViewModel {
+                        Message = r.Message,
+                        Value = r.Value,
+                        ProductId = p.Id,
+                        UserName = (
+                            from u in db.AppUsers
+                            where u.Ratings.Any(uR => uR.Equals(r))
+                            select u)
+                            .First()
+                            .UserName,
+                    }).Skip(start).Take(amount).ToList(),
                     ImageSource = p.ImageSource,
                     PurchaseURL = p.PurchaseURL
                 })
