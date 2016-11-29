@@ -25,11 +25,12 @@ namespace HorsePowerStore.Controllers {
 
     export class ResultController {
         public info = {}; 
-        public products; // list of products for car
-        public select = "product.price"; // sort <select> element
+        public carmods; // list of carmods for car
+        public select = "carmod.product.price"; // sort <select> element
         public stars: number;
         public startingBudget: number;
         public totalPrice: number = 0;
+        public horsepowerIncrease: number = 0;
         public selectedProducts = {};
         public saveName: string = 'Save';
 
@@ -49,7 +50,7 @@ namespace HorsePowerStore.Controllers {
             if (isNaN(this.startingBudget)) this.startingBudget = 0;
 
             resultService.getProducts(this.info['id'], 0).then((result) => {
-                this.products = result;
+                this.carmods = result;
                 console.log(result);
             });
         }
@@ -62,14 +63,16 @@ namespace HorsePowerStore.Controllers {
             return this.startingBudget == 0 || price <= this.startingBudget - this.totalPrice;
         }
 
-        public toggleProduct(product) {
-            if (this.selectedProducts[product.id]) {
-                delete this.selectedProducts[product.id];
-                this.totalPrice -= product.price;
+        public toggleProduct(carmod) {
+            if (this.selectedProducts[carmod.product.id]) {
+                delete this.selectedProducts[carmod.product.id];
+                this.totalPrice -= carmod.product.price;
+                this.horsepowerIncrease -= carmod.horsePower;
             }
             else {
-                this.selectedProducts[product.id] = product;
-                this.totalPrice += product.price;
+                this.selectedProducts[carmod.product.id] = carmod.product;
+                this.totalPrice += carmod.product.price;
+                this.horsepowerIncrease += carmod.horsePower;
             }
         }
 

@@ -12,5 +12,6 @@ namespace HorsePowerStore.ViewModels
         public int Value { get; set; }
         public string Message { get; set; }
         public int ProductId { get; set; }
+        public string UserName { get; set; }
     }
 }
