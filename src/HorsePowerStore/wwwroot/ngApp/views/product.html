@@ -1,5 +1,7 @@
 ﻿<p>{{controller.product.description}}</p>
 
 <ul>
-    <li ng-repeat="rating in controller.product.ratings"></li>
+    <li ng-repeat="rating in controller.product.ratings">
+        {{rating.value}}: {{rating.message}}
+    </li>
 </ul>

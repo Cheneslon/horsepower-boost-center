@@ -22,11 +22,11 @@ namespace HorsePowerStore.Controllers
         }
         
         // GET api/values/5
-        [HttpGet("{id}/{page}")]
-        public List<CarMod> Get(int id, int page)
+        [HttpGet("{style}/{page}")]
+        public List<CarMod> Get(string style, int page)
         {
-            Console.WriteLine(id + page);
-            return carModsService.ListCarModsByEngine(id, pageLength * page, pageLength);
+            Console.WriteLine(page);
+            return carModsService.ListCarModsByEngine(style, pageLength * page, pageLength);
         }
     }
 }

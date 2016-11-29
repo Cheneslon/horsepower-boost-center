@@ -29,7 +29,7 @@ namespace HorsePowerStore.Services
                     Name = p.Name,
                     Price = p.Price,
                     Description = p.Description,
-                    AverageRating = p.Ratings.Average(r => r.Value),
+                    AverageRating = p.Ratings.Select(r => r.Value).DefaultIfEmpty().Average(),
                     ImageSource = p.ImageSource,
                     PurchaseURL = p.PurchaseURL
                 }).ToList();
@@ -47,12 +47,57 @@ namespace HorsePowerStore.Services
                     Name = p.Name,
                     Price = p.Price,
                     Description = p.Description,
-                    AverageRating = p.Ratings.Average(r => r.Value),
+                    AverageRating = p.Ratings.Select(r => r.Value).DefaultIfEmpty().Average(),
                     Ratings = p.Ratings.Skip(start).Take(amount).ToList(),
                     ImageSource = p.ImageSource,
                     PurchaseURL = p.PurchaseURL
                 })
                 .FirstOrDefault();
+        }
+
+        public void AddRating (int id, Rating rating, string userName)
+        {
+            var product = (
+                from p in db.Products
+                where p.Id == id
+                select p)
+                .Include(p => p.Ratings)
+                .FirstOrDefault();
+            if (product == null) return;
+
+            var user = (
+                from u in db.AppUsers
+                where u.UserName == userName
+                select u)
+                .Include(u => u.Ratings)
+                .FirstOrDefault();
+
+            if (user.Ratings.Intersect(product.Ratings).Count() > 0) return;
+
+            product.Ratings.Add(rating);
+            user.Ratings.Add(rating);
+            db.SaveChanges();
+        }
+
+        public void RemoveRating(int ratingId, string userName)
+        {
+            var rating = (
+                from r in db.Ratings
+                where r.Id == ratingId
+                select r)
+                .FirstOrDefault();
+
+            var user = (
+                from u in db.AppUsers
+                where u.UserName == userName
+                select u)
+                .FirstOrDefault();
+
+            if (rating == null || 
+                !user.Ratings.Contains(rating)) return;
+
+            db.Ratings.Remove(rating);
+            db.SaveChanges();
         }
     }
 }

@@ -13,7 +13,7 @@ namespace HorsePowerStore.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
             modelBuilder
-                .HasAnnotation("ProductVersion", "1.0.0-rtm-21431")
+                .HasAnnotation("ProductVersion", "1.0.1")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("HorsePowerStore.Models.ApplicationUser", b =>
@@ -118,21 +118,17 @@ namespace HorsePowerStore.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int?>("CarId");
-
-                    b.Property<int?>("EngineId");
-
                     b.Property<decimal>("HorsePower");
 
                     b.Property<int?>("ProductId");
 
+                    b.Property<int?>("StyleId");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("CarId");
-
-                    b.HasIndex("EngineId");
-
                     b.HasIndex("ProductId");
+
+                    b.HasIndex("StyleId");
 
                     b.ToTable("CarMods");
                 });
@@ -421,17 +417,13 @@ namespace HorsePowerStore.Migrations
 
             modelBuilder.Entity("HorsePowerStore.Models.CarMod", b =>
                 {
-                    b.HasOne("HorsePowerStore.Models.Car", "Car")
-                        .WithMany()
-                        .HasForeignKey("CarId");
-
-                    b.HasOne("HorsePowerStore.Models.Engine", "Engine")
-                        .WithMany()
-                        .HasForeignKey("EngineId");
-
                     b.HasOne("HorsePowerStore.Models.Product", "Product")
                         .WithMany()
                         .HasForeignKey("ProductId");
+
+                    b.HasOne("HorsePowerStore.Models.Style", "Style")
+                        .WithMany()
+                        .HasForeignKey("StyleId");
                 });
 
             modelBuilder.Entity("HorsePowerStore.Models.EngineInstall", b =>

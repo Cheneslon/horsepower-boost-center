@@ -32,3 +32,123 @@ textarea {
         z-index: 10 !important;
     }
 }
+body.modal-open {
+overflow: auto;
+}
+.panel{
+    padding: 7px;
+}
+.productHeader {
+    padding: 5px;
+}
+.productBody {
+   margin-left: 5px;
+}
+.fa-external-link {
+    float:right;
+}
+
+#sortSelect {
+    margin-left: -15px;
+}
+#resultPageHeader {
+    margin-left: -12px;
+}
+.closeButton {
+    padding: 0px;
+    font-size: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    float: right;
+    margin-top: -5px;
+    margin-right: -3px;
+}
+.rateButton {
+    padding: 4px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+.saveCarButton {
+    padding: 4px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: right;
+}
+#ratingsTextarea {
+    width: 255px;
+    height: 70px;
+    resize: none;
+}
+#ratingsTextarea:focus {
+    background-color: #f1fdff;
+}
+.mycar{
+    position: fixed;
+}
+#fbLogin {
+    font-size: 34px;
+}
+#fbLogin:hover {
+    text-decoration:none;
+    color: #0047d0;
+}
+#externalLoginList {
+    list-style-type: none;
+    margin-left: -3px;
+}
+#validationMessages {
+    list-style-type: none;
+    text-align: center;
+    font-size: 13px;
+    background-color: #343337;
+}
+.modalButton {
+    padding: 5px;
+    float: right;
+    margin-left: 4px;
+    margin-top: 6px;
+    margin-bottom: -3px
+}
+.loginLabel{
+    margin-top: 3px;
+}
+.confirmPass{
+    margin-bottom: 5px;
+}
+.ng-invalid.ng-touched {
+    background-color: #ffdddd;
+}
+.homePagePanelHeader {
+    color:black ;
+    font: bold;
+}
+.faqQuestion {
+    margin-top: 10px;
+}
+.carousel-img {
+    max-height: 300px;
+    height: auto;
+    width: auto;
+}
+.carousel {
+    min-height: 300px;
+    justify-content:center;
+    text-align: center;
+}
+.carousel-indicators li{
+    border-color: black;
+}
+.faqButton {
+    background-color: inherit;
+    border: none;
+    text-decoration-style:double;
+}
+.faqButton:hover {
+    background-color: #3b3b3b;
+    text-decoration:underline;
+}

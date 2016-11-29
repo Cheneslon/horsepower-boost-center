@@ -693,6 +693,29 @@ namespace HorsePowerStore.Data
                 context.SaveChanges();
 
             }
+            if (!context.CarMods.Any())
+            {
+                var swag = new Style()
+                {
+                    Name = "Swag"
+                };
+                var exhaust = new Product()
+                {
+                    Name = "Exhaust",
+                    Price = 66,
+                    Description = "The Best Exhaust Ever!",
+                    ImageSource = "www.shrek.com",
+                    PurchaseURL = "www.shrek.com"
+                };
+                context.CarMods.AddRange(
+                    new CarMod
+                    {
+                        Style = swag,
+                        Product = exhaust,
+                        HorsePower = 50
+                    }
+                    );
+            }
             if (!context.Products.Any())
             {
                 context.Products.AddRange(
@@ -1009,7 +1032,6 @@ namespace HorsePowerStore.Data
 
                     );
             }
-
             if (!context.Cars.Any())
             {
                 // Honda cars

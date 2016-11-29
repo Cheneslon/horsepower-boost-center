@@ -21,7 +21,7 @@ namespace HorsePowerStore.Controllers {
 
     export class AboutController {
         public message = 'ITS A TRAP!';
-    }
+    } 
 
     export class ResultController {
         public car; // array : [carId, budget]

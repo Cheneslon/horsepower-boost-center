@@ -43,7 +43,7 @@ namespace HorsePowerStore.Controllers {
             private $uibModal: angular.ui.bootstrap.IModalService,
             private $scope: angular.IScope,
             private accountService: HorsePowerStore.Services.AccountService,
-            private $location: ng.ILocationService, ) { }
+            private $location: ng.ILocationService, ) { };
 
         public login() {
             this.accountService.login(this.loginUser).then(() => {
@@ -55,6 +55,7 @@ namespace HorsePowerStore.Controllers {
         }
         
         public openLoginDialog() {
+            this.validationMessages = {};
             this.modalInstance = this.$uibModal.open({
                 templateUrl: '/ngApp/views/login.html',
                 scope: this.$scope,
@@ -68,6 +69,10 @@ namespace HorsePowerStore.Controllers {
 
         public cancel() {
             this.modalInstance.close();
+        }
+        public openRegister() {
+            this.modalInstance.close();
+
         }
     }
     angular.module('HorsePowerStore').controller('LoginController', LoginController);

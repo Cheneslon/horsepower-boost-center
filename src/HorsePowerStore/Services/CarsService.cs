@@ -53,7 +53,10 @@ namespace HorsePowerStore.Services
                     c.Make == make &&
                     c.Model == model &&
                     c.Year == year
-                select c).Include(c => c.CompatibleEngines).ToList();
+                select c)
+                .Include(c => c.CompatibleEngines)
+                .ThenInclude(ce => ce.Engine)
+                .ToList();
 
             for (var x = 0; x < tempCars.Count; x++)
             {
