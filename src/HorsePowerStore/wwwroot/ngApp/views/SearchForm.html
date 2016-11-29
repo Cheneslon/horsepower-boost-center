@@ -7,7 +7,8 @@
         <br />Make
         <select class="form-control" ng-model="controller.make"
                 
-                ng-options="make as make.name for make in controller.makes">
+                ng-options="make as make.name for make in controller.makes"
+                ng-change="controller.checkModels()">
             <option>Select</option>
         </select>
     </div>
