@@ -4,15 +4,16 @@
 <div class="modal-body">
     <fieldset>
         <ul id="externalLoginList">
-            <li ng-repeat="externalLogin in account.externalLogins">
-                <a target="_self" href="/api/account/ExternalLogin?provider={{externalLogin.authenticationScheme}}&returnUrl=/home" id="fbLogin"><i class="fa fa-facebook-square"></i> {{externalLogin.displayName}}</a>
+            <li ng-repeat="externalLogin in register.externalLogins">
+                <a target="_self" href="/api/account/ExternalLogin?provider={{externalLogin.authenticationScheme}}&returnUrl=/home" id="{{externalLogin.displayName}}Login">
+                <i class="{{register.assignLogo(externalLogin.displayName)}}"></i> {{externalLogin.displayName}}</a>
             </li>
         </ul>
 
     </fieldset>
-
     <fieldset>
         <legend></legend>
+        <center><h4>Register Locally</h4></center>
         <dl>
             <dt></dt>
             <dd ng-repeat="message in register.validationMessages" id="validationMessages">
@@ -34,7 +35,10 @@
                 <input type="password" ng-model="register.registerUser.confirmPassword" class="form-control confirmPass" ng-required="true" name="Userconfirm" style="text-align:center;"/>
             </div>
             <input class="btn btn-primary modalButton" type="submit" value="Register" ng-disabled="registerForm.$invalid"/>
-            <a href="#" class="btn btn-danger modalButton" ng-click="register.cancel()">Cancel</a>
+            <a 
+               href="#" 
+               class="btn btn-danger modalButton" 
+               ng-click="register.ok()">Cancel</a>
         </form>
     </fieldset>
     

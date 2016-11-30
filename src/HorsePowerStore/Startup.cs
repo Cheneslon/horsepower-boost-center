@@ -107,6 +107,23 @@ namespace HorsePowerStore
                 AppId = "522598474600542",
                 AppSecret = "ba947e6b0e6b0007d3eaf7772b81ca3f"
             });
+            app.UseTwitterAuthentication(new TwitterOptions
+            {
+                ConsumerKey = "iCtnTS3isNjMqjNGmXqncWgRR",
+                ConsumerSecret = "MlSPOV0yyJwF70Ky8N2NWhTBBpwhqbZhjMZ6srlX6io4KPwjfc"
+            });
+            app.UseGoogleAuthentication(new GoogleOptions()
+            {
+                ClientId = "1075063684469-6da3i6js1fknrqiaach0lik4amibssqq.apps.googleusercontent.com",
+                ClientSecret = "IV1mLdmVx3iJFFOaSMp22Syx"
+            });
+            app.UseMicrosoftAccountAuthentication(new MicrosoftAccountOptions()
+            {
+                ClientId = "acb706be-d51c-4fde-8070-940e256b87ee",
+                ClientSecret = "NOEmX1AkF8LafLHGQ9VKZTW"
+            });
+            
+
 
             /*  TODO: Set up Twitter authentication
              *  

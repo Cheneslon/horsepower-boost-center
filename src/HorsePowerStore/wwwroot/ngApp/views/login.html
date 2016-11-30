@@ -5,13 +5,15 @@
     <fieldset>
         <ul id="externalLoginList">
             <li ng-repeat="externalLogin in account.externalLogins">
-                <a target="_self" href="/api/account/ExternalLogin?provider={{externalLogin.authenticationScheme}}&returnUrl=/home" id="fbLogin"><i class="fa fa-facebook-square"></i> {{externalLogin.displayName}}</a>
+                <a target="_self" href="/api/account/ExternalLogin?provider={{externalLogin.authenticationScheme}}&returnUrl=/home" id="{{externalLogin.displayName}}Login">
+                <i class="{{account.assignLogo(externalLogin.displayName)}}"></i> {{externalLogin.displayName}}</a> <!--retrieves logo's and name's-->
             </li>
         </ul>
     </fieldset>
-
+    
     <fieldset>
         <legend></legend>
+        <center><h4>Login Locally</h4></center>
         <dl id="validationMessages">
             <dt></dt>
             <dd ng-repeat="message in login.validationMessages">
@@ -39,10 +41,7 @@
             </div>
             Don't have an Account?
                 <a
-                   ng-controller="RegisterController as register"
-                   href="#"
-                   ng-click="register.openRegisterDialog();"
-                   ng-show="!account.isLoggedIn()">
+                   ng-click="login.registerLink();">
                     Register
                 </a>
 <br/>
