@@ -33,6 +33,9 @@ namespace HorsePowerStore.Controllers {
         public horsepowerIncrease: number = 0;
         public selectedProducts = {};
         public saveName: string = 'Save';
+        public dynamicPopover = {
+            content: "hey this is text!"
+        }
 
         constructor(
             private $uibModal: angular.ui.bootstrap.IModalService,
@@ -121,6 +124,11 @@ namespace HorsePowerStore.Controllers {
             this.carInstanceService.saveCarInstance(carInstance).then(() => {
                 this.$state.go('carInstances');
             });
+        }
+
+        public viewProduct(id) {
+            console.log(id);
+            this.$state.go('productRatings', {id : id});
         }
     }
 

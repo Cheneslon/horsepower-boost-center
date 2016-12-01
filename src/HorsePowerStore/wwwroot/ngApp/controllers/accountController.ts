@@ -41,12 +41,14 @@ namespace HorsePowerStore.Controllers {
         public loginUser;
         public validationMessages;
         private modalInstance: ng.ui.bootstrap.IModalServiceInstance;
+        public popoverOpen = false;
 
         constructor(
             private $uibModal: angular.ui.bootstrap.IModalService,
             private $scope: angular.IScope,
             private accountService: HorsePowerStore.Services.AccountService,
-            private $location: ng.ILocationService, ) { };
+            private $location: ng.ILocationService
+        ) { };
 
         public login() {
             this.accountService.login(this.loginUser).then(() => {
