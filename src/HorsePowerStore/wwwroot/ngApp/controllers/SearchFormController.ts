@@ -39,6 +39,7 @@
                     .map((year) => { return { id: null, year: year } })
                 
                 this.model.years = this.model.years.concat(years)
+                
 
                 this.model.years.sort((a, b) => {
                     if (a.year > b.year) return 1
@@ -46,6 +47,10 @@
                     return 0
                 })
             });
+            if (this.model.years.length == 1) {
+                this.year = this.model.years[0];
+                this.getTrims();
+            }
         }
 
         public getTrims() {
@@ -55,8 +60,17 @@
                 this.year.year)
                 .$promise.then((cars) => {
                     this.cars = cars.styles;
-                    this.car = null;
+                    if (cars.styles.length == 1) {
+                        this.car = cars.styles[0];
+                    }
+                    else { this.car = null };
                 });
+        }
+
+        public checkModels() {
+            if (this.make.models.length == 1) {
+                this.model = this.make.models[0];
+            };
         }
     }
 }

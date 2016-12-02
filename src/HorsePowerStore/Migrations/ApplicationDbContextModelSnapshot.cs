@@ -168,7 +168,7 @@ namespace HorsePowerStore.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductSelection");
+                    b.ToTable("ProductSelections");
                 });
 
             modelBuilder.Entity("HorsePowerStore.Models.Rating", b =>

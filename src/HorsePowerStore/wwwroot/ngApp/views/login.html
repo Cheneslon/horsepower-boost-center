@@ -1,33 +1,52 @@
+<div class="modal-header">
+    <center><h4>Login with</h4></center>
+</div>
 <div class="modal-body">
     <fieldset>
-        <legend>Login with a Social Provider</legend>
-
-        <ul>
+        <ul id="externalLoginList">
             <li ng-repeat="externalLogin in account.externalLogins">
-                <a target="_self" href="/api/account/ExternalLogin?provider={{externalLogin.authenticationScheme}}&returnUrl=/home">{{externalLogin.displayName}}</a>
+                <a target="_self" href="/api/account/ExternalLogin?provider={{externalLogin.authenticationScheme}}&returnUrl=/home" id="{{externalLogin.displayName}}Login">
+                <i class="{{account.assignLogo(externalLogin.displayName)}}"></i> {{externalLogin.displayName}}</a> <!--retrieves logo's and name's-->
             </li>
         </ul>
-
     </fieldset>
-
+    
     <fieldset>
-        <legend>Login Locally</legend>
-        <ul>
-            <li ng-repeat="message in login.validationMessages">
+        <legend></legend>
+        <center><h4>Login Locally</h4></center>
+        <dl id="validationMessages">
+            <dt></dt>
+            <dd ng-repeat="message in login.validationMessages">
                 {{message}}
-            </li>
-        </ul>
-        <form ng-submit="login.login()">
+            </dd>
+        </dl>
+        <form ng-submit="login.login()" class="form-group" name="loginForm" novalidate>
             <div>
-                <label>Email:</label>
-                <input ng-model="login.loginUser.email" />
-            </div>
+                <center><label class="loginLabel">Email</label></center>
+                <input ng-model="login.loginUser.email" class="form-control" name="emailInput" ng-required="true" style="text-align:center;"/>
+                <center>
+                    <span ng-show="loginForm.emailInput.$touched && loginForm.emailInput.$error.required" class="error">
+                        Email is required
+                    </span>
+                </center>
+             </div>
             <div>
-                <label>Password:</label>
-                <input type="password" ng-model="login.loginUser.password" />
+                <center><label class="loginLabel">Password</label></center>
+                <input type="password" ng-model="login.loginUser.password" name="passwordInput" class="form-control" ng-required="true" style="text-align:center;"/>
+                <center>
+                    <span ng-show="loginForm.passwordInput.$touched && loginForm.passwordInput.$error.required" class="error">
+                        Password is required
+                    </span>
+                </center>
             </div>
-            <input type="submit" value="Login" />
+            Don't have an Account?
+                <a
+                   ng-click="login.registerLink();">
+                    Register
+                </a>
+<br/>
+            <input class="btn btn-primary modalButton" type="submit" value="Login" ng-disabled="loginForm.$invalid"/>
+            <a href="#" ng-click="login.cancel()" class="btn btn-danger modalButton">Cancel</a>
         </form>
     </fieldset>
-    <a href="#" ng-click="login.cancel()">Cancel</a>
 </div>

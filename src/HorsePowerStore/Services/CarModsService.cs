@@ -17,7 +17,7 @@ namespace HorsePowerStore.Services
             this.db = db;
         }
 
-        public List<Product> ListProductsByStyle(int styleId, int start, int amount)
+        public List<CarMod> ListProductsByStyle(int styleId, int start, int amount)
         {
             var style = (
                 from s in db.Styles
@@ -28,7 +28,7 @@ namespace HorsePowerStore.Services
             return (
                 from cm in db.CarMods
                 where cm.Style == style
-                select cm.Product)
+                select cm).Include(cm => cm.Product)
                 .Skip(start).Take(amount).ToList();
         }
     }

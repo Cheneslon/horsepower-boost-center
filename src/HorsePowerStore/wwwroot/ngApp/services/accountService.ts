@@ -2,6 +2,8 @@ namespace HorsePowerStore.Services {
 
     export class AccountService {
 
+
+
         // Store access token and claims in browser session storage
         private storeUserInfo(userInfo) {
             // store user name
@@ -135,15 +137,43 @@ namespace HorsePowerStore.Services {
             return messages;
         }
 
+        
+        public modalInstance; // represents this specific modal
+        public modalOpen; // true or false
+        public openRegisterModal() { // method used when linking from the login modal to register modal
+            this.modalInstance = this.$uibModal.open({
+                templateUrl: '/ngApp/views/register.html',
+                controller: 'RegisterController',
+                controllerAs: 'register',
+                size: 'sm'
+            });
+            this.modalOpen = true;
+        }
+
+        public assignLogo(provider) { //assigns logos to links view
+            switch (provider) {
+                case "Facebook":
+                    return "fa fa-facebook-square";
+                case "Twitter":
+                    return "fa fa-twitter-square";
+                case "Google":
+                    return "fa fa-google-plus-square";
+                case "Microsoft":
+                    return "fa fa-windows";
+            }
+        }
+
         constructor
         (
             private $q: ng.IQService,
             private $http: ng.IHttpService,
-            private $window: ng.IWindowService
+            private $window: ng.IWindowService,
+            private $uibModal: angular.ui.bootstrap.IModalService
         ) {
           // in case we are redirected from a social provider
           // we need to check if we are authenticated.
-          this.checkAuthentication();
+            this.modalOpen = false;
+            this.checkAuthentication();
         }
 
     }

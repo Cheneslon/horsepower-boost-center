@@ -25,6 +25,9 @@ namespace HorsePowerStore.Controllers {
             return this.accountService.getExternalLogins();
         }
 
+        public assignLogo(provider) { //assigns logos to links view
+            return this.accountService.assignLogo(provider);
+        }
         constructor(private accountService: HorsePowerStore.Services.AccountService, private $location: ng.ILocationService) {
             this.getExternalLogins().then((results) => {
                 this.externalLogins = results;
@@ -38,12 +41,14 @@ namespace HorsePowerStore.Controllers {
         public loginUser;
         public validationMessages;
         private modalInstance: ng.ui.bootstrap.IModalServiceInstance;
+        public popoverOpen = false;
 
         constructor(
             private $uibModal: angular.ui.bootstrap.IModalService,
             private $scope: angular.IScope,
             private accountService: HorsePowerStore.Services.AccountService,
-            private $location: ng.ILocationService, ) { }
+            private $location: ng.ILocationService
+        ) { };
 
         public login() {
             this.accountService.login(this.loginUser).then(() => {
@@ -55,6 +60,7 @@ namespace HorsePowerStore.Controllers {
         }
         
         public openLoginDialog() {
+            this.validationMessages = {};
             this.modalInstance = this.$uibModal.open({
                 templateUrl: '/ngApp/views/login.html',
                 scope: this.$scope,
@@ -69,10 +75,18 @@ namespace HorsePowerStore.Controllers {
         public cancel() {
             this.modalInstance.close();
         }
+        public openRegister() {
+            this.modalInstance.close();
+        }
+        public registerLink() {
+            this.modalInstance.close();
+            this.accountService.openRegisterModal();
+        };
     }
     angular.module('HorsePowerStore').controller('LoginController', LoginController);
 
     export class RegisterController {
+        public externalLogins;
         public registerUser;
         public validationMessages;
         private modalInstance: ng.ui.bootstrap.IModalServiceInstance;
@@ -81,7 +95,11 @@ namespace HorsePowerStore.Controllers {
             private $uibModal: angular.ui.bootstrap.IModalService,
             private $scope: angular.IScope,
             private accountService: HorsePowerStore.Services.AccountService,
-            private $location: ng.ILocationService) { }
+            private $location: ng.ILocationService) {
+            this.getExternalLogins().then((results) => {
+                this.externalLogins = results;
+              });
+            }
 
         public register() {
             this.accountService.register(this.registerUser).then(() => {
@@ -101,11 +119,25 @@ namespace HorsePowerStore.Controllers {
         }
 
         public ok() {
-            this.modalInstance.close();
+            if (this.accountService.modalOpen) { // checks to see if your trying to close the special register modal
+                this.accountService.modalInstance.close();
+                this.accountService.modalOpen = false;
+            }
+            else { // closes regular register modal
+                this.modalInstance.close();
+            };
         }
 
         public cancel() {
             this.modalInstance.close();
+        }
+
+        public getExternalLogins() {
+            return this.accountService.getExternalLogins();
+        }
+
+        public assignLogo(provider) { //assigns logos to links view
+            return this.accountService.assignLogo(provider);
         }
     }
     angular.module('HorsePowerStore').controller('RegisterController', RegisterController);
