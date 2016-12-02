@@ -24,22 +24,22 @@
                     </div>
                 </div>
             </p>
-            <div ng-repeat="product in controller.products | orderBy: controller.select" 
-                 ng-show="controller.inStartingBudget(product.price)">
+            <div ng-repeat="carmod in controller.carmods | orderBy: controller.select"> 
+                 <!--ng-show="controller.inStartingBudget(carmod.product.price)"-->
 
                 <dl class="panel panel-default">
                     <dt class="productHeader">
-                        {{product.name}} 
-                        <sup>${{product.price}}</sup>
-                        <a href="{{product.purchaseURL}}">
+                        <a href="#" ng-click="controller.viewProduct(carmod.product.id)">{{carmod.product.name}}</a>
+                        <sup>${{carmod.product.price}}</sup>
+                        <a href="{{carmod.product.purchaseURL}}">
                             <i class="fa fa-external-link"></i>
                         </a>
                         <input 
                             type="checkbox" 
                             ng-disabled=
-                               "!controller.selectedProducts[product.id] &&
-                                !controller.inAdjustedBudget(product.price)"
-                            ng-click="controller.toggleProduct(product)"/>
+                               "!controller.selectedProducts[carmod.product.id] &&
+                                !controller.inAdjustedBudget(carmod.product.price)"
+                            ng-click="controller.toggleProduct(carmod)"/>
                     </dt>
                     <dd class="productBody">
                         <form ng-click="controller.loginCheck()">
@@ -47,20 +47,20 @@
                                 ng-repeat-start="n in [5, 4, 3, 2, 1]"
                                 ng-disabled="!controller.isLoggedIn()"
                                 class="star" 
-                                id="star-{{n}}-{{product.id}}" 
+                                id="star-{{n}}-{{carmod.product.id}}" 
                                 type="radio" 
-                                name="star-{{product.id}}" 
+                                name="star-{{carmod.product.id}}" 
                                 value="{{n}}"  />
                             <label
                                 ng-repeat-end
-                                ng-click="controller.showModal(product.id, n)"
+                                ng-click="controller.showModal(carmod.product.id, n)"
                                 class="star star-{{n}}" 
-                                for="star-{{n}}-{{product.id}}">
+                                for="star-{{n}}-{{carmod.product.id}}">
                             </label>
                         </form>
                         <br />
-                        {{product.description}}<br />
-                        <img class="center img-responsive" src="{{product.imageSource}}" width="550" />
+                        {{carmod.product.description}}<br />
+                        <img class="center img-responsive" src="{{carmod.product.imageSource}}" width="550" />
                     </dd>
                 </dl> 
             </div>
@@ -71,7 +71,8 @@
                 Your Car: <br />
                 {{controller.info["car"]}}<br/>
                 Name this car: <input type="text" ng-model="controller.saveName"/>
-                <button class="btn btn-default saveCarButton" ng-click="controller.save()">save</button>
+                <button class="btn btn-default saveCarButton" ng-click="controller.save()">save</button><br/>
+                Horsepower Increase: {{controller.horsepowerIncrease}}
            </p>
         </div>
         </div>

@@ -8,7 +8,8 @@
             $resource: ng.resource.IResourceService,
             $stateParams: ng.ui.IStateParamsService) {
 
-            this.productId = $stateParams['id']
+            this.productId = $stateParams['id'];
+            console.log(this.productId);
 
             this.productsResource = $resource("/api/products", {}, {
                 getProductWithRatings: {

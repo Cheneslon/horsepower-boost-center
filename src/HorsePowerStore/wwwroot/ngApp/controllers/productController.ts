@@ -1,10 +1,11 @@
 ﻿namespace HorsePowerStore.Controllers {
     export class ProductsController {
         public product;
+        public productId;
 
         private refreshProduct() {
             this.productsService
-                .getProduct(this.productsService.productId)
+                .getProduct(this.productId)
                 .$promise.then((product) => {
                     this.product = product;
                     console.log(this.product.userRating)
@@ -13,9 +14,12 @@
 
         constructor(
             private $uibModal: ng.ui.bootstrap.IModalService,
+            private $state: ng.ui.IStateService,
+            private $stateParams: ng.ui.IStateParamsService,
             private productsService: HorsePowerStore.Services.ProductsService,
             private accountService: HorsePowerStore.Services.AccountService) {
 
+            this.productId = $stateParams['id'];
             this.productsService = productsService;
             this.refreshProduct();
         }

@@ -7,7 +7,8 @@
         <br />Make
         <select class="form-control" ng-model="controller.make"
                 
-                ng-options="make as make.name for make in controller.makes">
+                ng-options="make as make.name for make in controller.makes"
+                ng-change="controller.checkModels()">
             <option>Select</option>
         </select>
     </div>
@@ -15,7 +16,6 @@
     <div ng-show="controller.make">
         <br />Model
         <select class="form-control"  ng-model="controller.model"
-              
                 ng-options="model as model.name for model in controller.make.models"
                 ng-change="controller.getYears()">
             <option>Select</option>
@@ -28,7 +28,6 @@
                 ng-change="controller.getTrims()"
                 ng-options="year as year.year for year in controller.model.years">
             <option>Select</option>
-
         </select>
     </div>
     <div ng-show="controller.year">

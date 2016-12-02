@@ -21,17 +21,21 @@ namespace HorsePowerStore.Controllers {
 
     export class AboutController {
         public message = 'ITS A TRAP!';
-    }
+    } 
 
     export class ResultController {
         public info = {}; 
-        public products; // list of products for car
-        public select = "product.price"; // sort <select> element
+        public carmods; // list of carmods for car
+        public select = "carmod.product.price"; // sort <select> element
         public stars: number;
         public startingBudget: number;
         public totalPrice: number = 0;
+        public horsepowerIncrease: number = 0;
         public selectedProducts = {};
         public saveName: string = 'Save';
+        public dynamicPopover = {
+            content: "hey this is text!"
+        }
 
         private savedCarInstance;
 
@@ -78,6 +82,10 @@ namespace HorsePowerStore.Controllers {
                         this.toggleProduct(this.savedCarInstance.selectedProducts[key]);
                 });
             })
+            resultService.getProducts(this.info['id'], 0).then((result) => {
+                this.carmods = result;
+                console.log(result);
+            });
         }
 
         public inStartingBudget (price: number) { 
@@ -88,14 +96,16 @@ namespace HorsePowerStore.Controllers {
             return this.startingBudget == 0 || price <= this.startingBudget - this.totalPrice;
         }
 
-        public toggleProduct(product) {
-            if (this.selectedProducts[product.id]) {
-                delete this.selectedProducts[product.id];
-                this.totalPrice -= product.price;
+        public toggleProduct(carmod) {
+            if (this.selectedProducts[carmod.product.id]) {
+                delete this.selectedProducts[carmod.product.id];
+                this.totalPrice -= carmod.product.price;
+                this.horsepowerIncrease -= carmod.horsePower;
             }
             else {
-                this.selectedProducts[product.id] = product;
-                this.totalPrice += product.price;
+                this.selectedProducts[carmod.product.id] = carmod.product;
+                this.totalPrice += carmod.product.price;
+                this.horsepowerIncrease += carmod.horsePower;
             }
         }
 
@@ -144,6 +154,11 @@ namespace HorsePowerStore.Controllers {
             this.carInstanceService.saveCarInstance(carInstance).then(() => {
                 this.$state.go('carInstances');
             });
+        }
+
+        public viewProduct(id) {
+            console.log(id);
+            this.$state.go('productRatings', {id : id});
         }
     }
 

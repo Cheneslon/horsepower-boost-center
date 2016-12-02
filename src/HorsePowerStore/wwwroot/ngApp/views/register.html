@@ -1,42 +1,45 @@
-
+<div class="modal-header">
+    <center><h4>Register with</h4></center>
+</div>
 <div class="modal-body">
-    <h1>Register</h1>
-
     <fieldset>
-        <legend>Login with a Social Provider</legend>
-
-        <ul>
-            <li ng-repeat="externalLogin in account.externalLogins">
-                <a target="_self" href="/api/account/ExternalLogin?provider={{externalLogin.authenticationScheme}}&returnUrl=/home">{{externalLogin.displayName}}</a>
+        <ul id="externalLoginList">
+            <li ng-repeat="externalLogin in register.externalLogins">
+                <a target="_self" href="/api/account/ExternalLogin?provider={{externalLogin.authenticationScheme}}&returnUrl=/home" id="{{externalLogin.displayName}}Login">
+                <i class="{{register.assignLogo(externalLogin.displayName)}}"></i> {{externalLogin.displayName}}</a>
             </li>
         </ul>
 
     </fieldset>
-
     <fieldset>
-        <legend>Register Locally</legend>
-
-        <ul>
-            <li ng-repeat="message in register.validationMessages">
+        <legend></legend>
+        <center><h4>Register Locally</h4></center>
+        <dl>
+            <dt></dt>
+            <dd ng-repeat="message in register.validationMessages" id="validationMessages">
                 {{message}}
-            </li>
-        </ul>
+            </dd>
+        </dl>
 
-        <form ng-submit="register.register()">
+        <form ng-submit="register.register()" name="registerForm" class="form-group" novalidate>
             <div>
-                <label>Email:</label>
-                <input ng-model="register.registerUser.email" />
+                <center><label class="loginLabel">Email</label></center>
+                <input ng-model="register.registerUser.email" class="form-control" ng-required="true" name="Useremail" style="text-align:center;"/>
             </div>
             <div>
-                <label>Password:</label>
-                <input type="password" ng-model="register.registerUser.password" />
+                <center><label class="loginLabel">Password</label></center>
+                <input type="password" ng-model="register.registerUser.password" class="form-control" ng-required="true" name="Userpass" style="text-align:center;"/>
             </div>
             <div>
-                <label>Confirm Password:</label>
-                <input type="password" ng-model="register.registerUser.confirmPassword" />
+                <center><label class="loginLabel">Confirm Password</label></center>
+                <input type="password" ng-model="register.registerUser.confirmPassword" class="form-control confirmPass" ng-required="true" name="Userconfirm" style="text-align:center;"/>
             </div>
-            <input type="submit" value="Register" />
+            <input class="btn btn-primary modalButton" type="submit" value="Register" ng-disabled="registerForm.$invalid"/>
+            <a 
+               href="#" 
+               class="btn btn-danger modalButton" 
+               ng-click="register.ok()">Cancel</a>
         </form>
     </fieldset>
-    <a href="#" ng-click="register.cancel()">Cancel</a>
+    
 </div>

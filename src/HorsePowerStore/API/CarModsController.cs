@@ -23,7 +23,7 @@ namespace HorsePowerStore.Controllers
         
         // GET api/values/5
         [HttpGet("{id}/{page}")]
-        public List<Product> Get(int id, int page)
+        public List<CarMod> Get(int id, int page)
         {
             return carModsService.ListProductsByStyle(id, pageLength * page, pageLength);
         }

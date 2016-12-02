@@ -1,3 +1,107 @@
-
 <div class="container">
+    <div class="row">
+        <div class="col-xs-3">
+
+        </div>
+        <div class="col-md-6">
+            <center><h4>Welcome To HorsePowerStore!</h4></center><br/>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <center><span>LATEST</span></center>
+                </div>
+                <div class="panel-body">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active carousel-img">
+                                <img src="../../images/Flowmaster Exhaust Header Carburated Ford 5.0 V8 814211.jpg" alt="exhaust" class="carousel-img" style="align-content:center;"/>
+                            </div>
+
+                            <div class="item carousel-img">
+                                <img src="../../images/Holley Ultra HP Carb.jpg" alt="carb"  class="carousel-img"/>
+                            </div>
+
+                            <div class="item carousel-img">
+                                <img src="../../images/Holley Avenger Carb.jpg" alt="holley" class="carousel-img"/>
+                            </div>
+
+                            <div class="item carousel-img">
+                                <img src="../../images/Edelbrock Pro-Flo XT.jpg" alt="flow" class="carousel-img"/>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" onclick="return false">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" onclick="return false">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div><br/>
+                    <center><p>New Products!</p></center>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <center><span>WHATS NEW</span></center>
+                </div>
+                <div class="panel-body">
+                    v.1.0.1 -> database reformatted, more cars added
+                    v.1.0.0 -> login, register modal updated
+                </div>
+            </div>
+            <div class="panel panel-primary"> <!--FAQ PANEL-->
+                <div class="panel panel-heading">
+                    <center><span>FAQ</span></center>
+                </div>
+                <div class="panel panel-body">
+                    <button type="button" class="faqButton" ng-click="faq1isCollapsed = !faq1isCollapsed">What can we do for you?</button>
+                    <div uib-collapse="!faq1isCollapsed">
+                        <div class="panel panel-default">HorsePowerStore is dedicated to providing the best advice for upgrading your current vehicle to its maximum
+                            possible capacity, by suggesting safe, well trusted, and affordable products for purchase.</div>
+                    </div><br/>
+                    <button type="button" class="faqButton" ng-click="faq2isCollapsed = !faq2isCollapsed">Does this cost any money?</button>
+                    <div uib-collapse="!faq2isCollapsed">
+                        <div class="panel panel-primary">
+                            None! just register by clicking the register button in the nav bar, and navigate to the Car Search page. Follow the
+                            onscreen instructions to view a list of matching products that will work best with your vehicle.
+                        </div>
+                    </div><br />
+                    <button type="button" class="faqButton" ng-click="faq3isCollapsed = !faq3isCollapsed">Where does this information come from?</button>
+                    <div uib-collapse="!faq3isCollapsed">
+                        <div class="panel panel-default">
+                            HorsePowerStore is run on a blend of trusted commercial data from companies like Edmunds and Mecum, and homebrew data
+                            collected from real-life experienced mechanics who have spent their day to day working with the parts we advertise.
+                        </div>
+                    </div><br/>
+                    <button type="button" class="faqButton" ng-click="faq4isCollapsed = !faq4isCollapsed">What do i do with the parts i like?</button>
+                    <div uib-collapse="!faq4isCollapsed">
+                        <div class="panel panel-primary">
+                            Add the parts of interest to you to your cart, and then view vender locations and prices in your cart on the "My Cars"
+                            page.
+                        </div>
+                    </div><br/>
+                    <button type="button" class="faqButton" ng-click="faq5isCollapsed = !faq5isCollapsed">I have multiple cars, do i need to fill this form out again?</button>
+                    <div uib-collapse="!faq5isCollapsed">
+                        <div class="panel panel-primary">
+                            Yes, however you can save your car to your account, and organize carts of products by vehicle for ease of use.
+                        </div>
+                    </div><br/>
+                </div>
+            </div> <!--END OF FAQ PANEL-->
+        </div>
+        <div class="col-xs-3">
+
+        </div>
+    </div>
 </div>
