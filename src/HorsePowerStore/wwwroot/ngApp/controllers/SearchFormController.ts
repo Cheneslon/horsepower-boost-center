@@ -14,7 +14,7 @@
         public engineArray = []; 
         constructor(
             public searchFormService: HorsePowerStore.Services.SearchFormService,
-            public $location: ng.ILocationService) {
+            public $state: ng.ui.IStateService) {
 
             searchFormService.getEdmundsMakes().$promise.then((makes) => {
                 this.makes = makes.makes;
@@ -28,7 +28,7 @@
         //when you finish the form you need:
         public submit() {
             this.searchFormService.save(this.car.id, this.budget, this.make.name + ' ' + this.model.name + ' ' + this.car.name); // calls service
-            this.$location.path('/result'); // bumps them to resultpage
+            this.$state.go('result'); // bumps them to resultpage
         }
 
         public getYears() {

@@ -22,6 +22,12 @@ namespace HorsePowerStore.API
             this.carInstancesService = carInstancesService;
         }
 
+        [HttpGet("{id}")]
+        public CarInstance GetCarInstance(int id)
+        {
+            return carInstancesService.Get(id, User.Identity.Name);
+        }
+
         [HttpGet]
         public List<CarInstance> GetUserCarInstances ()
         {

@@ -27,6 +27,24 @@ namespace HorsePowerStore.Services
             this.appDbContext = appDbContext;
         }
 
+        public CarInstance Get (int id, string userName)
+        {
+            var result = (
+                from u in appDbContext.AppUsers
+                    .Include(u => u.CarInstances)
+                    .ThenInclude(ci => ci.SelectedProducts)
+                    .ThenInclude(ps => ps.Product)
+                    .Include(u => u.CarInstances)
+                    .ThenInclude (ci => ci.Style)
+                where u.UserName == userName
+                select u)
+                .FirstOrDefault();
+
+            return result.CarInstances
+                .Where(ci => ci.Id == id)
+                .FirstOrDefault();
+        }
+
         public void Save (CarInstance instance, string userName)
         {
             GetUser(userName).CarInstances.Add(instance);

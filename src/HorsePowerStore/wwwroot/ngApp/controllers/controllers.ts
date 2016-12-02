@@ -33,25 +33,51 @@ namespace HorsePowerStore.Controllers {
         public selectedProducts = {};
         public saveName: string = 'Save';
 
+        private savedCarInstance;
+
         constructor(
             private $uibModal: angular.ui.bootstrap.IModalService,
             private $state: angular.ui.IStateService,
+            private $stateParams: angular.ui.IStateParamsService,
+            private $q: angular.IQService,
             private resultService: HorsePowerStore.Services.ResultService,
             private carInstanceService: HorsePowerStore.Services.CarInstanceService,
             private accountService: HorsePowerStore.Services.AccountService) {
 
-            let items = resultService.get().split(',');
-            this.info['id'] = items[0];
-            this.info['budget'] = parseInt(items[1]);
-            this.info['car'] = items[2];
+            let resultStorage = resultService.get();
 
-            this.startingBudget = this.info['budget'];
-            if (isNaN(this.startingBudget)) this.startingBudget = 0;
+            if (resultStorage == null && !$stateParams['id']) {
+                $state.go('searchForm');
+                return;
+            }
+            else if (resultStorage != null) {
+                let items = resultStorage.split(',');
 
-            resultService.getProducts(this.info['id'], 0).then((result) => {
-                this.products = result;
-                console.log(result);
-            });
+                this.info['id'] = items[0];
+                this.info['budget'] = parseInt(items[1]);
+                this.info['car'] = items[2];
+
+                this.startingBudget = this.info['budget'];
+                if (isNaN(this.startingBudget)) this.startingBudget = 0;
+                resultService.getProducts(this.info['id'], 0).then((products) => {
+                    this.products = products;
+                });
+                return;
+            }
+
+            var carInstancePromise = resultService.getCarInstance($stateParams['id']);
+            carInstancePromise.then((carInstance) => {
+                this.savedCarInstance = carInstance;
+                this.info['id'] = carInstance.style.id;
+                this.info['budget'] = 0;
+                this.info['car'] = carInstance.name;
+
+                resultService.getProducts(this.info['id'], 0).then((products) => {
+                    this.products = products;
+                    for (var key in this.savedCarInstance.selectedProducts) 
+                        this.toggleProduct(this.savedCarInstance.selectedProducts[key]);
+                });
+            })
         }
 
         public inStartingBudget (price: number) { 
