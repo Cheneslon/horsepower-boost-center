@@ -247,3 +247,7 @@ html, body{
     padding-right: 0px !important; 
     position: relative!important;
 }
+
+#reviewImg{
+    margin-top:6px;
+}

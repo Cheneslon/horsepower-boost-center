@@ -1,32 +1,42 @@
-﻿<h2>{{controller.product.name}}</h2>
-<em>{{controller.product.description}}</em>
-<h3>Average rating: {{controller.product.averageRating | number: 2}}</h3>
+﻿<div class="container">
+    <div class="row">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading"><center>{{controller.product.name}}</center></div>
+                <center><img src="" class="center img-responsive" width="550" id="reviewImg"/></center>
+                <em>{{controller.product.description}}</em>
+                <h3>Average rating: {{controller.product.averageRating | number: 2}}</h3>
 
-Rate it:
-<form ng-click="controller.loginCheck()">
-    <input checked type="radio" name="star" class="star" value="-1"/>
+                Rate it:
+                <form ng-click="controller.loginCheck()">
+                    <input checked type="radio" name="star" class="star" value="-1" />
 
-    <label ng-repeat-start="n in [1, 2, 3, 4, 5]"
-           ng-click="controller.showModal(n)"
-           class="star star-{{n}}"
-           for="star-{{n}}">
-    </label>
-    <input ng-repeat-end
-           ng-disabled="!controller.isLoggedIn()"
-           ng-model="controller.product.userRating"
-           class="star"
-           id="star-{{n}}"
-           type="radio"
-           name="star"
-           value="{{n}}" />
-</form>
+                    <label ng-repeat-start="n in [1, 2, 3, 4, 5]"
+                           ng-click="controller.showModal(n)"
+                           class="star star-{{n}}"
+                           for="star-{{n}}">
+                    </label>
+                    <input ng-repeat-end
+                           ng-disabled="!controller.isLoggedIn()"
+                           ng-model="controller.product.userRating"
+                           class="star"
+                           id="star-{{n}}"
+                           type="radio"
+                           name="star"
+                           value="{{n}}" />
+                </form>
 
-<ul>
-    <li ng-repeat="rating in controller.product.ratings">
-        {{rating.userName}} rates {{rating.value}} / 5:  "{{rating.message}}"
-    </li>
-</ul>
-
+                <ul>
+                    <li ng-repeat="rating in controller.product.ratings">
+                        {{rating.userName}} rates {{rating.value}} / 5:  "{{rating.message}}"
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-3"></div>
+    </div>
+</div>
 <style>
     .center {
         text-align: center;
