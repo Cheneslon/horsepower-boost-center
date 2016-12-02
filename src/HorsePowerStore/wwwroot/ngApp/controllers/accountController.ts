@@ -145,6 +145,13 @@ namespace HorsePowerStore.Controllers {
     export class ExternalRegisterController {
         public registerUser;
         public validationMessages;
+        public modalInstance;
+
+        constructor(
+            private accountService: HorsePowerStore.Services.AccountService,
+            private $uibModal: angular.ui.bootstrap.IModalService,
+            private $scope: angular.IScope,
+            private $location: ng.ILocationService) { this.openEmailModal(); }
 
         public register() {
             this.accountService.registerExternal(this.registerUser.email)
@@ -155,9 +162,15 @@ namespace HorsePowerStore.Controllers {
                 });
         }
 
-        constructor(
-            private accountService: HorsePowerStore.Services.AccountService,
-            private $location: ng.ILocationService) { }
+        public openEmailModal() {
+            this.modalInstance = this.$uibModal.open({
+                templateUrl: '/ngApp/views/externalRegister2.html',
+                scope: this.$scope,
+                size: 'sm',
+                backdrop: 'static',
+                keyboard: false
+            });
+        }
     }
 
     export class ConfirmEmailController {
