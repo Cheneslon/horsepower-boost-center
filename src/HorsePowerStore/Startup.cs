@@ -104,23 +104,23 @@ namespace HorsePowerStore
             // Add external authentication middleware below. To configure them please see http://go.microsoft.com/fwlink/?LinkID=532715
             app.UseFacebookAuthentication(new FacebookOptions()// added for Facebook login (DG)
             {
-                AppId = "522598474600542",
-                AppSecret = "ba947e6b0e6b0007d3eaf7772b81ca3f"
+                AppId = Configuration["FacebookAppId"],
+                AppSecret = Configuration["FacebookSecret"]
             });
             app.UseTwitterAuthentication(new TwitterOptions
             {
-                ConsumerKey = "iCtnTS3isNjMqjNGmXqncWgRR",
-                ConsumerSecret = "MlSPOV0yyJwF70Ky8N2NWhTBBpwhqbZhjMZ6srlX6io4KPwjfc"
+                ConsumerKey = Configuration["TwitterAppId"],
+                ConsumerSecret = Configuration["TwitterSecret"]
             });
             app.UseGoogleAuthentication(new GoogleOptions()
             {
-                ClientId = "1075063684469-6da3i6js1fknrqiaach0lik4amibssqq.apps.googleusercontent.com",
-                ClientSecret = "IV1mLdmVx3iJFFOaSMp22Syx"
+                ClientId = Configuration["GoogleAppId"],
+                ClientSecret = Configuration["GoogleSecret"]
             });
             app.UseMicrosoftAccountAuthentication(new MicrosoftAccountOptions()
             {
-                ClientId = "acb706be-d51c-4fde-8070-940e256b87ee",
-                ClientSecret = "NOEmX1AkF8LafLHGQ9VKZTW"
+                ClientId = Configuration["MicrosoftAppId"],
+                ClientSecret = Configuration["MicrosoftSecret"]
             });
             
 
