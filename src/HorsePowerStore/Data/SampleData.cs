@@ -100,79 +100,565 @@ namespace HorsePowerStore.Data
                                 {
                                     new Year
                                     {
-                                        Years = 1970
+                                        Years = 1970,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 250
+                                            },
+
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 300
+                                            },
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (400ci 8cyl)",
+                                                 Horsepower = 265
+                                            },
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (402ci 8cyl)",
+                                                 Horsepower = 330
+                                            },
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe SS 454 (454ci 8cyl)",
+                                                 Horsepower = 360
+                                            },
+                                        }
                                     },
                                     new Year
                                     {
-                                        Years = 1971
+                                        Years = 1971,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 245
+                                            },
+
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 270
+                                            },
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (402ci 8cyl)",
+                                                 Horsepower = 300
+                                            },
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe SS 454 (454ci 8cyl)",
+                                                 Horsepower = 365
+                                            },
+                                        }
                                     },
                                     new Year
                                     {
-                                        Years = 1972
+                                        Years = 1972,
+                                         Styles = new List<Style>()
+                                        {
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 165
+                                            },
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 175
+                                            },
+
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (402ci 8cyl)",
+                                                 Horsepower = 240
+                                            },
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (454ci 8cyl)",
+                                                 Horsepower = 270
+                                            }
+                                         },
                                     },
                                     new Year
                                     {
-                                        Years = 1973
+                                        Years = 1973,
+                                         Styles = new List<Style>()
+                                        {
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 145
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 175
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (454ci 8cyl)",
+                                                 Horsepower = 245
+                                            },
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe Landue (350ci 8cyl)",
+                                                 Horsepower = 145
+                                            }
+                                         },
                                     },
                                     new Year
                                     {
-                                        Years = 1974
+                                        Years = 1974,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 160
+                                            },
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (400ci 8cyl)",
+                                                 Horsepower = 150
+                                            },
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (400ci 8cyl)",
+                                                 Horsepower = 180
+                                            },
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (454ci 8cyl)",
+                                                 Horsepower = 235
+                                            },
+                                         },
                                     },
                                     new Year
                                     {
-                                        Years = 1975
+                                        Years = 1975,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 145
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 155
+                                            },
+                                              new Style
+                                            {
+                                                Name = "2dr Coupe (400ci 8cyl)",
+                                                 Horsepower = 175
+                                            },
+                                               new Style
+                                            {
+                                                Name = "2dr Coupe (454ci 8cyl)",
+                                                 Horsepower = 215
+                                            },
+                                         },
                                     },
                                     new Year
                                     {
-                                        Years = 1976
+                                        Years = 1976,
+                                          Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (305ci 8cyl)",
+                                                 Horsepower = 140
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 145
+                                            },
+                                              new Style
+                                            {
+                                                Name = "2dr Coupe (400ci 8cyl)",
+                                                 Horsepower = 175
+                                            },
+                                               new Style
+                                            {
+                                                Name = "2dr Coupe (454ci 8cyl)",
+                                                 Horsepower = 215
+                                            },
+                                         },
                                     },
                                     new Year
                                     {
-                                        Years = 1977
+                                        Years = 1977,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (305ci 8cyl)",
+                                                 Horsepower = 140
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (350ci 8cyl)",
+                                                 Horsepower = 170
+                                            },
+
+                                         }
                                     },
                                     new Year
                                     {
-                                        Years = 1978
+                                        Years = 1978,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (231ci 6cyl)",
+                                                 Horsepower = 105
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (305ci 8cyl)",
+                                                 Horsepower = 145
+                                            },
+                                              new Style
+                                            {
+                                                Name = "2dr Coupe (305ci 8cyl)",
+                                                 Horsepower = 135
+                                            },
+                                         }
                                     },
                                     new Year
                                     {
-                                        Years = 1979
+                                        Years = 1979,
+                                          Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (200ci 6cyl)",
+                                                 Horsepower = 95
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (231ci 6cyl)",
+                                                 Horsepower = 105
+                                            },
+                                              new Style
+                                            {
+                                                Name = "2dr Coupe (267ci 8cyl)",
+                                                 Horsepower = 125
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe (305ci 8cyl)",
+                                                 Horsepower = 140
+                                            },
+                                                 new Style
+                                            {
+                                                Name = "2dr Coupe (305ci 8cyl)",
+                                                 Horsepower = 160
+                                            },
+                                         }
                                     },
                                     new Year
                                     {
-                                        Years = 1980
+                                        Years = 1980,
+                                          Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (200ci 6cyl)",
+                                                 Horsepower = 95
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (231ci 6cyl)",
+                                                 Horsepower = 105
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe Turbo (231ci 6cyl)",
+                                                 Horsepower = 170
+                                            },
+                                              new Style
+                                            {
+                                                Name = "2dr Coupe (267ci 8cyl)",
+                                                 Horsepower = 130
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe (305ci 8cyl)",
+                                                 Horsepower = 155
+                                            },
+                                         }
                                     },
                                     new Year
                                     {
-                                        Years = 1981
+                                        Years = 1981,
+                                          Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (229ci 6cyl)",
+                                                 Horsepower = 115
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (231ci 6cyl)",
+                                                 Horsepower = 105
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe Turbo (231ci 6cyl)",
+                                                 Horsepower = 170
+                                            },
+                                              new Style
+                                            {
+                                                Name = "2dr Coupe (267ci 8cyl)",
+                                                 Horsepower = 130
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe (305ci 8cyl)",
+                                                 Horsepower = 155
+                                            },
+                                         }
                                     },
                                     new Year
                                     {
-                                        Years = 1982
+                                        Years = 1982,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (229ci 6cyl)",
+                                                 Horsepower = 115
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (231ci 6cyl)",
+                                                 Horsepower = 105
+                                            },
+                                               new Style
+                                            {
+                                                Name = "2dr Coupe (260ci 6cyl)",
+                                                 Horsepower = 130
+                                            },
+                                              new Style
+                                            {
+                                                Name = "2dr Coupe (267ci 8cyl)",
+                                                 Horsepower = 130
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe (305ci 8cyl)",
+                                                 Horsepower = 155
+                                            },
+                                                 new Style
+                                            {
+                                                Name = "2dr Coupe Diesel (260ci 6cyl)",
+                                                 Horsepower = 85
+                                            },
+                                                  new Style
+                                            {
+                                                Name = "2dr Coupe Diesel (350ci 8cyl)",
+                                                 Horsepower = 120
+                                            },
+                                         }
                                     },
                                     new Year
                                     {
-                                        Years = 1983
+                                        Years = 1983,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (229ci 6cyl)",
+                                                 Horsepower = 115
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (231ci 6cyl)",
+                                                 Horsepower = 105
+                                            },
+                                               new Style
+                                            {
+                                                Name = "2dr Coupe (260ci 6cyl)",
+                                                 Horsepower = 130
+                                            },
+                                              new Style
+                                            {
+                                                Name = "2dr Coupe (267ci 8cyl)",
+                                                 Horsepower = 130
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe  (305ci 8cyl)",
+                                                 Horsepower = 165
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe SS (305ci 8cyl)",
+                                                 Horsepower = 175
+                                            },
+                                                 new Style
+                                            {
+                                                Name = "2dr Coupe Diesel (260ci 6cyl)",
+                                                 Horsepower = 85
+                                            },
+                                                  new Style
+                                            {
+                                                Name = "2dr Coupe Diesel (350ci 8cyl)",
+                                                 Horsepower = 120
+                                            },
+                                         }
                                     },
                                     new Year
                                     {
-                                        Years = 1984
+                                        Years = 1984,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (229ci 6cyl)",
+                                                 Horsepower = 115
+                                            },
+                                             new Style
+                                            {
+                                                Name = "2dr Coupe (231ci 6cyl)",
+                                                 Horsepower = 105
+                                            },
+                                               new Style
+                                            {
+                                                Name = "2dr Coupe (260ci 6cyl)",
+                                                 Horsepower = 130
+                                            },
+                                              new Style
+                                            {
+                                                Name = "2dr Coupe (267ci 8cyl)",
+                                                 Horsepower = 130
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe  (305ci 8cyl)",
+                                                 Horsepower = 165
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe SS (305ci 8cyl)",
+                                                 Horsepower = 180
+                                            },
+                                                 new Style
+                                            {
+                                                Name = "2dr Coupe Diesel (260ci 6cyl)",
+                                                 Horsepower = 85
+                                            },
+                                                  new Style
+                                            {
+                                                Name = "2dr Coupe Diesel (350ci 8cyl)",
+                                                 Horsepower = 120
+                                            },
+                                         }
                                     },
                                     new Year
                                     {
-                                        Years = 1985
+                                        Years = 1985,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (262ci 6cyl)",
+                                                 Horsepower = 130
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe  (305ci 8cyl)",
+                                                 Horsepower = 165
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe SS (305ci 8cyl)",
+                                                 Horsepower = 180
+                                            },
+                                         }
                                     },
                                     new Year
                                     {
-                                        Years = 1986
+                                        Years = 1986,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (262ci 6cyl)",
+                                                 Horsepower = 130
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe  (305ci 8cyl)",
+                                                 Horsepower = 165
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe SS (305ci 8cyl)",
+                                                 Horsepower = 180
+                                            },
+                                         }
                                     },
                                     new Year
                                     {
-                                        Years = 1987
+                                        Years = 1987,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (262ci 6cyl)",
+                                                 Horsepower = 130
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe  (305ci 8cyl)",
+                                                 Horsepower = 165
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe SS (305ci 8cyl)",
+                                                 Horsepower = 180
+                                            },
+                                         }
                                     },
                                     new Year
                                     {
-                                        Years = 1988
+                                        Years = 1988,
+                                         Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name = "2dr Coupe (262ci 6cyl)",
+                                                 Horsepower = 130
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe  (305ci 8cyl)",
+                                                 Horsepower = 165
+                                            },
+                                                new Style
+                                            {
+                                                Name = "2dr Coupe SS (305ci 8cyl)",
+                                                 Horsepower = 180
+                                            },
+                                         }
                                     }
                                 }
                             },
@@ -186,7 +672,7 @@ namespace HorsePowerStore.Data
                                         Years = 1953,
                                         Styles = new List<Style>(){
                                             new Style {
-                                                Name = "2dr Covertible(235ci 6cyl 2A)",
+                                                Name = "2dr Covertible(235ci 6cyl)",
                                                 Horsepower = 150
                                             }
                                         }
@@ -197,7 +683,7 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name = "2dr Covertible(235ci 2A)",
+                                                Name = "2dr Covertible(235ci 6cyl)",
                                                  Horsepower = 150
                                             }
                                         }
@@ -209,12 +695,12 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name = "2dr Convertible (235ci 6cyl 2A)",
+                                                Name = "2dr Convertible (235ci 6cyl)",
                                                 Horsepower = 155
                                             },
                                             new Style
                                             {
-                                                Name ="2dr Convertible (265ci 8cyl 3M)",
+                                                Name ="2dr Convertible (265ci 8cyl)",
                                                  Horsepower = 195
                                             }
                                         }
@@ -246,27 +732,27 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name = "2dr Covertible (283ci 8cyl 4M)",
+                                                Name = "2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 245
                                             },
                                             new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 3M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 220
                                             },
                                              new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 250
                                             },
                                               new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 270
                                             },
                                                new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 283
                                             }
                                         }
@@ -277,27 +763,27 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 3M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 230
                                             },
                                              new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 245
                                             },
                                               new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 250
                                             },
                                                new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 270
                                             },
                                                new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 290
                                             }
                                         }
@@ -308,27 +794,27 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 3M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 230
                                             },
                                              new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 245
                                             },
                                               new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 250
                                             },
                                                new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 270
                                             },
                                                new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 290
                                             }
                                         }
@@ -339,27 +825,27 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 3M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 230
                                             },
                                              new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 245
                                             },
                                               new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 250
                                             },
                                                new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 270
                                             },
                                                new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 290
                                             }
                                         }
@@ -370,27 +856,27 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 3M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 230
                                             },
                                              new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 245
                                             },
                                               new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 270
                                             },
                                                new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 275
                                             },
                                                new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 315
                                             }
                                         }
@@ -401,27 +887,27 @@ namespace HorsePowerStore.Data
                                         {
                                             new Style
                                             {
-                                                Name ="2dr Covertible (327ci 8cyl 3M)",
+                                                Name ="2dr Covertible (327ci 8cyl)",
                                                 Horsepower = 250
                                             },
                                              new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 245
                                             },
                                               new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 270
                                             },
                                                new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 275
                                             },
                                                new Style
                                             {
-                                                Name ="2dr Covertible (283ci 8cyl 4M)",
+                                                Name ="2dr Covertible (283ci 8cyl)",
                                                 Horsepower = 315
                                             }
                                          }
@@ -570,7 +1056,16 @@ namespace HorsePowerStore.Data
                     }
                 );
             }
-            
+
+            var test = new Product { };
+            var style = new Style { };
+
+            var carMod = new CarMod
+            {
+                Style = style,
+                Product = test
+            };
+
             if (!context.Products.Any())
             {
                 context.Products.AddRange(
