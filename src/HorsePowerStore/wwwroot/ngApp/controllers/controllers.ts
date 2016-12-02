@@ -31,7 +31,8 @@ namespace HorsePowerStore.Controllers {
         public startingBudget: number;
         public totalPrice: number = 0;
         public horsepowerIncrease: number = 0;
-        public selectedProducts = {};
+        public selectedCarMods = {};
+        public selectedCarModsBoolMap = {};
         public saveName: string = 'Save';
         public dynamicPopover = {
             content: "hey this is text!"
@@ -54,7 +55,7 @@ namespace HorsePowerStore.Controllers {
                 $state.go('searchForm');
                 return;
             }
-            else if (resultStorage != null) {
+            else if (resultStorage != null && !$stateParams['id']) {
                 let items = resultStorage.split(',');
 
                 this.info['id'] = items[0];
@@ -63,8 +64,8 @@ namespace HorsePowerStore.Controllers {
 
                 this.startingBudget = this.info['budget'];
                 if (isNaN(this.startingBudget)) this.startingBudget = 0;
-                resultService.getProducts(this.info['id'], 0).then((products) => {
-                    this.products = products;
+                resultService.getCarMods(this.info['id'], 0).then((carmods) => {
+                    this.carmods = carmods;
                 });
                 return;
             }
@@ -75,17 +76,16 @@ namespace HorsePowerStore.Controllers {
                 this.info['id'] = carInstance.style.id;
                 this.info['budget'] = 0;
                 this.info['car'] = carInstance.name;
+                this.startingBudget = 0;
+                console.log(this.savedCarInstance)
 
-                resultService.getProducts(this.info['id'], 0).then((products) => {
-                    this.products = products;
-                    for (var key in this.savedCarInstance.selectedProducts) 
-                        this.toggleProduct(this.savedCarInstance.selectedProducts[key]);
+                resultService.getCarMods(this.info['id'], 0).then((carmods) => {
+                    this.carmods = carmods;
+                    for (var key in this.savedCarInstance.selectedCarMods) {
+                        this.toggleCarMod(this.savedCarInstance.selectedCarMods[key].carMod);
+                    }
                 });
             })
-            resultService.getProducts(this.info['id'], 0).then((result) => {
-                this.carmods = result;
-                console.log(result);
-            });
         }
 
         public inStartingBudget (price: number) { 
@@ -96,16 +96,20 @@ namespace HorsePowerStore.Controllers {
             return this.startingBudget == 0 || price <= this.startingBudget - this.totalPrice;
         }
 
-        public toggleProduct(carmod) {
-            if (this.selectedProducts[carmod.product.id]) {
-                delete this.selectedProducts[carmod.product.id];
+        public toggleCarMod(carmod) {
+            if (this.selectedCarMods[carmod.id]) {
+                delete this.selectedCarMods[carmod.id];
                 this.totalPrice -= carmod.product.price;
                 this.horsepowerIncrease -= carmod.horsePower;
+
+                this.selectedCarModsBoolMap[carmod.id] = false;
             }
             else {
-                this.selectedProducts[carmod.product.id] = carmod.product;
+                this.selectedCarMods[carmod.id] = carmod;
                 this.totalPrice += carmod.product.price;
                 this.horsepowerIncrease += carmod.horsePower;
+
+                this.selectedCarModsBoolMap[carmod.id] = true;
             }
         }
 
@@ -139,19 +143,36 @@ namespace HorsePowerStore.Controllers {
             });
         }
 
-        public save() {
+        private buildCarInstance() {
             var carInstance = {
                 name: this.saveName,
-                selectedProducts: []
+                style: {
+                    id: this.info['id']
+                },
+                selectedCarMods: [],
+                id: null
             };
 
-            for (var key in this.selectedProducts) {
-                carInstance.selectedProducts.push({
-                    product: this.selectedProducts[key]
+            if (this.savedCarInstance)
+                carInstance.id = this.savedCarInstance.id;
+
+            for (var key in this.selectedCarMods) {
+                carInstance.selectedCarMods.push({
+                    carmod: this.selectedCarMods[key]
                 })
             }
 
-            this.carInstanceService.saveCarInstance(carInstance).then(() => {
+            return carInstance;
+        }
+
+        public save() {
+            this.carInstanceService.saveCarInstance(this.buildCarInstance()).then(() => {
+                this.$state.go('carInstances');
+            });
+        }
+
+        public overwrite() {
+            this.carInstanceService.overwriteCarInstance(this.buildCarInstance()).then(() => {
                 this.$state.go('carInstances');
             });
         }

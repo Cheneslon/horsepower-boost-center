@@ -35,9 +35,15 @@ namespace HorsePowerStore.API
         }
 
         [HttpPost]
-        public void SaveCarInstance ([FromBody] CarInstance instance)
+        public void SaveCarInstance ([FromBody] CarInstance carInstance)
         {
-            carInstancesService.Save(instance, User.Identity.Name);
+            carInstancesService.Save(carInstance, User.Identity.Name);
+        }
+
+        [HttpPost("overwrite")]
+        public void OverwriteCarInstance ([FromBody] CarInstance carInstance)
+        {
+            carInstancesService.Overwrite(carInstance, User.Identity.Name);
         }
 
         [HttpDelete]

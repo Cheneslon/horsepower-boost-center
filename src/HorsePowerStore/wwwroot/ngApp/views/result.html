@@ -24,8 +24,8 @@
                     </div>
                 </div>
             </p>
-            <div ng-repeat="carmod in controller.carmods | orderBy: controller.select"> 
-                 <!--ng-show="controller.inStartingBudget(carmod.product.price)"-->
+            <div ng-repeat="carmod in controller.carmods | orderBy: controller.select"
+                 ng-show="controller.inStartingBudget(carmod.product.price)">
 
                 <dl class="panel panel-default">
                     <dt class="productHeader">
@@ -36,10 +36,11 @@
                         </a>
                         <input 
                             type="checkbox" 
+                            ng-model="controller.selectedCarModsBoolMap[carmod.product.id]"
                             ng-disabled=
-                               "!controller.selectedProducts[carmod.product.id] &&
+                               "!controller.selectedCarMods[carmod.product.id] &&
                                 !controller.inAdjustedBudget(carmod.product.price)"
-                            ng-click="controller.toggleProduct(carmod)"/>
+                            ng-click="controller.toggleCarMod(carmod)"/>
                     </dt>
                     <dd class="productBody">
                         <form ng-click="controller.loginCheck()">
@@ -69,10 +70,16 @@
         <div class="panel panel-default myCar">
             <p>
                 Your Car: <br />
-                {{controller.info["car"]}}<br/>
-                Name this car: <input type="text" ng-model="controller.saveName"/>
-                <button class="btn btn-default saveCarButton" ng-click="controller.save()">save</button><br/>
-                Horsepower Increase: {{controller.horsepowerIncrease}}
+                <strong>{{controller.info["car"]}}</strong>
+                <div ng-if="controller.savedCarInstance">
+                    <button class="btn btn-default" ng-click="controller.overwrite()">Save changes</button>
+                </div>
+                <br/>
+                <div>
+                    Save as: <input type="text" ng-model="controller.saveName" />
+                    <button class="btn btn-default saveCarButton" ng-click="controller.save()">Submit</button><br />
+                    Horsepower Increase: {{controller.horsepowerIncrease}}
+                </div>
            </p>
         </div>
         </div>
