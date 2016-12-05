@@ -30,7 +30,7 @@ namespace HorsePowerStore.Data
                     {
                         Name = "X1"
                     }
-                    };
+                };
 
 
                 List<Model> FordModels = new List<Model>()
@@ -1081,6 +1081,8 @@ namespace HorsePowerStore.Data
                                      },
                                     },
                                 },
+                            },
+                        },
                     },
                     new Make
                     {
@@ -1281,11 +1283,12 @@ namespace HorsePowerStore.Data
                                          Name = "2dr Convertable W-30 (455ci 8cyl 4m)",
                                          Horsepower = 350
                                      },
-                                        },
-                                    },
                                  },
-                            },
-            }, 
+                              },
+                          },
+                    },
+               }
+          }); 
 
             if (!context.Engines.Any())
             {
