@@ -1,0 +1,28 @@
+<div class="modal-header">
+    <center><h4>Complete Registration</h4></center>
+</div>
+<div class="modal-body">
+    <fieldset>
+        <dl id="validationMessages">
+            <dt></dt>
+            <dd ng-repeat="message in controller.validationMessages">
+                {{message}}
+            </dd>
+        </dl>
+
+        <form ng-submit="controller.register()" class="form-group" name="externalRegisterForm" novalidate>
+            <div>
+                <center><label>Email</label></center>
+                <input ng-model="controller.registerUser.email" class="form-control" style="text-align:center;" ng-required="true" name="emailInput"/>
+                <center>
+                    <span ng-show="externalRegisterForm.emailInput.$touched && externalRegisterForm.emailInput.$error.required" class="error">
+                        Email is required
+                    </span>
+                </center>
+            </div>
+            <input type="submit" value="Register" class="btn btn-primary modalButton" ng-disabled="externalRegisterForm.$invalid"/>
+            <a href="/home" class="btn btn-danger modalButton">Cancel</a>
+        </form>
+
+    </fieldset>
+</div>
