@@ -17,6 +17,8 @@
         }
 
         public saveCarInstance(carInstance) {
+            // Default ID so server knows this is a new car
+            carInstance.id = 0;
             return this.carInstanceResource.save(carInstance).$promise;
         }
 

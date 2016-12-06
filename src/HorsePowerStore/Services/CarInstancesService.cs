@@ -55,7 +55,9 @@ namespace HorsePowerStore.Services
                 .FirstOrDefault();
             if (selectedCarInstance == null) return;
 
-            var ids = carInstance.SelectedCarMods.Select(scm => scm.CarMod.Id).ToList();
+            var ids = carInstance.SelectedCarMods
+                .Select(scm => scm.CarMod.Id)
+                .ToList();
 
             var dbCarMods = (
                 from cm in appDbContext.CarMods
@@ -80,6 +82,7 @@ namespace HorsePowerStore.Services
         public void Save (CarInstance carInstance, string userName, ApplicationUser user=null)
         {
             if (user == null) user = GetUser(userName);
+            if (user.CarInstances.Any(ci => ci.Id == carInstance.Id)) return;
 
             user.CarInstances.Add(carInstance);
             appDbContext.CarInstances.Add(carInstance);
