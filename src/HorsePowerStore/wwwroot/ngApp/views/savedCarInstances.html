@@ -1,5 +1,8 @@
 ﻿<h2>Saved Cars</h2>
 
 <ul>
-    <li ng-repeat="instance in controller.carInstances">{{instance.name}}</li>
+    <li ng-repeat="instance in controller.carInstances">
+        {{instance.name}} 
+        <a href="/result/{{instance.id}}">(edit)</a>
+    </li>
 </ul>

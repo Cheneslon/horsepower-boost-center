@@ -15,6 +15,7 @@ using HorsePowerStore.Data;
 using HorsePowerStore.Models;
 using HorsePowerStore.Services;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace HorsePowerStore
 {
@@ -64,7 +65,9 @@ namespace HorsePowerStore
             services.AddScoped<ProductsService>();
             services.AddScoped<CarInstancesService>();
 
-
+            services.AddMvc().AddJsonOptions(options => {
+                options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            });
 
             // add security policies
             services.AddAuthorization(options =>
