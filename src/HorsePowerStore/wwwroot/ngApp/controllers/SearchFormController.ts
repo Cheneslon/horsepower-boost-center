@@ -1,76 +1,63 @@
 ﻿namespace HorsePowerStore.Controllers {
 
     export class SearchFormController {
-        public makes;
-        public make;
-        public models;
-        public model;
-        public years;
-        public year;
-        public car;
-        public cars;
-        public budget;
-        public engine;
-        public engineArray = []; 
+        public makes: string[];
+        public selectedMake: string;
+        public models: string[];
+        public selectedModel: string;
+        public years: number[];
+        public selectedYear: number;
+        public styles: string[];
+        public selectedStyle;
+        public budget: number;
+
         constructor(
             public searchFormService: HorsePowerStore.Services.SearchFormService,
             public $state: ng.ui.IStateService) {
 
-            searchFormService.getEdmundsMakes().$promise.then((makes) => {
-                this.makes = makes.makes;
+            searchFormService.getMakes().then((makes) => {
+                this.makes = makes;
             })
         }
-        //you need to use dependency injection to get the ILocationService
-        //in your controller
 
-
-        //then in the onSubmit() method that gets activated
-        //when you finish the form you need:
-        public submit() {
-            this.searchFormService.save(this.car.id, this.budget, this.make.name + ' ' + this.model.name + ' ' + this.car.name); // calls service
-            this.$state.go('result'); // bumps them to resultpage
+        public getModels() {
+            this.searchFormService.getModels(this.selectedMake).then((models) => {
+                this.models = models;
+                if (this.models.length == 1) {
+                    this.selectedModel = this.models[0];
+                    this.getYears();
+                }
+            });
         }
 
         public getYears() {
-            this.searchFormService.getLocalYears(this.model.name).$promise.then((years) => {
-                var edmundsYears = this.model.years.map((year) => year.year)
-                years = years
-                    .filter((year) => edmundsYears.indexOf(year) == -1)
-                    .map((year) => { return { id: null, year: year } })
-                
-                this.model.years = this.model.years.concat(years)
-                
-
-                this.model.years.sort((a, b) => {
-                    if (a.year > b.year) return 1
-                    if (a.year < b.year) return -1
-                    return 0
-                })
+            this.searchFormService.getYears(this.selectedModel).then((years) => {
+                this.years = years;
+                if (this.years.length == 1) {
+                    this.selectedYear = this.years[0];
+                    this.getTrims();
+                }
             });
-            if (this.model.years.length == 1) {
-                this.year = this.model.years[0];
-                this.getTrims();
-            }
         }
 
         public getTrims() {
             this.searchFormService.getTrims(
-                this.make.name,
-                this.model.name,
-                this.year.year)
-                .$promise.then((cars) => {
-                    this.cars = cars.styles;
-                    if (cars.styles.length == 1) {
-                        this.car = cars.styles[0];
-                    }
-                    else { this.car = null };
+                this.selectedMake,
+                this.selectedModel,
+                this.selectedYear)
+                .then((result) => {
+                    this.styles = result.styles;
+                    if (this.styles.length == 1) 
+                        this.selectedStyle = this.styles[0];
                 });
         }
 
-        public checkModels() {
-            if (this.make.models.length == 1) {
-                this.model = this.make.models[0];
-            };
+        public submit() {
+            this.searchFormService.save(
+                this.selectedStyle.id,
+                this.budget,
+                this.selectedMake + ' ' + this.selectedModel + ' ' + this.selectedStyle.name);
+            this.$state.go('result'); // bumps them to resultpage
         }
     }
 }
