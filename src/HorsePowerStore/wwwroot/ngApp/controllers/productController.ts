@@ -3,12 +3,13 @@
         public product;
         public productId;
 
-        private refreshProduct() {
+        private refreshProduct(id: number) {
+            this.productId = id;
+
             this.productsService
                 .getProduct(this.productId)
                 .$promise.then((product) => {
                     this.product = product;
-                    console.log(this.product.userRating)
                 })
         }
 
@@ -18,10 +19,11 @@
             private $stateParams: ng.ui.IStateParamsService,
             private productsService: HorsePowerStore.Services.ProductsService,
             private accountService: HorsePowerStore.Services.AccountService) {
-
-            this.productId = $stateParams['id'];
+            
             this.productsService = productsService;
-            this.refreshProduct();
+            if ($state.is("productRatings")) {
+                this.refreshProduct($stateParams['id'])
+            }
         }
 
         public showModal(ratingValue: number) {
@@ -36,7 +38,7 @@
                 },
                 size: 'sm'
             }).result.then(() => {
-                this.refreshProduct();
+                this.refreshProduct(this.product.id);
             });
         }
 
@@ -56,4 +58,5 @@
             return this.accountService.isLoggedIn();
         }
     }
+    angular.module('HorsePowerStore').controller('ProductsController', ProductsController);
 }

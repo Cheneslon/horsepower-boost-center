@@ -127,8 +127,10 @@ namespace HorsePowerStore.Controllers {
             this.modalInstance.close();
         }
         public registerLink() {
-            this.modalInstance.close();
-            this.accountService.openRegisterModal();
+            if (this.modalInstance) this.modalInstance.close();
+            this.accountService.openRegisterModal().result.then(() => {
+                this.username = this.accountService.getUserName();
+            });
         };
     }
     angular.module('HorsePowerStore').controller('LoginController', LoginController);
@@ -150,9 +152,8 @@ namespace HorsePowerStore.Controllers {
             }
 
         public register() {
-            this.accountService.register(this.registerUser).then(() => {
-                this.ok();
-                this.$location.path('/');
+            this.accountService.register(this.registerUser).then((results) => {
+                this.ok(results);
             }).catch((results) => {
                 this.validationMessages = results;
             });
@@ -166,7 +167,9 @@ namespace HorsePowerStore.Controllers {
             });
         }
 
-        public ok() {
+        public ok(results) {
+            this.accountService.storeUserInfo(results.data);
+
             if (this.accountService.modalOpen) { // checks to see if your trying to close the special register modal
                 this.accountService.modalInstance.close();
                 this.accountService.modalOpen = false;

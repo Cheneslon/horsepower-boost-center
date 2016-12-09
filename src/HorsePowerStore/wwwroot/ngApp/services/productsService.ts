@@ -37,15 +37,15 @@
         }
 
         public addRating(rating) {
-            this.productsResource.addRating(rating);
+            return this.productsResource.addRating(rating);
         }
 
         public removeRating(ratingId: number) {
-            this.productsResource.removeRating({ id: ratingId });
+            return this.productsResource.removeRating({ id: ratingId });
         }
 
         public listProducts(page: number) {
-            this.productsResource.listProducts({ page: page });
+            return this.productsResource.listProducts({ page: page });
         }
     }
     angular.module('HorsePowerStore').service('productsService', ProductsService);

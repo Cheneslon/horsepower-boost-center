@@ -24,12 +24,13 @@
                         Login
                     </a>
                     <p style="display:inline" ng-show="!account.isLoggedIn()"> / </p>
-                    <a ng-controller="RegisterController as register"
-                       href="#"
-                       ng-click="register.openRegisterDialog()"
+                    <a href="#"
+                       ng-click="login.registerLink()"
                        ng-show="!account.isLoggedIn()">
                         Register
                     </a>
+
+                    <a href="/savedCars" ng-show="account.isLoggedIn()">Your Cars</a> /
 
                     <a href="#" ng-click="account.logout()" ng-show="account.isLoggedIn()">Logout</a></br>
                     <div class="btn-group accountDropdown" uib-dropdown is-open="status.isopen" style="float:right;" ng-show="account.isLoggedIn()">
