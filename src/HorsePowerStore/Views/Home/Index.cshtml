@@ -10,16 +10,15 @@
 </head>
 <body ng-controller="AccountController as account">
     <div class="container">
-        
-            <div class="row" ng-controller="LoginController as login">
+        <div ng-controller="LoginController as login">
+            <div class="row">
                 <div class="col-xs-3"></div>
                 <div class="col-md-6">
                     <h1>HorsePowerStore</h1>
                     <a href="/">Home</a> /
                     <a href="/about">About</a> /
                     <a href="/searchForm">Search</a> /
-                    <a 
-                       href="#"
+                    <a href="#"
                        ng-click="login.openLoginDialog()"
                        ng-show="!account.isLoggedIn()">
                         Login
@@ -34,8 +33,7 @@
 
                     <a href="#" ng-click="account.logout()" ng-show="account.isLoggedIn()">Logout</a></br>
                     <div class="btn-group accountDropdown" uib-dropdown is-open="status.isopen" style="float:right;" ng-show="account.isLoggedIn()">
-                        <button
-                                id="single-button" type="button" class="btn btn-default" uib-dropdown-toggle ng-disabled="disabled">
+                        <button id="single-button" type="button" class="btn btn-default" uib-dropdown-toggle ng-disabled="disabled">
                             {{login.username}}<span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu-right" uib-dropdown-menu role="menu" aria-labelledby="single-button">
@@ -46,6 +44,7 @@
                 </div>
                 <div class="col-xs-3"></div>
             </div>
+        </div>
         <hr id="indexHr"/>
 
         <ui-view></ui-view>
