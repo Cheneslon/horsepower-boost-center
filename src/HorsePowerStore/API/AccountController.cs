@@ -23,19 +23,22 @@ namespace HorsePowerStore.Controllers
         private readonly IEmailSender _emailSender;
         private readonly ISmsSender _smsSender;
         private readonly ILogger _logger;
+        private readonly UserService _userService;
 
         public AccountController(
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
             IEmailSender emailSender,
             ISmsSender smsSender,
-            ILoggerFactory loggerFactory)
+            ILoggerFactory loggerFactory,
+            UserService userService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
             _smsSender = smsSender;
             _logger = loggerFactory.CreateLogger<AccountController>();
+            _userService = userService;
         }
 
 
@@ -459,18 +462,10 @@ namespace HorsePowerStore.Controllers
         //DELETE /Account/Delete
         [HttpDelete("delete")]
         [Authorize]
-        public async Task<IActionResult> delete ()
+        public IActionResult Delete ()
         {
-            var userName = User.Identity.Name;
-            var appUser = await _userManager.FindByNameAsync(User.Identity.Name);
-            if (appUser.UserName == userName)
-            {
-                  return Ok(await _userManager.DeleteAsync(appUser));
-            }
-            else
-            {
-                return BadRequest();
-            }
+            _userService.Delete(User.Identity.Name);
+            return Ok();
         }
 
         /// <summary>
