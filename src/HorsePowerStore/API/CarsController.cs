@@ -22,27 +22,27 @@ namespace HorsePowerStore.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<string> ListMakes()
+        public async Task<IEnumerable<string>> ListMakes()
         {
-            return carsService.ListMakes();
+            return await carsService.ListMakes();
         }
         
         [HttpGet("{make}")]
-        public IEnumerable<string> ListMakeModels(string make)
+        public async Task<IEnumerable<string>> ListMakeModels(string make)
         {
-            return carsService.ListMakeModels(make);
+            return await carsService.ListMakeModels(make);
         }
 
         [HttpGet("years/{model}")]
-        public IEnumerable<int> ListModelYears (string model)
+        public async Task<IEnumerable<int>> ListModelYears (string model)
         {
-            return carsService.ListModelYears(model);
+            return await carsService.ListModelYears(model);
         }
 
         [HttpGet("{make}/{model}/{year}")]
-        public StylesViewModel GetStyles(string make, string model, int year)
+        public async Task<StylesViewModel> GetStyles(string make, string model, int year)
         {
-            return carsService.GetStyles(make, model, year);
+            return await carsService.GetStyles(make, model, year);
         }
     }
 }

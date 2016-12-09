@@ -105,6 +105,24 @@ namespace HorsePowerStore.Migrations
                     b.ToTable("CarMods");
                 });
 
+            modelBuilder.Entity("HorsePowerStore.Models.CarModSelection", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int?>("CarInstanceId");
+
+                    b.Property<int?>("CarModId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CarInstanceId");
+
+                    b.HasIndex("CarModId");
+
+                    b.ToTable("CarModSelections");
+                });
+
             modelBuilder.Entity("HorsePowerStore.Models.Make", b =>
                 {
                     b.Property<int>("Id")
@@ -151,24 +169,6 @@ namespace HorsePowerStore.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Products");
-                });
-
-            modelBuilder.Entity("HorsePowerStore.Models.ProductSelection", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<int?>("CarInstanceId");
-
-                    b.Property<int?>("ProductId");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CarInstanceId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("ProductSelections");
                 });
 
             modelBuilder.Entity("HorsePowerStore.Models.Rating", b =>
@@ -358,22 +358,22 @@ namespace HorsePowerStore.Migrations
                         .HasForeignKey("StyleId");
                 });
 
+            modelBuilder.Entity("HorsePowerStore.Models.CarModSelection", b =>
+                {
+                    b.HasOne("HorsePowerStore.Models.CarInstance", "CarInstance")
+                        .WithMany("SelectedCarMods")
+                        .HasForeignKey("CarInstanceId");
+
+                    b.HasOne("HorsePowerStore.Models.CarMod", "CarMod")
+                        .WithMany()
+                        .HasForeignKey("CarModId");
+                });
+
             modelBuilder.Entity("HorsePowerStore.Models.Model", b =>
                 {
                     b.HasOne("HorsePowerStore.Models.Make")
                         .WithMany("Models")
                         .HasForeignKey("MakeId");
-                });
-
-            modelBuilder.Entity("HorsePowerStore.Models.ProductSelection", b =>
-                {
-                    b.HasOne("HorsePowerStore.Models.CarInstance", "CarInstance")
-                        .WithMany("SelectedProducts")
-                        .HasForeignKey("CarInstanceId");
-
-                    b.HasOne("HorsePowerStore.Models.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId");
                 });
 
             modelBuilder.Entity("HorsePowerStore.Models.Rating", b =>

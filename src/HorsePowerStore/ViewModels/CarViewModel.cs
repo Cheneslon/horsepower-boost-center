@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace HorsePowerStore.ViewModels
 {
-    public class CarViewModel
+    public class StyleViewModel
     {
         public string Make { get; set; }
         public string Name { get; set; }

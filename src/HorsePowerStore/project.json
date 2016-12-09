@@ -5,6 +5,7 @@
   },
   "dependencies": {
     "angularjs": "1.5.5",
+    "Microsoft.AspNet.WebApi.Client": "5.2.2",
     "Microsoft.AspNetCore.Authentication.Cookies": "1.0.0",
     "Microsoft.AspNetCore.Authentication.Facebook": "1.0.0",
     "Microsoft.AspNetCore.Authentication.Google": "1.1.0",
