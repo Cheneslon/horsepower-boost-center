@@ -1461,8 +1461,1146 @@ namespace HorsePowerStore.Data
                     new Make
                     {
                         Name = "Plymouth",
-                        Models = PlymouthModels
-                    },
+                        Models = new List<Model>()
+                        {
+                            new Model
+                            {
+                                Name = "Barracuda",
+                                Years = new List<Year>()
+                                {
+                                    
+                                    new Year
+                                    {
+                                        Years = 1964,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (170ci 6cyl)",
+                                                Horsepower = 101
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (273ci 8cyl)",
+                                                Horsepower = 180
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1965,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (273ci 8cyl)",
+                                                Horsepower = 180
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (273ci 8cyl)",
+                                                Horsepower = 235
+                                            },
+                                        }// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1966,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (273ci 8cyl)",
+                                                Horsepower = 180
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (273ci 8cyl)",
+                                                Horsepower = 235
+                                            },
+                                        }// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1967,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (273ci 8cyl)",
+                                                Horsepower = 180
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (273ci 8cyl)",
+                                                Horsepower = 235
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (273ci 8cyl)",
+                                                Horsepower = 180
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (273ci 8cyl)",
+                                                Horsepower = 235
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 280
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 280
+                                            },
+                                        }// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1968,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (340ci 8cyl)",
+                                                Horsepower = 275
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (340ci 8cyl)",
+                                                Horsepower = 275
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 300
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 300
+                                            },
+                                        }// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1969,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (340ci 8cyl)",
+                                                Horsepower = 275
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (340ci 8cyl)",
+                                                Horsepower = 275
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 300
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 300
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                        }// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1970,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 290
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 290
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 330
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 330
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                        }// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1971,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 290
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 290
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 330
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 330
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                        }// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1972,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 290
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 290
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 330
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 330
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                        }// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1973,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 290
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 290
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 330
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 330
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                        }// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1974,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 290
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 290
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 330
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 330
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                        }// new List<Style>
+                                    }// new Year
+                                }// new List<Year>
+                            },// new Model
+                            new Model
+                            {
+                                Name = "Duster",
+                                Years = new List<Year>()
+                                {
+                                    new Year
+                                    {
+                                        Years = 1971,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (198ci 6cyl)",
+                                                Horsepower = 125
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1972,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (198ci 6cyl)",
+                                                Horsepower = 125
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1973,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (198ci 6cyl)",
+                                                Horsepower = 125
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1974,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (198ci 6cyl)",
+                                                Horsepower = 125
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1975,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (198ci 6cyl)",
+                                                Horsepower = 125
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (225ci 6cyl)",
+                                                Horsepower = 145
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 230
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                }// new List<Year>
+                            },// new Model
+                            new Model
+                            {
+                                Name = "Superbird",
+                                Years = new List<Year>()
+                                {
+                                    new Year
+                                    {
+                                        Years = 1970,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 390
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                }// new List<Year>
+                            },// new Model
+                            new Model
+                            {
+                                Name = "Road Runner",
+                                Years = new List<Year>()
+                                {
+                                    new Year
+                                    {
+                                        Years = 1968,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 335
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1969,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 335
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 350
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 390
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 335
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 350
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 390
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1970,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 335
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 390
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (383ci 8cyl)",
+                                                Horsepower = 335
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 390
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1971,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (383ci 8cyl)",
+                                                Horsepower = 300
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 385
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1972,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (340ci 8cyl)",
+                                                Horsepower = 240
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (400ci 8cyl)",
+                                                Horsepower = 255
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 280
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 330
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1973,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (340ci 8cyl)",
+                                                Horsepower = 240
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (400ci 8cyl)",
+                                                Horsepower = 260
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 280
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 170
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1974,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (360ci 8cyl)",
+                                                Horsepower = 245
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (400ci 8cyl)",
+                                                Horsepower = 250
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 275
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 170
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (400ci 8cyl)",
+                                                Horsepower = 175
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1975,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (360ci 8cyl)",
+                                                Horsepower = 180
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (360ci 8cyl)",
+                                                Horsepower = 190
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (400ci 8cyl)",
+                                                Horsepower = 190
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (318ci 8cyl)",
+                                                Horsepower = 150
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (400ci 8cyl)",
+                                                Horsepower = 235
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                }// new List<Year>
+                            },// new Model
+                            new Model
+                            {
+                                Name = "GTX",
+                                Years = new List<Year>()
+                                {
+                                    new Year
+                                    {
+                                        Years = 1967,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1968,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1969,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 350
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 350
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1970,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 375
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 390
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 390
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                    new Year
+                                    {
+                                        Years = 1971,
+                                        Styles = new List<Style>()
+                                        {
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 370
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 370
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (426ci 8cyl)",
+                                                Horsepower = 425
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Coupe (440ci 8cyl)",
+                                                Horsepower = 385
+                                            },
+                                            new Style
+                                            {
+                                                Name =  "2dr Convertable (440ci 8cyl)",
+                                                Horsepower = 385
+                                            },
+                                        },// new List<Style>
+                                    },// new Year
+                                }// new List<Year>
+                            },// new Model
+                        }// new List<Model>
+                    },// new Make
                     new Make
                     {
                         Name = "Mercury",
@@ -1877,33 +3015,33 @@ namespace HorsePowerStore.Data
                                         {
                                          Name = "2dr Covertible (455ci 8cyl 4a)",
                                          Horsepower = 340
-                                     },
+                                        },
                                         new Style
                                         {
-                                         Name = "2dr Hardtop Coupe (455ci 8cyl 4m)",
-                                         Horsepower = 340
-                                     },
+                                            Name = "2dr Hardtop Coupe (455ci 8cyl 4m)",
+                                            Horsepower = 340
+                                        },
                                         new Style
                                         {
-                                         Name = "2dr Hardtop Coupe (455ci 8cyl 4a)",
-                                         Horsepower = 340
-                                     },
+                                            Name = "2dr Hardtop Coupe (455ci 8cyl 4a)",
+                                            Horsepower = 340
+                                        },
                                         new Style
                                         {
-                                         Name = "2dr Coupe W-30 (455ci 8cyl 4m)",
-                                         Horsepower = 350
-                                     },
+                                            Name = "2dr Coupe W-30 (455ci 8cyl 4m)",
+                                            Horsepower = 350
+                                        },
                                         new Style
                                         {
-                                         Name = "2dr Convertable W-30 (455ci 8cyl 4m)",
-                                         Horsepower = 350
-                                     },
-                                 },
-                              },
-                          },
-                    },
-               }
-                    });
+                                            Name = "2dr Convertable W-30 (455ci 8cyl 4m)",
+                                            Horsepower = 350
+                                        },
+                                    },
+                                },
+                            },
+                        },
+                    }
+                });
 
                 var test = new Product { };
                 var style = new Style { };
