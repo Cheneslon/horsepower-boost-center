@@ -10,31 +10,44 @@
 </head>
 <body ng-controller="AccountController as account">
     <div class="container">
-        <h1>HorsePowerStore</h1>
-        <a href="/">Home</a> /
-        <a href="/about">About</a> /
-        <a href="/searchForm">Search</a> /
-        <a ng-controller="LoginController as login" 
-           href="#" 
-           ng-click="login.openLoginDialog()" 
-           ng-show="!account.isLoggedIn()">
-            Login
-        </a>
+        
+            <div class="row">
+                <div class="col-xs-3"></div>
+                <div class="col-md-6">
+                    <h1>HorsePowerStore</h1>
+                    <a href="/">Home</a> /
+                    <a href="/about">About</a> /
+                    <a href="/searchForm">Search</a> /
+                    <a ng-controller="LoginController as login"
+                       href="#"
+                       ng-click="login.openLoginDialog()"
+                       ng-show="!account.isLoggedIn()">
+                        Login
+                    </a>
+                    <p style="display:inline" ng-show="!account.isLoggedIn()"> / </p>
+                    <a ng-controller="RegisterController as register"
+                       href="#"
+                       ng-click="register.openRegisterDialog()"
+                       ng-show="!account.isLoggedIn()">
+                        Register
+                    </a>
 
-        <p style="display:inline" ng-show="!account.isLoggedIn()"> / </p>
-
-        <a ng-controller="RegisterController as register"
-           href="#" 
-           ng-click="register.openRegisterDialog()" 
-           ng-show="!account.isLoggedIn()">
-            Register
-        </a>
-
-        <a href="#" ng-click="account.logout()" ng-show="account.isLoggedIn()">Logout</a>
-        <div ng-show="account.isLoggedIn()">
-            [{{account.getUserName()}}]
-        </div> 
-        <hr />
+                    <a href="#" ng-click="account.logout()" ng-show="account.isLoggedIn()">Logout</a></br>
+                    <div class="btn-group accountDropdown" uib-dropdown is-open="status.isopen" style="float:right;" ng-show="account.isLoggedIn()">
+                        <button ng-controller="LoginController as login"
+                                id="single-button" type="button" class="btn btn-default" uib-dropdown-toggle ng-disabled="disabled">
+                            {{login.username}}<span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu-right" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+                            <li role="menuitem" class="dropdown-menu-item" ng-click="account.changePasswordModal()">Change Password</li>
+                            <li role="menuitem" class="dropdown-menu-item" ng-click="account.deleteAccountModal()">Delete Account</li>
+                        </ul>
+                    </div>
+                    <button ng-controller="LoginController as login" ng-click="login.checkUser();"></button>
+                </div>
+                <div class="col-xs-3"></div>
+            </div>
+        <hr id="indexHr"/>
 
         <ui-view></ui-view>
     </div>

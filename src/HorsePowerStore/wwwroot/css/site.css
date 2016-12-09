@@ -251,3 +251,21 @@ html, body{ /*stops shift in page when modals swap*/
 #reviewImg{
     margin-top:6px;
 }
+.dropdown-menu-item{
+    padding-left:4px;
+}
+
+.dropdown-menu-item:hover {
+    font: black;
+    background-color: #337ab7;
+}
+
+.accountDropdown{
+    margin-bottom:0px;
+    margin-right: -15px;
+}
+
+#indexHr{
+    margin-top: 0px;
+    padding-top: 0px;
+}

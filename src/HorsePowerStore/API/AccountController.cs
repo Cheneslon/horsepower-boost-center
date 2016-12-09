@@ -456,6 +456,58 @@ namespace HorsePowerStore.Controllers
             }
         }
 
+        //DELETE /Account/Delete
+        [HttpDelete("delete")]
+        [Authorize]
+        public async Task<IActionResult> delete ()
+        {
+            var userName = User.Identity.Name;
+            var appUser = await _userManager.FindByNameAsync(User.Identity.Name);
+            if (appUser.UserName == userName)
+            {
+                  return Ok(await _userManager.DeleteAsync(appUser));
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
+
+        /// <summary>
+        /// Checks Username and Password before firing off ChangePasswordDatabase method
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost("changePassword")]
+        [Authorize]
+        public async Task<IActionResult> changePassword([FromBody]ChangePasswordViewModel model)
+        {
+            var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+            if (result.Succeeded)
+            {
+                return Ok(this.changePasswordDatabase(model));
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                return BadRequest(this.ModelState);
+            }
+        }
+
+        public async Task<IActionResult> changePasswordDatabase(ChangePasswordViewModel VM)
+        {
+            var user = this.GetCurrentUserAsync();
+            var swap = await _userManager.ChangePasswordAsync(user.Result, VM.Password, VM.NewPassword);
+            if (swap.Succeeded)
+            {
+                return Ok();
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
+
         #region Helpers
 
         private void AddErrors(IdentityResult result)

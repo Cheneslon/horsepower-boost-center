@@ -2,6 +2,10 @@ namespace HorsePowerStore.Controllers {
 
     export class AccountController {
         public externalLogins;
+        public modalInstance;
+        public validationMessages;
+        public user;
+
 
         public getUserName() {
             return this.accountService.getUserName();
@@ -14,7 +18,10 @@ namespace HorsePowerStore.Controllers {
         public isLoggedIn() {
             return this.accountService.isLoggedIn();
         }
-        
+
+        public deleteUser() {
+            return this.accountService.deleteUser();
+        }
 
         public logout() {
             this.accountService.logout();
@@ -28,7 +35,44 @@ namespace HorsePowerStore.Controllers {
         public assignLogo(provider) { //assigns logos to links view
             return this.accountService.assignLogo(provider);
         }
-        constructor(private accountService: HorsePowerStore.Services.AccountService, private $location: ng.ILocationService) {
+
+        public deleteAccountModal() {
+            this.modalInstance = this.$uibModal.open({
+                templateUrl: '/ngApp/views/deleteAccountModal.html',
+                scope: this.$scope,
+                size: "sm"
+            });
+        }
+
+        public changePasswordModal() {
+            this.modalInstance = this.$uibModal.open({
+                templateUrl: '/ngApp/views/changePasswordModal.html',
+                scope: this.$scope,
+                size: "sm"
+            });
+        }
+
+        public ok() {
+            this.modalInstance.close();
+        }
+
+        public deleteAccount() {
+            this.accountService.deleteUser();
+            this.$state.go('home');
+            this.accountService.logout();
+        };
+
+        public resetPassword() {
+            this.accountService.resetPassword(this.user)
+                .then(() => { this.ok() })
+                .catch((result) => { this.validationMessages = result });
+        }
+
+        constructor(private accountService: HorsePowerStore.Services.AccountService,
+                    private $location: ng.ILocationService,
+                    private $uibModal: angular.ui.bootstrap.IModalService,
+                    private $scope: angular.IScope,
+                    private $state: ng.ui.IStateService) {
             this.getExternalLogins().then((results) => {
                 this.externalLogins = results;
             });
@@ -42,18 +86,21 @@ namespace HorsePowerStore.Controllers {
         public validationMessages;
         private modalInstance: ng.ui.bootstrap.IModalServiceInstance;
         public popoverOpen = false;
+        public username;
 
         constructor(
             private $uibModal: angular.ui.bootstrap.IModalService,
             private $scope: angular.IScope,
             private accountService: HorsePowerStore.Services.AccountService,
             private $location: ng.ILocationService
-        ) { };
+        ) { this.username = this.accountService.getUserName();
+             };
 
         public login() {
             this.accountService.login(this.loginUser).then(() => {
                 this.ok();
                 this.$location.path('/');
+                this.username = this.accountService.getUserName();
             }).catch((results) => {
                 this.validationMessages = results;
             });
@@ -170,8 +217,9 @@ namespace HorsePowerStore.Controllers {
                 backdrop: 'static',
                 keyboard: false
             });
+          }
+
         }
-    }
 
     export class ConfirmEmailController {
         public validationMessages;
@@ -191,6 +239,16 @@ namespace HorsePowerStore.Controllers {
                     this.validationMessages = result;
                 });
         }
+    }
+
+    export class DeleteAccountController {
+        constructor(private accountService: HorsePowerStore.Services.AccountService,
+                    private $state: ng.ui.IStateService) { }
+        public deleteAccount() {
+            this.accountService.deleteUser();
+            this.$state.go('home');
+            this.accountService.logout();
+        };
     }
 
 }

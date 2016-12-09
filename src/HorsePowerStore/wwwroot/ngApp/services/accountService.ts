@@ -2,8 +2,6 @@ namespace HorsePowerStore.Services {
 
     export class AccountService {
 
-
-
         // Store access token and claims in browser session storage
         private storeUserInfo(userInfo) {
             // store user name
@@ -27,7 +25,7 @@ namespace HorsePowerStore.Services {
         public login(loginUser) {
             return this.$q((resolve, reject) => {
                 this.$http.post('/api/account/login', loginUser).then((result) => {
-                        this.storeUserInfo(result.data);
+                    this.storeUserInfo(result.data);
                         resolve();
                 }).catch((result) => {
                     var messages = this.flattenValidation(result.data);
@@ -161,6 +159,28 @@ namespace HorsePowerStore.Services {
                 case "Microsoft":
                     return "fa fa-windows";
             }
+        }
+
+        public deleteUser() {
+            this.$http.delete("/api/account/delete").then(() => { })
+        };
+
+        public checkUser() {
+            var user = {}
+            this.$http.get("/api/account/getUser/" + this.$window.sessionStorage.getItem('userName'))
+                .then((result) => { return result.data });
+        }
+
+        public resetPassword(user) {
+            user.rememberMe = false;
+            return this.$q((resolve, reject) => {
+                    this.$http.post('/api/account/changePassword', user).then(() => {
+                        resolve();
+                    }).catch((result) => {
+                        var messages = this.flattenValidation(result.data);
+                        reject(messages);
+                    });
+            });
         }
 
         constructor
