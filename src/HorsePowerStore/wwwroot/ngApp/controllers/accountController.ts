@@ -60,6 +60,7 @@ namespace HorsePowerStore.Controllers {
             this.accountService.deleteUser();
             this.$state.go('home');
             this.accountService.logout();
+            this.modalInstance.close();
         };
 
         public resetPassword() {
@@ -94,6 +95,7 @@ namespace HorsePowerStore.Controllers {
             private accountService: HorsePowerStore.Services.AccountService,
             private $location: ng.ILocationService
         ) { this.username = this.accountService.getUserName();
+            console.log("constructor " + this.username);
              };
 
         public login() {
@@ -101,6 +103,7 @@ namespace HorsePowerStore.Controllers {
                 this.ok();
                 this.$location.path('/');
                 this.username = this.accountService.getUserName();
+                console.log(this.username);
             }).catch((results) => {
                 this.validationMessages = results;
             });
