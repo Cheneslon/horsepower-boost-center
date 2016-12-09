@@ -93,17 +93,15 @@ namespace HorsePowerStore.Controllers {
             private $uibModal: angular.ui.bootstrap.IModalService,
             private $scope: angular.IScope,
             private accountService: HorsePowerStore.Services.AccountService,
-            private $location: ng.ILocationService
-        ) { this.username = this.accountService.getUserName();
-            console.log("constructor " + this.username);
-             };
+            private $location: ng.ILocationService) { 
+
+            this.username = this.accountService.getUserName();
+        };
 
         public login() {
             this.accountService.login(this.loginUser).then(() => {
                 this.ok();
-                this.$location.path('/');
                 this.username = this.accountService.getUserName();
-                console.log(this.username);
             }).catch((results) => {
                 this.validationMessages = results;
             });
