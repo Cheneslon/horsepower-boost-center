@@ -103,7 +103,6 @@ namespace HorsePowerStore.Controllers {
                 this.ok();
                 this.$location.path('/');
                 this.username = this.accountService.getUserName();
-                console.log(this.username);
             }).catch((results) => {
                 this.validationMessages = results;
             });

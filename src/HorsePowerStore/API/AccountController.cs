@@ -465,7 +465,7 @@ namespace HorsePowerStore.Controllers
             var appUser = await _userManager.FindByNameAsync(User.Identity.Name);
             if (appUser.UserName == userName)
             {
-                  return Ok(await _userManager.DeleteAsync(appUser));
+                return Ok(await _userManager.DeleteAsync(appUser));
             }
             else
             {
