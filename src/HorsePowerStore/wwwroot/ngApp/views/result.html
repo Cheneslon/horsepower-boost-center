@@ -42,10 +42,12 @@
                                 !controller.inAdjustedBudget(carmod.product.price)"
                             ng-click="controller.toggleCarMod(carmod)"/>
                     </dt>
-                    <dd class="productBody">
-                        <form ng-click="controller.loginCheck()">
+                    <dd class="productBody" ng-controller="ProductsController as productsController">
+                        <form ng-click="controller.loginCheck()" 
+                              ng-init="productsController.refreshProduct(carmod.product.id)">
                             <input  
                                 ng-repeat-start="n in [5, 4, 3, 2, 1]"
+                                ng-model="productsController.product.userRating"
                                 ng-disabled="!controller.isLoggedIn()"
                                 class="star" 
                                 id="star-{{n}}-{{carmod.product.id}}" 

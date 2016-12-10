@@ -65,6 +65,7 @@ namespace HorsePowerStore
             services.AddScoped<CarModsService>();
             services.AddScoped<ProductsService>();
             services.AddScoped<CarInstancesService>();
+            services.AddScoped<UserService>();
 
             services.AddSingleton<EdmundsService>();
             Configuration.GetSection("EdmundsSettings")["EdmundsApiKey"] = Configuration["EdmundsApiKey"];

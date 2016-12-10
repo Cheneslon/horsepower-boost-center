@@ -203,12 +203,13 @@ namespace HorsePowerStore.Controllers {
         }
 
         public ok() {
-            this.save();
-            this.$uibModalInstance.close();
+            this.save().$promise.then(() => {
+                this.$uibModalInstance.close();
+            });
         }
 
         public save() {
-            this.productsService.addRating({
+            return this.productsService.addRating({
                 value: this.ratingValue,
                 message: this.message,
                 productId: this.productId
