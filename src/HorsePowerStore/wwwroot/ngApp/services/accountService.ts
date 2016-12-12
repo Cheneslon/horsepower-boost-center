@@ -1,11 +1,9 @@
 namespace HorsePowerStore.Services {
-
     export class AccountService {
-
-
-
         // Store access token and claims in browser session storage
-        private storeUserInfo(userInfo) {
+        public storeUserInfo(userInfo) {
+            console.log(userInfo)
+
             // store user name
             this.$window.sessionStorage.setItem('userName', userInfo.userName);
 
@@ -17,17 +15,15 @@ namespace HorsePowerStore.Services {
             return this.$window.sessionStorage.getItem('userName');
         }
 
-
         public getClaim(type) {
             var allClaims = JSON.parse(this.$window.sessionStorage.getItem('claims'));
             return allClaims ? allClaims[type] : null;
         }
 
-
         public login(loginUser) {
             return this.$q((resolve, reject) => {
                 this.$http.post('/api/account/login', loginUser).then((result) => {
-                        this.storeUserInfo(result.data);
+                    this.storeUserInfo(result.data);
                         resolve();
                 }).catch((result) => {
                     var messages = this.flattenValidation(result.data);
@@ -49,7 +45,6 @@ namespace HorsePowerStore.Services {
                     });
             });
         }
-
 
         public logout() {
             // clear all of session storage (including claims)
@@ -79,8 +74,6 @@ namespace HorsePowerStore.Services {
             });
         }
 
-
-
         getExternalLogins(): ng.IPromise<{}> {
             return this.$q((resolve, reject) => {
                 let url = `api/Account/getExternalLogins?returnUrl=%2FexternalLogin&generateState=true`;
@@ -91,8 +84,7 @@ namespace HorsePowerStore.Services {
                 });
             });
         }
-
-
+        
         // checks whether the current user is authenticated on the server and returns user info
         public checkAuthentication() {
             this.$http.get('/api/account/checkAuthentication')
@@ -117,7 +109,6 @@ namespace HorsePowerStore.Services {
             });
         }
 
-
         // extract access token from response
         parseOAuthResponse(token) {
             let results = {};
@@ -127,8 +118,7 @@ namespace HorsePowerStore.Services {
             });
             return results;
         }
-
-
+        
         private flattenValidation(modelState) {
             let messages = [];
             for (let prop in modelState) {
@@ -136,7 +126,6 @@ namespace HorsePowerStore.Services {
             }
             return messages;
         }
-
         
         public modalInstance; // represents this specific modal
         public modalOpen; // true or false
@@ -146,8 +135,9 @@ namespace HorsePowerStore.Services {
                 controller: 'RegisterController',
                 controllerAs: 'register',
                 size: 'sm'
-            });
+            })
             this.modalOpen = true;
+            return this.modalInstance
         }
 
         public assignLogo(provider) { //assigns logos to links view
@@ -163,6 +153,28 @@ namespace HorsePowerStore.Services {
             }
         }
 
+        public deleteUser() {
+            this.$http.delete("/api/account/delete").then(() => { })
+        };
+
+        public checkUser() {
+            var user = {}
+            this.$http.get("/api/account/getUser/" + this.$window.sessionStorage.getItem('userName'))
+                .then((result) => { return result.data });
+        }
+
+        public resetPassword(user) {
+            user.rememberMe = false;
+            return this.$q((resolve, reject) => {
+                    this.$http.post('/api/account/changePassword', user).then(() => {
+                        resolve();
+                    }).catch((result) => {
+                        var messages = this.flattenValidation(result.data);
+                        reject(messages);
+                    });
+            });
+        }
+
         constructor
         (
             private $q: ng.IQService,
@@ -175,8 +187,6 @@ namespace HorsePowerStore.Services {
             this.modalOpen = false;
             this.checkAuthentication();
         }
-
     }
-
     angular.module('HorsePowerStore').service('accountService', AccountService);
 }

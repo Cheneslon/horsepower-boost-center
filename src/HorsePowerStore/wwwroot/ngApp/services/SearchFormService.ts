@@ -1,59 +1,58 @@
 ﻿namespace HorsePowerStore.Services {
     export class SearchFormService {
+        private searchFormResource
+
         constructor($resource: ng.resource.IResourceService) {
             this.searchFormResource = $resource("/api/cars", {}, {
-                getEdmundsMakes: {
+                getMakes: {
                     method: 'GET',
-                    url: 'https://api.edmunds.com/api/vehicle/v2/makes?fmt=json&api_key=mawsu5ejs266r89add5gxwqt',
-                    isArray: false
+                    url: '/api/cars',
+                    isArray: true
                 },
-                getEdmundsTrims: {
+                getModels: {
                     method: 'GET',
-                    url: 'https://api.edmunds.com/api/vehicle/v2/:make/:model/:year/styles?fmt=json&api_key=mawsu5ejs266r89add5gxwqt',
-                    isArray: false
+                    url: '/api/cars/:make',
+                    isArray: true
                 },
-                getLocalYears: {
+                getYears: {
                     method: 'GET',
                     url: '/api/cars/years/:model',
                     isArray: true
                 },
-                getLocalTrims: {
+                getTrims: {
                     method: 'GET',
                     url: '/api/cars/:make/:model/:year'
                 }
             });
         }
 
-        public getEdmundsMakes() {
-            return this.searchFormResource.getEdmundsMakes();
+        public getMakes() {
+            return this.searchFormResource.getMakes().$promise;
         }
 
-        private searchFormResource
-        public getTrims(make, model, year) {
-
-            if (year >= 1990) return this.searchFormResource.getEdmundsTrims({
-                make: make,
-                model: model,
-                year: year
-            });
-
-            return this.searchFormResource.getLocalTrims({
-                make: make,
-                model: model,
-                year: year
-            });
+        public getModels(make: string) {
+            return this.searchFormResource.getModels({
+                make: make
+            }).$promise;
         }
 
-        public getLocalYears(model) {
-            return this.searchFormResource.getLocalYears({
+        public getYears(model: string) {
+            return this.searchFormResource.getYears({
                 model: model
-            });
+            }).$promise;
         }
 
-        public save(carId, budget:number, car: string) {
-            window.sessionStorage.setItem('car', carId + ',' + budget + ',' + car); // saves id
+        public getTrims(make: string, model: string, year: number) {
+            return this.searchFormResource.getTrims({
+                make: make,
+                model: model,
+                year: year
+            }).$promise;
+        }
+
+        public save(styleId: number, budget: number, car: string) {
+            window.sessionStorage.setItem('car', styleId + ',' + budget + ',' + car); // saves id
         }
     }
     angular.module("HorsePowerStore").service("searchFormService", SearchFormService);
-    
 }

@@ -1,7 +1,7 @@
 namespace HorsePowerStore.Controllers {
 
     export class HomeController {//added showModal++ for login (DG)
-        
+
     }
 
     export class DialogController {//added DialogController to go with modal login (DG)
@@ -31,31 +31,61 @@ namespace HorsePowerStore.Controllers {
         public startingBudget: number;
         public totalPrice: number = 0;
         public horsepowerIncrease: number = 0;
-        public selectedProducts = {};
+        public selectedCarMods = {};
+        public selectedCarModsBoolMap = {};
         public saveName: string = 'Save';
         public dynamicPopover = {
             content: "hey this is text!"
         }
 
+        private savedCarInstance;
+
         constructor(
             private $uibModal: angular.ui.bootstrap.IModalService,
             private $state: angular.ui.IStateService,
+            private $stateParams: angular.ui.IStateParamsService,
+            private $q: angular.IQService,
             private resultService: HorsePowerStore.Services.ResultService,
             private carInstanceService: HorsePowerStore.Services.CarInstanceService,
             private accountService: HorsePowerStore.Services.AccountService) {
 
-            let items = resultService.get().split(',');
-            this.info['id'] = items[0];
-            this.info['budget'] = parseInt(items[1]);
-            this.info['car'] = items[2];
+            let resultStorage = resultService.get();
 
-            this.startingBudget = this.info['budget'];
-            if (isNaN(this.startingBudget)) this.startingBudget = 0;
+            if (resultStorage == null && !$stateParams['id']) {
+                $state.go('searchForm');
+                return;
+            }
+            else if (resultStorage != null && !$stateParams['id']) {
+                let items = resultStorage.split(',');
 
-            resultService.getProducts(this.info['id'], 0).then((result) => {
-                this.carmods = result;
-                console.log(result);
-            });
+                this.info['id'] = items[0];
+                this.info['budget'] = parseInt(items[1]);
+                this.info['car'] = items[2];
+
+                this.startingBudget = this.info['budget'];
+                if (isNaN(this.startingBudget)) this.startingBudget = 0;
+                resultService.getCarMods(this.info['id'], 0).then((carmods) => {
+                    this.carmods = carmods;
+                });
+                return;
+            }
+
+            var carInstancePromise = resultService.getCarInstance($stateParams['id']);
+            carInstancePromise.then((carInstance) => {
+                this.savedCarInstance = carInstance;
+                this.info['id'] = carInstance.style.id;
+                this.info['budget'] = 0;
+                this.info['car'] = carInstance.name;
+                this.startingBudget = 0;
+                console.log(this.savedCarInstance)
+
+                resultService.getCarMods(this.info['id'], 0).then((carmods) => {
+                    this.carmods = carmods;
+                    for (var key in this.savedCarInstance.selectedCarMods) {
+                        this.toggleCarMod(this.savedCarInstance.selectedCarMods[key].carMod);
+                    }
+                });
+            })
         }
 
         public inStartingBudget (price: number) { 
@@ -66,16 +96,20 @@ namespace HorsePowerStore.Controllers {
             return this.startingBudget == 0 || price <= this.startingBudget - this.totalPrice;
         }
 
-        public toggleProduct(carmod) {
-            if (this.selectedProducts[carmod.product.id]) {
-                delete this.selectedProducts[carmod.product.id];
+        public toggleCarMod(carmod) {
+            if (this.selectedCarMods[carmod.id]) {
+                delete this.selectedCarMods[carmod.id];
                 this.totalPrice -= carmod.product.price;
                 this.horsepowerIncrease -= carmod.horsePower;
+
+                this.selectedCarModsBoolMap[carmod.id] = false;
             }
             else {
-                this.selectedProducts[carmod.product.id] = carmod.product;
+                this.selectedCarMods[carmod.id] = carmod;
                 this.totalPrice += carmod.product.price;
                 this.horsepowerIncrease += carmod.horsePower;
+
+                this.selectedCarModsBoolMap[carmod.id] = true;
             }
         }
 
@@ -109,19 +143,36 @@ namespace HorsePowerStore.Controllers {
             });
         }
 
-        public save() {
+        private buildCarInstance() {
             var carInstance = {
                 name: this.saveName,
-                selectedProducts: []
+                style: {
+                    id: this.info['id']
+                },
+                selectedCarMods: [],
+                id: null
             };
 
-            for (var key in this.selectedProducts) {
-                carInstance.selectedProducts.push({
-                    product: this.selectedProducts[key]
+            if (this.savedCarInstance)
+                carInstance.id = this.savedCarInstance.id;
+
+            for (var key in this.selectedCarMods) {
+                carInstance.selectedCarMods.push({
+                    carmod: this.selectedCarMods[key]
                 })
             }
 
-            this.carInstanceService.saveCarInstance(carInstance).then(() => {
+            return carInstance;
+        }
+
+        public save() {
+            this.carInstanceService.saveCarInstance(this.buildCarInstance()).then(() => {
+                this.$state.go('carInstances');
+            });
+        }
+
+        public overwrite() {
+            this.carInstanceService.overwriteCarInstance(this.buildCarInstance()).then(() => {
                 this.$state.go('carInstances');
             });
         }
@@ -152,12 +203,13 @@ namespace HorsePowerStore.Controllers {
         }
 
         public ok() {
-            this.save();
-            this.$uibModalInstance.close();
+            this.save().$promise.then(() => {
+                this.$uibModalInstance.close();
+            });
         }
 
         public save() {
-            this.productsService.addRating({
+            return this.productsService.addRating({
                 value: this.ratingValue,
                 message: this.message,
                 productId: this.productId

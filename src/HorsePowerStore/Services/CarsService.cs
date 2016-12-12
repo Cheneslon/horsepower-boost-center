@@ -2,6 +2,7 @@
 using HorsePowerStore.Models;
 using HorsePowerStore.ViewModels;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,40 +13,57 @@ namespace HorsePowerStore.Services
     public class CarsService
     {
         private ApplicationDbContext db;
+        private EdmundsService edmundsService;
 
-        public CarsService(ApplicationDbContext db)
+
+        public CarsService(
+            ApplicationDbContext db,
+            EdmundsService edmundsService)
         {
             this.db = db;
+            this.edmundsService = edmundsService;
         }
 
-        public List<string> ListMakes ()
+        public async Task<IEnumerable<string>> ListMakes ()
         {
             return (
                 from m in db.Makes
-                select m.Name).ToList();
+                select m.Name)
+                .Concat(await edmundsService.ListMakes())
+                .ToList()
+                .Distinct()
+                .OrderBy(str => str);
         }
 
-        public IEnumerable<string> ListMakeModels(string makeName)
+        public async Task<IEnumerable<string>> ListMakeModels(string makeName)
         {
             return (
                 from m in db.Makes
+                from mo in m.Models
                 where m.Name == makeName
-                select m.Models.Select(mo => mo.Name))
-                .FirstOrDefault();
+                select mo.Name)
+                .Concat(await edmundsService.ListMakeModels(makeName))
+                .ToList()
+                .Distinct()
+                .OrderBy(str => str);
         }
 
-        public IEnumerable<int> ListModelYears(string modelName)
+        public async Task<IEnumerable<int>> ListModelYears(string modelName)
         {
-            return (
+             return (
                 from mo in db.Models
+                from y in mo.Years
                 where mo.Name == modelName
-                select mo.Years.Select(y => y.Years))
-                .FirstOrDefault();
+                select y.Years)
+                .Concat(await edmundsService.ListModelYears(modelName))
+                .ToList()
+                .Distinct()
+                .OrderBy(i => i);
         }
 
-        public StylesViewModel GetStyles (string makeName, string modelName, int year)
+        public async Task<StylesViewModel> GetStyles (string makeName, string modelName, int year)
         {
-            List<CarViewModel> newCars = new List<CarViewModel>();
+            var result = await edmundsService.GetStyles(makeName, modelName, year);
 
             Make make = (
                 from m in db.Makes
@@ -69,35 +87,31 @@ namespace HorsePowerStore.Services
                                     Id = y.Id,
                                     Years = y.Years,
                                     Styles = y.Styles
-                                }
-                            ).ToList()
-                        }
-                    ).ToList()
-                }).ToList().FirstOrDefault();
+                                })
+                                .ToList()
+                        })
+                        .ToList()
+                })
+                .ToList()
+                .FirstOrDefault();
 
-            if (make == null) return new StylesViewModel();
-
+            if (make == null) return result;
             Model model = make.Models.FirstOrDefault();
-            if (model == null) return new StylesViewModel();
+            if (model == null) return result;
+            Year styleYear = model.Years.FirstOrDefault();
+            if (styleYear == null) return result;
 
-            Year yearObj = model.Years.FirstOrDefault();
-            if (yearObj == null) return new StylesViewModel();
-
-            foreach (var style in yearObj.Styles)
-            {
-                newCars.Add(new CarViewModel
+            result.Styles.AddRange(
+                from s in styleYear.Styles
+                select new StyleViewModel
                 {
                     Id = make.Id,
                     Make = make.Name,
-                    Year = yearObj.Years,
-                    Name = style.Name
+                    Year = styleYear.Years,
+                    Name = s.Name
                 });
-            };
 
-            return new StylesViewModel
-            {
-                Styles = newCars
-            };
+            return result;
         }
     }
 }

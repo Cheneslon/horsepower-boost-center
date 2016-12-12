@@ -1,5 +1,16 @@
 ﻿<h2>Saved Cars</h2>
 
+<p ng-if="controller.carInstances.length == 0">
+    You haven't saved any cars yet - search for cars <a href="/searchForm">here</a>.
+</p>
+
+<p ng-if="controller.carInstances.length > 0">
+    (<a href="/searchForm">Search for Cars</a>)
+</p>
+
 <ul>
-    <li ng-repeat="instance in controller.carInstances">{{instance.name}}</li>
+    <li ng-repeat="instance in controller.carInstances">
+        {{instance.name}} 
+        <a href="/result/{{instance.id}}">(edit)</a>
+    </li>
 </ul>

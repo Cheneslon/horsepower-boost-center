@@ -23,19 +23,22 @@ namespace HorsePowerStore.Controllers
         private readonly IEmailSender _emailSender;
         private readonly ISmsSender _smsSender;
         private readonly ILogger _logger;
+        private readonly UserService _userService;
 
         public AccountController(
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
             IEmailSender emailSender,
             ISmsSender smsSender,
-            ILoggerFactory loggerFactory)
+            ILoggerFactory loggerFactory,
+            UserService userService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
             _smsSender = smsSender;
             _logger = loggerFactory.CreateLogger<AccountController>();
+            _userService = userService;
         }
 
 
@@ -453,6 +456,50 @@ namespace HorsePowerStore.Controllers
             {
                 ModelState.AddModelError("", "Invalid code.");
                 return View(model);
+            }
+        }
+
+        //DELETE /Account/Delete
+        [HttpDelete("delete")]
+        [Authorize]
+        public IActionResult Delete ()
+        {
+            _userService.Delete(User.Identity.Name);
+            return Ok();
+        }
+
+        /// <summary>
+        /// Checks Username and Password before firing off ChangePasswordDatabase method
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost("changePassword")]
+        [Authorize]
+        public async Task<IActionResult> changePassword([FromBody]ChangePasswordViewModel model)
+        {
+            var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+            if (result.Succeeded)
+            {
+                return Ok(this.changePasswordDatabase(model));
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                return BadRequest(this.ModelState);
+            }
+        }
+
+        public async Task<IActionResult> changePasswordDatabase(ChangePasswordViewModel VM)
+        {
+            var user = this.GetCurrentUserAsync();
+            var swap = await _userManager.ChangePasswordAsync(user.Result, VM.Password, VM.NewPassword);
+            if (swap.Succeeded)
+            {
+                return Ok();
+            }
+            else
+            {
+                return BadRequest();
             }
         }
 

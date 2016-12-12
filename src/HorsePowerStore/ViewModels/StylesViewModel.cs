@@ -7,6 +7,6 @@ namespace HorsePowerStore.ViewModels
 {
     public class StylesViewModel
     {
-        public List<CarViewModel> Styles { get; set; }
+        public List<StyleViewModel> Styles { get; set; }
     }
 }

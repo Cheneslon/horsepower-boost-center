@@ -2,6 +2,10 @@ namespace HorsePowerStore.Controllers {
 
     export class AccountController {
         public externalLogins;
+        public modalInstance;
+        public validationMessages;
+        public user;
+
 
         public getUserName() {
             return this.accountService.getUserName();
@@ -14,7 +18,10 @@ namespace HorsePowerStore.Controllers {
         public isLoggedIn() {
             return this.accountService.isLoggedIn();
         }
-        
+
+        public deleteUser() {
+            return this.accountService.deleteUser();
+        }
 
         public logout() {
             this.accountService.logout();
@@ -28,7 +35,45 @@ namespace HorsePowerStore.Controllers {
         public assignLogo(provider) { //assigns logos to links view
             return this.accountService.assignLogo(provider);
         }
-        constructor(private accountService: HorsePowerStore.Services.AccountService, private $location: ng.ILocationService) {
+
+        public deleteAccountModal() {
+            this.modalInstance = this.$uibModal.open({
+                templateUrl: '/ngApp/views/deleteAccountModal.html',
+                scope: this.$scope,
+                size: "sm"
+            });
+        }
+
+        public changePasswordModal() {
+            this.modalInstance = this.$uibModal.open({
+                templateUrl: '/ngApp/views/changePasswordModal.html',
+                scope: this.$scope,
+                size: "sm"
+            });
+        }
+
+        public ok() {
+            this.modalInstance.close();
+        }
+
+        public deleteAccount() {
+            this.accountService.deleteUser();
+            this.$state.go('home');
+            this.accountService.logout();
+            this.modalInstance.close();
+        };
+
+        public resetPassword() {
+            this.accountService.resetPassword(this.user)
+                .then(() => { this.ok() })
+                .catch((result) => { this.validationMessages = result });
+        }
+
+        constructor(private accountService: HorsePowerStore.Services.AccountService,
+                    private $location: ng.ILocationService,
+                    private $uibModal: angular.ui.bootstrap.IModalService,
+                    private $scope: angular.IScope,
+                    private $state: ng.ui.IStateService) {
             this.getExternalLogins().then((results) => {
                 this.externalLogins = results;
             });
@@ -42,18 +87,21 @@ namespace HorsePowerStore.Controllers {
         public validationMessages;
         private modalInstance: ng.ui.bootstrap.IModalServiceInstance;
         public popoverOpen = false;
+        public username;
 
         constructor(
             private $uibModal: angular.ui.bootstrap.IModalService,
             private $scope: angular.IScope,
             private accountService: HorsePowerStore.Services.AccountService,
-            private $location: ng.ILocationService
-        ) { };
+            private $location: ng.ILocationService) { 
+
+            this.username = this.accountService.getUserName();
+        };
 
         public login() {
             this.accountService.login(this.loginUser).then(() => {
                 this.ok();
-                this.$location.path('/');
+                this.username = this.accountService.getUserName();
             }).catch((results) => {
                 this.validationMessages = results;
             });
@@ -79,8 +127,10 @@ namespace HorsePowerStore.Controllers {
             this.modalInstance.close();
         }
         public registerLink() {
-            this.modalInstance.close();
-            this.accountService.openRegisterModal();
+            if (this.modalInstance) this.modalInstance.close();
+            this.accountService.openRegisterModal().result.then(() => {
+                this.username = this.accountService.getUserName();
+            });
         };
     }
     angular.module('HorsePowerStore').controller('LoginController', LoginController);
@@ -102,9 +152,8 @@ namespace HorsePowerStore.Controllers {
             }
 
         public register() {
-            this.accountService.register(this.registerUser).then(() => {
-                this.ok();
-                this.$location.path('/');
+            this.accountService.register(this.registerUser).then((results) => {
+                this.ok(results);
             }).catch((results) => {
                 this.validationMessages = results;
             });
@@ -118,7 +167,9 @@ namespace HorsePowerStore.Controllers {
             });
         }
 
-        public ok() {
+        public ok(results) {
+            this.accountService.storeUserInfo(results.data);
+
             if (this.accountService.modalOpen) { // checks to see if your trying to close the special register modal
                 this.accountService.modalInstance.close();
                 this.accountService.modalOpen = false;
@@ -170,8 +221,9 @@ namespace HorsePowerStore.Controllers {
                 backdrop: 'static',
                 keyboard: false
             });
+          }
+
         }
-    }
 
     export class ConfirmEmailController {
         public validationMessages;
@@ -191,6 +243,16 @@ namespace HorsePowerStore.Controllers {
                     this.validationMessages = result;
                 });
         }
+    }
+
+    export class DeleteAccountController {
+        constructor(private accountService: HorsePowerStore.Services.AccountService,
+                    private $state: ng.ui.IStateService) { }
+        public deleteAccount() {
+            this.accountService.deleteUser();
+            this.$state.go('home');
+            this.accountService.logout();
+        };
     }
 
 }

@@ -15,6 +15,8 @@ using HorsePowerStore.Data;
 using HorsePowerStore.Models;
 using HorsePowerStore.Services;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using HorsePowerStore.ServiceSettings;
 
 namespace HorsePowerStore
 {
@@ -63,8 +65,15 @@ namespace HorsePowerStore
             services.AddScoped<CarModsService>();
             services.AddScoped<ProductsService>();
             services.AddScoped<CarInstancesService>();
+            services.AddScoped<UserService>();
 
+            services.AddSingleton<EdmundsService>();
+            Configuration.GetSection("EdmundsSettings")["EdmundsApiKey"] = Configuration["EdmundsApiKey"];
+            services.Configure<EdmundsSettings>(Configuration.GetSection("EdmundsSettings"));
 
+            services.AddMvc().AddJsonOptions(options => {
+                options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            });
 
             // add security policies
             services.AddAuthorization(options =>
