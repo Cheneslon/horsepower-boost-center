@@ -4126,12 +4126,1428 @@ namespace HorsePowerStore.Data
 
             if (!context.CarMods.Any())
             {
-                context.CarMods.Add(
-                new CarMod
-                {
-                    Style = context.Styles.First((s) => s.Name == "2dr Convertable W-30 (455ci 8cyl 4m)"),
-                    Product = context.Products.First((p) => p.Name == "Edelbrock 2701 Chevy S/B")
-                }
+                context.CarMods.AddRange(
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1953).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1953).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1953).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1953).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1953).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1953).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1953).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1953).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1954).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1954).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1954).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1954).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1954).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1954).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1954).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1954).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 190),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1955).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1956).Styles.First((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible(283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1957).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  }, 
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1958).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                   new CarMod
+                   {
+                       Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                       Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                   },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1959).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1960).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                  },
+                  new CarMod
+                  {
+                      Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1961).Styles.First((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
+                      Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                  }
+
                 );
             }
             
