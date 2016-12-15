@@ -3401,18 +3401,6 @@ namespace HorsePowerStore.Data
             }
             context.SaveChanges();
 
-            if (!context.CarMods.Any())
-            {
-                context.CarMods.Add(
-                new CarMod
-                {
-                    Style = context.Styles.First((s) => s.Name == "2dr Convertable W-30 (455ci 8cyl 4m)"),
-                    Product = context.Products.First((p) => p.Name == "Edelbrock 2701 Chevy S/B")
-                }
-                );
-            }
-            
-
             // Ensure Stephen (IsAdmin)
             var stephen = await userManager.FindByNameAsync("Stephen.Walther@CoderCamps.com");
             if (stephen == null)

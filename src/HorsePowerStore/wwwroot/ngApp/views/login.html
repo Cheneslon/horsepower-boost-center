@@ -5,7 +5,7 @@
     <fieldset>
         <ul id="externalLoginList">
             <li ng-repeat="externalLogin in account.externalLogins">
-                <a target="_self" href="/api/account/ExternalLogin?provider={{externalLogin.authenticationScheme}}&returnUrl=/home" id="{{externalLogin.displayName}}Login">
+                <a target="_self" href="/api/account/ExternalLogin?provider={{externalLogin.authenticationScheme}}&returnUrl=/home" ng-click="login.exLogin();" id="{{externalLogin.displayName}}Login">
                 <i class="{{account.assignLogo(externalLogin.displayName)}}"></i> {{externalLogin.displayName}}</a> <!--retrieves logo's and name's-->
             </li>
         </ul>
@@ -22,11 +22,11 @@
         </dl>
         <form ng-submit="login.login();" class="form-group" name="loginForm" novalidate>
             <div>
-                <center><label class="loginLabel">Email</label></center>
-                <input ng-model="login.loginUser.email" class="form-control" name="emailInput" ng-required="true" style="text-align:center;"/>
+                <center><label class="loginLabel">Username</label></center>
+                <input ng-model="login.loginUser.username" class="form-control" name="usernameInput" ng-required="true" style="text-align:center;"/>
                 <center>
-                    <span ng-show="loginForm.emailInput.$touched && loginForm.emailInput.$error.required" class="error">
-                        Email is required
+                    <span ng-show="loginForm.usernameInput.$touched && loginForm.usernameInput.$error.required" class="error">
+                        Username is required
                     </span>
                 </center>
              </div>
@@ -44,7 +44,7 @@
                    ng-click="login.registerLink();">
                     Register
                 </a>
-<br/>
+            <br/>   
             <input class="btn btn-primary modalButton" type="submit" value="Login" ng-disabled="loginForm.$invalid"/>
             <a href="#" ng-click="login.cancel()" class="btn btn-danger modalButton">Cancel</a>
         </form>

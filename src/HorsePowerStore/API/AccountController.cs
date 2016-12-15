@@ -65,11 +65,11 @@ namespace HorsePowerStore.Controllers
             {
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(model.Username, model.Password, model.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation(1, "User logged in.");
-                    var user = await GetUser(model.Email);
+                    var user = await GetUser(model.Username);
                     return Ok(user);
                 }
                 if (result.RequiresTwoFactor)
@@ -503,6 +503,37 @@ namespace HorsePowerStore.Controllers
             }
         }
 
+        [HttpPost("changeUsername")]
+        [Authorize]
+        public async Task<IActionResult> changeUsername([FromBody]ChangeUsernameViewModel model)
+        {
+            var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+            if (result.Succeeded) // if the username and password is correct 
+            {
+                if (ModelState.IsValid) //if the model was validated and is correct
+                {
+                    var user = this.GetCurrentUserAsync();
+                    var swap = await _userManager.SetUserNameAsync(user.Result, model.Username);
+                    if (swap.Succeeded) //if the username swap worked
+                    {
+                        return Ok(); // everything went good
+                    }
+                    else
+                    {
+                        return BadRequest(this.ModelState); 
+                    }
+                }
+                else
+                {
+                    return BadRequest(this.ModelState); // model state not valid
+                }
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Invalid login attempt."); // wrong username or password
+                return BadRequest(this.ModelState);
+            }
+        }
         #region Helpers
 
         private void AddErrors(IdentityResult result)

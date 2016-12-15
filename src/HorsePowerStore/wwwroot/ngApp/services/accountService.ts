@@ -1,14 +1,15 @@
 namespace HorsePowerStore.Services {
     export class AccountService {
         // Store access token and claims in browser session storage
+        
         public storeUserInfo(userInfo) {
-            console.log(userInfo)
 
             // store user name
             this.$window.sessionStorage.setItem('userName', userInfo.userName);
 
             // store claims
             this.$window.sessionStorage.setItem('claims', JSON.stringify(userInfo.claims));
+
         }
 
         public getUserName() {
@@ -49,9 +50,9 @@ namespace HorsePowerStore.Services {
         public logout() {
             // clear all of session storage (including claims)
             this.$window.sessionStorage.clear();
-
             // logout on the server
             return this.$http.post('/api/account/logout', null);
+
         }
 
         public isLoggedIn() {
@@ -175,12 +176,25 @@ namespace HorsePowerStore.Services {
             });
         }
 
+        public resetUsername(user) {
+            user.rememberMe = false;
+            return this.$q((resolve, reject) => {
+                    this.$http.post('/api/account/changeUsername', user).then(() => {
+                        resolve();
+                    }).catch((result) => {
+                        var messages = this.flattenValidation(result.data);
+                        reject(messages);
+                    });
+            });
+        }
+        
         constructor
         (
             private $q: ng.IQService,
             private $http: ng.IHttpService,
             private $window: ng.IWindowService,
-            private $uibModal: angular.ui.bootstrap.IModalService
+            private $uibModal: angular.ui.bootstrap.IModalService,
+            private $rootScope: angular.IRootScopeService
         ) {
           // in case we are redirected from a social provider
           // we need to check if we are authenticated.

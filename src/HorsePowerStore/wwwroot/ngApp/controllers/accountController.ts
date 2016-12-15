@@ -25,6 +25,7 @@ namespace HorsePowerStore.Controllers {
 
         public logout() {
             this.accountService.logout();
+            this.$rootScope.$emit('register', 'false');
             this.$location.path('/');
         }
 
@@ -52,6 +53,14 @@ namespace HorsePowerStore.Controllers {
             });
         }
 
+        public changeUsernameModal() {
+            this.modalInstance = this.$uibModal.open({
+                templateUrl: '/ngApp/views/changeUsernameModal.html',
+                scope: this.$scope,
+                size: "sm"
+            });
+        }
+
         public ok() {
             this.modalInstance.close();
         }
@@ -65,7 +74,13 @@ namespace HorsePowerStore.Controllers {
 
         public resetPassword() {
             this.accountService.resetPassword(this.user)
-                .then(() => { this.ok() })
+                .then(() => { this.user = {}; this.ok() })
+                .catch((result) => { this.validationMessages = result });
+        }
+
+        public resetUsername() {
+            this.accountService.resetUsername(this.user)
+                .then(() => { this.user = {}; this.ok() })
                 .catch((result) => { this.validationMessages = result });
         }
 
@@ -73,6 +88,7 @@ namespace HorsePowerStore.Controllers {
                     private $location: ng.ILocationService,
                     private $uibModal: angular.ui.bootstrap.IModalService,
                     private $scope: angular.IScope,
+                    private $rootScope: angular.IRootScopeService,
                     private $state: ng.ui.IStateService) {
             this.getExternalLogins().then((results) => {
                 this.externalLogins = results;
@@ -88,25 +104,45 @@ namespace HorsePowerStore.Controllers {
         private modalInstance: ng.ui.bootstrap.IModalServiceInstance;
         public popoverOpen = false;
         public username;
+        public isExternal = false;
 
         constructor(
             private $uibModal: angular.ui.bootstrap.IModalService,
             private $scope: angular.IScope,
             private accountService: HorsePowerStore.Services.AccountService,
-            private $location: ng.ILocationService) { 
-
-            this.username = this.accountService.getUserName();
+            private $location: ng.ILocationService,
+            private $http: ng.IHttpService,
+            private $rootScope: angular.IRootScopeService) {
+            var authenticate = this.$http.get('/api/account/checkAuthentication').then((result) => {
+                if (result.data) {
+                    this.username = this.accountService.getUserName();
+                };
+            }); //checks authentication to see if someone is logged in serverside, update name box if so
+            var loginCheck = this.$rootScope.$on('register', (event, data) => {
+                if (data == "true") {
+                    this.isExternal = true;
+                }
+                if (data == "false") {
+                    this.isExternal = false;
+                };
+            }); // listens for signal to tell the controller weither local user menus options should be avalible. 
+            this.$rootScope.$on('login', (event, data) => {
+                let login = this.$http.get('/api/account/checkAuthentication').then((result) => {
+                    if (result) { this.username = this.accountService.getUserName() }
+                });
+            }); // listens for signal to tell controller user just registered externally, update name box
         };
 
         public login() {
             this.accountService.login(this.loginUser).then(() => {
                 this.ok();
                 this.username = this.accountService.getUserName();
+                this.$rootScope.$emit('register', 'true');
             }).catch((results) => {
                 this.validationMessages = results;
             });
         }
-        
+
         public openLoginDialog() {
             this.validationMessages = {};
             this.modalInstance = this.$uibModal.open({
@@ -145,14 +181,21 @@ namespace HorsePowerStore.Controllers {
             private $uibModal: angular.ui.bootstrap.IModalService,
             private $scope: angular.IScope,
             private accountService: HorsePowerStore.Services.AccountService,
-            private $location: ng.ILocationService) {
+            private $location: ng.ILocationService,
+            private $rootScope: angular.IRootScopeService) {
             this.getExternalLogins().then((results) => {
                 this.externalLogins = results;
               });
             }
 
+        public registersuccess() {
+            this.$rootScope.$emit('register', 'true');
+        };
+        
         public register() {
             this.accountService.register(this.registerUser).then((results) => {
+                this.accountService.checkAuthentication();
+                this.registersuccess();
                 this.ok(results);
             }).catch((results) => {
                 this.validationMessages = results;
@@ -168,7 +211,6 @@ namespace HorsePowerStore.Controllers {
         }
 
         public ok(results) {
-            this.accountService.storeUserInfo(results.data);
 
             if (this.accountService.modalOpen) { // checks to see if your trying to close the special register modal
                 this.accountService.modalInstance.close();
@@ -202,11 +244,15 @@ namespace HorsePowerStore.Controllers {
             private accountService: HorsePowerStore.Services.AccountService,
             private $uibModal: angular.ui.bootstrap.IModalService,
             private $scope: angular.IScope,
-            private $location: ng.ILocationService) { this.openEmailModal(); }
+            private $location: ng.ILocationService,
+            private $rootScope: ng.IRootScopeService) {
+            this.openEmailModal();
+        }
 
         public register() {
             this.accountService.registerExternal(this.registerUser.email)
                 .then((result) => {
+                    this.setLoggedIn();
                     this.$location.path('/');
                 }).catch((result) => {
                     this.validationMessages = result;
@@ -221,9 +267,13 @@ namespace HorsePowerStore.Controllers {
                 backdrop: 'static',
                 keyboard: false
             });
-          }
-
         }
+
+        public setLoggedIn() {
+            this.$rootScope.$emit('login', 'true');
+        }
+
+    }
 
     export class ConfirmEmailController {
         public validationMessages;
