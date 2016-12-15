@@ -105,6 +105,7 @@ namespace HorsePowerStore.Controllers {
         public popoverOpen = false;
         public username;
         public isExternal = false;
+        public loaded = true;
 
         constructor(
             private $uibModal: angular.ui.bootstrap.IModalService,
@@ -134,13 +135,17 @@ namespace HorsePowerStore.Controllers {
         };
 
         public login() {
+            this.loaded = false;
             this.accountService.login(this.loginUser).then(() => {
+                this.loaded = true;
                 this.ok();
                 this.username = this.accountService.getUserName();
                 this.$rootScope.$emit('register', 'true');
             }).catch((results) => {
                 this.validationMessages = results;
-            });
+                }).finally(() => {
+                    this.loaded = true
+                });
         }
 
         public openLoginDialog() {
