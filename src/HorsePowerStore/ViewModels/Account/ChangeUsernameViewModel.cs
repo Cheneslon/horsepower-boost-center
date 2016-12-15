@@ -15,22 +15,23 @@ namespace HorsePowerStore.ViewModels.Account
 
         [Required]
         [DataType(DataType.Password)]
-        public string Password { get; set; } // CURRENT PASSWORD
+        public string Password { get; set; }
 
         [Required]
         [DataType(DataType.Text)]
         [MinLength(6, ErrorMessage = "Username must be over 5 characters")]
         [MaxLength(19, ErrorMessage = "Username must be under 20 characters")]
-        public string Username { get; set; } // NEW USERNAME
+        public string Username { get; set; } 
 
         [Display(Name = "Remember me?")]
         public bool RememberMe { get; set; }
 
-        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext) // when modelState.isValid is called
+        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext) // modelState validation
         {
             var results = new List<ValidationResult>();
 
-            var regex = Regex.IsMatch(Username, @"^[a-zA-Z0-9_]+$");
+            var regex = Regex.IsMatch(Username, @"^[a-zA-Z0-9_]+$"); //usernames can only be alpha-numeric, but can contain _
+
             if (!regex)
             {
                 results.Add(new ValidationResult("Username Invalid", new string[] { "Username" }));

@@ -468,19 +468,25 @@ namespace HorsePowerStore.Controllers
             return Ok();
         }
 
-        /// <summary>
-        /// Checks Username and Password before firing off ChangePasswordDatabase method
-        /// </summary>
-        /// <param name="model"></param>
-        /// <returns></returns>
         [HttpPost("changePassword")]
         [Authorize]
         public async Task<IActionResult> changePassword([FromBody]ChangePasswordViewModel model)
         {
+            //correct login check
             var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
             if (result.Succeeded)
             {
-                return Ok(this.changePasswordDatabase(model));
+                var user = this.GetCurrentUserAsync();
+                //change password
+                var swap = await _userManager.ChangePasswordAsync(user.Result, model.Password, model.NewPassword);
+                if (swap.Succeeded)
+                {
+                    return Ok();
+                }
+                else
+                {
+                    return BadRequest(this.ModelState);
+                }
             }
             else
             {
