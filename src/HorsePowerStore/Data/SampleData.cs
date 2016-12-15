@@ -7942,8 +7942,6 @@ namespace HorsePowerStore.Data
                     Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
                     Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
                 },
-
-                context.CarMods.AddRange(
                   new CarMod
                   {
                       Style = context.Makes.First((s) => s.Name == "Chevrolet").Models.First((m) => m.Name == "Corvette").Years.First((y) => y.Years == 1953).Styles.First((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
