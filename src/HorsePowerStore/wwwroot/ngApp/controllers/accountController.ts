@@ -102,10 +102,11 @@ namespace HorsePowerStore.Controllers {
         public loginUser;
         public validationMessages;
         private modalInstance: ng.ui.bootstrap.IModalServiceInstance;
-        public popoverOpen = false;
         public username;
+        public loaded;
+        public popoverOpen = false;
         public isExternal = false;
-        public loaded = true;
+        
 
         constructor(
             private $uibModal: angular.ui.bootstrap.IModalService,
@@ -114,24 +115,29 @@ namespace HorsePowerStore.Controllers {
             private $location: ng.ILocationService,
             private $http: ng.IHttpService,
             private $rootScope: angular.IRootScopeService) {
+            this.loaded = true;
+            //checks authentication to see if someone is logged in serverside then updates name box
             var authenticate = this.$http.get('/api/account/checkAuthentication').then((result) => {
-                if (result.data) {
+                if (result.data) { 
                     this.username = this.accountService.getUserName();
                 };
-            }); //checks authentication to see if someone is logged in serverside, update name box if so
+            });
+            // listens for signal to tell the controller wether local user menu options should be avalible
             var loginCheck = this.$rootScope.$on('register', (event, data) => {
                 if (data == "true") {
+                    this.username = this.accountService.getUserName();
                     this.isExternal = true;
                 }
-                if (data == "false") {
+                else {
                     this.isExternal = false;
                 };
-            }); // listens for signal to tell the controller weither local user menus options should be avalible. 
+            });
+            // listens for signal to tell controller user just registered externally, update name box
             this.$rootScope.$on('login', (event, data) => {
                 let login = this.$http.get('/api/account/checkAuthentication').then((result) => {
                     if (result) { this.username = this.accountService.getUserName() }
                 });
-            }); // listens for signal to tell controller user just registered externally, update name box
+            }); 
         };
 
         public login() {
@@ -142,10 +148,9 @@ namespace HorsePowerStore.Controllers {
                 this.username = this.accountService.getUserName();
                 this.$rootScope.$emit('register', 'true');
             }).catch((results) => {
+                this.loaded = true;
                 this.validationMessages = results;
-                }).finally(() => {
-                    this.loaded = true
-                });
+            });
         }
 
         public openLoginDialog() {
@@ -167,11 +172,9 @@ namespace HorsePowerStore.Controllers {
         public openRegister() {
             this.modalInstance.close();
         }
-        public registerLink() {
-            if (this.modalInstance) this.modalInstance.close();
-            this.accountService.openRegisterModal().result.then(() => {
-                this.username = this.accountService.getUserName();
-            });
+        public registerLink() { // when linking to register modal
+            if (this.modalInstance) this.modalInstance.close(); // close login modal
+            this.accountService.openRegisterModal(); // open special register modal
         };
     }
     angular.module('HorsePowerStore').controller('LoginController', LoginController);
@@ -180,6 +183,7 @@ namespace HorsePowerStore.Controllers {
         public externalLogins;
         public registerUser;
         public validationMessages;
+        public loaded;
         private modalInstance: ng.ui.bootstrap.IModalServiceInstance;
 
         constructor(
@@ -188,21 +192,25 @@ namespace HorsePowerStore.Controllers {
             private accountService: HorsePowerStore.Services.AccountService,
             private $location: ng.ILocationService,
             private $rootScope: angular.IRootScopeService) {
+            this.loaded = true;
             this.getExternalLogins().then((results) => {
                 this.externalLogins = results;
               });
             }
 
-        public registersuccess() {
+        public registersuccess() { // emit to the login controller a user registered
             this.$rootScope.$emit('register', 'true');
         };
         
         public register() {
+            this.loaded = false;
             this.accountService.register(this.registerUser).then((results) => {
                 this.accountService.checkAuthentication();
                 this.registersuccess();
+                this.loaded = true;
                 this.ok(results);
             }).catch((results) => {
+                this.loaded = true;
                 this.validationMessages = results;
             });
         }

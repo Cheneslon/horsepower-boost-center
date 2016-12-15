@@ -46,8 +46,8 @@
                     Register
                 </a>
                 <br />
-                <button class="btn btn-primary modalButton" type="submit" ng-disabled="loginForm.$invalid && login.loaded===false">
-                    Login <i class="fa fa-refresh fa-spin" ng-show="login.loaded===false"></i>
+                <button class="btn btn-primary modalButton" type="submit" ng-disabled="loginForm.$invalid && !login.loaded">
+                    Login <span ng-if="!login.loaded"><i class="fa fa-refresh fa-spin"></i></span>
                 </button>
                 <a href="#" ng-click="login.cancel()" class="btn btn-danger modalButton">Cancel</a><br />
 

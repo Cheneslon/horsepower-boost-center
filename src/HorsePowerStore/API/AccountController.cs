@@ -483,29 +483,15 @@ namespace HorsePowerStore.Controllers
                 {
                     return Ok();
                 }
-                else
+                else // something went wrong with change password
                 {
                     return BadRequest(this.ModelState);
                 }
             }
-            else
+            else // something went wrong with login
             {
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
                 return BadRequest(this.ModelState);
-            }
-        }
-
-        public async Task<IActionResult> changePasswordDatabase(ChangePasswordViewModel VM)
-        {
-            var user = this.GetCurrentUserAsync();
-            var swap = await _userManager.ChangePasswordAsync(user.Result, VM.Password, VM.NewPassword);
-            if (swap.Succeeded)
-            {
-                return Ok();
-            }
-            else
-            {
-                return BadRequest();
             }
         }
 
@@ -513,29 +499,35 @@ namespace HorsePowerStore.Controllers
         [Authorize]
         public async Task<IActionResult> changeUsername([FromBody]ChangeUsernameViewModel model)
         {
+            //correct login check
             var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
-            if (result.Succeeded) // if the username and password is correct 
+            if (result.Succeeded)
             {
-                if (ModelState.IsValid) //if the model was validated and is correct
+                // checks username validation in model
+                if (ModelState.IsValid) 
                 {
                     var user = this.GetCurrentUserAsync();
-                    var swap = await _userManager.SetUserNameAsync(user.Result, model.Username);
-                    if (swap.Succeeded) //if the username swap worked
+                    // swap username
+                    var swap = await _userManager.SetUserNameAsync(user.Result, model.Username); 
+                    if (swap.Succeeded) 
                     {
-                        return Ok(); // everything went good
+                        return Ok(); 
                     }
-                    else
+                    else 
                     {
+                        // something went wrong with swap username
                         return BadRequest(this.ModelState); 
                     }
                 }
-                else
+                else 
                 {
+                    // something went wrong with username validation
                     return BadRequest(this.ModelState); // model state not valid
                 }
             }
-            else
+            else 
             {
+                // something went wrong with login
                 ModelState.AddModelError(string.Empty, "Invalid login attempt."); // wrong username or password
                 return BadRequest(this.ModelState);
             }
