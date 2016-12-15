@@ -65,11 +65,11 @@ namespace HorsePowerStore.Controllers
             {
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(model.Username, model.Password, model.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation(1, "User logged in.");
-                    var user = await GetUser(model.Email);
+                    var user = await GetUser(model.Username);
                     return Ok(user);
                 }
                 if (result.RequiresTwoFactor)
@@ -468,41 +468,70 @@ namespace HorsePowerStore.Controllers
             return Ok();
         }
 
-        /// <summary>
-        /// Checks Username and Password before firing off ChangePasswordDatabase method
-        /// </summary>
-        /// <param name="model"></param>
-        /// <returns></returns>
         [HttpPost("changePassword")]
         [Authorize]
         public async Task<IActionResult> changePassword([FromBody]ChangePasswordViewModel model)
         {
+            //correct login check
             var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
             if (result.Succeeded)
             {
-                return Ok(this.changePasswordDatabase(model));
+                var user = this.GetCurrentUserAsync();
+                //change password
+                var swap = await _userManager.ChangePasswordAsync(user.Result, model.Password, model.NewPassword);
+                if (swap.Succeeded)
+                {
+                    return Ok();
+                }
+                else // something went wrong with change password
+                {
+                    return BadRequest(this.ModelState);
+                }
             }
-            else
+            else // something went wrong with login
             {
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
                 return BadRequest(this.ModelState);
             }
         }
 
-        public async Task<IActionResult> changePasswordDatabase(ChangePasswordViewModel VM)
+        [HttpPost("changeUsername")]
+        [Authorize]
+        public async Task<IActionResult> changeUsername([FromBody]ChangeUsernameViewModel model)
         {
-            var user = this.GetCurrentUserAsync();
-            var swap = await _userManager.ChangePasswordAsync(user.Result, VM.Password, VM.NewPassword);
-            if (swap.Succeeded)
+            //correct login check
+            var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+            if (result.Succeeded)
             {
-                return Ok();
+                // checks username validation in model
+                if (ModelState.IsValid) 
+                {
+                    var user = this.GetCurrentUserAsync();
+                    // swap username
+                    var swap = await _userManager.SetUserNameAsync(user.Result, model.Username); 
+                    if (swap.Succeeded) 
+                    {
+                        return Ok(); 
+                    }
+                    else 
+                    {
+                        // something went wrong with swap username
+                        return BadRequest(this.ModelState); 
+                    }
+                }
+                else 
+                {
+                    // something went wrong with username validation
+                    return BadRequest(this.ModelState); // model state not valid
+                }
             }
-            else
+            else 
             {
-                return BadRequest();
+                // something went wrong with login
+                ModelState.AddModelError(string.Empty, "Invalid login attempt."); // wrong username or password
+                return BadRequest(this.ModelState);
             }
         }
-
         #region Helpers
 
         private void AddErrors(IdentityResult result)

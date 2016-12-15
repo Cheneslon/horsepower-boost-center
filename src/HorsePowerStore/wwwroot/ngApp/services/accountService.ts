@@ -1,14 +1,15 @@
 namespace HorsePowerStore.Services {
     export class AccountService {
+
         // Store access token and claims in browser session storage
         public storeUserInfo(userInfo) {
-            console.log(userInfo)
 
             // store user name
             this.$window.sessionStorage.setItem('userName', userInfo.userName);
 
             // store claims
             this.$window.sessionStorage.setItem('claims', JSON.stringify(userInfo.claims));
+
         }
 
         public getUserName() {
@@ -49,9 +50,9 @@ namespace HorsePowerStore.Services {
         public logout() {
             // clear all of session storage (including claims)
             this.$window.sessionStorage.clear();
-
             // logout on the server
             return this.$http.post('/api/account/logout', null);
+
         }
 
         public isLoggedIn() {
@@ -126,10 +127,12 @@ namespace HorsePowerStore.Services {
             }
             return messages;
         }
-        
-        public modalInstance; // represents this specific modal
-        public modalOpen; // true or false
-        public openRegisterModal() { // method used when linking from the login modal to register modal
+
+        // represents a modal
+        public modalInstance;
+        public modalOpen;
+        // method used when linking from the login modal to the register modal
+        public openRegisterModal() { 
             this.modalInstance = this.$uibModal.open({
                 templateUrl: '/ngApp/views/register.html',
                 controller: 'RegisterController',
@@ -140,7 +143,7 @@ namespace HorsePowerStore.Services {
             return this.modalInstance
         }
 
-        public assignLogo(provider) { //assigns logos to links view
+        public assignLogo(provider) { //assigns logos to external login links 
             switch (provider) {
                 case "Facebook":
                     return "fa fa-facebook-square";
@@ -153,6 +156,7 @@ namespace HorsePowerStore.Services {
             }
         }
 
+        // delete user :(
         public deleteUser() {
             this.$http.delete("/api/account/delete").then(() => { })
         };
@@ -163,6 +167,7 @@ namespace HorsePowerStore.Services {
                 .then((result) => { return result.data });
         }
 
+        // resetPassword method functions like a login
         public resetPassword(user) {
             user.rememberMe = false;
             return this.$q((resolve, reject) => {
@@ -175,6 +180,19 @@ namespace HorsePowerStore.Services {
             });
         }
 
+        // resetUsername method functions like a login
+        public resetUsername(user) {
+            user.rememberMe = false;
+            return this.$q((resolve, reject) => {
+                    this.$http.post('/api/account/changeUsername', user).then(() => {
+                        resolve();
+                    }).catch((result) => {
+                        var messages = this.flattenValidation(result.data);
+                        reject(messages);
+                    });
+            });
+        }
+        
         constructor
         (
             private $q: ng.IQService,
