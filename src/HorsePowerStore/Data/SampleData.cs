@@ -2191,7 +2191,7 @@ namespace HorsePowerStore.Data
                                 Name = "Barracuda",
                                 Years = new List<Year>()
                                 {
-                                    
+
                                     new Year
                                     {
                                         Years = 1964,
@@ -3764,7 +3764,7 @@ namespace HorsePowerStore.Data
                             },
                         },
                     }
-                });
+                    });
 
                 var test = new Product { };
                 var style = new Style { };
@@ -4126,15 +4126,3826 @@ namespace HorsePowerStore.Data
 
             if (!context.CarMods.Any())
             {
-                context.CarMods.Add(
+                context.CarMods.AddRange(
                 new CarMod
                 {
-                    Style = context.Styles.First((s) => s.Name == "2dr Convertable W-30 (455ci 8cyl 4m)"),
-                    Product = context.Products.First((p) => p.Name == "Edelbrock 2701 Chevy S/B")
-                }
+                    Style = context.Makes.First((s) => s.Name == "Ford").Models.First((m) => m.Name == "Mustang").Years.First((y) => y.Years == 2015).Styles.First((b) => b.Name == "GT 2dr Coupe (5.0L 8cyl 6M)" && b.Horsepower == 250),
+                    Product = context.Products.First((p) => p.Name == "K&N Air Intake Mustang 5.0")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Ford").Models.First((m) => m.Name == "Mustang").Years.First((y) => y.Years == 2015).Styles.First((b) => b.Name == "GT 2dr Coupe (5.0L 8cyl 6M)" && b.Horsepower == 250),
+                    Product = context.Products.First((p) => p.Name == "K&N Air Intake Mustang 5.0")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Ford").Models.First((m) => m.Name == "Mustang").Years.First((y) => y.Years == 2015).Styles.First((b) => b.Name == "GT 2dr Coupe (5.0L 8cyl 6M)" && b.Horsepower == 250),
+                    Product = context.Products.First((p) => p.Name == "K&N Air Intake Mustang 5.0")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1964).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1965).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1966).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1967).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1968).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1969).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1970).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1971).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1972).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1973).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                },
+                new CarMod
+                {
+                    Style = context.Makes.First((s) => s.Name == "Plymouth").Models.First((m) => m.Name == "Barracuda").Years.First((y) => y.Years == 1974).Styles.First((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
+                    Product = context.Products.First((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                },
+
                 );
             }
-            
+
 
             // Ensure Stephen (IsAdmin)
             var stephen = await userManager.FindByNameAsync("Stephen.Walther@CoderCamps.com");
