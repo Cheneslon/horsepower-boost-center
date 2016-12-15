@@ -4134,6642 +4134,6642 @@ namespace HorsePowerStore.Data
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5 
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (170ci 6cyl)" && b.Horsepower == 101),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1964).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1965).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1966).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 180),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (273ci 8cyl)" && b.Horsepower == 235),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1967).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 280),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1968).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (340ci 8cyl)" && b.Horsepower == 275),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 300),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1969).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1970).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1971).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1972).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1973).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (318ci 8cyl)" && b.Horsepower == 230),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (225ci 6cyl)" && b.Horsepower == 145),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 330),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (383ci 8cyl)" && b.Horsepower == 290),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (440ci 8cyl)" && b.Horsepower == 375),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                 },
                 new CarMod
                 {
                     Style = plymouth.Models.FirstOrDefault((m) => m.Name == "Barracuda").Years.FirstOrDefault((y) => y.Years == 1974).Styles.FirstOrDefault((b) => b.Name == "2dr Coupe (426ci 8cyl)" && b.Horsepower == 425),
-                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                    Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                 },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 190),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   }, 
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                    new CarMod
                    {
                        Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                       Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                       Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                    },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 600 CFM"), HorsePower = 5
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 650 CFM"), HorsePower = 7
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 750 CFM"), HorsePower = 11
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 850 CFM"), HorsePower = 15
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra XP Carb 950 CFM"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 670 CFM"), HorsePower = 8
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 770 CFM"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Holley Ultra Avenger Carb 870 CFM"), HorsePower = 17
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1953).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1954).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 150),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(235ci 6cyl)" && b.Horsepower == 155),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 190),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1955).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 195),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 210),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 225),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1956).Styles.FirstOrDefault((b) => b.Name == "2dr Convertible (265ci 8cyl)" && b.Horsepower == 240),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 220),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible(283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1957).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 283),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1958).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                    new CarMod
                    {
                        Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                       Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                       Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                    },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 250),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1959).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1960).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 290),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 230),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 245),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 270),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 275),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2701 Chevy S/B"), HorsePower = 12
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT Chevy S/B"), HorsePower = 16
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for LS"), HorsePower = 19
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock Pro-Flo XT for Chevrolet L/B"), HorsePower = 23
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Edelbrock 2161 Chevrolet L/B"), HorsePower = 21
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 350"), HorsePower = 33
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy L/B V8"), HorsePower = 35
                   },
                   new CarMod
                   {
                       Style = chevrolet.Models.FirstOrDefault((m) => m.Name == "Corvette").Years.FirstOrDefault((y) => y.Years == 1961).Styles.FirstOrDefault((b) => b.Name == "2dr Covertible (283ci 8cyl)" && b.Horsepower == 315),
-                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6")
+                      Product = context.Products.FirstOrDefault((p) => p.Name == "Flowmaster Exhaust Headers Chevy 3.6"), HorsePower = 13
                   }
                 );
             }
