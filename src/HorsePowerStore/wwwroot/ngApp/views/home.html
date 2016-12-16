@@ -41,12 +41,20 @@
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
-                        <div class="panel-footer text-center">
-                            <a href="#facebook"><span class="fa fa-facebook"></span></a>
-                            <a href="#twitter"><span class="fa fa-twitter"></span></a>
-                            <a href="#share"><span class="glyphicon glyphicon-share-alt"></span></a>
-                        </div>
+                        <p id="successStoryBlurb">
+                          <em>
+                            "No matter how shiny and clean the engine in your older Corvette may look from the topside,
+                            chances are good that it's probably gunky on the bottom side,
+                            and it may have serious problems lurking beneath the valve covers.
+                            When you roll out your vintage Corvette,
+                            you want it to look and run just as good as it did when it rolled out of Flint, St.
+                            Thats why i use HorsePowerStore. My experience has shown me that their reliable guidance
+                            proves its necessity, and helps me further my progress in my corvettes restoration. These are photos of me
+                            with it at my first car show." - Jim, June 14 2016
+                          </em>
+                        </p>
                     </div>
+                    
                 </div>
             </div> 
             <div class="panel panel-primary"> <!--FEATURED PRODUCT PANEL-->
@@ -102,7 +110,7 @@
                     <uib-accordion close-others="oneAtATime">
                         <uib-accordion-group class="panel-primary accordionFAQ" is-open="status.open">
                             <uib-accordion-heading class="accordionHead">
-                                What can we do for you?
+                                What service do you provide?
                                 <i class="pull-right glyphicon" id="accordionFAQ" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-left': !status.open}"></i>
                             </uib-accordion-heading>
                             HorsePowerStore is dedicated to providing the best advice for upgrading your current vehicle to its maximum
@@ -115,8 +123,8 @@
                                 Does this cost any money?
                                 <i class="pull-right glyphicon" id="accordionFAQ" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-left': !status.open}"></i>
                             </uib-accordion-heading>
-                            None! just register by clicking the register button in the nav bar, and navigate to the Car Search page. Follow the
-                            onscreen instructions to view a list of matching products that will work best with your vehicle.
+                            None! Just register by clicking the register link at the top of the page, and navigate to the Search page. Follow the
+                            onscreen instructions to view a list of matching products that will work best for you.
                         </uib-accordion-group>
                     </uib-accordion>
                     <uib-accordion close-others="oneAtATime">
@@ -126,7 +134,7 @@
                                 <i class="pull-right glyphicon" id="accordionFAQ" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-left': !status.open}"></i>
                             </uib-accordion-heading>
                             HorsePowerStore is run on a blend of trusted commercial data from companies like Edmunds and Mecum, and homebrew data
-                            collected from real-life experienced mechanics who have spent their day to day working with the parts we advertise.
+                            collected from real-life experienced mechanics who have spent their day-to-day working with the parts we advertise.
                         </uib-accordion-group>
                     </uib-accordion>
                     <uib-accordion close-others="oneAtATime">
@@ -135,7 +143,8 @@
                                 What do i do with the parts i like?
                                 <i class="pull-right glyphicon" id="accordionFAQ" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-left': !status.open}"></i>
                             </uib-accordion-heading>
-                            Add the parts of interest to you to your cart, and then view vender locations and prices in your cart on the "My Cars"
+                            Add the parts of interest to you to your cart by filling in the checkbox under their name and saving your car,
+                             then view vender locations and prices in your cart on the "Your Cars"
                             page.
                         </uib-accordion-group>
                     </uib-accordion>
@@ -145,26 +154,14 @@
                                 I have multiple cars, do i need to fill this form out again?
                                 <i class="pull-right glyphicon" id="accordionFAQ" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-left': !status.open}"></i>
                             </uib-accordion-heading>
-                            Yes, however you can save your car to your account, and organize carts of products by vehicle for ease of use.
+                            Yes, however you can save your car to your account and organize carts of products by vehicle for ease of use.
                         </uib-accordion-group>
                     </uib-accordion>
-                    <br/>
                 </div>
             </div> <!--END OF FAQ PANEL-->
-             <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <center><span>WHATS NEW</span></center>
-                </div>
-                <div class="panel-body">
-                    v.1.0.3 -> account options updated <br/>
-                    v.1.0.2 -> edmunds API formatted into backend, decreased loadtime <br/>
-                    v.1.0.1 -> database reformatted, more cars added <br/>
-                    v.1.0.0 -> login, register modal updated <br/>
-                </div>
-             </div>
+            <center><small>HorsePowerStore <i class="fa fa-copyright"></i> 2016 - Built by CoderCamps Developers</small></center>
         </div>
         <div class="col-xs-1">
-
         </div>
     </div>
 </div>
@@ -281,5 +278,10 @@ uib-accordion{
 }
 .left{
     margin-left: 0px !important;
+}
+#successStoryBlurb{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
 }
 </style>
