@@ -25,6 +25,8 @@ namespace HorsePowerStore.Services
                 select s)
                 .FirstOrDefault();
 
+            if (style == null) return new List<CarMod>();
+
             return (
                 from cm in db.CarMods
                 where cm.Style == style
