@@ -1,7 +1,6 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC015E23-7341-4A02-AD25-D3A9A240BB5B}"
 EndProject
@@ -11,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HorsePowerStore", "src\HorsePowerStore\HorsePowerStore.xproj", "{3EB6FE8D-CDDB-408E-B870-849F14FF89F4}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HorsePowerStore.UnitTests", "UnitTests\HorsePowerStore.UnitTests.xproj", "{50A50076-9552-4018-BCB1-FB898B9F1FDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CF435242-BBEA-4A44-9441-1644B95A77AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,11 +25,16 @@ Global
 		{3EB6FE8D-CDDB-408E-B870-849F14FF89F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EB6FE8D-CDDB-408E-B870-849F14FF89F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EB6FE8D-CDDB-408E-B870-849F14FF89F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A50076-9552-4018-BCB1-FB898B9F1FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A50076-9552-4018-BCB1-FB898B9F1FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A50076-9552-4018-BCB1-FB898B9F1FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A50076-9552-4018-BCB1-FB898B9F1FDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3EB6FE8D-CDDB-408E-B870-849F14FF89F4} = {DC015E23-7341-4A02-AD25-D3A9A240BB5B}
+		{50A50076-9552-4018-BCB1-FB898B9F1FDD} = {CF435242-BBEA-4A44-9441-1644B95A77AD}
 	EndGlobalSection
 EndGlobal

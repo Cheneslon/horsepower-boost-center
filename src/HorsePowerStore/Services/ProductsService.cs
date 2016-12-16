@@ -127,5 +127,21 @@ namespace HorsePowerStore.Services
             db.Ratings.Remove(rating);
             db.SaveChanges();
         }
+
+        public void AddProduct (Product product)
+        {
+            db.Products.Add(product);
+            db.SaveChanges();
+        }
+
+        public void RemoveProduct(int productId)
+        {
+            var product = (
+                from r in db.Products
+                where r.Id == productId
+                select r)
+                .FirstOrDefault();
+            db.Products.Remove(product);
+        }
     }
 }

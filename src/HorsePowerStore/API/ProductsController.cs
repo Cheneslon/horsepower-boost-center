@@ -50,10 +50,24 @@ namespace HorsePowerStore.Controllers
         }
 
         [Authorize]
-        [HttpPost("/removeRating")]
+        [HttpPost("removeRating")]
         public void RemoveRating([FromBody] int ratingId)
         {
             productsService.RemoveRating(ratingId, User.Identity.Name);
+        }
+
+        [Authorize("IsAdmin")]
+        [HttpPost("addProduct")]
+        public void AddProduct([FromBody] Product product)
+        {
+            productsService.AddProduct(product);
+        }
+
+        [Authorize("IsAdmin")]
+        [HttpPost("removeProduct")]
+        public void RemoveProduct([FromBody] int productId)
+        {
+            productsService.RemoveProduct(productId);
         }
     }
 }
