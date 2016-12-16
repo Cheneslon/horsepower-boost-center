@@ -25,6 +25,7 @@ namespace HorsePowerStore.Controllers {
 
         public logout() {
             this.accountService.logout();
+            this.accountService.clearExternal();
             this.$rootScope.$emit('register', 'false');
             this.$location.path('/');
         }
@@ -119,6 +120,7 @@ namespace HorsePowerStore.Controllers {
             //checks authentication to see if someone is logged in serverside then updates name box
             var authenticate = this.$http.get('/api/account/checkAuthentication').then((result) => {
                 if (result.data) { 
+                    if (this.accountService.isExternal == true) { this.isExternal = true;} //local user is signed in already
                     this.username = this.accountService.getUserName();
                 };
             });
@@ -127,8 +129,10 @@ namespace HorsePowerStore.Controllers {
                 if (data == "true") {
                     this.username = this.accountService.getUserName();
                     this.isExternal = true;
+                    this.accountService.isExternal = true;
                 }
                 else {
+                    this.accountService.isExternal = false;
                     this.isExternal = false;
                 };
             });
@@ -146,6 +150,7 @@ namespace HorsePowerStore.Controllers {
                 this.loaded = true;
                 this.ok();
                 this.username = this.accountService.getUserName();
+                this.accountService.setExternal();
                 this.$rootScope.$emit('register', 'true');
             }).catch((results) => {
                 this.loaded = true;
@@ -200,6 +205,7 @@ namespace HorsePowerStore.Controllers {
 
         public registersuccess() { // emit to the login controller a user registered
             this.$rootScope.$emit('register', 'true');
+            this.accountService.setExternal();
         };
         
         public register() {

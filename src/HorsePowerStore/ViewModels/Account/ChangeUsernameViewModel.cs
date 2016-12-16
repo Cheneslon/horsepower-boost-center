@@ -29,8 +29,8 @@ namespace HorsePowerStore.ViewModels.Account
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext) // modelState validation
         {
             var results = new List<ValidationResult>();
-
-            var regex = Regex.IsMatch(Username, @"^[a-zA-Z0-9_]+$"); //usernames can only be alpha-numeric, but can contain _
+            // usernames can be alpha-numeric, contain underscores (_), and have periods (.)
+            var regex = Regex.IsMatch(Username, @"^[a-zA-Z0-9_.]+$"); 
 
             if (!regex)
             {

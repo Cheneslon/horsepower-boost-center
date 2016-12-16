@@ -2,6 +2,8 @@
     <center><h4>Change Username</h4></center>
 </div>
 <div class="modal-body">
+    <p><i class="fa fa-info-circle"></i> At register, your username is defaulted to your email.</p>
+    <p><i class="fa fa-info-circle"></i> We suggest you change it here to better protect your contact information.</p>
     <fieldset>
         <dl id="validationMessages">
             <dt></dt>
@@ -12,7 +14,7 @@
         <form name="UsernameForm" class="form-group" novalidate>
             <div>
                 <center><label class="loginLabel">Old Username</label></center>
-                <input type="text" class="form-control" ng-model="account.user.email" name="email" ng-required="true" />
+                <input type="text" class="form-control" ng-model="account.user.email" name="email" ng-required="true" style="text-align:center;"/>
                 <center>
                     <span ng-show="UsernameForm.email.$touched && UsernameForm.email.$error.required" class="error">
                         Old username is required
@@ -21,7 +23,7 @@
             </div>
             <div>
                 <center><label class="loginLabel">New Username</label></center>
-                <input type="text" class="form-control" ng-model="account.user.username" name="username" ng-required="true" />
+                <input type="text" class="form-control" ng-model="account.user.username" name="username" ng-required="true" style="text-align:center;"/>
                 <center>
                     <span ng-show="UsernameForm.username.$touched && UsernameForm.username.$error.required" class="error">
                         New username is required

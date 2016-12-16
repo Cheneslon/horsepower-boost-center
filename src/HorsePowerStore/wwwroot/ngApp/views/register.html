@@ -34,7 +34,7 @@
                 <center><label class="loginLabel">Confirm Password</label></center>
                 <input type="password" ng-model="register.registerUser.confirmPassword" class="form-control confirmPass" ng-required="true" name="Userconfirm" style="text-align:center;"/>
             </div>
-            <button class="btn btn-primary modalButton" type="submit" ng-disabled="registerForm.$invalid && !register.loaded">
+            <button class="btn btn-primary modalButton" type="submit" ng-disabled="registerForm.$invalid && register.loaded">
                 Register <span ng-if="!register.loaded"><i class="fa fa-refresh fa-spin"></i></span>
             </button>
             <a 
