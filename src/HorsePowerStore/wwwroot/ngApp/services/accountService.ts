@@ -1,6 +1,12 @@
 namespace HorsePowerStore.Services {
     export class AccountService {
-
+        public isExternal = false;
+        public setExternal() {
+            this.$window.sessionStorage.setItem('external', 'true');
+        }
+        public clearExternal() {
+            this.$window.sessionStorage.removeItem('external');
+        }
         // Store access token and claims in browser session storage
         public storeUserInfo(userInfo) {
 
@@ -92,6 +98,10 @@ namespace HorsePowerStore.Services {
                 .then((result) => {
                     if (result.data) {
                         this.storeUserInfo(result.data);
+                        var external = this.$window.sessionStorage.getItem('external')
+                        if (external) {
+                            this.isExternal = true;
+                        }
                     }
                 });
         }
@@ -202,6 +212,7 @@ namespace HorsePowerStore.Services {
         ) {
           // in case we are redirected from a social provider
           // we need to check if we are authenticated.
+            console.log("account service sais "+ this.isExternal);
             this.modalOpen = false;
             this.checkAuthentication();
         }

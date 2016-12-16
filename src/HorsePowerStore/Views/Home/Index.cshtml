@@ -25,6 +25,7 @@
                     </a>
                     <p style="display:inline" ng-show="!account.isLoggedIn()"> / </p>
                     <a href="#"
+                       id="register"
                        ng-click="login.registerLink()"
                        ng-show="!account.isLoggedIn()">
                         Register
@@ -39,8 +40,7 @@
                             {{login.username}}<span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu-right" uib-dropdown-menu role="menu" aria-labelledby="single-button">
-                            <li role="menuitem" class="dropdown-menu-item" ng-click="account.changeUsernameModal()"
-                                ng-show="login.isExternal">
+                            <li role="menuitem" class="dropdown-menu-item" ng-click="account.changeUsernameModal()">
                             <i class="fa fa-user-o"></i> Change Username </li>
                             <li role="menuitem" class="dropdown-menu-item" ng-click="account.changePasswordModal()"
                                 ng-show="login.isExternal">
