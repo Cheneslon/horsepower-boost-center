@@ -1,7 +1,8 @@
 namespace HorsePowerStore.Controllers {
 
     export class HomeController {//added showModal++ for login (DG)
-
+        constructor() {
+        }
     }
 
     export class DialogController {//added DialogController to go with modal login (DG)

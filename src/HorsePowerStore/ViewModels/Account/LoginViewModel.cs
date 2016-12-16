@@ -9,8 +9,8 @@ namespace HorsePowerStore.ViewModels.Account
     public class LoginViewModel
     {
         [Required]
-        [EmailAddress]
-        public string Email { get; set; }
+        [DataType(DataType.Text)]
+        public string Username { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -18,5 +18,6 @@ namespace HorsePowerStore.ViewModels.Account
 
         [Display(Name = "Remember me?")]
         public bool RememberMe { get; set; }
+
     }
 }

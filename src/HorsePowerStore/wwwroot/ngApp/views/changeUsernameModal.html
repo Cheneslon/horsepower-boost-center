@@ -1,0 +1,43 @@
+﻿<div class="modal-header">
+    <center><h4>Change Username</h4></center>
+</div>
+<div class="modal-body">
+    <fieldset>
+        <dl id="validationMessages">
+            <dt></dt>
+            <dd ng-repeat="message in account.validationMessages">
+                {{message}}
+            </dd>
+        </dl>
+        <form name="UsernameForm" class="form-group" novalidate>
+            <div>
+                <center><label class="loginLabel">Old Username</label></center>
+                <input type="text" class="form-control" ng-model="account.user.email" name="email" ng-required="true" />
+                <center>
+                    <span ng-show="UsernameForm.email.$touched && UsernameForm.email.$error.required" class="error">
+                        Old username is required
+                    </span>
+                </center>
+            </div>
+            <div>
+                <center><label class="loginLabel">New Username</label></center>
+                <input type="text" class="form-control" ng-model="account.user.username" name="username" ng-required="true" />
+                <center>
+                    <span ng-show="UsernameForm.username.$touched && UsernameForm.username.$error.required" class="error">
+                        New username is required
+                    </span>
+                </center>
+            </div>
+            <div>
+                <center><label class="loginLabel">Password</label></center>
+                <input type="password" class="form-control" ng-model="account.user.password" name="password" ng-required="true" />
+                <center>
+                    <span ng-show="UsernameForm.password.$touched && UsernameForm.password.$error.required" class="error">
+                        Password is required
+                    </span>
+                </center>
+            </div>
+            <button ng-click="account.resetUsername()" class="btn btn-primary modalButton" ng-disabled="UsernameForm.$invalid">save</button>
+        </form>
+    </fieldset>
+</div>

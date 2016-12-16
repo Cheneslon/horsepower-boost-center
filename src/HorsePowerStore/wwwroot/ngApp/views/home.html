@@ -1,108 +1,285 @@
 <div class="container">
     <div class="row">
-        <div class="col-xs-3">
+        <div class="col-xs-1">
 
         </div>
-        <div class="col-md-6">   
-            <div class="panel panel-primary">
+        <div class="col-md-10">  
+            <div class="panel panel-primary"> <!--SUCCESS STORY-->
+            <div class="panel-heading"><center>DECEMBERS SUCCESS STORY</center></div>
+                <div class="panel-body">
+                    <div class="highlight">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators" >
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox" >
+                                <div class="item active">
+                                    <img src="../../images/corvetteFP1.jpg" class="img-responsive" />
+                                </div>
+
+                                <div class="item">
+                                    <img src="../../images/corvetteFP2.jpg" class="img-responsive"/>
+                                </div>
+
+                                <div class="item">
+                                    <img src="../../images/corvetteFP3.jpg" class="img-responsive" />
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" data-target="#myCarousel" role="button" data-slide="prev" ng-click="controller.getSlide('left');" ng-model="controller.viewSlide">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" data-target="#myCarousel" role="button" data-slide="next" ng-click="controller.getSlide('right');" ng-model="controller.viewSlide">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="panel-footer text-center">
+                            <a href="#facebook"><span class="fa fa-facebook"></span></a>
+                            <a href="#twitter"><span class="fa fa-twitter"></span></a>
+                            <a href="#share"><span class="glyphicon glyphicon-share-alt"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="panel panel-primary"> <!--FEATURED PRODUCT PANEL-->
                 <div class="panel-heading">
-                    <center><span>LATEST</span></center>
+                    <center><span>FEATURED PRODUCT</span></center>
                 </div>
                 <div class="panel-body">
-
-
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                            <li data-target="#myCarousel" data-slide-to="3"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active carousel-img">
-                                <img src="../../images/Flowmaster Exhaust Header Carburated Ford 5.0 V8 814211.jpg" alt="exhaust" class="carousel-img" style="align-content:center;"/>
+                    <div class="highlight" style="margin-left:0;">
+                        <h2 class="featuredProductHeader">Edelbrock 2701</h2>
+                        <hr class="featuredProductLineBreak" /><br/>
+                        <img src="../../images/EDL-2701FP.jpg" class="img-responsive" style="border-radius:4px;"/> <br/>
+                        <div class="row">
+                          <div class="col-sm-5 hidden-xs">
+                                  <center><img src="../../images/EdelbrockLogo.jpg" class="featuredProductImg" /></center>
+                          </div>
+                          <div class="col-sm-7 hidden-xs">
+                            <ul class="featuredProductList">
+                                <li class="featuredProductBullet">Good Investment - Lifetime warranty!</li>
+                                <li class="featuredProductBullet">Upgrade - Larger intake than stock</li>
+                                <li class="featuredProductBullet">Finish - Attractive anti-corrosive finish</li>
+                                <li class="featuredProductBullet">Proven - Dyno tests show a 5hp gain</li>
+                            </ul>
+                          </div>   
+                        </div><br/>
+                        <div class="row">
+                            <div class="col-xs-1"></div>
+                            <div class="col-xs-10">
+                                <p id="featuredProductDescription">
+                                    <div class="fpReview">
+                                        <em>"Bolted right on! Good finish and fit. I would have liked plugs included for some of the optional fittings (old style thermostat, throttle linkage braces, etc...) included or at least advised. Took a trip to the hardware store to make it right. Instantly improved performance."</em><br />
+                                        <em class="reviewee">-Todd, February 10 2016</em><br /><br />
+                                    </div>
+                                    <div class="fpReview">
+                                        <em>"Everything one would come to expect from one of the greatest manufacturers of small block chevy performance parts and muscle performance in general. Brought a 283 2 barrel that had been rebuilt over 20 years ago to life. engine had but 38k on it, but had sat for years and the carb and top end were in despair. Put a performer 550cfm with this intake on it, and for the first time in a long time, that old chevy pickup roared to life like it was a whole different truck."</em><br />
+                                        <em class="reviewee">-Pat, July 19 2014</em><br /><br />
+                                    </div>
+                                    <div class="fpReview">
+                                        <em>"Bought the intake and to my surprise it lowered the engine temp about 20%. I have a fairly stock 350 on my 74 Corvette. Had the original cast iron and replaced it with the 2701. Great intake and nice looking too. Thumbs up!!!!!"</em><br />
+                                        <em class="reviewee">-Noel, May 07 2013</em><br />
+                                    </div>
+                                </p>
+                                <a href="http://www.jegs.com/i/Edelbrock/350/2701/10002/-1" class="btn btn-primary featuredProductButton">Buy Now</a>
+                                <a href="/products/29/ratings" class="btn btn-warning featuredProductButton">Read More</a>
                             </div>
-
-                            <div class="item carousel-img">
-                                <img src="../../images/Holley Ultra HP Carb.jpg" alt="carb"  class="carousel-img"/>
-                            </div>
-
-                            <div class="item carousel-img">
-                                <img src="../../images/Holley Avenger Carb.jpg" alt="holley" class="carousel-img"/>
-                            </div>
-
-                            <div class="item carousel-img">
-                                <img src="../../images/Edelbrock Pro-Flo XT.jpg" alt="flow" class="carousel-img"/>
-                            </div>
+                            <div class="col-xs-1"></div>
                         </div>
-
-                        <!-- Left and right controls -->
-                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" onclick="return false">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" onclick="return false">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div><br/>
-                    <center><p>New Products!</p></center>
+                    </div>
+                    <br/>
                 </div>
             </div>
-            <div class="panel panel-primary">
+            <div class="panel panel-primary"> <!--FAQ PANEL-->
+                <div class="panel-body accordion">
+                    <uib-accordion close-others="oneAtATime">
+                        <uib-accordion-group class="panel-primary accordionFAQ" is-open="status.open">
+                            <uib-accordion-heading class="accordionHead">
+                                What can we do for you?
+                                <i class="pull-right glyphicon" id="accordionFAQ" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-left': !status.open}"></i>
+                            </uib-accordion-heading>
+                            HorsePowerStore is dedicated to providing the best advice for upgrading your current vehicle to its maximum
+                            possible capacity, by suggesting safe, well trusted, and affordable products for purchase.
+                        </uib-accordion-group>
+                    </uib-accordion>
+                    <uib-accordion close-others="oneAtATime">
+                        <uib-accordion-group class="panel-primary accordionFAQ" is-open="status.open">
+                            <uib-accordion-heading>
+                                Does this cost any money?
+                                <i class="pull-right glyphicon" id="accordionFAQ" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-left': !status.open}"></i>
+                            </uib-accordion-heading>
+                            None! just register by clicking the register button in the nav bar, and navigate to the Car Search page. Follow the
+                            onscreen instructions to view a list of matching products that will work best with your vehicle.
+                        </uib-accordion-group>
+                    </uib-accordion>
+                    <uib-accordion close-others="oneAtATime">
+                        <uib-accordion-group class="panel-primary accordionFAQ" is-open="status.open">
+                            <uib-accordion-heading>
+                                Where does this information come from?
+                                <i class="pull-right glyphicon" id="accordionFAQ" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-left': !status.open}"></i>
+                            </uib-accordion-heading>
+                            HorsePowerStore is run on a blend of trusted commercial data from companies like Edmunds and Mecum, and homebrew data
+                            collected from real-life experienced mechanics who have spent their day to day working with the parts we advertise.
+                        </uib-accordion-group>
+                    </uib-accordion>
+                    <uib-accordion close-others="oneAtATime">
+                        <uib-accordion-group class="panel-primary accordionFAQ" is-open="status.open">
+                            <uib-accordion-heading>
+                                What do i do with the parts i like?
+                                <i class="pull-right glyphicon" id="accordionFAQ" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-left': !status.open}"></i>
+                            </uib-accordion-heading>
+                            Add the parts of interest to you to your cart, and then view vender locations and prices in your cart on the "My Cars"
+                            page.
+                        </uib-accordion-group>
+                    </uib-accordion>
+                    <uib-accordion close-others="oneAtATime">
+                        <uib-accordion-group class="panel-primary accordionFAQ" is-open="status.open">
+                            <uib-accordion-heading>
+                                I have multiple cars, do i need to fill this form out again?
+                                <i class="pull-right glyphicon" id="accordionFAQ" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-left': !status.open}"></i>
+                            </uib-accordion-heading>
+                            Yes, however you can save your car to your account, and organize carts of products by vehicle for ease of use.
+                        </uib-accordion-group>
+                    </uib-accordion>
+                    <br/>
+                </div>
+            </div> <!--END OF FAQ PANEL-->
+             <div class="panel panel-primary">
                 <div class="panel-heading">
                     <center><span>WHATS NEW</span></center>
                 </div>
                 <div class="panel-body">
-                    v.1.0.1 -> database reformatted, more cars added
-                    v.1.0.0 -> login, register modal updated
+                    v.1.0.3 -> account options updated <br/>
+                    v.1.0.2 -> edmunds API formatted into backend, decreased loadtime <br/>
+                    v.1.0.1 -> database reformatted, more cars added <br/>
+                    v.1.0.0 -> login, register modal updated <br/>
                 </div>
-            </div>
-            <div class="panel panel-primary"> <!--FAQ PANEL-->
-                <div class="panel panel-heading">
-                    <center><span>FAQ</span></center>
-                </div>
-                <div class="panel panel-body">
-                    <button type="button" class="faqButton" ng-click="faq1isCollapsed = !faq1isCollapsed">What can we do for you?</button>
-                    <div uib-collapse="!faq1isCollapsed">
-                        <div class="panel panel-default">HorsePowerStore is dedicated to providing the best advice for upgrading your current vehicle to its maximum
-                            possible capacity, by suggesting safe, well trusted, and affordable products for purchase.</div>
-                    </div><br/>
-                    <button type="button" class="faqButton" ng-click="faq2isCollapsed = !faq2isCollapsed">Does this cost any money?</button>
-                    <div uib-collapse="!faq2isCollapsed">
-                        <div class="panel panel-primary">
-                            None! just register by clicking the register button in the nav bar, and navigate to the Car Search page. Follow the
-                            onscreen instructions to view a list of matching products that will work best with your vehicle.
-                        </div>
-                    </div><br />
-                    <button type="button" class="faqButton" ng-click="faq3isCollapsed = !faq3isCollapsed">Where does this information come from?</button>
-                    <div uib-collapse="!faq3isCollapsed">
-                        <div class="panel panel-default">
-                            HorsePowerStore is run on a blend of trusted commercial data from companies like Edmunds and Mecum, and homebrew data
-                            collected from real-life experienced mechanics who have spent their day to day working with the parts we advertise.
-                        </div>
-                    </div><br/>
-                    <button type="button" class="faqButton" ng-click="faq4isCollapsed = !faq4isCollapsed">What do i do with the parts i like?</button>
-                    <div uib-collapse="!faq4isCollapsed">
-                        <div class="panel panel-primary">
-                            Add the parts of interest to you to your cart, and then view vender locations and prices in your cart on the "My Cars"
-                            page.
-                        </div>
-                    </div><br/>
-                    <button type="button" class="faqButton" ng-click="faq5isCollapsed = !faq5isCollapsed">I have multiple cars, do i need to fill this form out again?</button>
-                    <div uib-collapse="!faq5isCollapsed">
-                        <div class="panel panel-primary">
-                            Yes, however you can save your car to your account, and organize carts of products by vehicle for ease of use.
-                        </div>
-                    </div><br/>
-                </div>
-            </div> <!--END OF FAQ PANEL-->
+             </div>
         </div>
-        <div class="col-xs-3">
+        <div class="col-xs-1">
 
         </div>
     </div>
 </div>
+<style>
+    .highlight  {
+    width: auto;
+    color: white;
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    padding: 3%;
+    
+	}
+    
+.highlight ul {
+    /*list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');*/
+    margin-left: 1%;
+    float: left; 
+    clear: right
+    }
+    
+/*.highlight a {
+   margin-left: 1%;
+    float: right;
+    }*/
+
+/*.highlight h1,h2,h3,h4,h5,h6 {
+    padding-bottom: 2%;
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.41);
+    font-size:20px;
+    text-align : center;
+    text-transform: uppercase;
+    }*/
+    
+.highlight p {
+    text-align: justify;
+    }
+.featuredProductList{
+    margin-top: 18px;
+    list-style-type: none;
+}
+.featuredProductDescription{
+    margin-left: auto;
+    margin-right: auto;
+    font-style:italic;
+}
+.featuredProductBullet:before {
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    margin:0 5px 0 -15px;
+}
+.featuredProductHeader{
+    text-align: center;
+
+}
+.featuredProductLineBreak{
+    color:#808080;
+    border-width: thick;
+    border-style:dotted;
+}
+.featuredProductImg{
+    border-radius:25px;
+    margin-left:25%;
+    margin-top:2%;
+    margin-right:auto;
+    height: auto;
+    width:auto;
+    max-height:80%;
+    max-width:80%;
+}
+.featuredProductButton{
+    float:right;
+    margin-left:1%;
+}
+#productReviewee{
+    font:bold;
+}
+.reviewee{
+    float:right;
+}
+.fpReview{
+    padding:3px;
+    border-radius:6px;
+}
+.fpReview:hover{
+    background-color: #303439;
+}
+uib-accordion{
+    margin-bottom: 0px;
+    margin-top:0px;
+}
+.accordionFAQ a:hover{
+    text-decoration:none;
+}
+.accordionFAQ a:focus{
+    outline: none;
+    border: none;
+    text-decoration:none;
+}
+.accordionFAQ a:active{
+    text-decoration:none;
+}
+.accordion .panel-group{
+    margin-bottom:0px !important;
+}
+.accordionHead:hover{
+    background-color: #2D699D;
+}
+.panel-image {
+    position: relative;   
+}
+.panel-image img.panel-image-preview {
+    width: 100%;
+	border-radius: 4px 4px 0px 0px;
+}
+.left{
+    margin-left: 0px !important;
+}
+</style>
