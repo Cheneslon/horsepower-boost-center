@@ -82,7 +82,7 @@
                     <button class="btn btn-default" ng-click="controller.overwrite()">Save changes</button>
                 </div>
                 <br/>
-                <div>
+                <div ng-if="controller.carMods.length > 0">
                     Save as: <input type="text" ng-model="controller.saveName" />
                     <button class="btn btn-default saveCarButton" ng-click="controller.save()">Submit</button><br />
                     Horsepower Increase: {{controller.horsepowerIncrease}}
