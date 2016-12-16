@@ -2,7 +2,12 @@
     <div class="row">
         <div class="col-sm-3">
         </div>
-        <div class="col-md-6">
+
+        <div class="col-md-6" ng-show="controller.carmods.length == 0">
+            Sorry, we don't have products matching that car. Search for a different car <a href="/searchForm">here.</a>
+        </div>
+
+        <div class="col-md-6" ng-show="controller.carmods.length > 0">
             <p>
                 <h3 class="center" id="resultPageHeader">Compatible Parts</h3> <br />
                 <div class="container">
