@@ -4,7 +4,7 @@ A website where you can find auto parts to increase your car's horsepower.
 Created by CJ Olsen, Jake Marquez, Darren Geib, and Dallin Nelson.
 
 ## About
-This website was made by Troop 9 of Coder Camps' [https://www.codercamps.com/net/](JavaScript + Full Stack .NET course)  in Seattle. It utilizes technologies including Angular 1, TypeScript, LINQ, NUnit, Moq, and more. It also makes use of the Edmund's Developer Network's [http://developer.edmunds.com/](Edmunds API) to search through all cars manufactured after 1990. We combine this data with our own locally-grown database to help users find auto parts that will increase their car's horsepower.   
+This website was made by Troop 9 of Coder Camps' [JavaScript + Full Stack .NET course](https://www.codercamps.com/net/)  in Seattle. It utilizes technologies including Angular 1, TypeScript, LINQ, NUnit, Moq, and more. It also makes use of the Edmund's Developer Network's [Edmunds API](http://developer.edmunds.com/) to search through all cars manufactured after 1990. We combine this data with our own locally-grown database to help users find auto parts that will increase their car's horsepower.   
 
 ## Setup
 Clone project into any folder and open HorsePowerStore.sln in Visual Studio, then build the solution and run with or without debugging.
