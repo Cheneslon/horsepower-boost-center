@@ -82,8 +82,9 @@ namespace HorsePowerStore.Services
         public void Save (CarInstance carInstance, string userName, ApplicationUser user=null)
         {
             if (user == null) user = GetUser(userName);
-            if (user.CarInstances.Any(ci => ci.Id == carInstance.Id) ||
-                carInstance.Id == 0) return;
+            if (carInstance.Id != 0 && 
+                user.CarInstances.Any(ci => ci.Id == carInstance.Id))
+                return;
 
             user.CarInstances.Add(carInstance);
             appDbContext.CarInstances.Add(carInstance);

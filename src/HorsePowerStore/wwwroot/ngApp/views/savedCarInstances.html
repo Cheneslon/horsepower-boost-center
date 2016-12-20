@@ -5,12 +5,12 @@
 </p>
 
 <p ng-if="controller.carInstances.length > 0">
-    (<a href="/searchForm">Search for Cars</a>)
+    <a href="/searchForm">Search for Cars</a>
 </p>
 
 <ul>
     <li ng-repeat="instance in controller.carInstances">
         {{instance.name}} 
-        <a href="/result/{{instance.id}}">(edit)</a>
+        (<a href="/result/{{instance.id}}">edit</a> | <a href="#" ng-click="controller.delete(instance.id)">delete</a>)
     </li>
 </ul>

@@ -46,10 +46,10 @@ namespace HorsePowerStore.API
             carInstancesService.Overwrite(carInstance, User.Identity.Name);
         }
 
-        [HttpDelete]
-        public void DeleteCarInstance([FromBody] int instanceId)
+        [HttpPost("delete/{id}")]
+        public void DeleteCarInstance(int id)
         {
-            carInstancesService.Delete(instanceId, User.Identity.Name);
+            carInstancesService.Delete(id, User.Identity.Name);
         }
     }
 }

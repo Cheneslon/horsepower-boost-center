@@ -8,6 +8,10 @@
                 'overwrite': {
                     method: 'POST',
                     url: '/api/carInstances/overwrite'
+                },
+                'delete': {
+                    method: 'POST',
+                    url: '/api/carInstances/delete/:id'
                 }
             });
         }
@@ -24,6 +28,10 @@
 
         public overwriteCarInstance(carInstance) {
             return this.carInstanceResource.overwrite(carInstance).$promise;
+        }
+
+        public delete(id: number) {
+            return this.carInstanceResource.delete({id: id}, {}).$promise;
         }
     }
     angular.module('HorsePowerStore').service('carInstanceService', CarInstanceService);
